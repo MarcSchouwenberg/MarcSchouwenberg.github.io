@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CutUpAndDown</title>
+		<style type="text/css">
+			body {
+				font-family: "Verdana";
+			}
+			table {
+				font-family: "Verdana";
+				max-width: 100%;
+			}
+			.button {
+				font-size: 4.5vw;
+				background-color: lightyellow;
+				width: 40%;
+				height: 30%;
+				position: fixed;
+				border-radius: 50px;
+				border: 3px solid black;
+				text-align: center;
+				padding: 3% 0 0 0;
+			}
+			.down.left {left: 6%;}
+			.down.right {right: 6%;}
+			.left {left: 3%;}
+			.right {right: 3%;}
+			.down {bottom: 9%;}
+			.up {top: 9%;}
+			#stack {
+				font-size: 2.0vw;
+				color: white;
+				border: 1px solid black;
+				background-color: black;
+				border-radius: 20%;
+				width: 10%;
+				padding: 2% 0;
+				height: 10%;
+				text-align: center;
+				position: fixed;
+				top: 5%;
+				left: 45%;
+			}
+			td {
+				width:  50px;
+				height: 30px;
+			}
+		</style>
+		<script type="text/javascript">
+var notes = ["C", "C&#9839;", "D", "D&#9839;", "E", "F", "F&#9839;", "G", "G&#9839;", "A", "A&#9839;", "B",];
+var sharps = ["C", "C&#9839;", "D", "D&#9839;", "E", "F", "F&#9839;", "G", "G&#9839;", "A", "A&#9839;", "B",];
+var dsharpminor = ["C", "C&#9839;", "D", "D&#9839;", "E", "E&#9839;", "F&#9839;", "G", "G&#9839;", "A", "A&#9839;", "B",];
+var flats = ["C", "D&#9837;", "D", "E&#9837;", "E", "F", "G&#9837;", "G", "A&#9837;", "A", "B&#9837;", "B",];
+
+
+var majorsteps = [0,2,4,5,7,9,11,12];
+var minorsteps = [0,2,3,5,7,8,10,12];
+var typesteps = [majorsteps, minorsteps];
+var colors = [ // https://www.w3schools.com/colors/colors_picker.asp
+"rgb(204, 255, 255)",
+"rgb(204, 255, 204)",
+"rgb(204, 255, 153)",
+"rgb(204, 255, 102)",
+"rgb(204, 255, 51)",
+"rgb(204, 255, 0)",
+"rgb(255, 255, 0)",
+"rgb(255, 255, 153)",
+"rgb(255, 255, 204)",
+"rgb(255, 204, 153)",
+]
+var numberlist = [];
+var countUp = 0;
+var aantalsetjes;
+
+window.onload = function(){
+	create();
+	aantalsetjes = document.getElementById("tweede").childElementCount;
+	for (var i = 0; i < aantalsetjes; i++) {
+		numberlist[i] = i;
+	}
+	numberlist.sort(function(a, b){return 0.5 - Math.random()});
+	stackify();
+}
+
+function draw(selectedid){
+	if(countUp<aantalsetjes){
+		var target = document.getElementsByClassName(selectedid)[0];
+		target.innerHTML = document.getElementsByTagName("p")[numberlist[countUp]].innerHTML;
+		countUp++;
+		stackify();
+	}
+}
+
+function stackify(){
+	document.getElementById("stack").innerHTML=aantalsetjes-countUp;
+}
+
+function create(){
+	var jj;
+	function voegNootToe(){
+		oct = startoct+yy;
+		var newnote = document.createElement("div");
+		newnote.style.display="inline-block";
+		newnote.style.padding="2%";
+		var xx = ii + typesteps[mm][jj];
+		while(xx>notes.length-1){xx = xx-12; oct++}
+		while(xx<0){xx = xx+12; oct--}
+		newnote.innerHTML = " " + notes[xx] + "" + oct + "<br>  " /*+ notes[xx] + "" + String(Number(oct+1)) + ""*/;
+		newCard.appendChild(newnote);
+	}
+
+	function up1(){
+		for (jj = 0; jj < (typesteps[mm].length)*0.5; jj++) {voegNootToe();}
+	}
+	function up2(){
+		for (jj = (typesteps[mm].length)*0.5; jj < typesteps[mm].length; jj++) {voegNootToe();}
+	}
+	function down1(){
+		for (jj = typesteps[mm].length-1; jj >= (typesteps[mm].length)*0.5 ; jj--) {voegNootToe();}
+	}
+	function down2(){
+		for (jj = (typesteps[mm].length)*0.5-1; jj >= 0 ; jj--) {voegNootToe();}
+	}
+
+	var kindofrows = [up1,up2,down1,down2,]
+	var beginnoot = 7;
+	var startoct = 2;
+	var oct;
+	var nrocts = 1;
+	for (var mm = 0; mm < typesteps.length; mm++) {
+		for (var yy = 0; yy < nrocts; yy++) {
+			for (var kk = 0; kk < kindofrows.length; kk++) {
+				for (var ii = beginnoot; ii <= beginnoot+11; ii++) {
+					if (mm==0) {
+						switch(ii-beginnoot){
+							case 1:
+							case 3:
+							case 6:
+							case 8:
+							case 10:
+								notes=flats;
+							break;
+							case 11:
+								notes=dsharpminor;
+							break;
+							default:
+								notes=sharps;
+						}
+					}
+					if(mm==1) {
+						switch(ii-beginnoot){
+							case 0:
+							case 3:
+							case 5:
+							case 7:
+							case 10:
+								notes=flats;
+							break;
+							case 8:
+								notes=dsharpminor;
+							break;
+							default:
+								notes=sharps;
+						}
+					}
+				 	var newCard = document.createElement("p");
+				 	kindofrows[kk]();
+				 	document.getElementById("tweede").appendChild(newCard);
+				}
+			}
+		}
+	}
+}
+
+		</script>
+	</head>
+	<body style="background-color: grey">
+		<div id="list"></div>
+		<div style="font-family: Arial" id="targetDiv">
+			<div class="button left up" onclick="draw(this.id)" id="LU"><span class="LU"></span></div>
+			<div class="button left down" onclick="draw(this.id)" id="LD"><span class="LD"></span></div>
+			<div class="button right up" onclick="draw(this.id)" id="RU"><span class="RU"></span></div>
+			<div class="button right down" onclick="draw(this.id)" id="RD"><span class="RD"></span></div>
+		</div>
+		<div id="stack">STACK</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<div style="width: 100%; display:none;" id="eerste">
+			<table id="tweede">
+				
+			</table>
+		</div>
+	</body>
+</html>
