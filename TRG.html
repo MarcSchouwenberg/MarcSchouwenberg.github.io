@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tone Row Generator</title>
+    <link rel="stylesheet" href="githubstyles.css"/>
+    <script src="genrows.js"></script>
+
+	<style type="text/css">
+		#container {
+            padding: 15px;
+		}
+        #container div {
+            width: 500px;
+            height: 100px;
+            background-color: green;
+            border-radius: 10px;
+            margin: 5px;
+            color: white;
+            border: 1px solid lightgreen;
+            padding: 5px;
+            padding-top: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+        #container span {
+            font-family: Courier New;
+            font-size: 25px;
+        }
+	</style>
+	<script type="text/javascript">
+        window.onload = function(){
+            // generate();
+        }
+</script>
+</head>
+<body>
+	<h1 class="name">Tone Row Generator</h1>
+	<button class="button1" style="" autofocus onclick="generate()">Generate</button>
+
+	<div id="container">
+		<div id="prime">Prime:<br><span></span></div>
+		<div id="retrograde">Retrograde:<br><span></span></div>
+		<div id="inversion">Inversion:<br><span></span></div>
+		<div id="invertedretrograde">Inverted retrograde:<br><span></span></div>
+
+	</div>
+
+</body>
+</html>
