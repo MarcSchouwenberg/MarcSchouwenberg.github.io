@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>CutUpAndDown</title>
+		<title>Cut Up And Down</title>
+		<link rel="stylesheet" href="githubstyles.css"/>
 		<style type="text/css">
-			body {
-				font-family: "Verdana";
-			}
 			table {
-				font-family: "Verdana";
+				font-family: "Tahoma";
 				max-width: 100%;
 			}
-			.button {
+			#eerste {
+				width: 100%;
+				display: none;
+				position: relative;
+				top: 1000px;
+			}
+			.field {
 				font-size: 4.5vw;
 				background-color: lightyellow;
 				width: 40%;
 				height: 30%;
 				position: fixed;
-				border-radius: 50px;
-				border: 3px solid black;
+				border-radius: 3.5vw;
+				border: 0.2vw solid black;
 				text-align: center;
 				padding: 3% 0 0 0;
 			}
@@ -28,7 +32,7 @@
 			.down {bottom: 9%;}
 			.up {top: 9%;}
 			#stack {
-				font-size: 2.0vw;
+				font-size: 4.0vw;
 				color: white;
 				border: 1px solid black;
 				background-color: black;
@@ -51,7 +55,6 @@ var notes = ["C", "C&#9839;", "D", "D&#9839;", "E", "F", "F&#9839;", "G", "G&#98
 var sharps = ["C", "C&#9839;", "D", "D&#9839;", "E", "F", "F&#9839;", "G", "G&#9839;", "A", "A&#9839;", "B",];
 var dsharpminor = ["C", "C&#9839;", "D", "D&#9839;", "E", "E&#9839;", "F&#9839;", "G", "G&#9839;", "A", "A&#9839;", "B",];
 var flats = ["C", "D&#9837;", "D", "E&#9837;", "E", "F", "G&#9837;", "G", "A&#9837;", "A", "B&#9837;", "B",];
-
 
 var majorsteps = [0,2,4,5,7,9,11,12];
 var minorsteps = [0,2,3,5,7,8,10,12];
@@ -108,11 +111,14 @@ function create(){
 		if ((kk == 0 && jj == 0) || (kk == 1 && jj == typesteps[mm].length-1)) {
 			newnote.innerHTML = " " + notes[xx] + "" + oct + "<br>";
 			newnote.style.backgroundColor = "yellow";
+			newnote.style.borderRadius = "1.5vw";
 		} else {
 			newnote.innerHTML = " " + notes[xx];
 		}
-		// newnote.innerHTML = " " + notes[xx] + "" + oct + "<br>  " /*+ notes[xx] + "" + String(Number(oct+1)) + ""*/;
 		newCard.appendChild(newnote);
+		if ((kk == 0 && jj == 4) || (kk == 1 && jj == 3)) {
+			newCard.appendChild(document.createElement("br"));
+		}
 	}
 
 	function up1(){
@@ -180,17 +186,17 @@ function create(){
 
 		</script>
 	</head>
-	<body style="background-color: grey">
+	<body>
 		<div id="list"></div>
 		<div style="font-family: Arial" id="targetDiv">
-			<div class="button left up" onclick="draw(this.id)" id="LU"><span class="LU"></span></div>
-			<div class="button left down" onclick="draw(this.id)" id="LD"><span class="LD"></span></div>
-			<div class="button right up" onclick="draw(this.id)" id="RU"><span class="RU"></span></div>
-			<div class="button right down" onclick="draw(this.id)" id="RD"><span class="RD"></span></div>
+			<div class="field left up" onclick="draw(this.id)" id="LU"><span class="LU"></span></div>
+			<div class="field left down" onclick="draw(this.id)" id="LD"><span class="LD"></span></div>
+			<div class="field right up" onclick="draw(this.id)" id="RU"><span class="RU"></span></div>
+			<div class="field right down" onclick="draw(this.id)" id="RD"><span class="RD"></span></div>
 		</div>
-		<div id="stack">STACK</div>
+		<div id="stack"></div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		<div style="width: 100%; display:none;" id="eerste">
+		<div class="showrows" id="eerste">
 			<table id="tweede">
 				
 			</table>
