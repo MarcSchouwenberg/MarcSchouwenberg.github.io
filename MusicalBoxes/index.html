@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Musical Boxes</title>
+        <link rel="stylesheet" href="../githubstyles.css"/>
+        <style type="text/css">
+.box {
+    background-image: linear-gradient(to bottom right, lightblue 30%, white);
+    position: absolute;
+    border-right: 5px solid /*orange*/;
+    border-left: 5px solid /*red*/;
+    border-bottom: 5px solid /*lightgreen*/;
+    border: 5px solid darkblue /*blue*/;
+    border-radius: 25px;
+}
+#box1 {
+    left: 100px;
+    top: 170px;
+}
+#box2 {
+    left: 550px;
+    top: 170px;
+}
+#box3 {
+    left: 100px;
+    top: 510px;
+}
+#box4 {
+    left: 450px;
+    top: 610px;
+}
+
+.ball {
+    /*width: 50px;*/
+    /*height: 50px;*/
+    /*background: red;*/
+    background-image: linear-gradient(to top left, black, lightgrey);
+    position: absolute;
+    /*left: 200px;*/
+    /*top: 50px;*/
+    border-radius: 50%;
+    /*border-radius: 15px; /* bij 50px is-ie rond */
+}       
+.indic {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 200px;
+    top: 50px;
+    font-size: 300px;
+    font-family: Verdana;
+    opacity: 0.5;
+    /*background-color: lightgreen;*/
+}       
+        </style>
+        <script type="text/javascript">
+
+// x- en y-positie
+// var posX = 550;
+// var posY = 70;
+
+var notes = [
+["113","115","117","118","120","122","124",],
+["125","127","129","130","132","134","136",],
+["137","139","141","142","144","146","148",],
+["149","151","153","154","156","158","160",],
+]
+
+var letters = ["C","D","E","F","G","A","B"]
+
+/*
+var t;
+var u;
+var v;
+var w;
+*/
+
+var distX;
+var distY;
+var boxSize1 = [400,300]
+var boxSize2 = [300,400]
+var boxSize3 = [300,400]
+var boxSize4 = [400,300]
+var boxSizes = [boxSize1, boxSize2, boxSize3, boxSize4];
+var ballSize = 20;
+var panelThickness = 15;
+var posX;
+var posY;
+var coordinates = [];
+var numberOfSegments = letters.length;
+var speed = 5;
+
+window.onload = function() {
+    for (var i = 0; i < document.getElementsByClassName("box").length; i++) {
+        ///////////
+        document.getElementsByClassName("box")[i].style.width = boxSizes[i][0]+"px";
+        document.getElementsByClassName("box")[i].style.height = boxSizes[i][1]+"px";
+    }
+
+    for (var i = 0; i < document.getElementsByClassName("ball").length; i++) {
+        document.getElementsByClassName("ball")[i].style.width = ballSize+"px";
+        document.getElementsByClassName("ball")[i].style.height = ballSize+"px";
+    }
+
+    // moveBall();
+
+    // RANDOM POSITITE(S)!!!!!!!!!!!
+    for (var i = 0; i < document.getElementsByClassName("ball").length; i++) {
+        coordinates[i] = [Math.floor(Math.random()*(boxSizes[i][0]-ballSize)) , Math.floor(Math.random()*(boxSizes[i][1]-ballSize))];
+    }
+    console.log("coordinates = " + coordinates);
+/*
+    posX = Math.floor(Math.random()*(boxSize1[0]-ballSize));
+    console.log("posX = "+posX);
+    posY = Math.floor(Math.random()*(boxSize1[1]-ballSize));
+    console.log("posY = "+posY);
+*/
+    // RANDOM RICHTING BINNEN KWADRANT
+    // (bepaald dmv random x- en y-beweging)
+    distX = (1+Math.floor(Math.random()*50))/100; // 0.10 t/m 0.50
+    console.log("distX = "+distX);
+    distY = (1+Math.floor(Math.random()*50))/100; // 0.10 t/m 0.50
+    console.log("distY = "+distY);
+
+    // document.getElementById('ball1').style.left = posX + "px";
+    // document.getElementById('ball1').style.top = posY + "px";
+
+    for (var i = 0; i < document.getElementsByClassName("ball").length; i++) {
+        document.getElementsByClassName("ball")[i].style.left = coordinates[i][0] + "px";
+        document.getElementsByClassName("ball")[i].style.top = coordinates[i][1] + "px";
+    }
+
+    // MAAK ZIJBLOKJES (VEREENVOUDIGD)
+    for (var k = 0; k < document.getElementsByClassName("box").length; k++) {
+        // document.getElementsByClassName("box")[i]
+        for (var j = 0; j < 4; j++) {
+            var boxSize = boxSizes[k];
+            for (var i = 0; i < numberOfSegments; i++) {
+                var newdiv = document.createElement("div");
+                var parent = document.getElementsByClassName("box")[k];
+                if (j<2) {
+                    newdiv.style.height = ((boxSize[1]-ballSize)/numberOfSegments)+"px";
+                    newdiv.style.width = panelThickness+"px";
+                } else {
+                    newdiv.style.height = panelThickness+"px";
+                    newdiv.style.width = ((boxSize[0]-ballSize)/numberOfSegments)+"px";
+                }
+                switch(j){
+                    case 0:
+                        newdiv.style.left = boxSize[0]+"px";
+                        newdiv.style.top = (ballSize/2)+i*((boxSize[1]-ballSize)/numberOfSegments)+"px";
+                        break;
+                    case 1:
+                        newdiv.style.left = -panelThickness+"px";
+                        newdiv.style.top = (ballSize/2)+i*((boxSize[1]-ballSize)/numberOfSegments)+"px";
+                        break;
+                    case 2:
+                        newdiv.style.left = (ballSize/2)+i*((boxSize[0]-ballSize)/numberOfSegments)+"px";
+                        newdiv.style.top = -panelThickness+"px";
+                        break;
+                    case 3:
+                        newdiv.style.left = (ballSize/2)+i*((boxSize[0]-ballSize)/numberOfSegments)+"px";
+                        newdiv.style.top = boxSize[1]+"px";
+                        break;
+                }
+                if (j%2==0) {
+                    newdiv.innerText = letters[i];
+                } else {
+                    newdiv.innerText = letters[numberOfSegments-1-i];
+                }
+                newdiv.style.fontSize = panelThickness*0.8;
+                newdiv.style.textAlign = "center";
+                newdiv.style.position = "absolute";
+                if (i%2==0) {
+                    newdiv.style.backgroundColor = "darkblue";
+                    newdiv.style.color = "white";
+                } else {
+                    newdiv.style.backgroundColor = "lightyellow";
+                }
+                parent.appendChild(newdiv);
+            }
+        }
+    }
+
+
+
+};          
+
+
+function moveBall() {
+    document.getElementsByTagName("button")[0].hidden = "true";
+
+
+
+
+
+    var t;
+    var u;
+    var v;
+    var w;
+    for (var i = 0; i < 4; i++) {
+        ///////// DOE ALLES IN ALLE(VIER) DE VELDEN
+    }
+
+    var ball = document.getElementById('ball1');
+
+    // t = setInterval(moveRight, 50);
+    // v = setInterval(moveDown, 50);
+
+    // RANDOM KWADRANT
+    if(Math.floor(Math.random()*2)==1){t=setInterval(moveRight, speed);}
+    else {t = setInterval(moveLeft, speed);}
+    if(Math.floor(Math.random()*2)==1){t=setInterval(moveDown, speed);}
+    else {t = setInterval(moveUp, speed);}
+  
+    function moveRight() {
+        if(coordinates[0][0] >=(boxSize1[0]-ballSize)) {
+            clearInterval(t);
+            u = setInterval(moveLeft, speed)
+            var numseg = Math.floor(coordinates[0][1]/((boxSize1[1]-ballSize)/numberOfSegments)); // 0 t/m 6
+            while(numseg<0){numseg++;}
+            while(numseg>numberOfSegments-1){numseg--;}
+            console.log("posY = " + coordinates[0][1]);
+            document.getElementsByTagName("audio")[1].src = ""+ notes[1][numseg] +".mp3";
+        }
+        else {
+            coordinates[0][0] += distX;
+            ball.style.left = coordinates[0][0]+'px';
+        }
+    }
+    function moveLeft() {
+        if(coordinates[0][0] <=0) {
+            clearInterval(u);
+            t = setInterval(moveRight, speed)
+            var numseg = Math.floor(coordinates[0][1]/((boxSize1[1]-ballSize)/numberOfSegments)); // 0 t/m 6
+            while(numseg<0){numseg++;}
+            while(numseg>numberOfSegments-1){numseg--;}
+            console.log("posY = " + coordinates[0][1]);
+            document.getElementsByTagName("audio")[3].src = ""+ notes[3][numberOfSegments-1-numseg] +".mp3";
+        }
+        else {
+            coordinates[0][0] -= distX;
+            ball.style.left = coordinates[0][0]+'px';
+        }
+    }
+    function moveDown() {
+        if(coordinates[0][1] >=(boxSize1[1]-ballSize)) {
+            clearInterval(v);
+            w = setInterval(moveUp, speed)
+            var numseg = Math.floor(coordinates[0][0]/((boxSize1[0]-ballSize)/numberOfSegments)); // 0 t/m 6
+            while(numseg<0){numseg++;}
+            while(numseg>numberOfSegments-1){numseg--;}
+            console.log("posX = " + coordinates[0][0]);
+            document.getElementsByTagName("audio")[2].src = ""+ notes[2][numberOfSegments-1-numseg] +".mp3";
+        }
+        else {
+            coordinates[0][1] += distY;
+            ball.style.top = coordinates[0][1]+'px';
+        }
+    }
+    function moveUp() {
+        if(coordinates[0][1] <=0) {
+            clearInterval(w);
+            v = setInterval(moveDown, speed)
+            var numseg = Math.floor(coordinates[0][0]/((boxSize1[0]-ballSize)/numberOfSegments)); // 0 t/m 6
+            while(numseg<0){numseg++;}
+            while(numseg>numberOfSegments-1){numseg--;}
+            console.log("posX = " + coordinates[0][0]);
+            document.getElementsByTagName("audio")[0].src = ""+ notes[0][numseg] +".mp3";
+        }
+        else {
+            coordinates[0][1] -= distY;
+            ball.style.top = coordinates[0][1]+'px';
+        }
+    }
+
+
+}
+
+
+        </script>
+    </head>
+    <body>
+        <h1 class="name">Musical Boxes</h1>
+        <button class="button1" autofocus onclick="moveBall()">START!</button>
+        <div class="box" id="box1">
+            <div class="ball" id="ball1"></div>
+            <div class="indic" id="indic1"></div>
+        </div>
+        <div hidden class="box" id="box2">
+            <div class="ball" id="ball2"></div>
+            <div class="indic" id="indic2"></div>
+        </div>
+        <div hidden class="box" id="box3">
+            <div class="ball" id="ball3"></div>
+            <div class="indic" id="indic3"></div>
+        </div>
+        <div hidden class="box" id="box4">
+            <div class="ball" id="ball4"></div>
+            <div class="indic" id="indic4"></div>
+        </div>
+        <div hidden>
+            <audio autoplay></audio>
+            <audio autoplay></audio>
+            <audio autoplay></audio>
+            <audio autoplay></audio>
+        </div>
+    </body>
+</html>
