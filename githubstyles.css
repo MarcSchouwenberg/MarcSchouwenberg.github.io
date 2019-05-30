@@ -1,0 +1,40 @@
+html {
+	min-height: 100%;
+}
+body {
+	min-height: 100%;
+	font-family:Tahoma;
+	background-image: linear-gradient(to bottom right, rgb(0,200,150) 30%, white);
+}
+
+.name {
+	width: 450px;
+	padding: 10px;
+	outline-width: 2px;
+	outline-color: red;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.button1, input {
+	background-image: linear-gradient(to bottom right, lightgreen 30%, white);
+	font-family: Verdana;
+	font-size: 25px;
+	padding: 10px;
+	margin: 2px;
+	border: 2px solid green;
+	border-radius: 5px;
+	color: black;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+
+.button1:hover {
+	background-image: linear-gradient(to bottom right, green 30%, white);
+	color: white;
+}
+
+.button1:active {
+	background-image: linear-gradient(to top left, green 30%, white);
+	color: white;
+}
