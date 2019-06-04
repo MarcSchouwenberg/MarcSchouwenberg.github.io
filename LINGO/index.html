@@ -129,7 +129,7 @@ function giveFeedBack(){
 			document.getElementById("feedback").innerHTML="Alleen letters aub....";
 		}
 	}
-	document.getElementById("trnsdn").innerText=turnsDone;
+	document.getElementById("trnsdn").innerText=turnsDone+1;
 	}
 }
 
@@ -170,6 +170,7 @@ function createGame(){
 		</script>
 	</head>
 	<body>
+        <h1 class="name">Lingo</h1>
 		<div style="font-size: 10px" id="menu">
 		<form name="wordSizer"> Woordlengte:
 			<input type="radio" name="sizer" id="five" checked>5
