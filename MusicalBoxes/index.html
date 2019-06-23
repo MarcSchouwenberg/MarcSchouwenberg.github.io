@@ -205,9 +205,8 @@ function moggle(boxIndex) {
                 while(numseg<0){numseg++;}
                 while(numseg>numberOfSegments-1){numseg--;}
                 document.getElementsByClassName("indic")[boxIndex].innerHTML = letters[numseg];
-                console.log("#"+(boxIndex+1)+". posY = " + coordinates[boxIndex][1]);
                 document.getElementsByClassName("audiodiv")[boxIndex].children[0].volume = volume;
-                document.getElementsByClassName("audiodiv")[boxIndex].children[0].src = "PIANO_MP3_vbr9/"+ notes[1][numseg] +".mp3";
+                document.getElementsByClassName("audiodiv")[boxIndex].children[0].src = notes[1][numseg] +".mp3";
             }
             else {
                 coordinates[boxIndex][0] += directions[boxIndex][0];
@@ -223,9 +222,8 @@ function moggle(boxIndex) {
                 while(numseg<0){numseg++;}
                 while(numseg>numberOfSegments-1){numseg--;}
                 document.getElementsByClassName("indic")[boxIndex].innerHTML = letters[letters.length-1-numseg];
-                console.log("#"+(boxIndex+1)+". posY = " + coordinates[boxIndex][1]);
                 document.getElementsByClassName("audiodiv")[boxIndex].children[1].volume = volume;
-                document.getElementsByClassName("audiodiv")[boxIndex].children[1].src = "PIANO_MP3_vbr9/"+ notes[3][numberOfSegments-1-numseg] +".mp3";
+                document.getElementsByClassName("audiodiv")[boxIndex].children[1].src = notes[3][numberOfSegments-1-numseg] +".mp3";
             }
             else {
                 coordinates[boxIndex][0] -= directions[boxIndex][0];
@@ -241,9 +239,8 @@ function moggle(boxIndex) {
                 while(numseg<0){numseg++;}
                 while(numseg>numberOfSegments-1){numseg--;}
                 document.getElementsByClassName("indic")[boxIndex].innerHTML = letters[letters.length-1-numseg];
-                console.log("#"+(boxIndex+1)+". posX = " + coordinates[boxIndex][0]);
                 document.getElementsByClassName("audiodiv")[boxIndex].children[2].volume = volume;
-                document.getElementsByClassName("audiodiv")[boxIndex].children[2].src = "PIANO_MP3_vbr9/"+ notes[2][numberOfSegments-1-numseg] +".mp3";
+                document.getElementsByClassName("audiodiv")[boxIndex].children[2].src = notes[2][numberOfSegments-1-numseg] +".mp3";
             }
             else {
                 coordinates[boxIndex][1] += directions[boxIndex][1];
@@ -259,9 +256,8 @@ function moggle(boxIndex) {
                 while(numseg<0){numseg++;}
                 while(numseg>numberOfSegments-1){numseg--;}
                 document.getElementsByClassName("indic")[boxIndex].innerHTML = letters[numseg];
-                console.log("#"+(boxIndex+1)+". posX = " + coordinates[boxIndex][0]);
                 document.getElementsByClassName("audiodiv")[boxIndex].children[3].volume = volume;
-                document.getElementsByClassName("audiodiv")[boxIndex].children[3].src = "PIANO_MP3_vbr9/"+ notes[0][numseg] +".mp3";
+                document.getElementsByClassName("audiodiv")[boxIndex].children[3].src = notes[0][numseg] +".mp3";
             }
             else {
                 coordinates[boxIndex][1] -= directions[boxIndex][1];
