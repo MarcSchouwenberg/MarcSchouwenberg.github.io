@@ -5,4 +5,5 @@ var prjcts = [
 ["TRG", "Tonerow Generator"],
 ["TCS", "Transposable Chord Sheets"],
 ["1001Things", "1001 Things Before You Die"],
+["MusicalBoxes", "Musical Boxes"],
 ]
