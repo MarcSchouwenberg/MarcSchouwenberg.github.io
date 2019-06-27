@@ -32,7 +32,7 @@ function render(){
     var newData = document.createElement("td");
     newData.colSpan = list[0].length;
     newData.style.textAlign = "center";
-    newData.innerHTML = opts[chosenList][1] + " (<a style='color: lightblue' href='"+opts[chosenList][2]+"'>source</a>)";
+    newData.innerHTML = opts[chosenList][1] + " (<a style='color: lightblue' target='_blank' href='"+opts[chosenList][2]+"'>source</a>)";
     newRow.appendChild(newData);
     newTable.appendChild(newRow);
 
