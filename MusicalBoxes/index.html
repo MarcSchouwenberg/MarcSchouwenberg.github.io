@@ -206,7 +206,7 @@ function moggle(boxIndex) {
                 while(numseg>numberOfSegments-1){numseg--;}
                 document.getElementsByClassName("indic")[boxIndex].innerHTML = letters[numseg];
                 document.getElementsByClassName("audiodiv")[boxIndex].children[0].volume = volume;
-                document.getElementsByClassName("audiodiv")[boxIndex].children[0].src = "EG/"+ notes[1][numseg] +".mp3";
+                document.getElementsByClassName("audiodiv")[boxIndex].children[0].src = "EG/"+ notes[1][numseg] +".wav";
             }
             else {
                 coordinates[boxIndex][0] += directions[boxIndex][0];
@@ -223,7 +223,7 @@ function moggle(boxIndex) {
                 while(numseg>numberOfSegments-1){numseg--;}
                 document.getElementsByClassName("indic")[boxIndex].innerHTML = letters[letters.length-1-numseg];
                 document.getElementsByClassName("audiodiv")[boxIndex].children[1].volume = volume;
-                document.getElementsByClassName("audiodiv")[boxIndex].children[1].src = "EG/"+ notes[3][numberOfSegments-1-numseg] +".mp3";
+                document.getElementsByClassName("audiodiv")[boxIndex].children[1].src = "EG/"+ notes[3][numberOfSegments-1-numseg] +".wav";
             }
             else {
                 coordinates[boxIndex][0] -= directions[boxIndex][0];
@@ -240,7 +240,7 @@ function moggle(boxIndex) {
                 while(numseg>numberOfSegments-1){numseg--;}
                 document.getElementsByClassName("indic")[boxIndex].innerHTML = letters[letters.length-1-numseg];
                 document.getElementsByClassName("audiodiv")[boxIndex].children[2].volume = volume;
-                document.getElementsByClassName("audiodiv")[boxIndex].children[2].src = "EG/"+ notes[2][numberOfSegments-1-numseg] +".mp3";
+                document.getElementsByClassName("audiodiv")[boxIndex].children[2].src = "EG/"+ notes[2][numberOfSegments-1-numseg] +".wav";
             }
             else {
                 coordinates[boxIndex][1] += directions[boxIndex][1];
@@ -257,7 +257,7 @@ function moggle(boxIndex) {
                 while(numseg>numberOfSegments-1){numseg--;}
                 document.getElementsByClassName("indic")[boxIndex].innerHTML = letters[numseg];
                 document.getElementsByClassName("audiodiv")[boxIndex].children[3].volume = volume;
-                document.getElementsByClassName("audiodiv")[boxIndex].children[3].src = "EG/"+ notes[0][numseg] +".mp3";
+                document.getElementsByClassName("audiodiv")[boxIndex].children[3].src = "EG/"+ notes[0][numseg] +".wav";
             }
             else {
                 coordinates[boxIndex][1] -= directions[boxIndex][1];
