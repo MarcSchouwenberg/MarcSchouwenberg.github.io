@@ -1,0 +1,359 @@
+<!-- BRONNEN:
+
+*AH.NL
+4.347 VEGETARISCHE RECEPTEN:
+https://www.ah.nl/allerhande/recepten/R-L1383828464560/vegetarische-recepten
+333 VEGANISTISCHE RECEPTEN:
+https://www.ah.nl/allerhande/recepten/R-L1383829113721/veganistische-recepten
+
+https://www.simplyvegan.nl/category/recepten/
+https://www.ekoplaza.nl/recepten/dieetvoorkeur2=vegetarisch
+https://www.24kitchen.nl/populair/veganistische-recepten-gerechten
+https://www.24kitchen.nl/programmas/vlees-noch-vis
+https://veganchallenge.nl/zoek-recept/
+https://lisagoesvegan.com/category/recepten/diner/
+http://www.degroenemeisjes.nl/food/recept/hoofdgerechten/
+https://www.dehippevegetarier.nl/
+
+ -->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GroenteKanjers (versie2)</title>
+
+		<script src="seizoenskanjers.js"></script>
+		<script src="lekkerEnSimpel.js"></script>
+		<script src="veganHoofdgerechtenAH.js"></script>
+		<script src="vegaHoofdgerechtenAH.js"></script>
+		<script src="vegaMisschienVeganHoofdgerechtenAH.js"></script>
+        <style>
+		html {
+			min-height: 100%;
+		}
+		body {
+			min-height: 100%;
+			font-family:Tahoma;
+			background-image: linear-gradient(to bottom right, lightblue 30%, white);
+		}
+
+        div {
+        	/*display: block;*/
+        }
+        #popup {
+        	position: fixed;
+        	right: 10px;
+        	width: 450px;
+        	/*left: 10px;*/
+        }
+        #popup img {
+        	/*width: 100px;*/
+        	height: 300px;
+        }
+        p {
+        	/*display: inline-block;*/
+        	margin: 10px;
+        }
+        a {
+        	text-decoration: none;
+        }
+        td {
+        	padding: 5px;
+        }
+        td:hover {
+        	background-color: yellow;
+        }
+        button {
+        	transition-duration: 0.5s;
+        	background-color: lightyellow;
+        }
+
+
+button, input {
+	background-image: linear-gradient(to bottom right, lightgreen 30%, white);
+	font-family: Verdana;
+	font-size: 15px;
+	padding: 10px;
+	margin: 2px;
+	border: 2px solid green;
+	border-radius: 5px;
+	color: black;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+
+button:hover {
+	background-image: linear-gradient(to bottom right, green 30%, white);
+	color: white;
+}
+
+button:active {
+	background-image: linear-gradient(to top left, green 30%, white);
+	color: white;
+}
+
+
+        </style>
+        <script type="text/javascript">
+var title = "";
+function generate(){
+/*
+	if (document.getElementById("cb").checked) {
+		console.log("VEGAN");
+	} else {
+		console.log("VEGETARISCH");
+	}
+*/
+	var newTable = document.createElement("table");
+	newTable.id = "list1";
+	for (var i = 0; i < seizoensKanjers[d.getMonth()].length; i++) {
+		var newRow = document.createElement("tr");
+		var dezeGroente = seizoensKanjers[d.getMonth()][i];
+		if (document.getElementById("cb").checked) {
+			newRow.innerHTML = "<td>" + dezeGroente + "</td>"
+			+"<td><a target='_blank' href='https://www.google.com/search?q=vegan+recept+" + dezeGroente + "'>Google</a></td>"
+			+"<td><a target='_blank' href='https://www.ah.nl/allerhande/recepten-zoeken/speciale-wensen:veganistisch?Ntt=" + dezeGroente + "'>AH.nl</a></td>"
+			+"<td><a target='_blank' href='http://www.degroenemeisjes.nl/tag/vegan/?s=" + dezeGroente + "'>DeGroeneMeisjes</a></td>"
+			+"<td><a target='_blank' href='https://www.dehippevegetarier.nl/category/veganistisch-eetpatroon/?s=" + dezeGroente + "'>DeHippeVegetarier</a></td>"
+			+"<td><a target='_blank' href='https://www.simplyvegan.nl/?s=" + dezeGroente + "'>SimplyVegan</a></td>"
+			+"<td><a target='_blank' href='https://veganchallenge.nl/zoek-recept/?tekst=" + dezeGroente + "'>VeganChallenge</a></td>"
+			+"<td><a target='_blank' href='https://lisagoesvegan.com/?s=" + dezeGroente + "'>LisaGoesVegan</a></td>"
+		} else {
+			newRow.innerHTML = "<td>" + dezeGroente + "</td>"
+			+"<td><a target='_blank' href='https://www.google.com/search?q=vegetarisch+recept+" + dezeGroente + "'>Google</a></td>"
+			+"<td><a target='_blank' href='https://www.ah.nl/allerhande/recepten-zoeken/speciale-wensen:vegetarisch?Ntt=" + dezeGroente + "'>AH.nl</a></td>"
+			+"<td><a target='_blank' href='http://www.degroenemeisjes.nl/index.php?cat=279&s=" + dezeGroente + "'>DeGroeneMeisjes</a></td>"
+			+"<td><a target='_blank' href='https://www.dehippevegetarier.nl/?s=" + dezeGroente + "'>DeHippeVegetarier</a></td>"
+			// +"<td><a target='_blank' href='_______________________________" + dezeGroente + "'>VeganChallenge</a></td>"
+		}
+
+		;
+        if (i%2==0) {
+            newRow.style.backgroundColor = "lightgreen";
+        } else {
+            newRow.style.backgroundColor = "white";
+        }
+		newTable.appendChild(newRow);
+		// document.getElementById("list1").appendChild(newRow);
+	}
+	document.getElementById("parent").replaceChild(newTable, document.getElementById("list1"));
+	// document.getElementsByClassName("list")[0].appendChild(newRow);
+	// document.getElementById("list1").appendChild(newRow);
+
+}
+function changePopup(list, item){
+	document.getElementById("popup").innerHTML = "<img src='"+list[item][4]+"'><br><b>"+list[item][1]+"</b><br>"+list[item][3];
+	// document.getElementById("popup").innerHTML = "<img src='"+ahatjes[item][4]+"'>";
+}
+function killPopup(){
+	document.getElementById("popup").innerHTML = "";
+}
+function roggle(targetID){
+	var target = document.getElementById(targetID);
+	if (target.style.display != "none") {
+		if (targetID=="ahlist") {
+			killPopup();
+		}
+		target.style.display = "none";
+	} else {
+		target.style.display = "block";
+	}
+}
+
+var d = new Date();
+var alleGroentes = [
+// 39 unieke groentes
+"aardappel","andijvie","asperges","aubergine","bloemkool","bosui","broccoli","cherrytomaat","chinesekool","courgette","doperwtjes","knolselderij","komkommer","kropsla","mais","paddenstoelen","paprika","pastinaak","peultjes","pompoen","prei","prinsessenbonen","raapstelen","radicchio","radijs","rode biet","rodekool","snijbonen","spinazie","spitskool","spruiten","tomaten","tuinbonen","ui","veldsla","venkel","witlof","wortel","zoete aardappel",
+]
+var forbidden = [];
+window.onload = function(){
+	var f = 0;
+	for (var xxx = 0; xxx < alleGroentes.length; xxx++) {
+		if ( !(seizoensKanjers[d.getMonth()].includes(alleGroentes[xxx])) ) {
+			forbidden[f] = alleGroentes[xxx];
+			f++;
+		}
+	}
+	console.log("forbidden = " + forbidden); // = asperges,doperwtjes,paddenstoelen,pastinaak,peultjes,spruiten,tuinbonen,veldsla
+	console.log("maandkanjers = " + seizoensKanjers[d.getMonth()]);
+
+	// Lekker & Simpel
+	for (var i = 0; i < recepten.length; i++) {
+		var print=false;
+		for (var zzz = 0; zzz < seizoensKanjers[d.getMonth()].length; zzz++) {
+			// bevat het recept minstens één van de seizoenskanjers?
+			if ( recepten[i][2].includes(seizoensKanjers[d.getMonth()][zzz]) ) {
+				print=true;
+				break;
+			}
+		}
+		for (var zzz = 0; zzz < forbidden.length; zzz++) {
+			// bevat het recept één van de verboden groentes?
+			if ( recepten[i][2].includes(forbidden[zzz]) ) {
+				print=false;
+				break;
+			}
+		}
+		if (print) {
+			// PRINT !!!!!!!!
+			var title = recepten[i][0].slice(7, -6);
+			var ingred = recepten[i][2];
+			var newRec = document.createElement("span");
+			newRec.innerHTML = title + "<br>";
+			newRec.title = ingred;
+			document.getElementById("lenslist").appendChild(newRec);
+		}
+
+	}
+
+	// vegan @ AH.nl
+	for (var i = 0; i < ahatjes.length; i++) {
+		var print=false;
+		for (var zzz = 0; zzz < seizoensKanjers[d.getMonth()].length; zzz++) {
+			// bevat het recept minstens één van de seizoenskanjers?
+			if ( ahatjes[i][2].includes(seizoensKanjers[d.getMonth()][zzz]) ) {
+				print=true;
+				break;
+			}
+		}
+		for (var zzz = 0; zzz < forbidden.length; zzz++) {
+			// bevat het recept één van de verboden groentes?
+			if ( ahatjes[i][2].includes(forbidden[zzz]) ) {
+				print=false;
+				break;
+			}
+		}
+		if (print) {
+			// PRINT !!!!!!!!
+			var title = ahatjes[i][1];
+			var ingred = ahatjes[i][3];
+			var pic = document.createElement("div");
+			pic.innerHTML = "<img src='"+ahatjes[i][4]+"'>";
+			var newRec = document.createElement("span");
+			newRec.innerHTML = "<a onmouseover=\"changePopup(ahatjes,"+i+")\" onfocus=\"changePopup(ahatjes,"+i+")\" /*onmouseout=\"killPopup()\"*/ target='_blank' href='"+ahatjes[i][2]+"'>"+title + "</a><br>";
+			// newRec.title = ingred;
+			// newRec.title = pic + ingred;
+			document.getElementById("ahlist").appendChild(newRec);
+		}
+
+	}
+
+	// vega @ AH.nl
+	for (var i = 0; i < vegahtjes.length; i++) {
+		var print=false;
+		for (var zzz = 0; zzz < seizoensKanjers[d.getMonth()].length; zzz++) {
+			// bevat het recept minstens één van de seizoenskanjers?
+			if ( vegahtjes[i][2].includes(seizoensKanjers[d.getMonth()][zzz]) ) {
+				print=true;
+				break;
+			}
+		}
+		for (var zzz = 0; zzz < forbidden.length; zzz++) {
+			// bevat het recept één van de verboden groentes?
+			if ( vegahtjes[i][2].includes(forbidden[zzz]) ) {
+				print=false;
+				break;
+			}
+		}
+		if (print) {
+			// PRINT !!!!!!!!
+			var title = vegahtjes[i][1];
+			var ingred = vegahtjes[i][3];
+			var pic = document.createElement("div");
+			pic.innerHTML = "<img src='"+vegahtjes[i][4]+"'>";
+			var newRec = document.createElement("span");
+			newRec.innerHTML = "<a onmouseover=\"changePopup(vegahtjes,"+i+")\" onfocus=\"changePopup(vegahtjes,"+i+")\" /*onmouseout=\"killPopup()\"*/ target='_blank' href='"+vegahtjes[i][2]+"'>"+title + "</a><br>";
+			// newRec.title = ingred;
+			// newRec.title = pic + ingred;
+			document.getElementById("ahlist2").appendChild(newRec);
+		}
+
+	}
+
+	// vegaMisschienVegan @ AH.nl
+	for (var i = 0; i < vegaMisschienVegan.length; i++) {
+		var print=false;
+		for (var zzz = 0; zzz < seizoensKanjers[d.getMonth()].length; zzz++) {
+			// bevat het recept minstens één van de seizoenskanjers?
+			if ( vegaMisschienVegan[i][2].includes(seizoensKanjers[d.getMonth()][zzz]) ) {
+				print=true;
+				break;
+			}
+		}
+		for (var zzz = 0; zzz < forbidden.length; zzz++) {
+			// bevat het recept één van de verboden groentes?
+			if ( vegaMisschienVegan[i][2].includes(forbidden[zzz]) ) {
+				print=false;
+				break;
+			}
+		}
+		if (print) {
+			// PRINT !!!!!!!!
+			var title = vegaMisschienVegan[i][1];
+			var ingred = vegaMisschienVegan[i][3];
+			var pic = document.createElement("div");
+			pic.innerHTML = "<img src='"+vegaMisschienVegan[i][4]+"'>";
+			var newRec = document.createElement("span");
+			newRec.innerHTML = "<a onmouseover=\"changePopup(vegaMisschienVegan,"+i+")\" onfocus=\"changePopup(vegaMisschienVegan,"+i+")\" /*onmouseout=\"killPopup()\"*/ target='_blank' href='"+vegaMisschienVegan[i][2]+"'>"+title + "</a><br>";
+			// newRec.title = ingred;
+			// newRec.title = pic + ingred;
+			document.getElementById("ahlist3").appendChild(newRec);
+		}
+
+	}
+
+	document.getElementById("num1").innerHTML = document.getElementById("lenslist").childNodes.length;
+	document.getElementById("num2").innerHTML = document.getElementById("ahlist").childNodes.length;
+	document.getElementById("num3").innerHTML = document.getElementById("ahlist2").childNodes.length;
+	document.getElementById("num4").innerHTML = document.getElementById("ahlist3").childNodes.length;
+
+	// TABEL
+	var months = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december",];
+	// document.getElementById("demo").innerHTML = months[d.getMonth()];
+	document.getElementById("watistnu").innerText = "Datum: " + d.getDate() + " " + months[d.getMonth()] + " " + d.getFullYear();
+	document.getElementById("info").innerText = "Seizoensgroentes (" + seizoensKanjers[d.getMonth()].length + ") van deze maand (" + months[d.getMonth()] + "):";
+	// document.getElementById("watistnu").innerText = "Het is nu de " + Number(d.getMonth()+1) + "e maand van het jaar " + d.getFullYear();
+
+	// console.log(groente[d.getMonth()]);
+	// document.getElementById("demo").innerHTML = d.getFullYear();
+
+	// document.getElementsByTagName("title")[0].innerHTML = "GomoStream - " + title;
+	// document.getElementById("ttle").innerHTML = " - " + title;
+
+	generate();
+}
+        </script>
+	</head>
+	<body>
+
+<div id="popup"></div>
+
+<h2 id="watistnu"></h2>
+
+<button onclick="roggle('lenslist')"><span id="num1"></span> Vegetarische 'Lekker en Simpel'-recepten met seizoensgroentes (en zonder buiten-het-seizoen-groentes):</button><br>
+<div style="display: none;" id="lenslist"></div>
+
+<button onclick="roggle('ahlist')"><span id="num2"></span> Vegan hoofdgerechten van AH.nl met seizoensgroentes (en zonder buiten-het-seizoen-groentes):</button><br>
+<div style="display: none;" id="ahlist"></div>
+
+<button onclick="roggle('ahlist2')"><span id="num3"></span> Vegetarische hoofdgerechten van AH.nl met seizoensgroentes (en zonder buiten-het-seizoen-groentes):</button><br>
+<div style="display: none;" id="ahlist2"></div>
+
+<button onclick="roggle('ahlist3')"><span id="num4"></span> vegaMisschienVegan-hoofdgerechten van AH.nl met seizoensgroentes (en zonder buiten-het-seizoen-groentes):</button><br>
+<div style="display: none;" id="ahlist3"></div>
+
+<button onclick="roggle('lnklist')">Seizoensgroentes van deze maand</button><br>
+<div style="display: block;" id="lnklist">
+	<input type="radio" name="diet1" value="vegan" onchange="generate()" checked autofocus="">VEGETARISCH
+	<input id="cb" type="radio" name="diet1" value="vegan" onchange="generate()">VEGAN
+	<br>
+
+	<h3 id="info"></h3>
+	<div id="parent">
+		<table class="list" id="list1"></table>
+	</div>
+</div>
+
+    </body>
+</html>
