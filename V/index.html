@@ -1,4 +1,6 @@
-<!-- BRONNEN:
+<!--
+
+BRONNEN:
 
 *AH.NL
 4.347 VEGETARISCHE RECEPTEN:
@@ -15,7 +17,7 @@ https://lisagoesvegan.com/category/recepten/diner/
 http://www.degroenemeisjes.nl/food/recept/hoofdgerechten/
 https://www.dehippevegetarier.nl/
 
- -->
+-->
 
 
 <!DOCTYPE html>
@@ -251,14 +253,14 @@ window.onload = function(){
 		var print=false;
 		for (var zzz = 0; zzz < seizoensKanjers[d.getMonth()].length; zzz++) {
 			// bevat het recept minstens één van de seizoenskanjers?
-			if ( ahatjes[i][2].includes(seizoensKanjers[d.getMonth()][zzz]) ) {
+			if ( ahatjes[i][3].includes(seizoensKanjers[d.getMonth()][zzz]) ) {
 				print=true;
 				break;
 			}
 		}
 		for (var zzz = 0; zzz < forbidden.length; zzz++) {
 			// bevat het recept één van de verboden groentes?
-			if ( ahatjes[i][2].includes(forbidden[zzz]) ) {
+			if ( ahatjes[i][3].includes(forbidden[zzz]) ) {
 				print=false;
 				break;
 			}
@@ -270,7 +272,7 @@ window.onload = function(){
 			var pic = document.createElement("div");
 			pic.innerHTML = "<img src='"+ahatjes[i][4]+"'>";
 			var newRec = document.createElement("span");
-			newRec.innerHTML = "<a onmouseover=\"changePopup(ahatjes,"+i+",1)\" onfocus=\"changePopup(ahatjes,"+i+",\"1\")\" target='_blank' href='"+ahatjes[i][2]+"'>"+title + "</a><br>";
+			newRec.innerHTML = "<a onmouseover=\"changePopup(ahatjes,"+i+",1)\" onfocus=\"changePopup(ahatjes,"+i+",'1')\" target='_blank' href='"+ahatjes[i][2]+"'>"+title + "</a><br>";
 			// newRec.title = ingred;
 			// newRec.title = pic + ingred;
 			document.getElementById("ahlist1").appendChild(newRec);
@@ -283,14 +285,14 @@ window.onload = function(){
 		var print=false;
 		for (var zzz = 0; zzz < seizoensKanjers[d.getMonth()].length; zzz++) {
 			// bevat het recept minstens één van de seizoenskanjers?
-			if ( vegahtjes[i][2].includes(seizoensKanjers[d.getMonth()][zzz]) ) {
+			if ( vegahtjes[i][3].includes(seizoensKanjers[d.getMonth()][zzz]) ) {
 				print=true;
 				break;
 			}
 		}
 		for (var zzz = 0; zzz < forbidden.length; zzz++) {
 			// bevat het recept één van de verboden groentes?
-			if ( vegahtjes[i][2].includes(forbidden[zzz]) ) {
+			if ( vegahtjes[i][3].includes(forbidden[zzz]) ) {
 				print=false;
 				break;
 			}
@@ -302,7 +304,7 @@ window.onload = function(){
 			var pic = document.createElement("div");
 			pic.innerHTML = "<img src='"+vegahtjes[i][4]+"'>";
 			var newRec = document.createElement("span");
-			newRec.innerHTML = "<a onmouseover=\"changePopup(vegahtjes,"+i+",2)\" onfocus=\"changePopup(vegahtjes,"+i+",\"2\")\" target='_blank' href='"+vegahtjes[i][2]+"'>"+title + "</a><br>";
+			newRec.innerHTML = "<a onmouseover=\"changePopup(vegahtjes,"+i+",2)\" onfocus=\"changePopup(vegahtjes,"+i+",'2')\" target='_blank' href='"+vegahtjes[i][2]+"'>"+title + "</a><br>";
 			// newRec.title = ingred;
 			// newRec.title = pic + ingred;
 			document.getElementById("ahlist2").appendChild(newRec);
@@ -315,14 +317,14 @@ window.onload = function(){
 		var print=false;
 		for (var zzz = 0; zzz < seizoensKanjers[d.getMonth()].length; zzz++) {
 			// bevat het recept minstens één van de seizoenskanjers?
-			if ( vegaMisschienVegan[i][2].includes(seizoensKanjers[d.getMonth()][zzz]) ) {
+			if ( vegaMisschienVegan[i][3].includes(seizoensKanjers[d.getMonth()][zzz]) ) {
 				print=true;
 				break;
 			}
 		}
 		for (var zzz = 0; zzz < forbidden.length; zzz++) {
 			// bevat het recept één van de verboden groentes?
-			if ( vegaMisschienVegan[i][2].includes(forbidden[zzz]) ) {
+			if ( vegaMisschienVegan[i][3].includes(forbidden[zzz]) ) {
 				print=false;
 				break;
 			}
@@ -334,7 +336,7 @@ window.onload = function(){
 			var pic = document.createElement("div");
 			pic.innerHTML = "<img src='"+vegaMisschienVegan[i][4]+"'>";
 			var newRec = document.createElement("span");
-			newRec.innerHTML = "<a onmouseover=\"changePopup(vegaMisschienVegan,"+i+",3)\" onfocus=\"changePopup(vegaMisschienVegan,"+i+",\"3\")\" target='_blank' href='"+vegaMisschienVegan[i][2]+"'>"+title + "</a><br>";
+			newRec.innerHTML = "<a onmouseover=\"changePopup(vegaMisschienVegan,"+i+",3)\" onfocus=\"changePopup(vegaMisschienVegan,"+i+",'3')\" target='_blank' href='"+vegaMisschienVegan[i][2]+"'>"+title + "</a><br>";
 			// newRec.title = ingred;
 			// newRec.title = pic + ingred;
 			document.getElementById("ahlist3").appendChild(newRec);
