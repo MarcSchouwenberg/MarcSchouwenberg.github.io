@@ -7,6 +7,7 @@ var prjcts = [
 ["1001Things", "1001 Things Before You Die"],
 ["MusicalBoxes", "Musical Boxes"],
 ["ImageGallery", "Image Gallery"],
+["SB-open-angu-layers", "Open Layers"],
 ["SB-angular-foonwinkel", "Phone Store"],
 ["SB-angular-tomh", "Tour of Heroes"],
 ]

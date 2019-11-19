@@ -3,6 +3,17 @@
 	<head>
 		<title>GitHubPages-index</title>
         <link rel="stylesheet" href="githubstyles.css"/>
+		<link rel="icon" type="image/png" href="ghpdot.png">
+		<style type="text/css">
+		button img {
+			height: 28px;
+			position: relative;
+			top: 4px;
+			border-radius: 50%;
+			margin-right: 7px;
+		}
+
+		</style>
         <script src="projlist.js"></script>
 		<script>
 
@@ -12,10 +23,11 @@ window.onload = function(){
 		newlink.target = "_blank";
 		if ( (prjcts[i][0].slice(0,3)) == "SB-") {
 			newlink.href = "https://"+prjcts[i][0].slice(3)+".stackblitz.io";
+			newlink.innerHTML = '<button class="button1"><img src="ang.png" title="Angular">'+prjcts[i][1]+"</button>";
 		} else {
 			newlink.href = "/" + prjcts[i][0];
+			newlink.innerHTML = '<button class="button1"><img src="js.png" title="JavaScript">'+prjcts[i][1]+"</button>";
 		}
-		newlink.innerHTML = '<button class="button1">'+prjcts[i][1]+"</button>";
 		var parent = document.getElementById("list");
 		parent.appendChild(newlink);
 		parent.appendChild(document.createElement("br"));
