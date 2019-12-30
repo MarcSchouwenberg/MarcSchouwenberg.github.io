@@ -1,0 +1,39 @@
+html {
+	min-height: 100%;
+}
+body {
+	min-height: 100%;
+	background-image: linear-gradient(to bottom right, rgb(0,200,150) 30%, white);
+}
+
+	#menu {
+		position: fixed;
+		text-align: left;
+		top: 0px;
+		opacity: 0.7;
+	}
+	#prev, #next {
+		background-color:black;
+		color: white;
+		border: none;
+		width: 500px;
+		display: block;
+	}
+	#prevnext {
+		display: inline-block;
+		margin: auto;
+		position: fixed;
+		text-align: center;
+		right: 500px;
+		bottom: 0px;
+		opacity: 0.5;
+	}
+	button {
+		font-family: tahoma;
+	}
+	button:focus{
+		background-color: yellowgreen;
+	}
+	button:hover{
+		background-color: green;
+	}

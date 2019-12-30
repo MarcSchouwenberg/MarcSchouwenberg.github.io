@@ -75,7 +75,7 @@ function changeScript(){
     var newscript = document.createElement("script");
     var ss = document.getElementById("songselect");
     var selsong = ss.options[ss.selectedIndex].innerHTML;
-    newscript.src = "TCS/" + selsong + ".js";
+    newscript.src = selsong + ".js";
     document.getElementsByTagName("head")[0].replaceChild(newscript, document.getElementsByTagName("script")[2]);
     setTimeout(renderSong, 500);
 

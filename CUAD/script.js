@@ -1,57 +1,3 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Cut Up And Down</title>
-		<link rel="stylesheet" href="githubstyles.css"/>
-		<link rel="icon" type="image/png" href="ghpdot.png">
-		<style type="text/css">
-			table {
-				font-family: "Tahoma";
-				max-width: 100%;
-			}
-			#eerste {
-				width: 100%;
-				display: none;
-				position: relative;
-				top: 1000px;
-			}
-			.field {
-				font-size: 4.5vw;
-				background-color: lightyellow;
-				width: 40%;
-				height: 30%;
-				position: fixed;
-				border-radius: 3.5vw;
-				border: 0.2vw solid black;
-				text-align: center;
-				padding: 3% 0 0 0;
-			}
-			.down.left {left: 6%;}
-			.down.right {right: 6%;}
-			.left {left: 3%;}
-			.right {right: 3%;}
-			.down {bottom: 9%;}
-			.up {top: 9%;}
-			#stack {
-				font-size: 4.0vw;
-				color: white;
-				border: 1px solid black;
-				background-color: black;
-				border-radius: 20%;
-				width: 10%;
-				padding: 2% 0;
-				height: 10%;
-				text-align: center;
-				position: fixed;
-				top: 5%;
-				left: 45%;
-			}
-			td {
-				width:  50px;
-				height: 30px;
-			}
-		</style>
-		<script type="text/javascript">
 var notes = ["C", "C&#9839;", "D", "D&#9839;", "E", "F", "F&#9839;", "G", "G&#9839;", "A", "A&#9839;", "B",];
 var sharps = ["C", "C&#9839;", "D", "D&#9839;", "E", "F", "F&#9839;", "G", "G&#9839;", "A", "A&#9839;", "B",];
 var dsharpminor = ["C", "C&#9839;", "D", "D&#9839;", "E", "E&#9839;", "F&#9839;", "G", "G&#9839;", "A", "A&#9839;", "B",];
@@ -61,16 +7,16 @@ var majorsteps = [0,2,4,5,7,9,11,12];
 var minorsteps = [0,2,3,5,7,8,10,12];
 var typesteps = [majorsteps, minorsteps];
 var colors = [ // https://www.w3schools.com/colors/colors_picker.asp
-"rgb(204, 255, 255)",
-"rgb(204, 255, 204)",
-"rgb(204, 255, 153)",
-"rgb(204, 255, 102)",
-"rgb(204, 255, 51)",
-"rgb(204, 255, 0)",
-"rgb(255, 255, 0)",
-"rgb(255, 255, 153)",
-"rgb(255, 255, 204)",
-"rgb(255, 204, 153)",
+	"rgb(204, 255, 255)",
+	"rgb(204, 255, 204)",
+	"rgb(204, 255, 153)",
+	"rgb(204, 255, 102)",
+	"rgb(204, 255, 51)",
+	"rgb(204, 255, 0)",
+	"rgb(255, 255, 0)",
+	"rgb(255, 255, 153)",
+	"rgb(255, 255, 204)",
+	"rgb(255, 204, 153)",
 ]
 var numberlist = [];
 var countUp = 0;
@@ -176,31 +122,11 @@ function create(){
 								notes=sharps;
 						}
 					}
-				 	var newCard = document.createElement("p");
-				 	kindofrows[kk]();
-				 	document.getElementById("tweede").appendChild(newCard);
+					var newCard = document.createElement("p");
+					kindofrows[kk]();
+					document.getElementById("tweede").appendChild(newCard);
 				}
 			}
 		}
 	}
 }
-
-		</script>
-	</head>
-	<body>
-		<div id="list"></div>
-		<div style="font-family: Arial" id="targetDiv">
-			<div class="field left up" onclick="draw(this.id)" id="LU"><span class="LU"></span></div>
-			<div class="field left down" onclick="draw(this.id)" id="LD"><span class="LD"></span></div>
-			<div class="field right up" onclick="draw(this.id)" id="RU"><span class="RU"></span></div>
-			<div class="field right down" onclick="draw(this.id)" id="RD"><span class="RD"></span></div>
-		</div>
-		<div id="stack"></div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		<div class="showrows" id="eerste">
-			<table id="tweede">
-				
-			</table>
-		</div>
-	</body>
-</html>

@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>1001 Things</title>
-    <link rel="stylesheet" href="githubstyles.css"/>
-    <link rel="icon" type="image/png" href="ghpdot.png">
-    <script src="1001Things/opts.js"></script>
-    <script id="srclist" src=""></script>
-
-	<style type="text/css">
-	</style>
-<script type="text/javascript">
-
 var chosenList;
 
 window.onload = function(){
@@ -19,7 +6,7 @@ window.onload = function(){
         newButton.className = "button1";
         newButton.id = i;
         newButton.onclick = function(){changelist(this.id)};
-        newButton.innerHTML = opts[i][0] + "…";
+        newButton.innerHTML = opts[i][0] + "&#133";
         document.getElementById("buttons").appendChild(newButton);
     }
 }
@@ -67,24 +54,10 @@ function changelist(newlist){
     chosenList = newlist;
     var source = document.createElement("script");
     source.id = "srclist";
-    source.src = "1001Things/" + opts[chosenList][0]+".js";
+    source.src = "" + opts[chosenList][0]+".js";
 
     document.getElementsByTagName("head")[0].replaceChild(source, document.getElementById("srclist"));
 
     setTimeout(render, 500);
 
 }
-
-</script>
-</head>
-<body>
-	<h1 class="name">1001 Things Before You Die</h1>
-
-    <div id="buttons"></div>
-
-	<table id="list">
-
-	</table>
-
-</body>
-</html>

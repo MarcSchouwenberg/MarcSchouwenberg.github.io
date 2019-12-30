@@ -1,0 +1,21 @@
+body, #keys {
+	color: black;
+	font-family: Verdana;
+}
+table {
+	background-color: white;
+	width: 80%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+tr {
+	width: 100%;
+}
+td {
+	width: 8%;
+}
+button {
+	border-style: none;
+	font-family: Verdana;
+	padding: 5px;
+}
