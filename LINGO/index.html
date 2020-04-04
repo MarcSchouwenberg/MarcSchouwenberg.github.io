@@ -34,6 +34,7 @@ div.lttr {
 	border-radius: 5px;
 	padding: 10px;
 	display: inline-block;
+	margin-bottom: 20px;
 }
 form > label {
 	font-size: 20px;
@@ -51,6 +52,11 @@ input[type=radio] {
 }
 input[type=radio]:checked + label { 
 	background-image: linear-gradient(to bottom right, yellow, lightyellow);
+}
+input[type=range] {
+	display: block;
+	padding: 0px;
+	width: 550px;
 }
 
 		</style>
@@ -71,6 +77,10 @@ window.onload = function(){
 	});
 	document.getElementById("inputField").style.opacity="0.5";
 	document.getElementById("submit").style.opacity="0.5";
+	document.getElementById("slider").oninput = function() {
+		document.getElementById("music1").childNodes[1].volume = this.value * 0.005;
+		document.getElementById("music2").childNodes[1].volume = this.value * 0.008;
+	}
 }
 
 function pickaword(){
@@ -109,11 +119,11 @@ function submitWord(){
 					if (lingoWord.indexOf(newInput.value.charAt(i),0)>-1){
 						if (newInput.value.charAt(i)==lingoWord.charAt(i)) {
 							document.getElementsByTagName("audio")[0].src = "lingogoed2.wav";
-							document.getElementsByTagName("audio")[0].volume="0.5";
+							document.getElementsByTagName("audio")[0].volume = 0.005 * document.getElementById("slider").value;;
 							grandChild.style.backgroundImage="linear-gradient(to right bottom, rgb(153, 6, 2), rgb(253,64,23))";
 						} else {
 							document.getElementsByTagName("audio")[0].src = "lingofout2.wav";
-							document.getElementsByTagName("audio")[0].volume="0.5";
+							document.getElementsByTagName("audio")[0].volume = 0.005 * document.getElementById("slider").value;;
 							grandChild.style.color="white";
 							grandChild.style.borderRadius= "250px";
 							grandChild.style.border= "none";
@@ -121,7 +131,7 @@ function submitWord(){
 						}
 					} else {
 						document.getElementsByTagName("audio")[0].src = "lingofout.wav";
-						document.getElementsByTagName("audio")[0].volume="0.3";
+						document.getElementsByTagName("audio")[0].volume = 0.003 * document.getElementById("slider").value;;
 						grandChild.style.color="white";
 						grandChild.style.backgroundImage="linear-gradient(to bottom right, rgb(92, 148, 204), lightblue)";
 					}
@@ -132,7 +142,7 @@ function submitWord(){
 function giveFeedBack(){
 	if (newInput.value==lingoWord) {
 		document.getElementsByTagName("audio")[0].src = "lingowinst2.wav";
-		document.getElementsByTagName("audio")[0].volume="0.4";
+		document.getElementsByTagName("audio")[0].volume = 0.004 * document.getElementById("slider").value;;
 		document.getElementsByTagName("audio")[1].src = "";
 		document.getElementsByTagName("audio")[2].src = "";
 		document.getElementById("feedback").innerHTML=
@@ -144,7 +154,7 @@ function giveFeedBack(){
 		document.getElementById("submit").style.opacity="0.5";
 	} else if (turnsDone==maxTurns){
 		document.getElementsByTagName("audio")[0].src = "lingoverlies.wav";
-		document.getElementsByTagName("audio")[0].volume="0.4";
+		document.getElementsByTagName("audio")[0].volume = 0.004 * document.getElementById("slider").value;;
 		document.getElementsByTagName("audio")[1].src = "";
 		document.getElementsByTagName("audio")[2].src = "";
 		document.getElementById("feedback").innerHTML=
@@ -166,9 +176,9 @@ function giveFeedBack(){
 
 function createGame(){
 	document.getElementsByTagName("audio")[1].src = "lingotrack.wav";
-	document.getElementsByTagName("audio")[1].volume="0.5";
+	document.getElementsByTagName("audio")[1].volume = 0.005 * document.getElementById("slider").value;
 	document.getElementsByTagName("audio")[2].src = "lingotrack2.wav";
-	document.getElementsByTagName("audio")[2].volume="0.8";
+	document.getElementsByTagName("audio")[2].volume = 0.008 * document.getElementById("slider").value;
 	turnsDone = 0;
 	for (var i = 0; i < document.forms[0].length; i++) {
 		if (document.forms[0][i].checked){
@@ -204,6 +214,9 @@ function createGame(){
 	</head>
 	<body>
         <h1 class="name">Lingo</h1>
+        <div id="volumeControl" title="volume">
+        	<input id="slider" type="range" min="1" max="100" value="65">
+        </div>
 		<div id="menu">
 		<form name="wordSizer">Woordlengte:
 			<input type="radio" name="sizer" id="w5" checked>
@@ -238,7 +251,6 @@ function createGame(){
 <br>
 <button class="button1" autofocus="" onclick="createGame()">NIEUW SPEL</button>
 		</div>
-<br>
 <br>
 		<!-- <button hidden class="button1" id="raadLijst" title="">Gekozen woorden na beurt <span id="trnsdn">0</span><i> (hover)</i></button> -->
 		<!-- <br> -->
