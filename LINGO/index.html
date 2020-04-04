@@ -28,6 +28,30 @@ div.lttr {
 	text-align: center;
 	-webkit-text-stroke: 0.5px black;
 }
+#menu {
+	/*font-size: 10px;*/
+	border: 2px solid yellow;
+	border-radius: 5px;
+	padding: 10px;
+	display: inline-block;
+}
+form > label {
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 5px 10px;
+	border: 2px solid yellow;
+	display: inline-block;
+	margin: 2px 0px;
+}
+form > label:hover {
+	background-color: lightyellow;
+}
+input[type=radio] {
+	display: none;
+}
+input[type=radio]:checked + label { 
+	background-image: linear-gradient(to bottom right, yellow, lightyellow);
+}
 
 		</style>
 		<script id="opts" src="lingolist.js"></script>
@@ -45,6 +69,8 @@ window.onload = function(){
 	    	submitWord();
 	    }
 	});
+	document.getElementById("inputField").style.opacity="0.5";
+	document.getElementById("submit").style.opacity="0.5";
 }
 
 function pickaword(){
@@ -58,14 +84,14 @@ function submitWord(){
 		newInput.value=newInput.value.replace(/ /g, "");
 	}
 	if (newInput.value.length>wordSize) {
-		document.getElementById("feedback").innerHTML="te lang!";
+		document.getElementById("feedback").innerHTML="Te lang...";
 	} else if (newInput.value.length<wordSize){
-		document.getElementById("feedback").innerHTML="te kort!";
+		document.getElementById("feedback").innerHTML="Te kort...";
 	} else {
 		if (newInput.value.match(/^[A-Z,a-z]+$/)) {
 			newInput.value=newInput.value.toUpperCase();
-			document.getElementById("feedback").innerHTML="OK!";
-			document.getElementById("raadLijst").title=document.getElementById("raadLijst").title.concat(newInput.value+"\n");
+			document.getElementById("feedback").innerHTML="";
+			// document.getElementById("raadLijst").title=document.getElementById("raadLijst").title.concat(newInput.value+"\n");
 
 			var i=0;
 			var t = setInterval(printLetter, 500);
@@ -104,33 +130,37 @@ function submitWord(){
 			}
 
 function giveFeedBack(){
-			if (newInput.value==lingoWord) {
-				document.getElementsByTagName("audio")[0].src = "lingowinst2.wav";
-				document.getElementsByTagName("audio")[0].volume="0.4";
-				document.getElementsByTagName("audio")[1].src = "";
-				document.getElementsByTagName("audio")[2].src = "";
-				document.getElementById("feedback").innerHTML=
-				"GEWONNEN!! Het was inderdaad "+lingoWord
-				+"! <i>Nieuw spel? Klik op 'NIEUW SPEL'! </i> :)<br>";
-				document.getElementById("menu").style.display="block";
-			} else if (turnsDone==maxTurns){
-				document.getElementsByTagName("audio")[0].src = "lingoverlies.wav";
-				document.getElementsByTagName("audio")[0].volume="0.4";
-				document.getElementsByTagName("audio")[1].src = "";
-				document.getElementsByTagName("audio")[2].src = "";
-				document.getElementById("feedback").innerHTML=
-				"VERLOREN!!!! Het woord was "+lingoWord
-				+"! <i>Nieuw spel? Klik op 'NIEUW SPEL'! </i> :)<br>";
-				document.getElementById("menu").style.display="block";
-			} else {
-			}
-
+	if (newInput.value==lingoWord) {
+		document.getElementsByTagName("audio")[0].src = "lingowinst2.wav";
+		document.getElementsByTagName("audio")[0].volume="0.4";
+		document.getElementsByTagName("audio")[1].src = "";
+		document.getElementsByTagName("audio")[2].src = "";
+		document.getElementById("feedback").innerHTML=
+		"GEWONNEN!! Het was inderdaad "+lingoWord
+		+"! <i>Nieuw spel? Klik op 'NIEUW SPEL'!</i><br>";
+		document.getElementById("menu").style.display="inline-block";
+		document.getElementById("inputField").maxLength = 0;
+		document.getElementById("inputField").style.opacity="0.5";
+		document.getElementById("submit").style.opacity="0.5";
+	} else if (turnsDone==maxTurns){
+		document.getElementsByTagName("audio")[0].src = "lingoverlies.wav";
+		document.getElementsByTagName("audio")[0].volume="0.4";
+		document.getElementsByTagName("audio")[1].src = "";
+		document.getElementsByTagName("audio")[2].src = "";
+		document.getElementById("feedback").innerHTML=
+		"VERLOREN!!!! Het woord was "+lingoWord
+		+"! <i>Nieuw spel? Klik op 'NIEUW SPEL'!</i><br>";
+		document.getElementById("menu").style.display="inline-block";
+		document.getElementById("inputField").maxLength = 0;
+		document.getElementById("inputField").style.opacity="0.5";
+		document.getElementById("submit").style.opacity="0.5";
+	}
 }
 		} else {
-			document.getElementById("feedback").innerHTML="Alleen letters aub....";
+			document.getElementById("feedback").innerHTML="Alleen letters...";
 		}
 	}
-	document.getElementById("trnsdn").innerText=turnsDone+1;
+	// document.getElementById("trnsdn").innerText=turnsDone+1;
 	}
 }
 
@@ -152,10 +182,12 @@ function createGame(){
 		}
 	}
 	document.getElementById("menu").style.display="none";
+	document.getElementById("inputField").style.opacity="1.0";
+	document.getElementById("submit").style.opacity="1.0";
 	document.getElementById("gamefield").innerHTML="";
 	document.getElementById("feedback").innerHTML="";
-	document.getElementById("raadLijst").title="";
-	document.getElementById("trnsdn").innerHTML="0";
+	// document.getElementById("raadLijst").title="";
+	// document.getElementById("trnsdn").innerHTML="0";
 	for (var i = 0; i < maxTurns; i++) {
 		var newRow = document.createElement("div");
 		newRow.className="row";
@@ -172,33 +204,46 @@ function createGame(){
 	</head>
 	<body>
         <h1 class="name">Lingo</h1>
-		<div style="font-size: 10px" id="menu">
-		<form name="wordSizer"> Woordlengte:
-			<input type="radio" name="sizer" id="five" checked>5
-			<input type="radio" name="sizer" id="six">6
-			<input type="radio" name="sizer" id="seven">7
+		<div id="menu">
+		<form name="wordSizer">Woordlengte:
+			<input type="radio" name="sizer" id="w5" checked>
+				<label for="w5">5</label>
+			<input type="radio" name="sizer" id="w6">
+				<label for="w6">6</label>
+			<input type="radio" name="sizer" id="w7">
+				<label for="w7">7</label>
 		</form>
-		<form name="numGuesses"> Aantal beurten:
-			<input type="radio" name="number">1
-			<input type="radio" name="number">2
-			<input type="radio" name="number">3
-			<input type="radio" name="number">4
-			<input type="radio" name="number" id="five">5
-			<input type="radio" name="number" id="six">6
-			<input type="radio" name="number" id="seven">7
-			<input type="radio" name="number" id="eight">8
-			<input type="radio" name="number" id="nine">9
-			<input type="radio" name="number" checked id="ten">10
+		<form name="numGuesses">Aantal beurten:
+			<input type="radio" name="number" id="n1">
+				<label for="n1">1</label>
+			<input type="radio" name="number" id="n2">
+				<label for="n2">2</label>
+			<input type="radio" name="number" id="n3">
+				<label for="n3">3</label>
+			<input type="radio" name="number" id="n4">
+				<label for="n4">4</label>
+			<input type="radio" name="number" id="n5">
+				<label for="n5">5</label>
+			<input type="radio" name="number" id="n6">
+				<label for="n6">6</label>
+			<input type="radio" name="number" id="n7">
+				<label for="n7">7</label>
+			<input type="radio" name="number" id="n8">
+				<label for="n8">8</label>
+			<input type="radio" name="number" id="n9">
+				<label for="n9">9</label>
+			<input type="radio" name="number" checked id="n10">
+				<label for="n10">10</label>
 		</form>
 <br>
 <button class="button1" autofocus="" onclick="createGame()">NIEUW SPEL</button>
 		</div>
 <br>
 <br>
-		<button class="button1" id="raadLijst" title="">Gekozen woorden na beurt <span id="trnsdn">0</span><i> (hover)</i></button>
-		<br>
-		<input id="inputField" placeholder="tekst hier aub :)" maxlength="0">
-		<button class="button1" type="submit" onclick="submitWord()" name="sbmt" value="Okay!">OKAY!</button>
+		<!-- <button hidden class="button1" id="raadLijst" title="">Gekozen woorden na beurt <span id="trnsdn">0</span><i> (hover)</i></button> -->
+		<!-- <br> -->
+		<input id="inputField" placeholder="tekst hier..." maxlength="0">
+		<button class="button1" id="submit" type="submit" onclick="submitWord()" name="sbmt" value="Okay!">OK</button>
 		<span id="feedback"></span>
 		<div id="gamefield">
 		</div>
