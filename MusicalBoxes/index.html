@@ -16,19 +16,19 @@
 }
 #box1 {
     left: 300px;
-    top: 130px;
+    top: 160px;
 }
 #box2 {
     left: 750px;
-    top: 130px;
+    top: 160px;
 }
 #box3 {
     left: 300px;
-    top: 480px;
+    top: 510px;
 }
 #box4 {
     left: 650px;
-    top: 580px;
+    top: 610px;
 }
 
 .ball {
@@ -45,7 +45,30 @@
     font-size: 100px;
     font-family: Verdana;
     opacity: 0.5;
-}       
+}
+input[type=range] {
+    appearance: none;
+    -webkit-appearance: none;
+    display: inline-block;
+    padding: 0px;
+    width: 490px;
+}
+input[type=range]::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 2px;
+    background-image: linear-gradient(to top left, green 30%, white);
+    border: 1px solid green;
+    cursor: grab;
+}
+#volTag {
+    display: inline-block;
+    position: relative;
+    bottom: 6px;
+}
+
         </style>
         <script type="text/javascript">
 
@@ -85,9 +108,13 @@ var kwadranten = [];
 var myBooleans = [false,false,false,false];
 var numberOfSegments = letters.length;
 var speed = 5;
-var volume = 0.2;
 
 window.onload = function() {
+    document.getElementById("slider").oninput = function() {
+        for (var i = 0; i < document.getElementsByTagName("audio").length; i++) {
+            document.getElementsByTagName("audio")[i].volume = this.value/100;
+        }
+    }
     for (var it = 0; it < document.getElementsByClassName("box").length; it++) {
         document.getElementsByClassName("box")[it].style.width = boxSizes[it][0]+"px";
         document.getElementsByClassName("box")[it].style.height = boxSizes[it][1]+"px";
@@ -206,7 +233,7 @@ function moggle(boxIndex) {
                 while(numseg<0){numseg++;}
                 while(numseg>numberOfSegments-1){numseg--;}
                 document.getElementsByClassName("indic")[boxIndex].innerHTML = letters[numseg];
-                document.getElementsByClassName("audiodiv")[boxIndex].children[0].volume = volume;
+                document.getElementsByClassName("audiodiv")[boxIndex].children[0].volume = document.getElementById("slider").value/100;
                 document.getElementsByClassName("audiodiv")[boxIndex].children[0].src = "EG/"+ notes[1][numseg] +".mp3";
             }
             else {
@@ -223,7 +250,7 @@ function moggle(boxIndex) {
                 while(numseg<0){numseg++;}
                 while(numseg>numberOfSegments-1){numseg--;}
                 document.getElementsByClassName("indic")[boxIndex].innerHTML = letters[letters.length-1-numseg];
-                document.getElementsByClassName("audiodiv")[boxIndex].children[1].volume = volume;
+                document.getElementsByClassName("audiodiv")[boxIndex].children[1].volume = document.getElementById("slider").value/100;
                 document.getElementsByClassName("audiodiv")[boxIndex].children[1].src = "EG/"+ notes[3][numberOfSegments-1-numseg] +".mp3";
             }
             else {
@@ -240,7 +267,7 @@ function moggle(boxIndex) {
                 while(numseg<0){numseg++;}
                 while(numseg>numberOfSegments-1){numseg--;}
                 document.getElementsByClassName("indic")[boxIndex].innerHTML = letters[letters.length-1-numseg];
-                document.getElementsByClassName("audiodiv")[boxIndex].children[2].volume = volume;
+                document.getElementsByClassName("audiodiv")[boxIndex].children[2].volume = document.getElementById("slider").value/100;
                 document.getElementsByClassName("audiodiv")[boxIndex].children[2].src = "EG/"+ notes[2][numberOfSegments-1-numseg] +".mp3";
             }
             else {
@@ -257,7 +284,7 @@ function moggle(boxIndex) {
                 while(numseg<0){numseg++;}
                 while(numseg>numberOfSegments-1){numseg--;}
                 document.getElementsByClassName("indic")[boxIndex].innerHTML = letters[numseg];
-                document.getElementsByClassName("audiodiv")[boxIndex].children[3].volume = volume;
+                document.getElementsByClassName("audiodiv")[boxIndex].children[3].volume = document.getElementById("slider").value/100;
                 document.getElementsByClassName("audiodiv")[boxIndex].children[3].src = "EG/"+ notes[0][numseg] +".mp3";
             }
             else {
@@ -287,6 +314,10 @@ function moggle(boxIndex) {
     </head>
     <body>
         <h1 class="name">Musical Boxes</h1>
+        <div id="volumeControl" title="volume">
+            <div id="volTag">volume</div>
+            <input id="slider" type="range" min="0" max="25" value="20" step="0.25">
+        </div>
         <button class="button1" style="display: inline-block; width:140px;" onclick="moggleAll()" autofocus><img style="height: 40px" src="play_pause-512.png"></button><br>
 
         <button class="button1" style="display: inline-block; width: 70px;" onclick="moggle(0)"><img style="height: 20px" src="play_pause-512.png"> 1</button>
