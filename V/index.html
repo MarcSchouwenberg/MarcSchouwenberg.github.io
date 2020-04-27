@@ -108,6 +108,10 @@ https://www.dehippevegetarier.nl/
         	top: 10px;
         	padding: 5px;
         }
+        .btn2 {
+        	color: white;
+        	background-image: linear-gradient(to bottom right, red 30%, white);
+        }
 
 
 button {
@@ -164,8 +168,8 @@ function generate(){
 		var dezeGroente = maandkanjers[i];
 		if (document.getElementById("cb").checked) {
 			// VEGAN
-			document.getElementsByTagName("button")[1].style.display = "none";
-			document.getElementsByTagName("button")[3].style.display = "none";
+			document.getElementsByTagName("button")[2].style.display = "none";
+			document.getElementsByTagName("button")[4].style.display = "none";
 			document.getElementById("lenslist").style.display = "none";
 			document.getElementById("ahlist2").style.display = "none";
 			if ( "ahlist2" == document.getElementById("popup").className ) {
@@ -181,8 +185,8 @@ function generate(){
 			+"<td><a target='_blank' href='https://lisagoesvegan.com/?s=" + dezeGroente + "'>LisaGoesVegan</a></td>"
 		} else {
 			// VEGETARISCH
-			document.getElementsByTagName("button")[1].style.display = "inline-block";
-			document.getElementsByTagName("button")[3].style.display = "inline-block";
+			document.getElementsByTagName("button")[2].style.display = "inline-block";
+			document.getElementsByTagName("button")[4].style.display = "inline-block";
 			newRow.innerHTML = "<td>" + dezeGroente + "</td>"
 			+"<td><a target='_blank' href='https://www.google.com/search?q=vegetarisch+recept+" + dezeGroente + "'>Google</a></td>"
 			+"<td><a target='_blank' href='https://www.ah.nl/allerhande/recepten-zoeken/speciale-wensen:vegetarisch?Ntt=" + dezeGroente + "'>AH.nl</a></td>"
@@ -238,6 +242,10 @@ function createLists(){
 	}
 */
 	var searchQuery = document.getElementsByClassName("visible")[0].value.toLowerCase();
+	var filterQuery = "___________";
+	if (document.getElementsByClassName("visible")[1].value) {
+		filterQuery = document.getElementsByClassName("visible")[1].value.toLowerCase();
+	}
 
 	// Lekker & Simpel
 	var newList = document.createElement("div");
@@ -264,7 +272,8 @@ function createLists(){
 		}
 		if (print) {
 			// PRINT !!!!!!!!
-			if (title.toLowerCase().includes(searchQuery) || ingred.toLowerCase().includes(searchQuery)) {
+			if (( title.toLowerCase().includes(searchQuery) || ingred.toLowerCase().includes(searchQuery) )
+				&& !( title.toLowerCase().includes(filterQuery) || ingred.toLowerCase().includes(filterQuery) )) {
 				var newRec = document.createElement("span");
 				newRec.innerHTML = title + "<br>";
 				newRec.title = ingred;
@@ -300,7 +309,8 @@ function createLists(){
 		}
 		if (print) {
 			// PRINT !!!!!!!!
-			if (title.toLowerCase().includes(searchQuery) || ingred.toLowerCase().includes(searchQuery)) {
+			if (( title.toLowerCase().includes(searchQuery) || ingred.toLowerCase().includes(searchQuery) )
+				&& !( title.toLowerCase().includes(filterQuery) || ingred.toLowerCase().includes(filterQuery) )) {
 				var pic = document.createElement("div");
 				pic.innerHTML = "<img src='"+ahatjes[i][4]+"'>";
 				var newRec = document.createElement("span");
@@ -338,7 +348,8 @@ function createLists(){
 		}
 		if (print) {
 			// PRINT !!!!!!!!
-			if (title.toLowerCase().includes(searchQuery) || ingred.toLowerCase().includes(searchQuery)) {
+			if (( title.toLowerCase().includes(searchQuery) || ingred.toLowerCase().includes(searchQuery) )
+				&& !( title.toLowerCase().includes(filterQuery) || ingred.toLowerCase().includes(filterQuery) )) {
 				var pic = document.createElement("div");
 				pic.innerHTML = "<img src='"+vegahtjes[i][4]+"'>";
 				var newRec = document.createElement("span");
@@ -376,7 +387,8 @@ function createLists(){
 		}
 		if (print) {
 			// PRINT !!!!!!!!
-			if (title.toLowerCase().includes(searchQuery) || ingred.toLowerCase().includes(searchQuery)) {
+			if (( title.toLowerCase().includes(searchQuery) || ingred.toLowerCase().includes(searchQuery) )
+				&& !( title.toLowerCase().includes(filterQuery) || ingred.toLowerCase().includes(filterQuery) )) {
 				var pic = document.createElement("div");
 				pic.innerHTML = "<img src='"+vegaMisschienVegan[i][4]+"'>";
 				var newRec = document.createElement("span");
@@ -450,7 +462,12 @@ window.onload = function(){
 	<button class="btn" onclick="createLists()" type="submit">
 		zoek
 	</button>
-	<br/>
+
+<input autofocus class="visible" type="text" placeholder="filterterm..." value="soep" style="background-color: pink">
+<button class="btn btn2" onclick="createLists()" type="submit">
+	filter &#9003;
+</button>
+<br/>
 <!-- </form> -->
 
 <button onclick="roggle('lenslist')"><span id="num1"></span> Vegetarische 'Lekker en Simpel'-recepten met seizoensgroentes (en zonder buiten-het-seizoen-groentes):</button><br>
