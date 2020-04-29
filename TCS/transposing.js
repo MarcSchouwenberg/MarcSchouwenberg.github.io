@@ -86,7 +86,7 @@ function renderSong(){
 document.getElementsByTagName("title")[0].innerHTML = songinfo["songtitle"] + " - Transposable";
 
 var newParent = document.createElement("div");
-newParent.id = "parentDiv";
+newParent.id = "songContainer";
 
 var newSong = document.createElement("song");
 newSong.id = "song";
@@ -197,7 +197,7 @@ newParent.appendChild(newPar);
 newParent.appendChild(newButton);
 newParent.appendChild(newTable);
 
-document.getElementsByTagName("body")[0].replaceChild(newParent, document.getElementById("parentDiv"));
+document.getElementsByTagName("body")[0].replaceChild(newParent, document.getElementById("songContainer"));
     printTable();
     document.getElementsByTagName("select")[0].setAttribute("autofocus", true);
 

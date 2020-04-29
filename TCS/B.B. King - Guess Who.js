@@ -11,7 +11,6 @@ var songinfo = {
 
 [
 
-["TXT","DEEL1"],
 
 [ // !!!!! ELKE CEL BESTAAT UIT (TRANSPONEERBAAR) AKKOORD + EXTENSIE
 [["0", "___"]/*,["___", "___"]*//*,["___", "___"]*//*,["___", "___"]*/], // een maat (bestaande uit 4 cellen, soms leeg)
@@ -42,7 +41,6 @@ var songinfo = {
 ],
 
 ["BR"],
-["TXT","DEEL2"],
 
 [
 [["5", "___"]/*,["___", "___"]*//*,["___", "___"]*//*,["___", "___"]*/],

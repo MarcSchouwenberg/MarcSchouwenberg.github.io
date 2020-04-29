@@ -1,5 +1,5 @@
 var songinfo = {
-"songtitle": "Disney - A Whole New World",
+"songtitle": "A Whole New World (Alan Menken)",
 "key": "D",
 "min/maj": "",
 "time(signature)": "4/4",
@@ -35,14 +35,7 @@ var songinfo = {
 [[["0",""],["5","","/","0"],] , [["0",""],["2","m","/","0"],] , [["0",""],] , [["0",""],],],
 
 ["BR"],
-["TXT","(MODULATIE)!!"],
-["BR"],
-
-
-
-
-
-
+["TXT","(MODULATIE)"],
 
 ["BR"],
 ["TXT","VERSE"],

@@ -1,5 +1,5 @@
 var songinfo = {
-"songtitle": "Part of Your World",
+"songtitle": "Part of Your World (Alan Menken)",
 "key": "Bb",
 "min/maj": "",
 "time(signature)": "4/4",
