@@ -8,6 +8,7 @@ window.onload = function(){
 		var btn = document.createElement("button");
 		btn.id = opts[x][0];
 		btn.innerHTML = opts[x][1];
+		btn.title = opts[x][2];
 		btn.style.display = "block";
 		btn.addEventListener("click", function(){
 			changelist(this.id);
@@ -32,12 +33,12 @@ function gallerize(){
 	gallery.className = "gall_h";
 	document.getElementsByTagName("body")[0].replaceChild(gallery, document.getElementsByTagName("div")[1]);
 
-	pix.sort(function(a, b){return 0.5 - Math.random()});
+	pix.sort((a, b) => {return 0.5 - Math.random()});
 	var i = 0;
 	while (i<pix.length && i<50){
 		var item = document.createElement("div");
 		item.className = "slide";
-		item.style.height="800px";
+		item.style.height="50vh";
 		item.style.margin = "auto";
 		item.style.display = "inline-block";
 		item.style.verticalAlign = "top";
@@ -48,8 +49,8 @@ function gallerize(){
 		parent.style.overflow = "visible";
 		
 		// VERTICALe
-		pic.style.height = "94.5%";
-		parent.style.height = "94.5%";
+		pic.style.height = "100%";
+		parent.style.height = "100%";
 		
 		// HORIZONTAL
 		/*
@@ -69,13 +70,13 @@ function sliderize(){
 	var gallery = document.createElement("div");
 	gallery.className = "slider";
 	gallery.style.backgroundColor = "";
-	gallery.style.height = "800px";
+	gallery.style.height = "100vh";
 	gallery.style.maxWidth = "100%";
 	document.getElementsByTagName("body")[0].replaceChild(gallery, document.getElementsByTagName("div")[1]);
 
 	gallery.addEventListener("dblclick", next);
 
-	pix.sort(function(a, b){return 0.5 - Math.random()});
+	pix.sort((a, b) => {return 0.5 - Math.random()});
 
 	var pic = document.createElement("img");
 	pic.id="slide";
@@ -88,12 +89,12 @@ function sliderize(){
 
 	var btns = document.createElement("div");
 	var btn1 = document.createElement("button");
-	btn1.innerText = "Previous!";
+	btn1.innerText = "Previous";
 	btn1.id = "prev";
 	btn1.addEventListener("click", prev);
 	
 	var btn2 = document.createElement("button");
-	btn2.innerText = "Next!";
+	btn2.innerText = "Next";
 	btn2.id = "next";
 	btn2.addEventListener("click", next);
 	

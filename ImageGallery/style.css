@@ -4,8 +4,13 @@ html {
 body {
 	min-height: 100%;
 	background-image: linear-gradient(to bottom right, rgb(0,200,150) 30%, white);
+	margin: 0;
 }
 
+	button {
+		border: none;
+		padding: 3px 8px;
+	}
 	#menu {
 		position: fixed;
 		text-align: left;
@@ -13,20 +18,18 @@ body {
 		opacity: 0.7;
 	}
 	#prev, #next {
-		background-color:black;
+		background-color: black;
 		color: white;
 		border: none;
-		width: 500px;
+		width: 57vh;
 		display: block;
+		margin: auto;
 	}
 	#prevnext {
-		display: inline-block;
-		margin: auto;
 		position: fixed;
-		text-align: center;
-		right: 500px;
 		bottom: 0px;
 		opacity: 0.5;
+		width: 100%;
 	}
 	button {
 		font-family: tahoma;
