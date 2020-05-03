@@ -1,9 +1,23 @@
 var num = 0;
+var t;
+var timer = true;
+var intervalSecs = 10;
+var modus = 'slider';
 
 window.onload = function(){
+    document.getElementById("slider").oninput = function() {
+    	intervalSecs = this.value;
+    	if (timer) {
+    		clearInterval(t);
+    		t = setInterval(next, 1000 * intervalSecs);
+    	};
+    }
 	document.getElementsByTagName("body")[0].addEventListener("keydown", checkKey);
-	//gallerize();
-	sliderize();
+	if(modus=='slider'){
+		sliderize();
+	} else {
+		gallerize();
+	}
 	for (x=0 ; x<opts.length ; x++){
 		var btn = document.createElement("button");
 		btn.id = opts[x][0];
@@ -29,6 +43,8 @@ function render(){
 }
 
 function gallerize(){
+	if (timer) {clearInterval(t)};
+	document.getElementById("timer").style.display = 'none';
 	var gallery = document.createElement("div");
 	gallery.className = "gall_h";
 	document.getElementsByTagName("body")[0].replaceChild(gallery, document.getElementsByTagName("div")[1]);
@@ -67,6 +83,8 @@ function gallerize(){
 }
 
 function sliderize(){
+	if (timer) {t = setInterval(next, 1000 * intervalSecs)};
+	document.getElementById("timer").style.display = 'inline-block';
 	var gallery = document.createElement("div");
 	gallery.className = "slider";
 	gallery.style.backgroundColor = "";
@@ -110,6 +128,9 @@ function checkKey(e) {
 	switch(e.keyCode){
 		case 81 : // q
 		   togglemenu();
+		   break;
+		case 84 : // t
+		   toggleTimer();
 		   break;
 		case 83 : // s
 		   sliderize();
@@ -190,4 +211,15 @@ function toggleprevnext(){
 	if (document.getElementById("prevnext").style.display!="none"){
 		document.getElementById("prevnext").style.display="none";
 	} else {document.getElementById("prevnext").style.display="inline-block"};
+}
+function toggleTimer(){
+	if (timer) {
+		clearInterval(t);
+		document.getElementById("timerBtn").style.textDecoration = 'none';
+	} else {
+		t = setInterval(next, 1000 * intervalSecs);
+		document.getElementById("timerBtn").style.textDecoration = 'underline';
+	}
+	timer = !timer;
+	console.log("Timer ("+intervalSecs+"s) on? ", timer);
 }

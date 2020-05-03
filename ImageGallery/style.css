@@ -11,11 +11,38 @@ body {
 		border: none;
 		padding: 3px 8px;
 	}
-	#menu {
+	#menuBtn {
+		display: inline-block;
 		position: fixed;
 		text-align: left;
 		top: 0px;
+	}
+	#menu {
+		position: fixed;
+		text-align: left;
+		top: 40px;
 		opacity: 0.7;
+	}
+	#timer {
+		background-color: rgb(240, 240, 240);
+	}
+	input[type=range] {
+		appearance: none;
+		-webkit-appearance: none;
+		display: inline-block;
+		padding: 0px;
+		width: 100px;
+		background-color: rgb(240, 240, 240);
+	}
+	input[type=range]::-webkit-slider-thumb {
+		appearance: none;
+		-webkit-appearance: none;
+		height: 10px;
+		width: 10px;
+		border-radius: 2px;
+		background-image: linear-gradient(to top left, yellowgreen 30%, white);
+		border: 1px solid green;
+		cursor: grab;
 	}
 	#prev, #next {
 		background-color: black;
