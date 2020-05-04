@@ -1,5 +1,4 @@
 var list = [
-
 [
 "Nr",
 "Title",
@@ -19,7 +18,7 @@ var list = [
 "13",
 "1902",
 "Short, Action, Adventure, Comedy, Fantasy, Sci-Fi",
-"Georges Méliès"
+"Georges MÃ©liÃ¨s"
 ],
 
 [
@@ -112,13 +111,13 @@ var list = [
 
 [
 "10", //////////////
-"Körkarlen",
+"KÃ¶rkarlen",
 "movie",
 "8.1",
 "100",
 "1921",
 "Drama, Fantasy, Horror",
-"Victor Sjöström"
+"Victor SjÃ¶strÃ¶m"
 ],
 
 [
@@ -167,7 +166,7 @@ var list = [
 
 [
 "15", //////////////
-"Häxan",
+"HÃ¤xan",
 "movie",
 "7.7",
 "91",
@@ -409,7 +408,7 @@ var list = [
 
 [
 "37", //////////////
-"Napoléon vu par Abel Gance",
+"NapolÃ©on vu par Abel Gance",
 "movie",
 "7.6",
 "240",
@@ -470,7 +469,7 @@ var list = [
 "16",
 "1929",
 "Short, Fantasy, Horror",
-"Luis Buñuel"
+"Luis BuÃ±uel"
 ],
 
 [
@@ -519,7 +518,7 @@ var list = [
 
 [
 "47", //////////////
-"Die Büchse der Pandora",
+"Die BÃ¼chse der Pandora",
 "movie",
 "7.9",
 "109",
@@ -574,13 +573,13 @@ var list = [
 
 [
 "52", //////////////
-"L'âge d'or",
+"L'Ã¢ge d'or",
 "movie",
 "7.4",
 "60",
 "1930",
 "Comedy, Drama",
-"Luis Buñuel"
+"Luis BuÃ±uel"
 ],
 
 [
@@ -596,13 +595,13 @@ var list = [
 
 [
 "54", //////////////
-"À nous la liberté",
+"Ã€ nous la libertÃ©",
 "movie",
 "7.6",
 "104",
 "1931",
 "Comedy, Musical",
-"René Clair"
+"RenÃ© Clair"
 ],
 
 [
@@ -673,7 +672,7 @@ var list = [
 
 [
 "61", //////////////
-"M - Eine Stadt sucht einen Mörder",
+"M - Eine Stadt sucht einen MÃ¶rder",
 "movie",
 "8.3",
 "117",
@@ -706,7 +705,7 @@ var list = [
 
 [
 "64", //////////////
-"Boudu sauvé des eaux",
+"Boudu sauvÃ© des eaux",
 "movie",
 "7.4",
 "85",
@@ -827,7 +826,7 @@ var list = [
 
 [
 "75", //////////////
-"Zéro de conduite: Jeunes diables au collège",
+"ZÃ©ro de conduite: Jeunes diables au collÃ¨ge",
 "short",
 "7.4",
 "44",
@@ -866,7 +865,7 @@ var list = [
 "30",
 "1933",
 "Documentary, Short",
-"Luis Buñuel"
+"Luis BuÃ±uel"
 ],
 
 [
@@ -1146,7 +1145,7 @@ var list = [
 
 [
 "104", //////////////
-"Pépé le Moko",
+"PÃ©pÃ© le Moko",
 "movie",
 "7.7",
 "94",
@@ -1300,7 +1299,7 @@ var list = [
 
 [
 "118", //////////////
-"Olympia 1. Teil - Fest der Völker",
+"Olympia 1. Teil - Fest der VÃ¶lker",
 "movie",
 "8.0",
 "121",
@@ -1388,13 +1387,13 @@ var list = [
 
 [
 "126", //////////////
-"Le jour se lève",
+"Le jour se lÃ¨ve",
 "movie",
 "7.8",
 "93",
 "1939",
 "Crime, Drama, Romance, Thriller",
-"Marcel Carné"
+"Marcel CarnÃ©"
 ],
 
 [
@@ -1432,7 +1431,7 @@ var list = [
 
 [
 "130", //////////////
-"La règle du jeu",
+"La rÃ¨gle du jeu",
 "movie",
 "8.1",
 "110",
@@ -1955,7 +1954,7 @@ var list = [
 "189",
 "1945",
 "Drama, Romance",
-"Marcel Carné"
+"Marcel CarnÃ©"
 ],
 
 [
@@ -1982,7 +1981,7 @@ var list = [
 
 [
 "180", //////////////
-"Roma città aperta",
+"Roma cittÃ  aperta",
 "movie",
 "8.1",
 "103",
@@ -2004,7 +2003,7 @@ var list = [
 
 [
 "182", //////////////
-"Paisà",
+"PaisÃ ",
 "movie",
 "7.7",
 "126",
@@ -2026,13 +2025,13 @@ var list = [
 
 [
 "184", //////////////
-"La belle et la bête",
+"La belle et la bÃªte",
 "movie",
 "8.0",
 "96",
 "1946",
 "Drama, Fantasy, Romance",
-"René Clément, Jean Cocteau"
+"RenÃ© ClÃ©ment, Jean Cocteau"
 ],
 
 [
@@ -2186,7 +2185,7 @@ var list = [
 "87",
 "1948",
 "Drama, Romance",
-"Max Ophüls"
+"Max OphÃ¼ls"
 ],
 
 [
@@ -2329,7 +2328,7 @@ var list = [
 "82",
 "1949",
 "Crime, Drama, Film-Noir",
-"Max Ophüls"
+"Max OphÃ¼ls"
 ],
 
 [
@@ -2411,7 +2410,7 @@ var list = [
 
 [
 "219", //////////////
-"Orphée",
+"OrphÃ©e",
 "movie",
 "8.0",
 "95",
@@ -2433,7 +2432,7 @@ var list = [
 
 [
 "221", //////////////
-"Rashômon",
+"RashÃ´mon",
 "movie",
 "8.3",
 "88",
@@ -2494,7 +2493,7 @@ var list = [
 "85",
 "1950",
 "Crime, Drama",
-"Luis Buñuel"
+"Luis BuÃ±uel"
 ],
 
 [
@@ -2598,7 +2597,7 @@ var list = [
 
 [
 "236", //////////////
-"Journal d'un curé de campagne",
+"Journal d'un curÃ© de campagne",
 "movie",
 "8.0",
 "115",
@@ -2637,7 +2636,7 @@ var list = [
 "86",
 "1952",
 "Drama, War",
-"René Clément"
+"RenÃ© ClÃ©ment"
 ],
 
 [
@@ -2769,7 +2768,7 @@ var list = [
 "105",
 "1953",
 "Drama, Romance",
-"Max Ophüls"
+"Max OphÃ¼ls"
 ],
 
 [
@@ -2807,13 +2806,13 @@ var list = [
 
 [
 "255", //////////////
-"Tôkyô monogatari",
+"TÃ´kyÃ´ monogatari",
 "movie",
 "8.2",
 "136",
 "1953",
 "Drama",
-"Yasujirô Ozu"
+"YasujirÃ´ Ozu"
 ],
 
 [
@@ -2961,7 +2960,7 @@ var list = [
 
 [
 "269", //////////////
-"Sanshô dayû",
+"SanshÃ´ dayÃ»",
 "movie",
 "8.4",
 "124",
@@ -3038,13 +3037,13 @@ var list = [
 
 [
 "276", //////////////
-"Lola Montès",
+"Lola MontÃ¨s",
 "movie",
 "7.4",
 "116",
 "1955",
 "Biography, Drama, Romance",
-"Max Ophüls"
+"Max OphÃ¼ls"
 ],
 
 [
@@ -3104,7 +3103,7 @@ var list = [
 
 [
 "282", //////////////
-"Les maîtres fous",
+"Les maÃ®tres fous",
 "short",
 "6.8",
 "36",
@@ -3313,7 +3312,7 @@ var list = [
 
 [
 "301", //////////////
-"Un condamné à mort s'est échappé ou Le vent souffle où il veut",
+"Un condamnÃ© Ã  mort s'est Ã©chappÃ© ou Le vent souffle oÃ¹ il veut",
 "movie",
 "8.2",
 "101",
@@ -3379,7 +3378,7 @@ var list = [
 
 [
 "307", //////////////
-"Kumonosu-jô",
+"Kumonosu-jÃ´",
 "movie",
 "8.1",
 "110",
@@ -3434,7 +3433,7 @@ var list = [
 
 [
 "312", //////////////
-"Smultronstället",
+"SmultronstÃ¤llet",
 "movie",
 "8.2",
 "91",
@@ -3588,7 +3587,7 @@ var list = [
 
 [
 "326", //////////////
-"Popiól i diament",
+"PopiÃ³l i diament",
 "movie",
 "7.9",
 "103",
@@ -3682,7 +3681,7 @@ var list = [
 "99",
 "1959",
 "Crime, Drama",
-"François Truffaut"
+"FranÃ§ois Truffaut"
 ],
 
 [
@@ -3792,7 +3791,7 @@ var list = [
 "119",
 "1959",
 "Drama",
-"Yasujirô Ozu"
+"YasujirÃ´ Ozu"
 ],
 
 [
@@ -3863,7 +3862,7 @@ var list = [
 
 [
 "351", //////////////
-"À bout de souffle",
+"Ã€ bout de souffle",
 "movie",
 "7.9",
 "90",
@@ -3935,7 +3934,7 @@ var list = [
 "81",
 "1960",
 "Crime, Drama, Thriller",
-"François Truffaut"
+"FranÃ§ois Truffaut"
 ],
 
 [
@@ -3979,12 +3978,12 @@ var list = [
 "90",
 "1961",
 "Comedy, Drama",
-"Luis Buñuel"
+"Luis BuÃ±uel"
 ],
 
 [
 "362", //////////////
-"La jetée",
+"La jetÃ©e",
 "short",
 "8.3",
 "28",
@@ -4072,7 +4071,7 @@ var list = [
 
 [
 "370", //////////////
-"Såsom i en spegel",
+"SÃ¥som i en spegel",
 "movie",
 "8.1",
 "89",
@@ -4083,7 +4082,7 @@ var list = [
 
 [
 "371", //////////////
-"Chronique d'un été (Paris 1960)",
+"Chronique d'un Ã©tÃ© (Paris 1960)",
 "movie",
 "7.6",
 "85",
@@ -4094,7 +4093,7 @@ var list = [
 
 [
 "372", //////////////
-"L'année dernière à Marienbad",
+"L'annÃ©e derniÃ¨re Ã  Marienbad",
 "movie",
 "7.9",
 "94",
@@ -4105,13 +4104,13 @@ var list = [
 
 [
 "373", //////////////
-"Cléo de 5 à 7",
+"ClÃ©o de 5 Ã  7",
 "movie",
 "8.0",
 "90",
 "1962",
 "Comedy, Drama, Music",
-"Agnès Varda"
+"AgnÃ¨s Varda"
 ],
 
 [
@@ -4144,7 +4143,7 @@ var list = [
 "113",
 "1962",
 "Drama",
-"Yasujirô Ozu"
+"YasujirÃ´ Ozu"
 ],
 
 [
@@ -4237,13 +4236,13 @@ var list = [
 
 [
 "385", //////////////
-"El ángel exterminador",
+"El Ã¡ngel exterminador",
 "movie",
 "8.2",
 "95",
 "1962",
 "Drama, Fantasy",
-"Luis Buñuel"
+"Luis BuÃ±uel"
 ],
 
 [
@@ -4254,7 +4253,7 @@ var list = [
 "105",
 "1962",
 "Drama, Romance",
-"François Truffaut"
+"FranÃ§ois Truffaut"
 ],
 
 [
@@ -4281,7 +4280,7 @@ var list = [
 
 [
 "389", //////////////
-"8½",
+"8Â½",
 "movie",
 "8.1",
 "138",
@@ -4391,7 +4390,7 @@ var list = [
 
 [
 "399", //////////////
-"Le mépris",
+"Le mÃ©pris",
 "movie",
 "7.7",
 "103",
@@ -4446,7 +4445,7 @@ var list = [
 
 [
 "404", //////////////
-"Méditerranée",
+"MÃ©diterranÃ©e",
 "short",
 "6.2",
 "44",
@@ -4457,7 +4456,7 @@ var list = [
 
 [
 "405", //////////////
-"Yukinojô henge",
+"YukinojÃ´ henge",
 "movie",
 "7.5",
 "115",
@@ -4650,7 +4649,7 @@ var list = [
 "103",
 "1964",
 "Drama, Horror",
-"Kaneto Shindô"
+"Kaneto ShindÃ´"
 ],
 
 [
@@ -4672,7 +4671,7 @@ var list = [
 "128",
 "1965",
 "Drama, War",
-"Elmar Klos, Ján Kadár"
+"Elmar Klos, JÃ¡n KadÃ¡r"
 ],
 
 [
@@ -4699,7 +4698,7 @@ var list = [
 
 [
 "427", //////////////
-"Tôkyô orinpikku",
+"TÃ´kyÃ´ orinpikku",
 "movie",
 "8.0",
 "170",
@@ -4749,12 +4748,12 @@ var list = [
 "94",
 "1966",
 "Drama",
-"André Delvaux"
+"AndrÃ© Delvaux"
 ],
 
 [
 "432", //////////////
-"Alphaville, une étrange aventure de Lemmy Caution",
+"Alphaville, une Ã©trange aventure de Lemmy Caution",
 "movie",
 "7.2",
 "99",
@@ -4875,13 +4874,13 @@ var list = [
 
 [
 "443", //////////////
-"Sedmikrásky",
+"SedmikrÃ¡sky",
 "movie",
 "7.4",
 "74",
 "1966",
 "Comedy",
-"Vera Chytilová"
+"Vera ChytilovÃ¡"
 ],
 
 [
@@ -4941,7 +4940,7 @@ var list = [
 
 [
 "449", //////////////
-"Masculin féminin",
+"Masculin fÃ©minin",
 "movie",
 "7.6",
 "110",
@@ -4980,7 +4979,7 @@ var list = [
 "100",
 "1967",
 "Drama",
-"Luis Buñuel"
+"Luis BuÃ±uel"
 ],
 
 [
@@ -5007,13 +5006,13 @@ var list = [
 
 [
 "455", //////////////
-"Csillagosok, katonák",
+"Csillagosok, katonÃ¡k",
 "movie",
 "7.7",
 "90",
 "1967",
 "Drama, War",
-"Miklós Jancsó"
+"MiklÃ³s JancsÃ³"
 ],
 
 [
@@ -5051,7 +5050,7 @@ var list = [
 
 [
 "459", //////////////
-"Le samouraï",
+"Le samouraÃ¯",
 "movie",
 "8.1",
 "105",
@@ -5073,13 +5072,13 @@ var list = [
 
 [
 "461", //////////////
-"Ostre sledované vlaky",
+"Ostre sledovanÃ© vlaky",
 "movie",
 "7.7",
 "92",
 "1966",
 "Comedy, Drama, Romance, War",
-"Jirí Menzel"
+"JirÃ­ Menzel"
 ],
 
 [
@@ -5106,18 +5105,18 @@ var list = [
 
 [
 "464", //////////////
-"Marketa Lazarová",
+"Marketa LazarovÃ¡",
 "movie",
 "8.1",
 "162",
 "1967",
 "Drama, History, Romance",
-"Frantisek Vlácil"
+"Frantisek VlÃ¡cil"
 ],
 
 [
 "465", //////////////
-"Horí, má panenko",
+"HorÃ­, mÃ¡ panenko",
 "movie",
 "7.6",
 "73",
@@ -5244,7 +5243,7 @@ var list = [
 "97",
 "1968",
 "Drama",
-"Tomás Gutiérrez Alea"
+"TomÃ¡s GutiÃ©rrez Alea"
 ],
 
 [
@@ -5392,7 +5391,7 @@ var list = [
 
 [
 "490", //////////////
-"Xia nü",
+"Xia nÃ¼",
 "movie",
 "7.6",
 "200",
@@ -5425,13 +5424,13 @@ var list = [
 
 [
 "493", //////////////
-"Lucía",
+"LucÃ­a",
 "movie",
 "7.2",
 "160",
 "1968",
 "Drama",
-"Humberto Solás"
+"Humberto SolÃ¡s"
 ],
 
 [
@@ -5464,7 +5463,7 @@ var list = [
 "110",
 "1969",
 "Comedy, Drama, Romance",
-"Éric Rohmer"
+"Ã‰ric Rohmer"
 ],
 
 [
@@ -5475,7 +5474,7 @@ var list = [
 "99",
 "1970",
 "Drama",
-"Luis Buñuel"
+"Luis BuÃ±uel"
 ],
 
 [
@@ -5689,13 +5688,13 @@ var list = [
 
 [
 "517", //////////////
-"Le chagrin et la pitié",
+"Le chagrin et la pitiÃ©",
 "movie",
 "8.3",
 "251",
 "1969",
 "Documentary, History, War",
-"Marcel Ophüls"
+"Marcel OphÃ¼ls"
 ],
 
 [
@@ -5788,13 +5787,13 @@ var list = [
 
 [
 "526", //////////////
-"Még kér a nép",
+"MÃ©g kÃ©r a nÃ©p",
 "movie",
 "7.0",
 "87",
 "1972",
 "Drama, Musical, War",
-"Miklós Jancsó"
+"MiklÃ³s JancsÃ³"
 ],
 
 [
@@ -5959,7 +5958,7 @@ var list = [
 "102",
 "1972",
 "Comedy",
-"Luis Buñuel"
+"Luis BuÃ±uel"
 ],
 
 [
@@ -5986,7 +5985,7 @@ var list = [
 
 [
 "544", //////////////
-"Die bitteren Tränen der Petra von Kant",
+"Die bitteren TrÃ¤nen der Petra von Kant",
 "movie",
 "7.8",
 "124",
@@ -6184,13 +6183,13 @@ var list = [
 
 [
 "562", //////////////
-"La nuit américaine",
+"La nuit amÃ©ricaine",
 "movie",
 "8.0",
 "116",
 "1973",
 "Comedy, Drama, Romance",
-"François Truffaut"
+"FranÃ§ois Truffaut"
 ],
 
 [
@@ -6234,7 +6233,7 @@ var list = [
 "89",
 "1973",
 "Documentary",
-"Gary Graver, Oja Kodar, François Reichenbach, Orson Welles"
+"Gary Graver, Oja Kodar, FranÃ§ois Reichenbach, Orson Welles"
 ],
 
 [
@@ -6261,13 +6260,13 @@ var list = [
 
 [
 "569", //////////////
-"El espíritu de la colmena",
+"El espÃ­ritu de la colmena",
 "movie",
 "8.0",
 "98",
 "1973",
 "Drama, Fantasy",
-"Víctor Erice"
+"VÃ­ctor Erice"
 ],
 
 [
@@ -6283,13 +6282,13 @@ var list = [
 
 [
 "571", //////////////
-"La planète sauvage",
+"La planÃ¨te sauvage",
 "movie",
 "7.8",
 "72",
 "1973",
 "Animation, Sci-Fi",
-"René Laloux"
+"RenÃ© Laloux"
 ],
 
 [
@@ -6426,7 +6425,7 @@ var list = [
 
 [
 "584", //////////////
-"Céline et Julie vont en bateau: Phantom Ladies Over Paris",
+"CÃ©line et Julie vont en bateau: Phantom Ladies Over Paris",
 "movie",
 "7.7",
 "193",
@@ -6569,7 +6568,7 @@ var list = [
 
 [
 "597", //////////////
-"Salò o le 120 giornate di Sodoma",
+"SalÃ² o le 120 giornate di Sodoma",
 "movie",
 "6.0",
 "117",
@@ -6580,7 +6579,7 @@ var list = [
 
 [
 "598", //////////////
-"Cría cuervos",
+"CrÃ­a cuervos",
 "movie",
 "8.1",
 "105",
@@ -6712,13 +6711,13 @@ var list = [
 
 [
 "610", //////////////
-"Ai no korîda",
+"Ai no korÃ®da",
 "movie",
 "6.6",
 "109",
 "1976",
 "Drama, Romance",
-"Nagisa Ôshima"
+"Nagisa Ã”shima"
 ],
 
 [
@@ -7152,7 +7151,7 @@ var list = [
 
 [
 "650", //////////////
-"Cristo si è fermato a Eboli",
+"Cristo si Ã¨ fermato a Eboli",
 "movie",
 "7.8",
 "150",
@@ -7180,7 +7179,7 @@ var list = [
 "142",
 "1979",
 "Drama, War",
-"Volker Schlöndorff"
+"Volker SchlÃ¶ndorff"
 ],
 
 [
@@ -7240,13 +7239,13 @@ var list = [
 
 [
 "658", //////////////
-"Le dernier métro",
+"Le dernier mÃ©tro",
 "movie",
 "7.4",
 "131",
 "1980",
 "Drama, Romance, War",
-"François Truffaut"
+"FranÃ§ois Truffaut"
 ],
 
 [
@@ -7449,13 +7448,13 @@ var list = [
 
 [
 "677", //////////////
-"Trop tôt/Trop tard",
+"Trop tÃ´t/Trop tard",
 "movie",
 "6.0",
 "100",
 "1982",
 "Documentary",
-"Danièle Huillet, Jean-Marie Straub"
+"DaniÃ¨le Huillet, Jean-Marie Straub"
 ],
 
 [
@@ -7477,7 +7476,7 @@ var list = [
 "114",
 "1982",
 "Drama",
-"Serif Gören, Yilmaz Güney"
+"Serif GÃ¶ren, Yilmaz GÃ¼ney"
 ],
 
 [
@@ -7658,13 +7657,13 @@ var list = [
 
 [
 "696", //////////////
-"Narayama bushikô",
+"Narayama bushikÃ´",
 "movie",
 "7.9",
 "130",
 "1983",
 "Drama",
-"Shôhei Imamura"
+"ShÃ´hei Imamura"
 ],
 
 [
@@ -7862,7 +7861,7 @@ var list = [
 "141",
 "1984",
 "Biography, Drama, History, War",
-"Roland Joffé"
+"Roland JoffÃ©"
 ],
 
 [
@@ -7900,7 +7899,7 @@ var list = [
 
 [
 "718", //////////////
-"Tóngnián wangshì",
+"TÃ³ngniÃ¡n wangshÃ¬",
 "movie",
 "7.8",
 "138",
@@ -8027,7 +8026,7 @@ var list = [
 "105",
 "1985",
 "Drama, Romance",
-"Agnès Varda"
+"AgnÃ¨s Varda"
 ],
 
 [
@@ -8164,7 +8163,7 @@ var list = [
 
 [
 "742", //////////////
-"Le déclin de l'empire américain",
+"Le dÃ©clin de l'empire amÃ©ricain",
 "movie",
 "7.3",
 "101",
@@ -8258,7 +8257,7 @@ var list = [
 "114",
 "1985",
 "Comedy",
-"Jûzô Itami"
+"JÃ»zÃ´ Itami"
 ],
 
 [
@@ -8302,7 +8301,7 @@ var list = [
 "105",
 "1987",
 "Drama, Fantasy",
-"Souleymane Cissé"
+"Souleymane CissÃ©"
 ],
 
 [
@@ -8318,7 +8317,7 @@ var list = [
 
 [
 "756", //////////////
-"Der Himmel über Berlin",
+"Der Himmel Ã¼ber Berlin",
 "movie",
 "8.1",
 "128",
@@ -8384,7 +8383,7 @@ var list = [
 
 [
 "762", //////////////
-"Babettes gæstebud",
+"Babettes gÃ¦stebud",
 "movie",
 "7.8",
 "103",
@@ -8483,13 +8482,13 @@ var list = [
 
 [
 "771", //////////////
-"Hôtel Terminus",
+"HÃ´tel Terminus",
 "movie",
 "7.8",
 "267",
 "1988",
 "Documentary, Biography, History, War",
-"Marcel Ophüls"
+"Marcel OphÃ¼ls"
 ],
 
 [
@@ -8500,7 +8499,7 @@ var list = [
 "88",
 "1988",
 "Comedy, Drama",
-"Pedro Almodóvar"
+"Pedro AlmodÃ³var"
 ],
 
 [
@@ -8533,7 +8532,7 @@ var list = [
 "72",
 "1988",
 "Comedy, Crime, Romance",
-"Aki Kaurismäki"
+"Aki KaurismÃ¤ki"
 ],
 
 [
@@ -8555,7 +8554,7 @@ var list = [
 "124",
 "1988",
 "Animation, Drama, Sci-Fi, Thriller",
-"Katsuhiro Ôtomo"
+"Katsuhiro Ã”tomo"
 ],
 
 [
@@ -8879,7 +8878,7 @@ var list = [
 
 [
 "807", //////////////
-"Beiqíng chéngshì",
+"BeiqÃ­ng chÃ©ngshÃ¬",
 "movie",
 "8.0",
 "157",
@@ -9154,7 +9153,7 @@ var list = [
 
 [
 "832", //////////////
-"La double vie de Véronique",
+"La double vie de VÃ©ronique",
 "movie",
 "7.8",
 "98",
@@ -9259,7 +9258,7 @@ var list = [
 "114",
 "1992",
 "Drama",
-"Éric Rohmer"
+"Ã‰ric Rohmer"
 ],
 
 [
@@ -9286,13 +9285,13 @@ var list = [
 
 [
 "844", //////////////
-"C'est arrivé près de chez vous",
+"C'est arrivÃ© prÃ¨s de chez vous",
 "movie",
 "7.5",
 "95",
 "1992",
 "Comedy, Crime, Drama, Horror",
-"Rémy Belvaux, André Bonzel, Benoît Poelvoorde"
+"RÃ©my Belvaux, AndrÃ© Bonzel, BenoÃ®t Poelvoorde"
 ],
 
 [
@@ -9413,7 +9412,7 @@ var list = [
 "98",
 "1993",
 "Biography, Drama, Music",
-"François Girard"
+"FranÃ§ois Girard"
 ],
 
 [
@@ -9457,7 +9456,7 @@ var list = [
 "110",
 "1994",
 "Drama",
-"André Téchiné"
+"AndrÃ© TÃ©chinÃ©"
 ],
 
 [
@@ -9550,13 +9549,13 @@ var list = [
 
 [
 "868", //////////////
-"Sátántangó",
+"SÃ¡tÃ¡ntangÃ³",
 "movie",
 "8.5",
 "450",
 "1994",
 "Drama",
-"Béla Tarr"
+"BÃ©la Tarr"
 ],
 
 [
@@ -9737,7 +9736,7 @@ var list = [
 
 [
 "885", //////////////
-"Xích lô",
+"XÃ­ch lÃ´",
 "movie",
 "7.3",
 "123",
@@ -9814,7 +9813,7 @@ var list = [
 
 [
 "892", //////////////
-"Kjærlighetens kjøtere",
+"KjÃ¦rlighetens kjÃ¸tere",
 "movie",
 "7.4",
 "118",
@@ -10007,7 +10006,7 @@ var list = [
 "117",
 "1997",
 "Drama, Mystery, Thriller",
-"Alejandro Amenábar"
+"Alejandro AmenÃ¡bar"
 ],
 
 [
@@ -10139,7 +10138,7 @@ var list = [
 "81",
 "1999",
 "Horror, Mystery",
-"Eduardo Sánchez, Daniel Myrick"
+"Eduardo SÃ¡nchez, Daniel Myrick"
 ],
 
 [
@@ -10199,7 +10198,7 @@ var list = [
 
 [
 "927", //////////////
-"Ôdishon",
+"Ã”dishon",
 "movie",
 "7.2",
 "115",
@@ -10238,7 +10237,7 @@ var list = [
 "101",
 "1999",
 "Drama",
-"Pedro Almodóvar"
+"Pedro AlmodÃ³var"
 ],
 
 [
@@ -10260,7 +10259,7 @@ var list = [
 "82",
 "2000",
 "Documentary",
-"Agnès Varda"
+"AgnÃ¨s Varda"
 ],
 
 [
@@ -10326,7 +10325,7 @@ var list = [
 "154",
 "2000",
 "Drama, Thriller",
-"Alejandro G. Iñárritu"
+"Alejandro G. IÃ±Ã¡rritu"
 ],
 
 [
@@ -10414,7 +10413,7 @@ var list = [
 "130",
 "2002",
 "Crime, Drama",
-"Kátia Lund, Fernando Meirelles"
+"KÃ¡tia Lund, Fernando Meirelles"
 ],
 
 [
@@ -10425,7 +10424,7 @@ var list = [
 "112",
 "2002",
 "Drama, Mystery, Romance",
-"Pedro Almodóvar"
+"Pedro AlmodÃ³var"
 ],
 
 [
@@ -10496,7 +10495,7 @@ var list = [
 
 [
 "954", //////////////
-"Moolaadé",
+"MoolaadÃ©",
 "movie",
 "7.7",
 "124",
@@ -10595,7 +10594,7 @@ var list = [
 
 [
 "963", //////////////
-"Låt den rätte komma in",
+"LÃ¥t den rÃ¤tte komma in",
 "movie",
 "7.9",
 "114",
@@ -10645,7 +10644,7 @@ var list = [
 "90",
 "2010",
 "Documentary",
-"Patricio Guzmán"
+"Patricio GuzmÃ¡n"
 ],
 
 [
@@ -10711,12 +10710,12 @@ var list = [
 "91",
 "2013",
 "Drama, Sci-Fi, Thriller",
-"Alfonso Cuarón"
+"Alfonso CuarÃ³n"
 ],
 
 [
 "974", //////////////
-"La vie d'Adèle",
+"La vie d'AdÃ¨le",
 "movie",
 "7.8",
 "180",
@@ -10766,7 +10765,7 @@ var list = [
 "119",
 "2014",
 "Comedy, Drama",
-"Alejandro G. Iñárritu"
+"Alejandro G. IÃ±Ã¡rritu"
 ],
 
 [
@@ -10799,7 +10798,7 @@ var list = [
 "107",
 "2015",
 "Drama, War",
-"László Nemes"
+"LÃ¡szlÃ³ Nemes"
 ],
 
 [
@@ -11021,5 +11020,4 @@ var list = [
 "Action, Adventure, Sci-Fi",
 "Ryan Coogler"
 ],
-
 ]
