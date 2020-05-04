@@ -221,5 +221,13 @@ function toggleTimer(){
 		document.getElementById("timerBtn").style.textDecoration = 'underline';
 	}
 	timer = !timer;
-	console.log("Timer ("+intervalSecs+"s) on? ", timer);
+	console.log("Timer ("+intervalSecs+"s) on?", timer);
+}
+function autoHide(){
+	document.getElementById("menuBtn").style.opacity = 1;
+	document.getElementById("menu").style.opacity = 0.7;
+	setTimeout(() => {
+		document.getElementById("menuBtn").style.opacity = 0;
+		document.getElementById("menu").style.opacity = 0;
+	}, 1000 * 30);
 }

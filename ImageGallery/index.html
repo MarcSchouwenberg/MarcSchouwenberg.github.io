@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html onmousemove="autoHide()">
 	<head>
 		<title>Image Gallery</title>
 
@@ -20,7 +20,7 @@
 		<button onclick="gallerize()" id="">GALLERY</button><br>
 		<button onclick="sliderize()" id="">SLIDER</button><span id="timer">
 			<button onclick="toggleTimer()" style="text-decoration: underline;" id="timerBtn">timer</button>
-			<input id="slider" type="range" min="1" max="60" value="10"><br>
+			<input title="interval (in sec)" id="slider" type="range" min="1" max="60" value="10"><br>
 		</span>
 	</span><br>
 </div>
