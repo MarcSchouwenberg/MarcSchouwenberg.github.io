@@ -1,5 +1,4 @@
 var list = [
-
 [
 "Nr",
 "Title",
@@ -11021,5 +11020,4 @@ var list = [
 "Action, Adventure, Sci-Fi",
 "Ryan Coogler"
 ],
-
 ]
