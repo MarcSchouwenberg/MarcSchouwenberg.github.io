@@ -1,68 +1,76 @@
-		var notes = ["C ", "G ", "D ", "A ", "E ", "B ", "F&#9839", "C&#9839", "G&#9839", "D&#9839", "A&#9839", "F "]
-		// var notes = ["C ", "G ", "D ", "A ", "E ", "B ", "F#", "C#", "G#", "D#", "A#", "F "]
+var notes = ["C", "G", "D", "A", "E", "B", "F&#9839", "C&#9839", "G&#9839", "D&#9839", "A&#9839", "F"]
+// var notes = ["C ", "G ", "D ", "A ", "E ", "B ", "F#", "C#", "G#", "D#", "A#", "F "]
+var child;
+var parent;
 
-        function generate(){
-            
-			// GENERATE TONEROWS
-            //NUMS MAKEN (1,2,3,4,5,6,7,8,9,10,11,12)
-            var nums = [];
-            for (i = 0; i < 12; i++){
-                nums[i] = i+1;
-            }
-               
-            //RANDOMIZE
-            nums.sort(function(a, b){return 0.5 - Math.random()});
+function generate(){
+	// GENERATE TONEROWS
+	//NUMS MAKEN (1,2,3,4,5,6,7,8,9,10,11,12)
+	var nums = [];
+	for (i = 0; i < 12; i++){
+		nums[i] = i+1;
+	}
+	   
+	//RANDOMIZE
+	nums.sort(function(a, b){return 0.5 - Math.random()});
 
-            //INVERTED MAKEN
-            var inv = [];
-            
-            inv[0] = nums[0];   
+	//INVERTED MAKEN
+	var inv = [];
+	
+	inv[0] = nums[0];
 
-            for (i=1;i<12;i++){
-                var n = nums[0]*2-nums[i];
-                while(n>12){n-=12;}
-                while(n<1){n+=12;}
-                inv[i]=n;
-            }
+	for (i=1;i<12;i++){
+		var n = nums[0]*2-nums[i];
+		while(n>12){n-=12;}
+		while(n<1){n+=12;}
+		inv[i]=n;
+	}
 
-                // console.log("indexes van nums: "+nums+"\n");
+	// console.log("indexes van nums: "+nums+"\n");
 
-                var pri = document.createElement("span");
-                for (j = 0; j<12; j++){
-                    var target = document.getElementById("prime").children[1];
-                	pri.innerHTML += notes[nums[j]-1] + " ";
-                }
-                document.getElementById("prime").replaceChild(pri, target);
+	child = document.createElement("span");
+	parent = document.getElementById("pr");
+	for (j = 0; j<12; j++){
+		var newNote = document.createElement("span");
+		newNote.innerHTML = notes[nums[j]-1];
+		child.appendChild(newNote);
+	}
+	parent.replaceChild(child, parent.children[1]);
 
-                // nums.sort();
-                nums.reverse();
-                // console.log("indexes van rev: "+nums+"\n");
+	// nums.sort();
+	nums.reverse();
+	// console.log("indexes van rev: "+nums+"\n");
 
-                var ret = document.createElement("span");
-                for (j = 0; j<12; j++){
-                    var target = document.getElementById("retrograde").children[1];
-                	ret.innerHTML += notes[nums[j]-1] + " ";
-                }
-                document.getElementById("retrograde").replaceChild(ret, target);
+	child = document.createElement("span");
+	parent = document.getElementById("re");
+	for (j = 0; j<12; j++){
+		var newNote = document.createElement("span");
+		newNote.innerHTML = notes[nums[j]-1];
+		child.appendChild(newNote);
+	}
+	parent.replaceChild(child, parent.children[1]);
 
-                // console.log("indexes van inv: "+inv+"\n");
-               
-                var invrs = document.createElement("span");
-                for (j = 0; j<12; j++){
-                    var target = document.getElementById("inversion").children[1];
-                	invrs.innerHTML += notes[inv[j]-1] + " ";
-                }
-                document.getElementById("inversion").replaceChild(invrs, target);
+	// console.log("indexes van inv: "+inv+"\n");
+	   
+	child = document.createElement("span");
+	parent = document.getElementById("iv");
+	for (j = 0; j<12; j++){
+		var newNote = document.createElement("span");
+		newNote.innerHTML = notes[inv[j]-1];
+		child.appendChild(newNote);
+	}
+	parent.replaceChild(child, parent.children[1]);
 
-                // inv.sort();
-                inv.reverse();
+	// inv.sort();
+	inv.reverse();
+	// console.log("indexes van inv: "+inv+"\n");
 
-                // console.log("indexes van inv: "+inv+"\n");
-
-                var invret = document.createElement("span");
-                for (j = 0; j<12; j++){
-                    var target = document.getElementById("invertedretrograde").children[1];
-                	invret.innerHTML += notes[inv[j]-1] + " ";
-                }
-                document.getElementById("invertedretrograde").replaceChild(invret, target);
-		}
+	child = document.createElement("span");
+	parent = document.getElementById("ir");
+	for (j = 0; j<12; j++){
+		var newNote = document.createElement("span");
+		newNote.innerHTML = notes[inv[j]-1];
+		child.appendChild(newNote);
+	}
+	parent.replaceChild(child, parent.children[1]);
+}
