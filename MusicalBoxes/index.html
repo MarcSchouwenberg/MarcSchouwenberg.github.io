@@ -15,19 +15,19 @@
     border-radius: 25px;
 }
 #box1 {
-    left: 300px;
+    left: 190px;
     top: 160px;
 }
 #box2 {
-    left: 750px;
+    left: 640px;
     top: 160px;
 }
 #box3 {
-    left: 300px;
+    left: 190px;
     top: 510px;
 }
 #box4 {
-    left: 650px;
+    left: 540px;
     top: 610px;
 }
 
@@ -108,6 +108,7 @@ var kwadranten = [];
 var myBooleans = [false,false,false,false];
 var numberOfSegments = letters.length;
 var speed = 5;
+var cdInterval;
 
 window.onload = function() {
     document.getElementById("slider").oninput = function() {
@@ -189,15 +190,25 @@ window.onload = function() {
 
 
 
-
-function moggleAll() {
-    for (var i = 1; i < document.getElementsByTagName("button").length; i++) {
-        if (document.getElementsByTagName("button")[i].style.display == "inline-block") {
-            document.getElementsByTagName("button")[i].click();
+function countDown() {
+    var cdS = document.getElementById("cdS");
+    clearInterval(cdInterval);
+    cdInterval = setInterval(() => {
+        if(document.getElementById("cdS").value > 1){
+            document.getElementById("cdS").value--;
+        } else {
+            clearInterval(cdInterval);
+            cdS.value = "";
+            stopAll();
         }
-    }
+    }, 1000)
 }
 
+function moggleAll() {
+    for (var i = 0; i < myBooleans.length; i++) {
+        moggle(i);
+    }
+}
 
 
 
@@ -211,18 +222,12 @@ function moggle(boxIndex) {
     } else {
         myBooleans[boxIndex] = true;
 
-
-
-
-
-
         var ball = document.getElementsByClassName("ball")[boxIndex];
 
         if(kwadranten[boxIndex][0]){timers[boxIndex][0] = setInterval(moveRight, speed);}
         else {timers[boxIndex][1] = setInterval(moveLeft, speed);}
         if(kwadranten[boxIndex][1]){timers[boxIndex][2] = setInterval(moveDown, speed);}
         else {timers[boxIndex][3] = setInterval(moveUp, speed);}
-
 
         function moveRight() {
             if(coordinates[boxIndex][0] >= (boxSizes[boxIndex][0]-ballSize)) {
@@ -292,22 +297,16 @@ function moggle(boxIndex) {
                 ball.style.top = coordinates[boxIndex][1]+'px';
             }
         }
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
+function stopAll(){
+    for (var i = 0; i < myBooleans.length; i++) {
+        if (myBooleans[i]){
+            moggle(i);
+        }
+    }
+}
 
 
         </script>
@@ -318,12 +317,17 @@ function moggle(boxIndex) {
             <div id="volTag">volume</div>
             <input id="slider" type="range" min="0" max="25" value="20" step="0.25">
         </div>
-        <button class="button1" style="display: inline-block; width:140px;" onclick="moggleAll()" autofocus><img style="height: 40px" src="play_pause-512.png"></button><br>
+        <div>
+            <input onchange="countDown()" style="width: 126px;" type="number" placeholder="sec" title="countdown (in sec)" id="cdS" name="cdS" min="1" max="7200">
+        </div>
+        <button class="button1" style="display: inline-block; width:150px;" onclick="moggleAll()" autofocus><img style="height: 40px" src="play_pause-512.png"></button><br>
 
         <button class="button1" style="display: inline-block; width: 70px;" onclick="moggle(0)"><img style="height: 20px" src="play_pause-512.png"> 1</button>
         <button class="button1" style="display: inline-block; width: 70px;" onclick="moggle(1)"><img style="height: 20px" src="play_pause-512.png"> 2</button><br>
         <button class="button1" style="display: inline-block; width: 70px;" onclick="moggle(2)"><img style="height: 20px" src="play_pause-512.png"> 3</button>
         <button class="button1" style="display: inline-block; width: 70px;" onclick="moggle(3)"><img style="height: 20px" src="play_pause-512.png"> 4</button><br>
+
+        <button class="button1" style="display: inline-block; width:150px;" onclick="stopAll()" autofocus="">STOP</button>
         <div class="box" id="box1">
             <div class="ball" id="ball1"></div>
             <div class="indic" id="indic1">1</div>
