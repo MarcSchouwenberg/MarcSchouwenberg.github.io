@@ -2,6 +2,7 @@ var list = [
 
 
 [
+[0,2],
 "Name",
 "Location",
 "Country",

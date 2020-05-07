@@ -27,7 +27,7 @@ function render(){
     var newRow = document.createElement("tr");
     newRow.style.backgroundColor = "green";
     newRow.style.color = "white";
-    for (var j = 0; j < list[0].length; j++) {
+    for (var j = 1; j < list[0].length; j++) {
         var newData = document.createElement("td");
         newData.innerHTML = list[0][j];
         newRow.appendChild(newData);
@@ -37,7 +37,15 @@ function render(){
         var newRow = document.createElement("tr");
         for (var j = 0; j < list[i].length; j++) {
             var newData = document.createElement("td");
-            newData.innerHTML = list[i][j];
+            if (j==list[0][0][0]) {
+                var newLink = document.createElement("a");
+                newLink.href = "https://www.google.com/search?q=" + encodeURIComponent(list[i][j]) + " " + encodeURIComponent(list[i][list[0][0][1]]);
+                newLink.target = "_blank";
+                newLink.innerText = list[i][j];
+                newData.appendChild(newLink);
+            } else {
+                newData.innerHTML = list[i][j];
+            }
             newRow.appendChild(newData);
         }
         if (i%2==0) {
