@@ -7,6 +7,8 @@ window.onload = function(){
         newButton.id = i;
         newButton.onclick = function(){changelist(this.id)};
         newButton.innerHTML = opts[i][0] + "&#133";
+        newButton.style.display = "block";
+        newButton.style.animationDelay = (i/5)+'s';
         document.getElementById("buttons").appendChild(newButton);
     }
 }
@@ -39,6 +41,11 @@ function render(){
             var newData = document.createElement("td");
             if (j==list[0][0][0]) {
                 var newLink = document.createElement("a");
+                newLink.href = "https://www.google.com/search?q=" + encodeURIComponent(list[i][j]) + " " + encodeURIComponent(list[i][list[0][0][1]]) + "&tbm=isch";
+                newLink.target = "_blank";
+                newLink.innerHTML = "<img style='height: 15px; margin-right: 5px' src='img.png'>";
+                newData.appendChild(newLink);
+                newLink = document.createElement("a");
                 newLink.href = "https://www.google.com/search?q=" + encodeURIComponent(list[i][j]) + " " + encodeURIComponent(list[i][list[0][0][1]]);
                 newLink.target = "_blank";
                 newLink.innerText = list[i][j];

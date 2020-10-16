@@ -9,9 +9,25 @@
     <script id="srclist" src=""></script>
 
 	<style type="text/css">
-	a {
-		text-decoration: none;
-	}
+		button {
+			position: relative;
+			right: 420px;
+			animation-name: slide;
+			animation-duration: 0.75s;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: forwards;
+		}
+		button:hover {
+			transform: scale(1.05);
+		}
+		@keyframes slide {
+			from {right: 420px;}
+			80% {right: -50px;}
+			to {right: 0px;}
+		}
+		a {
+			text-decoration: none;
+		}
 	</style>
 </head>
 <body>
