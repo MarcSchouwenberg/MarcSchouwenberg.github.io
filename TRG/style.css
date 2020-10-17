@@ -7,7 +7,6 @@
 	color: white;
 	border: 1px solid lightgreen;
 	padding: 5px;
-	text-align: center;
 }
 #container span span {
 	font-size: 22px;
@@ -17,6 +16,14 @@
 }
 .label {
 	font-size: 30px;
-	display: block;
 	margin: 10px 0 10px;
+}
+
+div span {
+	display: flex;
+	justify-content: center;
+}
+
+#re span, #ir span {
+	flex-direction: row-reverse;
 }
