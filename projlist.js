@@ -8,6 +8,7 @@ var prjcts = [
 ["MusicalBoxes", "Musical Boxes", "mb"],
 ["ImageGallery", "Image Gallery", "ig"],
 ["SBA-open-angu-layers", "Open Layers", "oal"],
+["SBA-open-angu-layers-2", "Open Layers 2", "oal2"],
 ["SBA-angular-foonwinkel", "Phone Store", "foon"],
 ["SBA-angular-tomh", "Tour of Heroes", "tomh"],
 ["SBR-vegahrec", "VegAH Receptenzoeker", "vegah"],
