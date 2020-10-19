@@ -30,6 +30,8 @@ https://www.dehippevegetarier.nl/
 		<script src="veganHoofdgerechtenAH.js"></script>
 		<script src="vegaHoofdgerechtenAH.js"></script>
 		<script src="vegaMisschienVeganHoofdgerechtenAH.js"></script>
+		<script src="lassieVegan.js"></script>
+		<script src="lassieVega.js"></script>
         <link rel="icon" type="image/png" href="../ghpdot.png">
         <style>
 		html {
@@ -55,8 +57,8 @@ https://www.dehippevegetarier.nl/
         	background-color: lightgrey;
         }
         #popup img {
-        	/*width: 100px;*/
-        	height: 300px;
+        	width: 450px;
+        	/*height: 300px;*/
         }
         p {
         	/*display: inline-block;*/
@@ -170,8 +172,10 @@ function generate(){
 			// VEGAN
 			document.getElementsByTagName("button")[2].style.display = "none";
 			document.getElementsByTagName("button")[4].style.display = "none";
+			document.getElementsByTagName("button")[7].style.display = "none";
 			document.getElementById("lenslist").style.display = "none";
 			document.getElementById("ahlist2").style.display = "none";
+			document.getElementById("lassie2").style.display = "none";
 			if ( "ahlist2" == document.getElementById("popup").className ) {
 				killPopup();
 			}
@@ -187,6 +191,7 @@ function generate(){
 			// VEGETARISCH
 			document.getElementsByTagName("button")[2].style.display = "inline-block";
 			document.getElementsByTagName("button")[4].style.display = "inline-block";
+			document.getElementsByTagName("button")[7].style.display = "inline-block";
 			newRow.innerHTML = "<td>" + dezeGroente + "</td>"
 			+"<td><a target='_blank' href='https://www.google.com/search?q=vegetarisch+recept+" + dezeGroente + "'>Google</a></td>"
 			+"<td><a target='_blank' href='https://www.ah.nl/allerhande/recepten-zoeken/speciale-wensen:vegetarisch?Ntt=" + dezeGroente + "'>AH.nl</a></td>"
@@ -211,7 +216,11 @@ function generate(){
 }
 function changePopup(list, item, trgt){
 	document.getElementById("popup").style.display = "block";
-	document.getElementById("popup").className = "ahlist"+trgt;
+	if (trgt<4) {
+		document.getElementById("popup").className = "ahlist"+trgt;
+	} else {
+		document.getElementById("popup").className = "lassie"+(trgt-3);
+	}
 	document.getElementById("popup").innerHTML = "<img src='"+list[item][4]+"'><br><b><a target='_blank' style='color:black' href='"+list[item][2]+"'>"+list[item][1]+"</a></b><br><i>("+list[item][5]+" pers.)</i><br>"+list[item][3];
 	// document.getElementById("popup").innerHTML = "<img src='"+ahatjes[item][4]+"'>";
 }
@@ -401,11 +410,91 @@ function createLists(){
 	}
 	document.body.replaceChild(newList, document.getElementById("ahlist3"));
 
+	// vegan @ LASSIE.nl
+	var newList = document.createElement("div");
+	newList.id = "lassie1";
+	newList.className = "list";
+	newList.style.display = document.getElementById("lassie1").style.display;
+	for (var i = 0; i < lasVegan.length; i++) {
+		var print=false;
+		var title = lasVegan[i][1];
+		var ingred = lasVegan[i][3];
+		for (var zzz = 0; zzz < maandkanjers.length; zzz++) {
+			// bevat het recept minstens één van de seizoenskanjers?
+			if ( ingred.includes(maandkanjers[zzz]) ) {
+				print=true;
+				break;
+			}
+		}
+		for (var zzz = 0; zzz < forbidden.length; zzz++) {
+			// bevat het recept één van de verboden groentes?
+			if ( ingred.includes(forbidden[zzz]) ) {
+				print=false;
+				break;
+			}
+		}
+		if (print) {
+			// PRINT !!!!!!!!
+			if (( title.toLowerCase().includes(searchQuery) || ingred.toLowerCase().includes(searchQuery) )
+				&& !( title.toLowerCase().includes(filterQuery) || ingred.toLowerCase().includes(filterQuery) )) {
+				var pic = document.createElement("div");
+				pic.innerHTML = "<img src='"+lasVegan[i][4]+"'>";
+				var newRec = document.createElement("span");
+				newRec.innerHTML = "<a onmouseover=\"changePopup(lasVegan,"+i+",4)\" onfocus=\"changePopup(lasVegan,"+i+",'4')\" target='_blank' href='"+lasVegan[i][2]+"'>"+title + "</a><br>";
+				// newRec.title = ingred;
+				// newRec.title = pic + ingred;
+				newList.appendChild(newRec);
+			}
+		}
+	}
+	document.body.replaceChild(newList, document.getElementById("lassie1"));
+
+	// vega @ LASSIE.nl
+	var newList = document.createElement("div");
+	newList.id = "lassie2";
+	newList.className = "list";
+	newList.style.display = document.getElementById("lassie2").style.display;
+	for (var i = 0; i < lasVega.length; i++) {
+		var print=false;
+		var title = lasVega[i][1];
+		var ingred = lasVega[i][3];
+		for (var zzz = 0; zzz < maandkanjers.length; zzz++) {
+			// bevat het recept minstens één van de seizoenskanjers?
+			if ( ingred.includes(maandkanjers[zzz]) ) {
+				print=true;
+				break;
+			}
+		}
+		for (var zzz = 0; zzz < forbidden.length; zzz++) {
+			// bevat het recept één van de verboden groentes?
+			if ( ingred.includes(forbidden[zzz]) ) {
+				print=false;
+				break;
+			}
+		}
+		if (print) {
+			// PRINT !!!!!!!!
+			if (( title.toLowerCase().includes(searchQuery) || ingred.toLowerCase().includes(searchQuery) )
+				&& !( title.toLowerCase().includes(filterQuery) || ingred.toLowerCase().includes(filterQuery) )) {
+				var pic = document.createElement("div");
+				pic.innerHTML = "<img src='"+lasVega[i][4]+"'>";
+				var newRec = document.createElement("span");
+				newRec.innerHTML = "<a onmouseover=\"changePopup(lasVega,"+i+",5)\" onfocus=\"changePopup(lasVega,"+i+",'5')\" target='_blank' href='"+lasVega[i][2]+"'>"+title + "</a><br>";
+				// newRec.title = ingred;
+				// newRec.title = pic + ingred;
+				newList.appendChild(newRec);
+			}
+		}
+	}
+	document.body.replaceChild(newList, document.getElementById("lassie2"));
+
 	// AANTAL RECEPTEN TELLEN
 	document.getElementById("num1").innerHTML = document.getElementById("lenslist").childNodes.length;
 	document.getElementById("num2").innerHTML = document.getElementById("ahlist1").childNodes.length;
 	document.getElementById("num3").innerHTML = document.getElementById("ahlist2").childNodes.length;
 	document.getElementById("num4").innerHTML = document.getElementById("ahlist3").childNodes.length;
+	document.getElementById("num5").innerHTML = document.getElementById("lassie1").childNodes.length;
+	document.getElementById("num6").innerHTML = document.getElementById("lassie2").childNodes.length;
 }
 
 var d = new Date();
@@ -481,6 +570,12 @@ window.onload = function(){
 
 <button onclick="roggle('ahlist3')"><span id="num4"></span> vegaMisschienVegan-hoofdgerechten van AH.nl met seizoensgroentes (en zonder buiten-het-seizoen-groentes):</button><br>
 <div class="list" style="display: none;" id="ahlist3"></div>
+
+<button onclick="roggle('lassie1')"><span id="num5"></span> Vegan hoofdgerechten van Lassie.nl met seizoensgroentes (en zonder buiten-het-seizoen-groentes):</button><br>
+<div class="list" style="display: none;" id="lassie1"></div>
+
+<button onclick="roggle('lassie2')"><span id="num6"></span> Vegetarische hoofdgerechten van Lassie.nl met seizoensgroentes (en zonder buiten-het-seizoen-groentes):</button><br>
+<div class="list" style="display: none;" id="lassie2"></div>
 
 <button onclick="roggle('lnklist')" id="info">Seizoensgroentes van deze maand</button><br>
 <div class="list" style="display: block;" id="lnklist">
