@@ -35,6 +35,8 @@ div.lttr {
 	padding: 10px;
 	display: inline-block;
 	margin-bottom: 20px;
+	width: 528px;
+	overflow: hidden;
 }
 form > label {
 	font-size: 20px;
@@ -75,7 +77,30 @@ input[type=range]::-webkit-slider-thumb {
 	position: relative;
 	bottom: 6px;
 }
-
+.gone {
+	animation-name: disappear;
+	animation-duration: 0.75s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+@keyframes disappear {
+	from {
+		height: 100px;
+	}
+	50% {
+		height: 0;
+		padding: 0;
+		border-width: 0;
+		border-top-width: 1px;
+	}
+	to {
+		height: 0;
+		padding: 0;
+		border-width: 0;
+		border-top-width: 0;
+		width: 0;
+	}
+}
 		</style>
 		<script id="opts" src="lingolist.js"></script>
 		<script type="text/javascript">
@@ -165,7 +190,7 @@ function giveFeedBack(){
 		document.getElementById("feedback").innerHTML=
 		"GEWONNEN!! Het was inderdaad "+lingoWord
 		+"! <i>Nieuw spel? Klik op 'NIEUW SPEL'!</i><br>";
-		document.getElementById("menu").style.display="inline-block";
+		document.getElementById("menu").classList.toggle("gone");
 		document.getElementById("inputField").maxLength = 0;
 		document.getElementById("inputField").style.opacity="0.5";
 		document.getElementById("submit").style.opacity="0.5";
@@ -177,7 +202,7 @@ function giveFeedBack(){
 		document.getElementById("feedback").innerHTML=
 		"VERLOREN!!!! Het woord was "+lingoWord
 		+"! <i>Nieuw spel? Klik op 'NIEUW SPEL'!</i><br>";
-		document.getElementById("menu").style.display="inline-block";
+		document.getElementById("menu").classList.toggle("gone");
 		document.getElementById("inputField").maxLength = 0;
 		document.getElementById("inputField").style.opacity="0.5";
 		document.getElementById("submit").style.opacity="0.5";
@@ -208,7 +233,8 @@ function createGame(){
 			maxTurns = i+1;
 		}
 	}
-	document.getElementById("menu").style.display="none";
+	document.getElementById("menu").classList.toggle("gone");
+	document.getElementById("inputField").focus();
 	document.getElementById("inputField").style.opacity="1.0";
 	document.getElementById("submit").style.opacity="1.0";
 	document.getElementById("gamefield").innerHTML="";
