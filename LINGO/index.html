@@ -28,8 +28,15 @@ div.lttr {
 	text-align: center;
 	-webkit-text-stroke: 0.5px black;
 }
+div.geel{
+	border-radius: 250px;
+	border: 1px solid rgb(254, 220, 15);
+	background-image: linear-gradient(to bottom right, rgb(254, 220, 15), lightyellow);
+}
+div.rood{
+	background-image: linear-gradient(to right bottom, rgb(153, 6, 2), rgb(253,64,23));
+}
 #menu {
-	/*font-size: 10px;*/
 	border: 2px solid yellow;
 	border-radius: 5px;
 	padding: 10px;
@@ -130,89 +137,82 @@ function pickaword(){
 }
 function submitWord(){
 	if (turnsDone<maxTurns) {
-	var newInput = document.getElementById("inputField");
-	while (newInput.value.charAt((newInput.value.length)-1) == " "){
-		newInput.value=newInput.value.slice(0,(newInput.value.length-1));
-		newInput.value=newInput.value.replace(/ /g, "");
-	}
-	if (newInput.value.length>wordSize) {
-		document.getElementById("feedback").innerHTML="Te lang...";
-	} else if (newInput.value.length<wordSize){
-		document.getElementById("feedback").innerHTML="Te kort...";
-	} else {
-		if (newInput.value.match(/^[A-Z,a-z]+$/)) {
-			newInput.value=newInput.value.toUpperCase();
-			document.getElementById("feedback").innerHTML="";
-			// document.getElementById("raadLijst").title=document.getElementById("raadLijst").title.concat(newInput.value+"\n");
-
-			var i=0;
-			var t = setInterval(printLetter, 500);
-			function printLetter(){
-				if (i >= newInput.value.length){
-					clearInterval(t);
-					turnsDone++;
-					giveFeedBack();
-					newInput.value="";
-				} else {
-					var newLetter = newInput.value.charAt(i);
-					var grandChild = document.getElementById("gamefield").children[turnsDone].children[i];
-					grandChild.innerHTML=newLetter;
-					grandChild.style.color="white";
-					if (lingoWord.indexOf(newInput.value.charAt(i),0)>-1){
-						if (newInput.value.charAt(i)==lingoWord.charAt(i)) {
-							document.getElementsByTagName("audio")[0].src = "lingogoed2.wav";
-							document.getElementsByTagName("audio")[0].volume = 0.005 * document.getElementById("slider").value;;
-							grandChild.style.backgroundImage="linear-gradient(to right bottom, rgb(153, 6, 2), rgb(253,64,23))";
-						} else {
-							document.getElementsByTagName("audio")[0].src = "lingofout2.wav";
-							document.getElementsByTagName("audio")[0].volume = 0.005 * document.getElementById("slider").value;;
-							grandChild.style.color="white";
-							grandChild.style.borderRadius= "250px";
-							grandChild.style.border= "none";
-							grandChild.style.backgroundImage="linear-gradient(to bottom right, rgb(254, 220, 15), lightyellow)";
-						}
-					} else {
-						document.getElementsByTagName("audio")[0].src = "lingofout.wav";
-						document.getElementsByTagName("audio")[0].volume = 0.003 * document.getElementById("slider").value;;
-						grandChild.style.color="white";
-						grandChild.style.backgroundImage="linear-gradient(to bottom right, rgb(92, 148, 204), lightblue)";
-					}
-					i++;
-				}
-			}
-
-function giveFeedBack(){
-	if (newInput.value==lingoWord) {
-		document.getElementsByTagName("audio")[0].src = "lingowinst2.wav";
-		document.getElementsByTagName("audio")[0].volume = 0.004 * document.getElementById("slider").value;;
-		document.getElementsByTagName("audio")[1].src = "";
-		document.getElementsByTagName("audio")[2].src = "";
-		document.getElementById("feedback").innerHTML=
-		"GEWONNEN!! Het was inderdaad "+lingoWord
-		+"! <i>Nieuw spel? Klik op 'NIEUW SPEL'!</i><br>";
-		document.getElementById("menu").classList.toggle("gone");
-		document.getElementById("inputField").maxLength = 0;
-		document.getElementById("inputField").style.opacity="0.5";
-		document.getElementById("submit").style.opacity="0.5";
-	} else if (turnsDone==maxTurns){
-		document.getElementsByTagName("audio")[0].src = "lingoverlies.wav";
-		document.getElementsByTagName("audio")[0].volume = 0.004 * document.getElementById("slider").value;;
-		document.getElementsByTagName("audio")[1].src = "";
-		document.getElementsByTagName("audio")[2].src = "";
-		document.getElementById("feedback").innerHTML=
-		"VERLOREN!!!! Het woord was "+lingoWord
-		+"! <i>Nieuw spel? Klik op 'NIEUW SPEL'!</i><br>";
-		document.getElementById("menu").classList.toggle("gone");
-		document.getElementById("inputField").maxLength = 0;
-		document.getElementById("inputField").style.opacity="0.5";
-		document.getElementById("submit").style.opacity="0.5";
-	}
-}
-		} else {
-			document.getElementById("feedback").innerHTML="Alleen letters...";
+		var newInput = document.getElementById("inputField");
+		while (newInput.value.charAt((newInput.value.length)-1) == " "){
+			newInput.value=newInput.value.slice(0,(newInput.value.length-1));
+			newInput.value=newInput.value.replace(/ /g, "");
 		}
-	}
-	// document.getElementById("trnsdn").innerText=turnsDone+1;
+		if (newInput.value.length>wordSize) {
+			document.getElementById("feedback").innerHTML="Te lang...";
+		} else if (newInput.value.length<wordSize){
+			document.getElementById("feedback").innerHTML="Te kort...";
+		} else {
+			if (newInput.value.match(/^[A-Z,a-z]+$/)) {
+				newInput.value=newInput.value.toUpperCase();
+				document.getElementById("feedback").innerHTML="";
+
+				var i=0;
+				var t = setInterval(printLetter, 500);
+				function printLetter(){
+					if (i >= newInput.value.length){
+						clearInterval(t);
+						turnsDone++;
+						giveFeedBack();
+						newInput.value="";
+					} else {
+						var newLetter = newInput.value.charAt(i);
+						var grandChild = document.getElementById("gamefield").children[turnsDone].children[i];
+						grandChild.innerHTML=newLetter;
+						grandChild.style.color="white";
+						if (lingoWord.indexOf(newInput.value.charAt(i),0)>-1){
+							if (newInput.value.charAt(i)==lingoWord.charAt(i)) {
+								document.getElementsByTagName("audio")[0].src = "lingogoed2.wav";
+								document.getElementsByTagName("audio")[0].volume = 0.005 * document.getElementById("slider").value;;
+								grandChild.className = 'lttr rood';
+							} else {
+								document.getElementsByTagName("audio")[0].src = "lingofout2.wav";
+								document.getElementsByTagName("audio")[0].volume = 0.005 * document.getElementById("slider").value;;
+								grandChild.className = 'lttr geel';
+							}
+						} else {
+							document.getElementsByTagName("audio")[0].src = "lingofout.wav";
+							document.getElementsByTagName("audio")[0].volume = 0.003 * document.getElementById("slider").value;;
+						}
+						i++;
+					}
+				}
+
+				function giveFeedBack(){
+					if (newInput.value==lingoWord) {
+						document.getElementsByTagName("audio")[0].src = "lingowinst2.wav";
+						document.getElementsByTagName("audio")[0].volume = 0.004 * document.getElementById("slider").value;;
+						document.getElementsByTagName("audio")[1].src = "";
+						document.getElementsByTagName("audio")[2].src = "";
+						document.getElementById("feedback").innerHTML=
+						"GEWONNEN!! Het was inderdaad "+lingoWord
+						+"! <i>Nieuw spel? Klik op 'NIEUW SPEL'!</i><br>";
+						document.getElementById("menu").classList.toggle("gone");
+						document.getElementById("inputField").maxLength = 0;
+						document.getElementById("inputField").style.opacity="0.5";
+						document.getElementById("submit").style.opacity="0.5";
+					} else if (turnsDone==maxTurns){
+						document.getElementsByTagName("audio")[0].src = "lingoverlies.wav";
+						document.getElementsByTagName("audio")[0].volume = 0.004 * document.getElementById("slider").value;;
+						document.getElementsByTagName("audio")[1].src = "";
+						document.getElementsByTagName("audio")[2].src = "";
+						document.getElementById("feedback").innerHTML=
+						"VERLOREN!!!! Het woord was "+lingoWord
+						+"! <i>Nieuw spel? Klik op 'NIEUW SPEL'!</i><br>";
+						document.getElementById("menu").classList.toggle("gone");
+						document.getElementById("inputField").maxLength = 0;
+						document.getElementById("inputField").style.opacity="0.5";
+						document.getElementById("submit").style.opacity="0.5";
+					}
+				}
+			} else {
+				document.getElementById("feedback").innerHTML="Alleen letters...";
+			}
+		}
 	}
 }
 
@@ -239,8 +239,6 @@ function createGame(){
 	document.getElementById("submit").style.opacity="1.0";
 	document.getElementById("gamefield").innerHTML="";
 	document.getElementById("feedback").innerHTML="";
-	// document.getElementById("raadLijst").title="";
-	// document.getElementById("trnsdn").innerHTML="0";
 	for (var i = 0; i < maxTurns; i++) {
 		var newRow = document.createElement("div");
 		newRow.className="row";
@@ -296,8 +294,6 @@ function createGame(){
 <button class="button1" autofocus="" onclick="createGame()">NIEUW SPEL</button>
 		</div>
 <br>
-		<!-- <button hidden class="button1" id="raadLijst" title="">Gekozen woorden na beurt <span id="trnsdn">0</span><i> (hover)</i></button> -->
-		<!-- <br> -->
 		<input id="inputField" placeholder="tekst hier..." maxlength="0">
 		<button class="button1" id="submit" type="submit" onclick="submitWord()" name="sbmt" value="Okay!">OK</button>
 		<span id="feedback"></span>
