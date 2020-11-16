@@ -1,0 +1,103 @@
+#inputField {
+	cursor: text;
+}
+textarea {
+	font-family: "Courier New";
+	font-size: 20px;
+}
+div#gamefield {
+	width: 400px;
+	height: 600px;
+}
+div.lttr {
+	text-shadow: 3px 3px 5px black;
+	width: 13.5%;
+	height: 54px;
+	background-image: linear-gradient(to bottom right, rgb(92, 148, 204), lightblue);
+	display: inline-block;
+	font-size: 35px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	-webkit-text-stroke: 0.5px black;
+}
+div.geel{
+	border-radius: 250px;
+	border: 1px solid rgb(254, 220, 15);
+	background-image: linear-gradient(to bottom right, rgb(254, 220, 15), lightyellow);
+}
+div.rood{
+	background-image: linear-gradient(to right bottom, rgb(153, 6, 2), rgb(253,64,23));
+}
+#menu {
+	border: 2px solid yellow;
+	border-radius: 5px;
+	padding: 10px;
+	display: inline-block;
+	margin-bottom: 20px;
+	width: 528px;
+	overflow: hidden;
+}
+form > label {
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 5px 10px;
+	border: 2px solid yellow;
+	display: inline-block;
+	margin: 2px 0px;
+}
+form > label:hover {
+	background-color: lightyellow;
+}
+input[type=radio] {
+	display: none;
+}
+input[type=radio]:checked + label { 
+	background-image: linear-gradient(to bottom right, yellow, lightyellow);
+}
+input[type=range] {
+	appearance: none;
+	-webkit-appearance: none;
+	display: inline-block;
+	padding: 0px;
+	width: 490px;
+}
+input[type=range]::-webkit-slider-thumb {
+	appearance: none;
+	-webkit-appearance: none;
+	height: 20px;
+	width: 20px;
+	border-radius: 2px;
+	background-image: linear-gradient(to top left, green 30%, white);
+	border: 1px solid green;
+	cursor: grab;
+}
+#volTag {
+	display: inline-block;
+	position: relative;
+	bottom: 6px;
+}
+.gone {
+	animation-name: disappear;
+	animation-duration: 0.75s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+@keyframes disappear {
+	from {
+		height: 100px;
+	}
+	50% {
+		height: 0;
+		padding: 0;
+		border-width: 0;
+		border-top-width: 1px;
+	}
+	to {
+		height: 0;
+		padding: 0;
+		border-width: 0;
+		border-top-width: 0;
+		width: 0;
+	}
+}
