@@ -132,6 +132,7 @@ function createGame(){
 		for (var j = 0; j < wordSize; j++) {
 			var letterbox = document.createElement("div");
 			letterbox.className = "lttr";
+			letterbox.innerHTML = "<br>";
 			newRow.appendChild(letterbox);
 			}
 		document.getElementById("gamefield").appendChild(newRow);
