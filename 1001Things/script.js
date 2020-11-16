@@ -37,7 +37,7 @@ function render(){
     newTable.appendChild(newRow);
     for (var i = 1; i < list.length; i++) {
         var newRow = document.createElement("tr");
-        for (var j = 0; j < list[i].length; j++) {
+        for (var j = 0; j < list[0].length-1; j++) {
             var newData = document.createElement("td");
             if (j==list[0][0][0]) {
                 var newLink = document.createElement("a");
@@ -47,6 +47,12 @@ function render(){
                 newData.appendChild(newLink);
                 newLink = document.createElement("a");
                 newLink.href = "https://www.google.com/search?q=" + encodeURIComponent(list[i][j]) + " " + encodeURIComponent(list[i][list[0][0][1]]);
+                newLink.target = "_blank";
+                newLink.innerText = list[i][j];
+                newData.appendChild(newLink);
+            } else if (j==list[0][0][2]) {
+                var newLink = document.createElement("a");
+                newLink.href = "https://www.imdb.com/title/" + list[i][8] + "/";
                 newLink.target = "_blank";
                 newLink.innerText = list[i][j];
                 newData.appendChild(newLink);

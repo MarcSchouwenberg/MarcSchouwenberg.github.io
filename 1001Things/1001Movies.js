@@ -1,6 +1,6 @@
 var list = [
 [
-[1,7],
+[1,7,3],
 "Nr",
 "Title",
 "Title Type",
@@ -19,7 +19,8 @@ var list = [
 "13",
 "1902",
 "Short, Action, Adventure, Comedy, Fantasy, Sci-Fi",
-"Georges Méliès"
+"Georges Méliès",
+"tt0000417",
 ],
 
 [
@@ -30,7 +31,8 @@ var list = [
 "11",
 "1903",
 "Short, Action, Crime, Western",
-"Edwin S. Porter"
+"Edwin S. Porter",
+"tt0000439",
 ],
 
 [
@@ -41,7 +43,8 @@ var list = [
 "195",
 "1915",
 "Drama, History, War",
-"D.W. Griffith"
+"D.W. Griffith",
+"tt0004972",
 ],
 
 [
@@ -52,7 +55,8 @@ var list = [
 "421",
 "1915",
 "Action, Adventure, Crime, Drama, Mystery, Thriller",
-"Louis Feuillade"
+"Louis Feuillade",
+"tt0006206",
 ],
 
 [
@@ -63,7 +67,8 @@ var list = [
 "163",
 "1916",
 "Drama, History",
-"D.W. Griffith"
+"D.W. Griffith",
+"tt0006864",
 ],
 
 [
@@ -74,7 +79,8 @@ var list = [
 "76",
 "1920",
 "Fantasy, Horror, Mystery, Thriller",
-"Robert Wiene"
+"Robert Wiene",
+"tt0010323",
 ],
 
 [
@@ -85,7 +91,8 @@ var list = [
 "90",
 "1919",
 "Drama, Romance",
-"D.W. Griffith"
+"D.W. Griffith",
+"tt0009968",
 ],
 
 [
@@ -96,7 +103,8 @@ var list = [
 "79",
 "1920",
 "Drama, Romance",
-"Oscar Micheaux"
+"Oscar Micheaux",
+"tt0011870",
 ],
 
 [
@@ -107,7 +115,8 @@ var list = [
 "150",
 "1921",
 "Drama, History, Romance",
-"D.W. Griffith"
+"D.W. Griffith",
+"tt0012532",
 ],
 
 [
@@ -118,7 +127,8 @@ var list = [
 "100",
 "1921",
 "Drama, Fantasy, Horror",
-"Victor Sjöström"
+"Victor Sjöström",
+"tt0012364",
 ],
 
 [
@@ -129,7 +139,8 @@ var list = [
 "54",
 "1923",
 "Drama",
-"Germaine Dulac"
+"Germaine Dulac",
+"tt0013626",
 ],
 
 [
@@ -140,7 +151,8 @@ var list = [
 "242",
 "1922",
 "Crime, Mystery, Thriller",
-"Fritz Lang"
+"Fritz Lang",
+"tt0013086",
 ],
 
 [
@@ -151,7 +163,8 @@ var list = [
 "78",
 "1922",
 "Documentary",
-"Robert J. Flaherty"
+"Robert J. Flaherty",
+"tt0013427",
 ],
 
 [
@@ -162,7 +175,8 @@ var list = [
 "94",
 "1922",
 "Fantasy, Horror",
-"F.W. Murnau"
+"F.W. Murnau",
+"tt0013442",
 ],
 
 [
@@ -173,7 +187,8 @@ var list = [
 "91",
 "1922",
 "Documentary, Fantasy, Horror",
-"Benjamin Christensen"
+"Benjamin Christensen",
+"tt0013257",
 ],
 
 [
@@ -184,7 +199,8 @@ var list = [
 "117",
 "1922",
 "Drama, Thriller",
-"Erich von Stroheim"
+"Erich von Stroheim",
+"tt0013140",
 ],
 
 [
@@ -195,7 +211,8 @@ var list = [
 "65",
 "1923",
 "Comedy, Romance, Thriller",
-"John G. Blystone, Buster Keaton"
+"John G. Blystone, Buster Keaton",
+"tt0014341",
 ],
 
 [
@@ -206,7 +223,8 @@ var list = [
 "273",
 "1923",
 "Drama",
-"Abel Gance"
+"Abel Gance",
+"tt0014417",
 ],
 
 [
@@ -217,7 +235,8 @@ var list = [
 "77",
 "1924",
 "Drama",
-"F.W. Murnau"
+"F.W. Murnau",
+"tt0015064",
 ],
 
 [
@@ -228,7 +247,8 @@ var list = [
 "82",
 "1925",
 "Drama",
-"Sergei M. Eisenstein"
+"Sergei M. Eisenstein",
+"tt0015361",
 ],
 
 [
@@ -239,7 +259,8 @@ var list = [
 "45",
 "1924",
 "Action, Comedy, Romance",
-"Buster Keaton"
+"Buster Keaton",
+"tt0015324",
 ],
 
 [
@@ -250,7 +271,8 @@ var list = [
 "108",
 "1924",
 "Documentary",
-"Herbert G. Ponting"
+"Herbert G. Ponting",
+"tt1764657",
 ],
 
 [
@@ -261,7 +283,8 @@ var list = [
 "140",
 "1924",
 "Drama, Thriller, Western",
-"Erich von Stroheim"
+"Erich von Stroheim",
+"tt0015881",
 ],
 
 [
@@ -272,7 +295,8 @@ var list = [
 "155",
 "1924",
 "Adventure, Family, Fantasy, Romance",
-"Raoul Walsh"
+"Raoul Walsh",
+"tt0015400",
 ],
 
 [
@@ -283,7 +307,8 @@ var list = [
 "73",
 "1925",
 "Action, Comedy, Drama, History, Romance",
-"Clarence Brown"
+"Clarence Brown",
+"tt0015772",
 ],
 
 [
@@ -294,7 +319,8 @@ var list = [
 "93",
 "1925",
 "Horror",
-"Rupert Julian, Ernst Laemmle, Lon Chaney, Edward Sedgwick"
+"Rupert Julian, Ernst Laemmle, Lon Chaney, Edward Sedgwick",
+"tt0016220",
 ],
 
 [
@@ -305,7 +331,8 @@ var list = [
 "75",
 "1925",
 "Drama, History",
-"Sergei M. Eisenstein"
+"Sergei M. Eisenstein",
+"tt0015648",
 ],
 
 [
@@ -316,7 +343,8 @@ var list = [
 "95",
 "1925",
 "Adventure, Comedy, Drama, Family",
-"Charles Chaplin"
+"Charles Chaplin",
+"tt0015864",
 ],
 
 [
@@ -327,7 +355,8 @@ var list = [
 "151",
 "1925",
 "Drama, Romance, War",
-"George W. Hill, King Vidor"
+"George W. Hill, King Vidor",
+"tt0015624",
 ],
 
 [
@@ -338,7 +367,8 @@ var list = [
 "81",
 "1926",
 "Animation, Adventure, Fantasy, Romance",
-"Lotte Reiniger, Carl Koch"
+"Lotte Reiniger, Carl Koch",
+"tt0015532",
 ],
 
 [
@@ -349,7 +379,8 @@ var list = [
 "153",
 "1927",
 "Drama, Sci-Fi",
-"Fritz Lang"
+"Fritz Lang",
+"tt0017136",
 ],
 
 [
@@ -360,7 +391,8 @@ var list = [
 "94",
 "1927",
 "Drama, Romance",
-"F.W. Murnau"
+"F.W. Murnau",
+"tt0018455",
 ],
 
 [
@@ -371,7 +403,8 @@ var list = [
 "67",
 "1926",
 "Action, Adventure, Comedy, Drama, War, Western",
-"Buster Keaton, Clyde Bruckman"
+"Buster Keaton, Clyde Bruckman",
+"tt0017925",
 ],
 
 [
@@ -382,7 +415,8 @@ var list = [
 "63",
 "1927",
 "Drama, Horror, Romance, Thriller",
-"Tod Browning"
+"Tod Browning",
+"tt0018528",
 ],
 
 [
@@ -393,7 +427,8 @@ var list = [
 "142",
 "1927",
 "Drama, History",
-"Grigoriy Aleksandrov, Sergei M. Eisenstein"
+"Grigoriy Aleksandrov, Sergei M. Eisenstein",
+"tt0018217",
 ],
 
 [
@@ -404,7 +439,8 @@ var list = [
 "88",
 "1927",
 "Drama, Music, Musical, Romance",
-"Alan Crosland"
+"Alan Crosland",
+"tt0018037",
 ],
 
 [
@@ -415,7 +451,8 @@ var list = [
 "240",
 "1927",
 "Biography, Drama, History, War",
-"Abel Gance"
+"Abel Gance",
+"tt0018192",
 ],
 
 [
@@ -426,7 +463,8 @@ var list = [
 "82",
 "1927",
 "Comedy, Drama, Family, Romance",
-"Lewis Milestone, Harold Lloyd, J.A. Howe, Ted Wilde"
+"Lewis Milestone, Harold Lloyd, J.A. Howe, Ted Wilde",
+"tt0018051",
 ],
 
 [
@@ -437,7 +475,8 @@ var list = [
 "98",
 "1928",
 "Drama, Romance",
-"King Vidor"
+"King Vidor",
+"tt0018806",
 ],
 
 [
@@ -448,7 +487,8 @@ var list = [
 "76",
 "1928",
 "Crime, Drama, Film-Noir, Romance",
-"Josef von Sternberg"
+"Josef von Sternberg",
+"tt0018839",
 ],
 
 [
@@ -459,7 +499,8 @@ var list = [
 "110",
 "1928",
 "Biography, Drama, History",
-"Carl Theodor Dreyer"
+"Carl Theodor Dreyer",
+"tt0019254",
 ],
 
 [
@@ -470,7 +511,8 @@ var list = [
 "16",
 "1929",
 "Short, Fantasy, Horror",
-"Luis Buñuel"
+"Luis Buñuel",
+"tt0020530",
 ],
 
 [
@@ -481,7 +523,8 @@ var list = [
 "70",
 "1928",
 "Action, Comedy, Drama, Family, Romance",
-"Charles Reisner, Buster Keaton"
+"Charles Reisner, Buster Keaton",
+"tt0019421",
 ],
 
 [
@@ -492,7 +535,8 @@ var list = [
 "127",
 "1928",
 "Drama, War",
-"Vsevolod Pudovkin"
+"Vsevolod Pudovkin",
+"tt0019286",
 ],
 
 [
@@ -503,7 +547,8 @@ var list = [
 "74",
 "1929",
 "Adventure, Drama, Romance",
-"Franz Osten"
+"Franz Osten",
+"tt0020286",
 ],
 
 [
@@ -514,7 +559,8 @@ var list = [
 "68",
 "1929",
 "Documentary, Music",
-"Dziga Vertov"
+"Dziga Vertov",
+"tt0019760",
 ],
 
 [
@@ -525,7 +571,8 @@ var list = [
 "109",
 "1929",
 "Crime, Drama, Romance",
-"Georg Wilhelm Pabst"
+"Georg Wilhelm Pabst",
+"tt0018737",
 ],
 
 [
@@ -536,7 +583,8 @@ var list = [
 "85",
 "1929",
 "Crime, Thriller",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0019702",
 ],
 
 [
@@ -547,7 +595,8 @@ var list = [
 "79",
 "1931",
 "Action, Crime, Drama, Romance",
-"Mervyn LeRoy"
+"Mervyn LeRoy",
+"tt0021079",
 ],
 
 [
@@ -558,7 +607,8 @@ var list = [
 "104",
 "1930",
 "Drama, Music",
-"Josef von Sternberg"
+"Josef von Sternberg",
+"tt0020697",
 ],
 
 [
@@ -569,7 +619,8 @@ var list = [
 "136",
 "1930",
 "Drama, War",
-"Lewis Milestone"
+"Lewis Milestone",
+"tt0020629",
 ],
 
 [
@@ -580,7 +631,8 @@ var list = [
 "60",
 "1930",
 "Comedy, Drama",
-"Luis Buñuel"
+"Luis Buñuel",
+"tt0021577",
 ],
 
 [
@@ -591,7 +643,8 @@ var list = [
 "75",
 "1930",
 "Drama",
-"Aleksandr Dovzhenko"
+"Aleksandr Dovzhenko",
+"tt0021571",
 ],
 
 [
@@ -602,7 +655,8 @@ var list = [
 "104",
 "1931",
 "Comedy, Musical",
-"René Clair"
+"René Clair",
+"tt0022599",
 ],
 
 [
@@ -613,7 +667,8 @@ var list = [
 "114",
 "1931",
 "Drama, Romance",
-"Mario Peixoto"
+"Mario Peixoto",
+"tt0022080",
 ],
 
 [
@@ -624,7 +679,8 @@ var list = [
 "86",
 "1931",
 "Drama, Romance, Adventure",
-"F.W. Murnau"
+"F.W. Murnau",
+"tt0022458",
 ],
 
 [
@@ -635,7 +691,8 @@ var list = [
 "87",
 "1931",
 "Comedy, Drama, Romance",
-"Charles Chaplin"
+"Charles Chaplin",
+"tt0021749",
 ],
 
 [
@@ -646,7 +703,8 @@ var list = [
 "75",
 "1931",
 "Fantasy, Horror",
-"Tod Browning, Karl Freund"
+"Tod Browning, Karl Freund",
+"tt0021814",
 ],
 
 [
@@ -657,7 +715,8 @@ var list = [
 "70",
 "1931",
 "Drama, Horror, Sci-Fi",
-"James Whale"
+"James Whale",
+"tt0021884",
 ],
 
 [
@@ -668,7 +727,8 @@ var list = [
 "83",
 "1931",
 "Crime, Drama",
-"William A. Wellman"
+"William A. Wellman",
+"tt0022286",
 ],
 
 [
@@ -679,7 +739,8 @@ var list = [
 "117",
 "1931",
 "Crime, Mystery, Thriller",
-"Fritz Lang"
+"Fritz Lang",
+"tt0022100",
 ],
 
 [
@@ -690,7 +751,8 @@ var list = [
 "75",
 "1932",
 "Fantasy, Horror",
-"Carl Theodor Dreyer"
+"Carl Theodor Dreyer",
+"tt0023649",
 ],
 
 [
@@ -701,7 +763,8 @@ var list = [
 "92",
 "1932",
 "Crime, Drama, Film-Noir",
-"Mervyn LeRoy"
+"Mervyn LeRoy",
+"tt0023042",
 ],
 
 [
@@ -712,7 +775,8 @@ var list = [
 "85",
 "1932",
 "Comedy",
-"Jean Renoir"
+"Jean Renoir",
+"tt0022718",
 ],
 
 [
@@ -723,7 +787,8 @@ var list = [
 "104",
 "1932",
 "Comedy, Musical, Romance",
-"Rouben Mamoulian"
+"Rouben Mamoulian",
+"tt0023158",
 ],
 
 [
@@ -734,7 +799,8 @@ var list = [
 "82",
 "1932",
 "Adventure, Drama, Romance, Thriller",
-"Josef von Sternberg"
+"Josef von Sternberg",
+"tt0023458",
 ],
 
 [
@@ -745,7 +811,8 @@ var list = [
 "83",
 "1932",
 "Comedy, Crime, Romance",
-"Ernst Lubitsch"
+"Ernst Lubitsch",
+"tt0023622",
 ],
 
 [
@@ -756,7 +823,8 @@ var list = [
 "93",
 "1932",
 "Action, Crime, Drama, Film-Noir, Thriller",
-"Richard Rosson, Howard Hawks"
+"Richard Rosson, Howard Hawks",
+"tt0023427",
 ],
 
 [
@@ -767,7 +835,8 @@ var list = [
 "64",
 "1932",
 "Drama, Horror",
-"Tod Browning"
+"Tod Browning",
+"tt0022913",
 ],
 
 [
@@ -778,7 +847,8 @@ var list = [
 "89",
 "1933",
 "Comedy, Musical, Romance",
-"Lloyd Bacon"
+"Lloyd Bacon",
+"tt0024034",
 ],
 
 [
@@ -789,7 +859,8 @@ var list = [
 "104",
 "1933",
 "Comedy, Musical, Romance",
-"Lloyd Bacon"
+"Lloyd Bacon",
+"tt0024028",
 ],
 
 [
@@ -800,7 +871,8 @@ var list = [
 "88",
 "1932",
 "Drama, Romance, War",
-"Frank Capra"
+"Frank Capra",
+"tt0023814",
 ],
 
 [
@@ -811,7 +883,8 @@ var list = [
 "66",
 "1933",
 "Comedy, Drama, History, Musical, Romance",
-"Lowell Sherman"
+"Lowell Sherman",
+"tt0024548",
 ],
 
 [
@@ -822,7 +895,8 @@ var list = [
 "68",
 "1933",
 "Comedy, Musical, War",
-"Leo McCarey"
+"Leo McCarey",
+"tt0023969",
 ],
 
 [
@@ -833,7 +907,8 @@ var list = [
 "44",
 "1933",
 "Short, Comedy, Drama",
-"Jean Vigo"
+"Jean Vigo",
+"tt0024803",
 ],
 
 [
@@ -844,7 +919,8 @@ var list = [
 "97",
 "1933",
 "Comedy, Drama, Musical",
-"Mervyn LeRoy"
+"Mervyn LeRoy",
+"tt0024069",
 ],
 
 [
@@ -855,7 +931,8 @@ var list = [
 "100",
 "1933",
 "Adventure, Horror, Sci-Fi",
-"Ernest B. Schoedsack, Merian C. Cooper"
+"Ernest B. Schoedsack, Merian C. Cooper",
+"tt0024216",
 ],
 
 [
@@ -866,7 +943,8 @@ var list = [
 "30",
 "1933",
 "Documentary, Short",
-"Luis Buñuel"
+"Luis Buñuel",
+"tt0023037",
 ],
 
 [
@@ -877,7 +955,8 @@ var list = [
 "68",
 "1933",
 "Comedy",
-"William A. Seiter"
+"William A. Seiter",
+"tt0024601",
 ],
 
 [
@@ -888,7 +967,8 @@ var list = [
 "99",
 "1933",
 "Biography, Drama, History, Romance",
-"Rouben Mamoulian"
+"Rouben Mamoulian",
+"tt0024481",
 ],
 
 [
@@ -899,7 +979,8 @@ var list = [
 "114",
 "1935",
 "Documentary, History, War",
-"Leni Riefenstahl"
+"Leni Riefenstahl",
+"tt0025913",
 ],
 
 [
@@ -910,7 +991,8 @@ var list = [
 "68",
 "1934",
 "Comedy",
-"Norman Z. McLeod"
+"Norman Z. McLeod",
+"tt0025318",
 ],
 
 [
@@ -921,7 +1003,8 @@ var list = [
 "85",
 "1934",
 "Drama",
-"Yonggang Wu"
+"Yonggang Wu",
+"tt0195256",
 ],
 
 [
@@ -932,7 +1015,8 @@ var list = [
 "105",
 "1934",
 "Comedy, Romance",
-"Frank Capra"
+"Frank Capra",
+"tt0025316",
 ],
 
 [
@@ -943,7 +1027,8 @@ var list = [
 "89",
 "1934",
 "Comedy, Drama, Romance",
-"Jean Vigo"
+"Jean Vigo",
+"tt0024844",
 ],
 
 [
@@ -954,7 +1039,8 @@ var list = [
 "65",
 "1934",
 "Adventure, Crime, Horror, Romance, Thriller",
-"Edgar G. Ulmer"
+"Edgar G. Ulmer",
+"tt0024894",
 ],
 
 [
@@ -965,7 +1051,8 @@ var list = [
 "91",
 "1934",
 "Comedy, Crime, Mystery",
-"W.S. Van Dyke"
+"W.S. Van Dyke",
+"tt0025878",
 ],
 
 [
@@ -976,7 +1063,8 @@ var list = [
 "132",
 "1935",
 "Adventure, Biography, Drama, History, Romance",
-"Frank Lloyd"
+"Frank Lloyd",
+"tt0026752",
 ],
 
 [
@@ -987,7 +1075,8 @@ var list = [
 "86",
 "1935",
 "Mystery, Thriller",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0026029",
 ],
 
 [
@@ -998,7 +1087,8 @@ var list = [
 "96",
 "1935",
 "Comedy, Music, Musical",
-"Sam Wood, Edmund Goulding"
+"Sam Wood, Edmund Goulding",
+"tt0026778",
 ],
 
 [
@@ -1009,7 +1099,8 @@ var list = [
 "75",
 "1935",
 "Drama, Horror, Sci-Fi",
-"James Whale"
+"James Whale",
+"tt0026138",
 ],
 
 [
@@ -1020,7 +1111,8 @@ var list = [
 "119",
 "1935",
 "Action, Adventure",
-"Michael Curtiz"
+"Michael Curtiz",
+"tt0026174",
 ],
 
 [
@@ -1031,7 +1123,8 @@ var list = [
 "101",
 "1935",
 "Comedy, Musical, Romance",
-"Mark Sandrich"
+"Mark Sandrich",
+"tt0027125",
 ],
 
 [
@@ -1042,7 +1135,8 @@ var list = [
 "85",
 "1935",
 "Drama, Fantasy, Romance",
-"Henry Hathaway"
+"Henry Hathaway",
+"tt0026866",
 ],
 
 [
@@ -1053,7 +1147,8 @@ var list = [
 "87",
 "1936",
 "Comedy, Drama, Family, Romance",
-"Charles Chaplin"
+"Charles Chaplin",
+"tt0027977",
 ],
 
 [
@@ -1064,7 +1159,8 @@ var list = [
 "103",
 "1936",
 "Comedy, Musical, Romance",
-"George Stevens"
+"George Stevens",
+"tt0028333",
 ],
 
 [
@@ -1075,7 +1171,8 @@ var list = [
 "115",
 "1936",
 "Comedy, Drama, Romance",
-"Frank Capra"
+"Frank Capra",
+"tt0027996",
 ],
 
 [
@@ -1086,7 +1183,8 @@ var list = [
 "94",
 "1936",
 "Comedy, Drama, Romance",
-"Gregory La Cava"
+"Gregory La Cava",
+"tt0028010",
 ],
 
 [
@@ -1097,7 +1195,8 @@ var list = [
 "81",
 "1936",
 "Comedy",
-"Sacha Guitry"
+"Sacha Guitry",
+"tt0028201",
 ],
 
 [
@@ -1108,7 +1207,8 @@ var list = [
 "109",
 "1936",
 "Drama, Romance",
-"George Cukor"
+"George Cukor",
+"tt0028683",
 ],
 
 [
@@ -1119,7 +1219,8 @@ var list = [
 "100",
 "1936",
 "Drama, Sci-Fi, War",
-"William Cameron Menzies"
+"William Cameron Menzies",
+"tt0028358",
 ],
 
 [
@@ -1130,7 +1231,8 @@ var list = [
 "101",
 "1936",
 "Drama, Romance",
-"William Wyler"
+"William Wyler",
+"tt0027532",
 ],
 
 [
@@ -1141,7 +1243,8 @@ var list = [
 "40",
 "1946",
 "Short, Comedy, Drama, Romance",
-"Jean Renoir"
+"Jean Renoir",
+"tt0028445",
 ],
 
 [
@@ -1152,7 +1255,8 @@ var list = [
 "94",
 "1937",
 "Crime, Drama, Romance",
-"Julien Duvivier"
+"Julien Duvivier",
+"tt0029453",
 ],
 
 [
@@ -1163,7 +1267,8 @@ var list = [
 "91",
 "1937",
 "Comedy, Drama, Romance",
-"Leo McCarey"
+"Leo McCarey",
+"tt0029192",
 ],
 
 [
@@ -1174,7 +1279,8 @@ var list = [
 "113",
 "1937",
 "Drama, War",
-"Jean Renoir"
+"Jean Renoir",
+"tt0028950",
 ],
 
 [
@@ -1185,7 +1291,8 @@ var list = [
 "106",
 "1937",
 "Drama, Romance",
-"King Vidor"
+"King Vidor",
+"tt0029608",
 ],
 
 [
@@ -1196,7 +1303,8 @@ var list = [
 "113",
 "1937",
 "Drama, Horror, Romance",
-"Weibang Ma-Xu"
+"Weibang Ma-Xu",
+"tt0206442",
 ],
 
 [
@@ -1207,7 +1315,8 @@ var list = [
 "83",
 "1937",
 "Animation, Family, Fantasy, Musical, Romance",
-"William Cottrell, Ben Sharpsteen, David Hand, Perce Pearce, Wilfred Jackson, Larry Morey"
+"William Cottrell, Ben Sharpsteen, David Hand, Perce Pearce, Wilfred Jackson, Larry Morey",
+"tt0029583",
 ],
 
 [
@@ -1218,7 +1327,8 @@ var list = [
 "117",
 "1937",
 "Adventure, Drama, Family",
-"Victor Fleming"
+"Victor Fleming",
+"tt0028691",
 ],
 
 [
@@ -1229,7 +1339,8 @@ var list = [
 "90",
 "1937",
 "Comedy, Romance",
-"Leo McCarey"
+"Leo McCarey",
+"tt0028597",
 ],
 
 [
@@ -1240,7 +1351,8 @@ var list = [
 "116",
 "1937",
 "Biography, Drama",
-"William Dieterle"
+"William Dieterle",
+"tt0029146",
 ],
 
 [
@@ -1251,7 +1363,8 @@ var list = [
 "104",
 "1938",
 "Drama, Romance",
-"William Wyler"
+"William Wyler",
+"tt0030287",
 ],
 
 [
@@ -1262,7 +1375,8 @@ var list = [
 "102",
 "1938",
 "Action, Adventure, Romance",
-"Michael Curtiz, William Keighley"
+"Michael Curtiz, William Keighley",
+"tt0029843",
 ],
 
 [
@@ -1273,7 +1387,8 @@ var list = [
 "97",
 "1938",
 "Crime, Drama, Film-Noir, Thriller",
-"Michael Curtiz"
+"Michael Curtiz",
+"tt0029870",
 ],
 
 [
@@ -1284,7 +1399,8 @@ var list = [
 "133",
 "1938",
 "Comedy, Drama",
-"Marcel Pagnol"
+"Marcel Pagnol",
+"tt0030127",
 ],
 
 [
@@ -1295,7 +1411,8 @@ var list = [
 "102",
 "1938",
 "Comedy, Family, Romance",
-"Howard Hawks"
+"Howard Hawks",
+"tt0029947",
 ],
 
 [
@@ -1306,7 +1423,8 @@ var list = [
 "121",
 "1938",
 "Documentary, Sport",
-"Leni Riefenstahl"
+"Leni Riefenstahl",
+"tt0030522",
 ],
 
 [
@@ -1317,7 +1435,8 @@ var list = [
 "96",
 "1938",
 "Mystery, Thriller",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0030341",
 ],
 
 [
@@ -1328,7 +1447,8 @@ var list = [
 "104",
 "1939",
 "Drama, Romance",
-"William Wyler"
+"William Wyler",
+"tt0032145",
 ],
 
 [
@@ -1339,7 +1459,8 @@ var list = [
 "129",
 "1939",
 "Comedy, Drama",
-"Frank Capra"
+"Frank Capra",
+"tt0031679",
 ],
 
 [
@@ -1350,7 +1471,8 @@ var list = [
 "96",
 "1939",
 "Adventure, Drama, Western",
-"John Ford"
+"John Ford",
+"tt0031971",
 ],
 
 [
@@ -1361,7 +1483,8 @@ var list = [
 "121",
 "1939",
 "Adventure, Drama, Romance",
-"Howard Hawks"
+"Howard Hawks",
+"tt0031762",
 ],
 
 [
@@ -1372,7 +1495,8 @@ var list = [
 "95",
 "1939",
 "Comedy, Western",
-"George Marshall"
+"George Marshall",
+"tt0031225",
 ],
 
 [
@@ -1383,7 +1507,8 @@ var list = [
 "238",
 "1939",
 "Drama, History, Romance, War",
-"Sam Wood, George Cukor, Victor Fleming"
+"Sam Wood, George Cukor, Victor Fleming",
+"tt0031381",
 ],
 
 [
@@ -1394,7 +1519,8 @@ var list = [
 "93",
 "1939",
 "Crime, Drama, Romance, Thriller",
-"Marcel Carné"
+"Marcel Carné",
+"tt0031514",
 ],
 
 [
@@ -1405,7 +1531,8 @@ var list = [
 "117",
 "1939",
 "Adventure, Comedy, War",
-"George Stevens"
+"George Stevens",
+"tt0031398",
 ],
 
 [
@@ -1416,7 +1543,8 @@ var list = [
 "110",
 "1939",
 "Comedy, Romance",
-"Ernst Lubitsch"
+"Ernst Lubitsch",
+"tt0031725",
 ],
 
 [
@@ -1427,7 +1555,8 @@ var list = [
 "102",
 "1939",
 "Adventure, Family, Fantasy, Musical",
-"Mervyn LeRoy, Norman Taurog, George Cukor, King Vidor, Richard Thorpe, Victor Fleming"
+"Mervyn LeRoy, Norman Taurog, George Cukor, King Vidor, Richard Thorpe, Victor Fleming",
+"tt0032138",
 ],
 
 [
@@ -1438,7 +1567,8 @@ var list = [
 "110",
 "1939",
 "Comedy, Drama",
-"Jean Renoir"
+"Jean Renoir",
+"tt0031885",
 ],
 
 [
@@ -1449,7 +1579,8 @@ var list = [
 "143",
 "1939",
 "Drama, Romance",
-"Kenji Mizoguchi"
+"Kenji Mizoguchi",
+"tt0032156",
 ],
 
 [
@@ -1460,7 +1591,8 @@ var list = [
 "92",
 "1940",
 "Comedy, Drama, Romance",
-"Howard Hawks"
+"Howard Hawks",
+"tt0032599",
 ],
 
 [
@@ -1471,7 +1603,8 @@ var list = [
 "125",
 "1940",
 "Animation, Family, Fantasy, Music",
-"Ben Sharpsteen, Samuel Armstrong, Paul Satterfield, Hamilton Luske, James Algar, Jim Handley, David Hand, Ford Beebe Jr., Wilfred Jackson, T. Hee, Norman Ferguson, Bill Roberts"
+"Ben Sharpsteen, Samuel Armstrong, Paul Satterfield, Hamilton Luske, James Algar, Jim Handley, David Hand, Ford Beebe Jr., Wilfred Jackson, T. Hee, Norman Ferguson, Bill Roberts",
+"tt0032455",
 ],
 
 [
@@ -1482,7 +1615,8 @@ var list = [
 "130",
 "1940",
 "Drama, Mystery, Romance, Thriller",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0032976",
 ],
 
 [
@@ -1493,7 +1627,8 @@ var list = [
 "112",
 "1940",
 "Comedy, Romance",
-"George Cukor"
+"George Cukor",
+"tt0032904",
 ],
 
 [
@@ -1504,7 +1639,8 @@ var list = [
 "129",
 "1940",
 "Drama, History",
-"John Ford"
+"John Ford",
+"tt0032551",
 ],
 
 [
@@ -1515,7 +1651,8 @@ var list = [
 "100",
 "1940",
 "Drama",
-"Frank Borzage"
+"Frank Borzage",
+"tt0032811",
 ],
 
 [
@@ -1526,7 +1663,8 @@ var list = [
 "72",
 "1940",
 "Comedy",
-"Edward F. Cline"
+"Edward F. Cline",
+"tt0032234",
 ],
 
 [
@@ -1537,7 +1675,8 @@ var list = [
 "88",
 "1940",
 "Animation, Comedy, Family, Fantasy, Musical",
-"Ben Sharpsteen, Jack Kinney, Hamilton Luske, Wilfred Jackson, T. Hee, Norman Ferguson, Bill Roberts"
+"Ben Sharpsteen, Jack Kinney, Hamilton Luske, Wilfred Jackson, T. Hee, Norman Ferguson, Bill Roberts",
+"tt0032910",
 ],
 
 [
@@ -1548,7 +1687,8 @@ var list = [
 "119",
 "1941",
 "Drama, Mystery",
-"Orson Welles"
+"Orson Welles",
+"tt0033467",
 ],
 
 [
@@ -1559,7 +1699,8 @@ var list = [
 "134",
 "1941",
 "Biography, Drama, History, Romance, War",
-"Howard Hawks"
+"Howard Hawks",
+"tt0034167",
 ],
 
 [
@@ -1570,7 +1711,8 @@ var list = [
 "94",
 "1941",
 "Comedy, Romance",
-"Preston Sturges"
+"Preston Sturges",
+"tt0033804",
 ],
 
 [
@@ -1581,7 +1723,8 @@ var list = [
 "70",
 "1941",
 "Horror",
-"George Waggner"
+"George Waggner",
+"tt0034398",
 ],
 
 [
@@ -1592,7 +1735,8 @@ var list = [
 "100",
 "1941",
 "Action, Adventure, Crime, Drama, Film-Noir, Thriller",
-"Raoul Walsh"
+"Raoul Walsh",
+"tt0033717",
 ],
 
 [
@@ -1603,7 +1747,8 @@ var list = [
 "118",
 "1941",
 "Drama, Family",
-"John Ford"
+"John Ford",
+"tt0033729",
 ],
 
 [
@@ -1614,7 +1759,8 @@ var list = [
 "90",
 "1941",
 "Adventure, Comedy, Drama, Romance",
-"Preston Sturges"
+"Preston Sturges",
+"tt0034240",
 ],
 
 [
@@ -1625,7 +1771,8 @@ var list = [
 "100",
 "1941",
 "Film-Noir, Mystery",
-"John Huston"
+"John Huston",
+"tt0033870",
 ],
 
 [
@@ -1636,7 +1783,8 @@ var list = [
 "64",
 "1941",
 "Animation, Drama, Family, Musical",
-"Ben Sharpsteen, Jack Kinney, Samuel Armstrong, Wilfred Jackson, John Elliotte, Norman Ferguson, Bill Roberts"
+"Ben Sharpsteen, Jack Kinney, Samuel Armstrong, Wilfred Jackson, John Elliotte, Norman Ferguson, Bill Roberts",
+"tt0033563",
 ],
 
 [
@@ -1647,7 +1795,8 @@ var list = [
 "88",
 "1942",
 "Comedy, Romance",
-"Preston Sturges"
+"Preston Sturges",
+"tt0035169",
 ],
 
 [
@@ -1658,7 +1807,8 @@ var list = [
 "117",
 "1942",
 "Drama, Romance",
-"Irving Rapper"
+"Irving Rapper",
+"tt0035140",
 ],
 
 [
@@ -1669,7 +1819,8 @@ var list = [
 "99",
 "1942",
 "Comedy, War",
-"Ernst Lubitsch"
+"Ernst Lubitsch",
+"tt0035446",
 ],
 
 [
@@ -1680,7 +1831,8 @@ var list = [
 "88",
 "1942",
 "Drama, Romance",
-"Robert Wise, Fred Fleck, Orson Welles"
+"Robert Wise, Fred Fleck, Orson Welles",
+"tt0035015",
 ],
 
 [
@@ -1691,7 +1843,8 @@ var list = [
 "126",
 "1942",
 "Biography, Drama, Musical",
-"Michael Curtiz"
+"Michael Curtiz",
+"tt0035575",
 ],
 
 [
@@ -1702,7 +1855,8 @@ var list = [
 "134",
 "1942",
 "Drama, Romance, War",
-"William Wyler"
+"William Wyler",
+"tt0035093",
 ],
 
 [
@@ -1713,7 +1867,8 @@ var list = [
 "102",
 "1942",
 "Drama, Romance, War",
-"Michael Curtiz"
+"Michael Curtiz",
+"tt0034583",
 ],
 
 [
@@ -1724,7 +1879,8 @@ var list = [
 "73",
 "1942",
 "Fantasy, Horror, Thriller",
-"Jacques Tourneur"
+"Jacques Tourneur",
+"tt0034587",
 ],
 
 [
@@ -1735,7 +1891,8 @@ var list = [
 "63",
 "1943",
 "Drama, War",
-"Humphrey Jennings"
+"Humphrey Jennings",
+"tt0035881",
 ],
 
 [
@@ -1746,7 +1903,8 @@ var list = [
 "75",
 "1942",
 "Drama, Western",
-"William A. Wellman"
+"William A. Wellman",
+"tt0036244",
 ],
 
 [
@@ -1757,7 +1915,8 @@ var list = [
 "163",
 "1943",
 "Drama, Romance, War",
-"Michael Powell, Emeric Pressburger"
+"Michael Powell, Emeric Pressburger",
+"tt0036112",
 ],
 
 [
@@ -1768,7 +1927,8 @@ var list = [
 "14",
 "1943",
 "Short, Fantasy, Mystery",
-"Alexander Hammid, Maya Deren"
+"Alexander Hammid, Maya Deren",
+"tt0036154",
 ],
 
 [
@@ -1779,7 +1939,8 @@ var list = [
 "71",
 "1943",
 "Drama, Horror, Mystery",
-"Mark Robson"
+"Mark Robson",
+"tt0036341",
 ],
 
 [
@@ -1790,7 +1951,8 @@ var list = [
 "90",
 "1943",
 "Drama, History, Romance",
-"Leslie Arliss"
+"Leslie Arliss",
+"tt0036135",
 ],
 
 [
@@ -1801,7 +1963,8 @@ var list = [
 "108",
 "1943",
 "Thriller",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0036342",
 ],
 
 [
@@ -1812,7 +1975,8 @@ var list = [
 "140",
 "1943",
 "Crime, Drama, Romance",
-"Luchino Visconti"
+"Luchino Visconti",
+"tt0035160",
 ],
 
 [
@@ -1823,7 +1987,8 @@ var list = [
 "88",
 "1944",
 "Drama, Film-Noir, Mystery",
-"Otto Preminger"
+"Otto Preminger",
+"tt0037008",
 ],
 
 [
@@ -1834,7 +1999,8 @@ var list = [
 "113",
 "1944",
 "Comedy, Drama, Family, Musical, Romance",
-"Vincente Minnelli"
+"Vincente Minnelli",
+"tt0037059",
 ],
 
 [
@@ -1845,7 +2011,8 @@ var list = [
 "100",
 "1944",
 "Adventure, Comedy, Romance, Thriller, War",
-"Howard Hawks"
+"Howard Hawks",
+"tt0037382",
 ],
 
 [
@@ -1856,7 +2023,8 @@ var list = [
 "114",
 "1944",
 "Crime, Drama, Film-Noir, Mystery, Thriller",
-"George Cukor"
+"George Cukor",
+"tt0036855",
 ],
 
 [
@@ -1867,7 +2035,8 @@ var list = [
 "137",
 "1944",
 "Biography, Drama, History, War",
-"Laurence Olivier"
+"Laurence Olivier",
+"tt0036910",
 ],
 
 [
@@ -1878,7 +2047,8 @@ var list = [
 "107",
 "1944",
 "Crime, Drama, Film-Noir, Mystery, Thriller",
-"Billy Wilder"
+"Billy Wilder",
+"tt0036775",
 ],
 
 [
@@ -1889,7 +2059,8 @@ var list = [
 "95",
 "1944",
 "Crime, Drama, Film-Noir, Mystery, Thriller",
-"Edward Dmytryk"
+"Edward Dmytryk",
+"tt0037101",
 ],
 
 [
@@ -1900,7 +2071,8 @@ var list = [
 "103",
 "1944",
 "Biography, Drama, History",
-"Sergei M. Eisenstein"
+"Sergei M. Eisenstein",
+"tt0037824",
 ],
 
 [
@@ -1911,7 +2083,8 @@ var list = [
 "111",
 "1945",
 "Crime, Drama, Film-Noir, Mystery, Romance",
-"Michael Curtiz"
+"Michael Curtiz",
+"tt0037913",
 ],
 
 [
@@ -1922,7 +2095,8 @@ var list = [
 "68",
 "1945",
 "Crime, Drama, Film-Noir",
-"Edgar G. Ulmer"
+"Edgar G. Ulmer",
+"tt0037638",
 ],
 
 [
@@ -1933,7 +2107,8 @@ var list = [
 "91",
 "1945",
 "Drama, Romance",
-"Michael Powell, Emeric Pressburger"
+"Michael Powell, Emeric Pressburger",
+"tt0037800",
 ],
 
 [
@@ -1944,7 +2119,8 @@ var list = [
 "101",
 "1945",
 "Drama, Film-Noir",
-"Billy Wilder"
+"Billy Wilder",
+"tt0037884",
 ],
 
 [
@@ -1955,7 +2131,8 @@ var list = [
 "189",
 "1945",
 "Drama, Romance",
-"Marcel Carné"
+"Marcel Carné",
+"tt0037674",
 ],
 
 [
@@ -1966,7 +2143,8 @@ var list = [
 "32",
 "1945",
 "Documentary, Short, War",
-"John Huston"
+"John Huston",
+"tt0036630",
 ],
 
 [
@@ -1977,7 +2155,8 @@ var list = [
 "86",
 "1945",
 "Drama, Romance",
-"David Lean"
+"David Lean",
+"tt0037558",
 ],
 
 [
@@ -1988,7 +2167,8 @@ var list = [
 "103",
 "1945",
 "Drama, Thriller, War",
-"Roberto Rossellini"
+"Roberto Rossellini",
+"tt0038890",
 ],
 
 [
@@ -1999,7 +2179,8 @@ var list = [
 "170",
 "1946",
 "Drama, Romance, War",
-"William Wyler"
+"William Wyler",
+"tt0036868",
 ],
 
 [
@@ -2010,7 +2191,8 @@ var list = [
 "126",
 "1946",
 "Drama, War",
-"Roberto Rossellini"
+"Roberto Rossellini",
+"tt0038823",
 ],
 
 [
@@ -2021,7 +2203,8 @@ var list = [
 "113",
 "1946",
 "Crime, Drama, Film-Noir, Mystery, Romance, Thriller",
-"Tay Garnett"
+"Tay Garnett",
+"tt0038854",
 ],
 
 [
@@ -2032,7 +2215,8 @@ var list = [
 "96",
 "1946",
 "Drama, Fantasy, Romance",
-"René Clément, Jean Cocteau"
+"René Clément, Jean Cocteau",
+"tt0038348",
 ],
 
 [
@@ -2043,7 +2227,8 @@ var list = [
 "103",
 "1946",
 "Crime, Drama, Film-Noir, Mystery",
-"Robert Siodmak"
+"Robert Siodmak",
+"tt0038669",
 ],
 
 [
@@ -2054,7 +2239,8 @@ var list = [
 "130",
 "1946",
 "Drama, Family, Fantasy",
-"Frank Capra"
+"Frank Capra",
+"tt0038650",
 ],
 
 [
@@ -2065,7 +2251,8 @@ var list = [
 "114",
 "1946",
 "Crime, Film-Noir, Mystery, Thriller",
-"Howard Hawks"
+"Howard Hawks",
+"tt0038355",
 ],
 
 [
@@ -2076,7 +2263,8 @@ var list = [
 "110",
 "1946",
 "Drama, Film-Noir, Romance, Thriller",
-"Charles Vidor"
+"Charles Vidor",
+"tt0038559",
 ],
 
 [
@@ -2087,7 +2275,8 @@ var list = [
 "104",
 "1946",
 "Comedy, Drama, Fantasy, Romance, War",
-"Michael Powell, Emeric Pressburger"
+"Michael Powell, Emeric Pressburger",
+"tt0038733",
 ],
 
 [
@@ -2098,7 +2287,8 @@ var list = [
 "118",
 "1946",
 "Adventure, Drama, Mystery, Romance",
-"David Lean"
+"David Lean",
+"tt0038574",
 ],
 
 [
@@ -2109,7 +2299,8 @@ var list = [
 "97",
 "1946",
 "Biography, Drama, Western",
-"John Ford"
+"John Ford",
+"tt0038762",
 ],
 
 [
@@ -2120,7 +2311,8 @@ var list = [
 "102",
 "1946",
 "Drama, Film-Noir, Romance, Thriller",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0038787",
 ],
 
 [
@@ -2131,7 +2323,8 @@ var list = [
 "101",
 "1947",
 "Drama",
-"Michael Powell, Emeric Pressburger"
+"Michael Powell, Emeric Pressburger",
+"tt0039192",
 ],
 
 [
@@ -2142,7 +2335,8 @@ var list = [
 "97",
 "1947",
 "Crime, Drama, Film-Noir, Romance, Thriller",
-"Jacques Tourneur"
+"Jacques Tourneur",
+"tt0039689",
 ],
 
 [
@@ -2153,7 +2347,8 @@ var list = [
 "124",
 "1947",
 "Comedy, Crime, Drama",
-"Charles Chaplin"
+"Charles Chaplin",
+"tt0039631",
 ],
 
 [
@@ -2164,7 +2359,8 @@ var list = [
 "116",
 "1947",
 "Crime, Drama, Film-Noir, Thriller",
-"Carol Reed"
+"Carol Reed",
+"tt0039677",
 ],
 
 [
@@ -2175,7 +2371,8 @@ var list = [
 "89",
 "1948",
 "Drama",
-"Vittorio De Sica"
+"Vittorio De Sica",
+"tt0040522",
 ],
 
 [
@@ -2186,7 +2383,8 @@ var list = [
 "87",
 "1948",
 "Drama, Romance",
-"Max Ophüls"
+"Max Ophüls",
+"tt0040536",
 ],
 
 [
@@ -2197,7 +2395,8 @@ var list = [
 "99",
 "1947",
 "Drama, Film-Noir, Mystery, Romance, Thriller",
-"Fritz Lang"
+"Fritz Lang",
+"tt0040766",
 ],
 
 [
@@ -2208,7 +2407,8 @@ var list = [
 "79",
 "1948",
 "Crime, Drama, Film-Noir",
-"Abraham Polonsky"
+"Abraham Polonsky",
+"tt0040366",
 ],
 
 [
@@ -2219,7 +2419,8 @@ var list = [
 "98",
 "1948",
 "Drama, Romance",
-"Mu Fei"
+"Mu Fei",
+"tt0189219",
 ],
 
 [
@@ -2230,7 +2431,8 @@ var list = [
 "133",
 "1948",
 "Action, Adventure, Romance, Western",
-"Arthur Rosson, Howard Hawks"
+"Arthur Rosson, Howard Hawks",
+"tt0040724",
 ],
 
 [
@@ -2241,7 +2443,8 @@ var list = [
 "91",
 "1948",
 "Comedy, Family, Western",
-"Norman Z. McLeod"
+"Norman Z. McLeod",
+"tt0040679",
 ],
 
 [
@@ -2252,7 +2455,8 @@ var list = [
 "108",
 "1948",
 "Drama, Mystery",
-"Anatole Litvak"
+"Anatole Litvak",
+"tt0040806",
 ],
 
 [
@@ -2263,7 +2467,8 @@ var list = [
 "87",
 "1947",
 "Crime, Drama, Film-Noir, Mystery, Thriller",
-"Orson Welles"
+"Orson Welles",
+"tt0040525",
 ],
 
 [
@@ -2274,7 +2479,8 @@ var list = [
 "80",
 "1948",
 "Crime, Drama, Mystery, Thriller",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0040746",
 ],
 
 [
@@ -2285,7 +2491,8 @@ var list = [
 "134",
 "1948",
 "Drama, Music, Romance",
-"Michael Powell, Emeric Pressburger"
+"Michael Powell, Emeric Pressburger",
+"tt0040725",
 ],
 
 [
@@ -2296,7 +2503,8 @@ var list = [
 "126",
 "1948",
 "Adventure, Drama, Western",
-"John Huston"
+"John Huston",
+"tt0040897",
 ],
 
 [
@@ -2307,7 +2515,8 @@ var list = [
 "78",
 "1948",
 "Adventure, Drama",
-"Robert J. Flaherty"
+"Robert J. Flaherty",
+"tt0040550",
 ],
 
 [
@@ -2318,7 +2527,8 @@ var list = [
 "87",
 "1950",
 "Crime, Drama, Film-Noir, Romance, Thriller",
-"Joseph H. Lewis"
+"Joseph H. Lewis",
+"tt0042530",
 ],
 
 [
@@ -2329,7 +2539,8 @@ var list = [
 "82",
 "1949",
 "Crime, Drama, Film-Noir",
-"Max Ophüls"
+"Max Ophüls",
+"tt0041786",
 ],
 
 [
@@ -2340,7 +2551,8 @@ var list = [
 "114",
 "1949",
 "Action, Crime, Drama, Film-Noir",
-"Raoul Walsh"
+"Raoul Walsh",
+"tt0042041",
 ],
 
 [
@@ -2351,7 +2563,8 @@ var list = [
 "101",
 "1949",
 "Comedy, Drama, Romance",
-"George Cukor"
+"George Cukor",
+"tt0041090",
 ],
 
 [
@@ -2362,7 +2575,8 @@ var list = [
 "115",
 "1949",
 "Drama, Romance",
-"William Wyler"
+"William Wyler",
+"tt0041452",
 ],
 
 [
@@ -2373,7 +2587,8 @@ var list = [
 "104",
 "1949",
 "Film-Noir, Mystery, Thriller",
-"Carol Reed"
+"Carol Reed",
+"tt0041959",
 ],
 
 [
@@ -2384,7 +2599,8 @@ var list = [
 "106",
 "1949",
 "Comedy, Crime",
-"Robert Hamer"
+"Robert Hamer",
+"tt0041546",
 ],
 
 [
@@ -2395,7 +2611,8 @@ var list = [
 "80",
 "1949",
 "Comedy, Crime",
-"Alexander Mackendrick"
+"Alexander Mackendrick",
+"tt0042040",
 ],
 
 [
@@ -2406,7 +2623,8 @@ var list = [
 "98",
 "1949",
 "Comedy, Musical, Romance",
-"Gene Kelly, Stanley Donen"
+"Gene Kelly, Stanley Donen",
+"tt0041716",
 ],
 
 [
@@ -2417,7 +2635,8 @@ var list = [
 "95",
 "1950",
 "Fantasy, Drama, Romance",
-"Jean Cocteau"
+"Jean Cocteau",
+"tt0041719",
 ],
 
 [
@@ -2428,7 +2647,8 @@ var list = [
 "112",
 "1950",
 "Crime, Drama, Film-Noir, Thriller",
-"John Huston"
+"John Huston",
+"tt0042208",
 ],
 
 [
@@ -2439,7 +2659,8 @@ var list = [
 "88",
 "1950",
 "Crime, Drama, Mystery",
-"Akira Kurosawa"
+"Akira Kurosawa",
+"tt0042876",
 ],
 
 [
@@ -2450,7 +2671,8 @@ var list = [
 "138",
 "1950",
 "Drama",
-"Joseph L. Mankiewicz"
+"Joseph L. Mankiewicz",
+"tt0042192",
 ],
 
 [
@@ -2461,7 +2683,8 @@ var list = [
 "92",
 "1950",
 "Action, Drama, Western",
-"Anthony Mann"
+"Anthony Mann",
+"tt0043137",
 ],
 
 [
@@ -2472,7 +2695,8 @@ var list = [
 "105",
 "1950",
 "Romance, Western",
-"John Ford"
+"John Ford",
+"tt0042895",
 ],
 
 [
@@ -2483,7 +2707,8 @@ var list = [
 "110",
 "1950",
 "Drama, Film-Noir",
-"Billy Wilder"
+"Billy Wilder",
+"tt0043014",
 ],
 
 [
@@ -2494,7 +2719,8 @@ var list = [
 "85",
 "1950",
 "Crime, Drama",
-"Luis Buñuel"
+"Luis Buñuel",
+"tt0042804",
 ],
 
 [
@@ -2505,7 +2731,8 @@ var list = [
 "94",
 "1950",
 "Drama, Film-Noir, Mystery, Romance, Thriller",
-"Nicholas Ray"
+"Nicholas Ray",
+"tt0042593",
 ],
 
 [
@@ -2516,7 +2743,8 @@ var list = [
 "111",
 "1951",
 "Drama, Film-Noir",
-"Billy Wilder"
+"Billy Wilder",
+"tt0043338",
 ],
 
 [
@@ -2527,7 +2755,8 @@ var list = [
 "101",
 "1951",
 "Crime, Film-Noir, Thriller",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0044079",
 ],
 
 [
@@ -2538,7 +2767,8 @@ var list = [
 "122",
 "1951",
 "Drama",
-"Elia Kazan"
+"Elia Kazan",
+"tt0044081",
 ],
 
 [
@@ -2549,7 +2779,8 @@ var list = [
 "114",
 "1951",
 "Drama, Musical, Romance",
-"Vincente Minnelli"
+"Vincente Minnelli",
+"tt0043278",
 ],
 
 [
@@ -2560,7 +2791,8 @@ var list = [
 "122",
 "1951",
 "Drama, Fantasy, Mystery, Romance",
-"Albert Lewin"
+"Albert Lewin",
+"tt0043899",
 ],
 
 [
@@ -2571,7 +2803,8 @@ var list = [
 "105",
 "1951",
 "Adventure, Drama, Romance, War",
-"John Huston"
+"John Huston",
+"tt0043265",
 ],
 
 [
@@ -2582,7 +2815,8 @@ var list = [
 "122",
 "1951",
 "Drama, Romance",
-"George Stevens"
+"George Stevens",
+"tt0043924",
 ],
 
 [
@@ -2593,7 +2827,8 @@ var list = [
 "78",
 "1951",
 "Comedy, Crime",
-"Charles Crichton"
+"Charles Crichton",
+"tt0044829",
 ],
 
 [
@@ -2604,7 +2839,8 @@ var list = [
 "115",
 "1951",
 "Drama",
-"Robert Bresson"
+"Robert Bresson",
+"tt0042619",
 ],
 
 [
@@ -2615,7 +2851,8 @@ var list = [
 "92",
 "1951",
 "Drama, Sci-Fi",
-"Robert Wise"
+"Robert Wise",
+"tt0043456",
 ],
 
 [
@@ -2626,7 +2863,8 @@ var list = [
 "129",
 "1952",
 "Comedy, Drama, Romance",
-"John Ford"
+"John Ford",
+"tt0045061",
 ],
 
 [
@@ -2637,7 +2875,8 @@ var list = [
 "86",
 "1952",
 "Drama, War",
-"René Clément"
+"René Clément",
+"tt0043686",
 ],
 
 [
@@ -2648,7 +2887,8 @@ var list = [
 "118",
 "1952",
 "Drama",
-"Roberto Rossellini"
+"Roberto Rossellini",
+"tt0043511",
 ],
 
 [
@@ -2659,7 +2899,8 @@ var list = [
 "103",
 "1952",
 "Comedy, Musical, Romance",
-"Gene Kelly, Stanley Donen"
+"Gene Kelly, Stanley Donen",
+"tt0045152",
 ],
 
 [
@@ -2670,7 +2911,8 @@ var list = [
 "118",
 "1952",
 "Drama, Romance",
-"Vincente Minnelli"
+"Vincente Minnelli",
+"tt0044391",
 ],
 
 [
@@ -2681,7 +2923,8 @@ var list = [
 "143",
 "1952",
 "Drama",
-"Akira Kurosawa"
+"Akira Kurosawa",
+"tt0044741",
 ],
 
 [
@@ -2692,7 +2935,8 @@ var list = [
 "89",
 "1952",
 "Drama",
-"Vittorio De Sica"
+"Vittorio De Sica",
+"tt0045274",
 ],
 
 [
@@ -2703,7 +2947,8 @@ var list = [
 "85",
 "1952",
 "Action, Drama, Thriller, Western",
-"Fred Zinnemann"
+"Fred Zinnemann",
+"tt0044706",
 ],
 
 [
@@ -2714,7 +2959,8 @@ var list = [
 "103",
 "1952",
 "Comedy, Drama, History, Romance",
-"Jean Renoir"
+"Jean Renoir",
+"tt0044487",
 ],
 
 [
@@ -2725,7 +2971,8 @@ var list = [
 "96",
 "1953",
 "Drama, Romance",
-"Ingmar Bergman"
+"Ingmar Bergman",
+"tt0046345",
 ],
 
 [
@@ -2736,7 +2983,8 @@ var list = [
 "80",
 "1953",
 "Crime, Film-Noir, Thriller",
-"Samuel Fuller"
+"Samuel Fuller",
+"tt0046187",
 ],
 
 [
@@ -2747,7 +2995,8 @@ var list = [
 "112",
 "1953",
 "Comedy, Musical, Romance",
-"Vincente Minnelli"
+"Vincente Minnelli",
+"tt0045537",
 ],
 
 [
@@ -2758,7 +3007,8 @@ var list = [
 "114",
 "1953",
 "Comedy",
-"Jacques Tati"
+"Jacques Tati",
+"tt0046487",
 ],
 
 [
@@ -2769,7 +3019,8 @@ var list = [
 "105",
 "1953",
 "Drama, Romance",
-"Max Ophüls"
+"Max Ophüls",
+"tt0046022",
 ],
 
 [
@@ -2780,7 +3031,8 @@ var list = [
 "131",
 "1953",
 "Adventure, Drama, Thriller",
-"Henri-Georges Clouzot"
+"Henri-Georges Clouzot",
+"tt0046268",
 ],
 
 [
@@ -2791,7 +3043,8 @@ var list = [
 "80",
 "1953",
 "Drama, Film-Noir",
-"Ida Lupino"
+"Ida Lupino",
+"tt0045557",
 ],
 
 [
@@ -2802,7 +3055,8 @@ var list = [
 "91",
 "1953",
 "Thriller, Western",
-"Anthony Mann"
+"Anthony Mann",
+"tt0044953",
 ],
 
 [
@@ -2813,7 +3067,8 @@ var list = [
 "136",
 "1953",
 "Drama",
-"Yasujirô Ozu"
+"Yasujirô Ozu",
+"tt0046438",
 ],
 
 [
@@ -2824,7 +3079,8 @@ var list = [
 "118",
 "1953",
 "Drama, Romance, War",
-"Fred Zinnemann"
+"Fred Zinnemann",
+"tt0045793",
 ],
 
 [
@@ -2835,7 +3091,8 @@ var list = [
 "96",
 "1953",
 "Drama, Fantasy, War",
-"Kenji Mizoguchi"
+"Kenji Mizoguchi",
+"tt0046478",
 ],
 
 [
@@ -2846,7 +3103,8 @@ var list = [
 "85",
 "1954",
 "Drama, Romance",
-"Roberto Rossellini"
+"Roberto Rossellini",
+"tt0046511",
 ],
 
 [
@@ -2857,7 +3115,8 @@ var list = [
 "118",
 "1953",
 "Drama, Western",
-"George Stevens"
+"George Stevens",
+"tt0046303",
 ],
 
 [
@@ -2868,7 +3127,8 @@ var list = [
 "91",
 "1953",
 "Comedy, Musical, Romance",
-"Howard Hawks"
+"Howard Hawks",
+"tt0045810",
 ],
 
 [
@@ -2879,7 +3139,8 @@ var list = [
 "118",
 "1953",
 "Comedy, Romance",
-"William Wyler"
+"William Wyler",
+"tt0046250",
 ],
 
 [
@@ -2890,7 +3151,8 @@ var list = [
 "89",
 "1953",
 "Crime, Film-Noir, Thriller",
-"Fritz Lang"
+"Fritz Lang",
+"tt0045555",
 ],
 
 [
@@ -2901,7 +3163,8 @@ var list = [
 "108",
 "1954",
 "Crime, Drama, Thriller",
-"Elia Kazan"
+"Elia Kazan",
+"tt0047296",
 ],
 
 [
@@ -2912,7 +3175,8 @@ var list = [
 "108",
 "1954",
 "Drama",
-"Federico Fellini"
+"Federico Fellini",
+"tt0047528",
 ],
 
 [
@@ -2923,7 +3187,8 @@ var list = [
 "117",
 "1955",
 "Crime, Drama, Horror, Mystery, Thriller",
-"Henri-Georges Clouzot"
+"Henri-Georges Clouzot",
+"tt0046911",
 ],
 
 [
@@ -2934,7 +3199,8 @@ var list = [
 "154",
 "1954",
 "Drama, Musical, Romance",
-"George Cukor"
+"George Cukor",
+"tt0047522",
 ],
 
 [
@@ -2945,7 +3211,8 @@ var list = [
 "112",
 "1954",
 "Mystery, Thriller",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0047396",
 ],
 
 [
@@ -2956,7 +3223,8 @@ var list = [
 "123",
 "1954",
 "Drama, History, Romance, War",
-"Luchino Visconti"
+"Luchino Visconti",
+"tt0047469",
 ],
 
 [
@@ -2967,7 +3235,8 @@ var list = [
 "124",
 "1954",
 "Drama",
-"Kenji Mizoguchi"
+"Kenji Mizoguchi",
+"tt0047445",
 ],
 
 [
@@ -2978,7 +3247,8 @@ var list = [
 "81",
 "1954",
 "Western",
-"Allan Dwan"
+"Allan Dwan",
+"tt0047495",
 ],
 
 [
@@ -2989,7 +3259,8 @@ var list = [
 "128",
 "1954",
 "Crime, Drama, Mystery, Romance",
-"Joseph L. Mankiewicz"
+"Joseph L. Mankiewicz",
+"tt0046754",
 ],
 
 [
@@ -3000,7 +3271,8 @@ var list = [
 "207",
 "1954",
 "Adventure, Drama",
-"Akira Kurosawa"
+"Akira Kurosawa",
+"tt0047478",
 ],
 
 [
@@ -3011,7 +3283,8 @@ var list = [
 "105",
 "1954",
 "Drama, Musical, Romance",
-"Otto Preminger"
+"Otto Preminger",
+"tt0046828",
 ],
 
 [
@@ -3022,7 +3295,8 @@ var list = [
 "110",
 "1954",
 "Drama, Western",
-"Nicholas Ray"
+"Nicholas Ray",
+"tt0047136",
 ],
 
 [
@@ -3033,7 +3307,8 @@ var list = [
 "94",
 "1954",
 "Drama, History",
-"Herbert J. Biberman"
+"Herbert J. Biberman",
+"tt0047443",
 ],
 
 [
@@ -3044,7 +3319,8 @@ var list = [
 "116",
 "1955",
 "Biography, Drama, Romance",
-"Max Ophüls"
+"Max Ophüls",
+"tt0048308",
 ],
 
 [
@@ -3055,7 +3331,8 @@ var list = [
 "125",
 "1955",
 "Drama",
-"Satyajit Ray"
+"Satyajit Ray",
+"tt0048473",
 ],
 
 [
@@ -3066,7 +3343,8 @@ var list = [
 "126",
 "1955",
 "Drama, Fantasy",
-"Carl Theodor Dreyer"
+"Carl Theodor Dreyer",
+"tt0048452",
 ],
 
 [
@@ -3077,7 +3355,8 @@ var list = [
 "90",
 "1955",
 "Drama, Romance",
-"Delbert Mann"
+"Delbert Mann",
+"tt0048356",
 ],
 
 [
@@ -3088,7 +3367,8 @@ var list = [
 "109",
 "1955",
 "Comedy, Musical, Romance",
-"Frank Tashlin"
+"Frank Tashlin",
+"tt0047840",
 ],
 
 [
@@ -3099,7 +3379,8 @@ var list = [
 "111",
 "1955",
 "Drama",
-"Nicholas Ray"
+"Nicholas Ray",
+"tt0048545",
 ],
 
 [
@@ -3110,7 +3391,8 @@ var list = [
 "36",
 "1957",
 "Documentary, Short, Horror",
-"Jean Rouch"
+"Jean Rouch",
+"tt0048363",
 ],
 
 [
@@ -3121,7 +3403,8 @@ var list = [
 "101",
 "1955",
 "Adventure, Drama, Romance, War",
-"Thorold Dickinson"
+"Thorold Dickinson",
+"tt0048121",
 ],
 
 [
@@ -3132,7 +3415,8 @@ var list = [
 "81",
 "1955",
 "Crime, Drama, Mystery, Thriller, Western",
-"John Sturges"
+"John Sturges",
+"tt0047849",
 ],
 
 [
@@ -3143,7 +3427,8 @@ var list = [
 "32",
 "1956",
 "Documentary, Short, History, War",
-"Alain Resnais"
+"Alain Resnais",
+"tt0048434",
 ],
 
 [
@@ -3154,7 +3439,8 @@ var list = [
 "100",
 "1955",
 "Crime, Drama, Film-Noir",
-"Phil Karlson"
+"Phil Karlson",
+"tt0048488",
 ],
 
 [
@@ -3165,7 +3451,8 @@ var list = [
 "119",
 "1955",
 "Crime, Drama, Film-Noir, Romance",
-"Otto Preminger"
+"Otto Preminger",
+"tt0048347",
 ],
 
 [
@@ -3176,7 +3463,8 @@ var list = [
 "106",
 "1955",
 "Crime, Film-Noir, Mystery, Sci-Fi, Thriller",
-"Robert Aldrich"
+"Robert Aldrich",
+"tt0048261",
 ],
 
 [
@@ -3187,7 +3475,8 @@ var list = [
 "150",
 "1955",
 "Comedy, Crime, Musical, Romance",
-"Joseph L. Mankiewicz"
+"Joseph L. Mankiewicz",
+"tt0048140",
 ],
 
 [
@@ -3198,7 +3487,8 @@ var list = [
 "92",
 "1955",
 "Crime, Drama, Film-Noir, Thriller",
-"Charles Laughton"
+"Charles Laughton",
+"tt0048424",
 ],
 
 [
@@ -3209,7 +3499,8 @@ var list = [
 "91",
 "1955",
 "Comedy, Crime",
-"Alexander Mackendrick"
+"Alexander Mackendrick",
+"tt0048281",
 ],
 
 [
@@ -3220,7 +3511,8 @@ var list = [
 "145",
 "1955",
 "Comedy, Drama, Musical, Romance, Western",
-"Fred Zinnemann"
+"Fred Zinnemann",
+"tt0048445",
 ],
 
 [
@@ -3231,7 +3523,8 @@ var list = [
 "109",
 "1955",
 "Comedy, Romance",
-"Ingmar Bergman"
+"Ingmar Bergman",
+"tt0048641",
 ],
 
 [
@@ -3242,7 +3535,8 @@ var list = [
 "98",
 "1956",
 "Crime, Drama, Thriller",
-"Jean-Pierre Melville"
+"Jean-Pierre Melville",
+"tt0047892",
 ],
 
 [
@@ -3253,7 +3547,8 @@ var list = [
 "89",
 "1955",
 "Drama, Romance",
-"Douglas Sirk"
+"Douglas Sirk",
+"tt0047811",
 ],
 
 [
@@ -3264,7 +3559,8 @@ var list = [
 "220",
 "1956",
 "Adventure, Drama",
-"Cecil B. DeMille"
+"Cecil B. DeMille",
+"tt0049833",
 ],
 
 [
@@ -3275,7 +3571,8 @@ var list = [
 "119",
 "1956",
 "Adventure, Drama, Western",
-"John Ford"
+"John Ford",
+"tt0049730",
 ],
 
 [
@@ -3286,7 +3583,8 @@ var list = [
 "116",
 "1956",
 "Drama, Music, War",
-"Kon Ichikawa"
+"Kon Ichikawa",
+"tt0049012",
 ],
 
 [
@@ -3297,7 +3595,8 @@ var list = [
 "98",
 "1956",
 "Action, Adventure, Sci-Fi, Thriller",
-"Fred M. Wilcox"
+"Fred M. Wilcox",
+"tt0049223",
 ],
 
 [
@@ -3308,7 +3607,8 @@ var list = [
 "99",
 "1956",
 "Drama",
-"Douglas Sirk"
+"Douglas Sirk",
+"tt0049966",
 ],
 
 [
@@ -3319,7 +3619,8 @@ var list = [
 "101",
 "1956",
 "Drama",
-"Robert Bresson"
+"Robert Bresson",
+"tt0049902",
 ],
 
 [
@@ -3330,7 +3631,8 @@ var list = [
 "95",
 "1956",
 "Drama",
-"Nicholas Ray"
+"Nicholas Ray",
+"tt0049010",
 ],
 
 [
@@ -3341,7 +3643,8 @@ var list = [
 "80",
 "1956",
 "Drama, Horror, Sci-Fi",
-"Don Siegel"
+"Don Siegel",
+"tt0049366",
 ],
 
 [
@@ -3352,7 +3655,8 @@ var list = [
 "201",
 "1956",
 "Drama, Western",
-"George Stevens"
+"George Stevens",
+"tt0049261",
 ],
 
 [
@@ -3363,7 +3667,8 @@ var list = [
 "105",
 "1956",
 "Drama, Film-Noir",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0051207",
 ],
 
 [
@@ -3374,7 +3679,8 @@ var list = [
 "111",
 "1956",
 "Comedy, Musical, Romance",
-"Charles Walters"
+"Charles Walters",
+"tt0049314",
 ],
 
 [
@@ -3385,7 +3691,8 @@ var list = [
 "110",
 "1957",
 "Drama",
-"Akira Kurosawa"
+"Akira Kurosawa",
+"tt0050613",
 ],
 
 [
@@ -3396,7 +3703,8 @@ var list = [
 "88",
 "1957",
 "Drama, War",
-"Stanley Kubrick"
+"Stanley Kubrick",
+"tt0050825",
 ],
 
 [
@@ -3407,7 +3715,8 @@ var list = [
 "115",
 "1957",
 "Drama, Romance",
-"Leo McCarey"
+"Leo McCarey",
+"tt0050105",
 ],
 
 [
@@ -3418,7 +3727,8 @@ var list = [
 "96",
 "1957",
 "Drama, Fantasy",
-"Ingmar Bergman"
+"Ingmar Bergman",
+"tt0050976",
 ],
 
 [
@@ -3429,7 +3739,8 @@ var list = [
 "96",
 "1957",
 "Drama",
-"Sidney Lumet"
+"Sidney Lumet",
+"tt0050083",
 ],
 
 [
@@ -3440,7 +3751,8 @@ var list = [
 "91",
 "1957",
 "Drama, Romance",
-"Ingmar Bergman"
+"Ingmar Bergman",
+"tt0050986",
 ],
 
 [
@@ -3451,7 +3763,8 @@ var list = [
 "81",
 "1957",
 "Horror, Sci-Fi",
-"Jack Arnold"
+"Jack Arnold",
+"tt0050539",
 ],
 
 [
@@ -3462,7 +3775,8 @@ var list = [
 "122",
 "1957",
 "Biography, Drama, Western",
-"John Sturges"
+"John Sturges",
+"tt0050468",
 ],
 
 [
@@ -3473,7 +3787,8 @@ var list = [
 "110",
 "1957",
 "Drama",
-"Federico Fellini"
+"Federico Fellini",
+"tt0050783",
 ],
 
 [
@@ -3484,7 +3799,8 @@ var list = [
 "95",
 "1957",
 "Drama, Romance, War",
-"Mikhail Kalatozov"
+"Mikhail Kalatozov",
+"tt0050634",
 ],
 
 [
@@ -3495,7 +3811,8 @@ var list = [
 "110",
 "1956",
 "Drama",
-"Satyajit Ray"
+"Satyajit Ray",
+"tt0048956",
 ],
 
 [
@@ -3506,7 +3823,8 @@ var list = [
 "161",
 "1957",
 "Adventure, Drama, War",
-"David Lean"
+"David Lean",
+"tt0050212",
 ],
 
 [
@@ -3517,7 +3835,8 @@ var list = [
 "96",
 "1957",
 "Drama, Film-Noir",
-"Alexander Mackendrick"
+"Alexander Mackendrick",
+"tt0051036",
 ],
 
 [
@@ -3528,7 +3847,8 @@ var list = [
 "172",
 "1957",
 "Drama, Musical, Family",
-"Mehboob Khan"
+"Mehboob Khan",
+"tt0050188",
 ],
 
 [
@@ -3539,7 +3859,8 @@ var list = [
 "95",
 "1958",
 "Crime, Drama, Film-Noir, Thriller",
-"Orson Welles"
+"Orson Welles",
+"tt0052311",
 ],
 
 [
@@ -3550,7 +3871,8 @@ var list = [
 "115",
 "1958",
 "Comedy, Musical, Romance",
-"Vincente Minnelli"
+"Vincente Minnelli",
+"tt0051658",
 ],
 
 [
@@ -3561,7 +3883,8 @@ var list = [
 "96",
 "1958",
 "Crime, Drama",
-"Stanley Kramer"
+"Stanley Kramer",
+"tt0051525",
 ],
 
 [
@@ -3572,7 +3895,8 @@ var list = [
 "100",
 "1958",
 "Drama, Romance, Western",
-"Anthony Mann"
+"Anthony Mann",
+"tt0051899",
 ],
 
 [
@@ -3583,7 +3907,8 @@ var list = [
 "128",
 "1958",
 "Mystery, Romance, Thriller",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0052357",
 ],
 
 [
@@ -3594,7 +3919,8 @@ var list = [
 "103",
 "1958",
 "Drama, Romance, War",
-"Andrzej Wajda"
+"Andrzej Wajda",
+"tt0052080",
 ],
 
 [
@@ -3605,7 +3931,8 @@ var list = [
 "77",
 "1958",
 "Comedy, Crime, Drama",
-"Youssef Chahine"
+"Youssef Chahine",
+"tt0051390",
 ],
 
 [
@@ -3616,7 +3943,8 @@ var list = [
 "100",
 "1958",
 "Drama, Music",
-"Satyajit Ray"
+"Satyajit Ray",
+"tt0051792",
 ],
 
 [
@@ -3627,7 +3955,8 @@ var list = [
 "116",
 "1958",
 "Comedy",
-"Jacques Tati"
+"Jacques Tati",
+"tt0050706",
 ],
 
 [
@@ -3638,7 +3967,8 @@ var list = [
 "137",
 "1958",
 "Drama, Romance",
-"Vincente Minnelli"
+"Vincente Minnelli",
+"tt0052218",
 ],
 
 [
@@ -3649,7 +3979,8 @@ var list = [
 "82",
 "1958",
 "Horror",
-"Terence Fisher"
+"Terence Fisher",
+"tt0051554",
 ],
 
 [
@@ -3660,7 +3991,8 @@ var list = [
 "121",
 "1959",
 "Comedy, Music, Romance",
-"Billy Wilder"
+"Billy Wilder",
+"tt0053291",
 ],
 
 [
@@ -3671,7 +4003,8 @@ var list = [
 "136",
 "1959",
 "Adventure, Mystery, Thriller",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0053125",
 ],
 
 [
@@ -3682,7 +4015,8 @@ var list = [
 "99",
 "1959",
 "Crime, Drama",
-"François Truffaut"
+"François Truffaut",
+"tt0053198",
 ],
 
 [
@@ -3693,7 +4027,8 @@ var list = [
 "76",
 "1959",
 "Crime, Drama",
-"Robert Bresson"
+"Robert Bresson",
+"tt0053168",
 ],
 
 [
@@ -3704,7 +4039,8 @@ var list = [
 "90",
 "1959",
 "Drama, Romance",
-"Alain Resnais"
+"Alain Resnais",
+"tt0052893",
 ],
 
 [
@@ -3715,7 +4051,8 @@ var list = [
 "73",
 "1959",
 "Drama, Western",
-"Budd Boetticher"
+"Budd Boetticher",
+"tt0053220",
 ],
 
 [
@@ -3726,7 +4063,8 @@ var list = [
 "100",
 "1959",
 "Drama, Fantasy, Music, Romance",
-"Marcel Camus"
+"Marcel Camus",
+"tt0053146",
 ],
 
 [
@@ -3737,7 +4075,8 @@ var list = [
 "212",
 "1959",
 "Adventure, Drama, History",
-"William Wyler"
+"William Wyler",
+"tt0052618",
 ],
 
 [
@@ -3748,7 +4087,8 @@ var list = [
 "160",
 "1959",
 "Crime, Drama, Mystery, Thriller",
-"Otto Preminger"
+"Otto Preminger",
+"tt0052561",
 ],
 
 [
@@ -3759,7 +4099,8 @@ var list = [
 "81",
 "1958",
 "Drama, Romance",
-"John Cassavetes"
+"John Cassavetes",
+"tt0053270",
 ],
 
 [
@@ -3770,7 +4111,8 @@ var list = [
 "105",
 "1959",
 "Drama",
-"Satyajit Ray"
+"Satyajit Ray",
+"tt0052572",
 ],
 
 [
@@ -3781,7 +4123,8 @@ var list = [
 "141",
 "1959",
 "Action, Drama, Western",
-"Howard Hawks"
+"Howard Hawks",
+"tt0053221",
 ],
 
 [
@@ -3792,7 +4135,8 @@ var list = [
 "119",
 "1959",
 "Drama",
-"Yasujirô Ozu"
+"Yasujirô Ozu",
+"tt0053390",
 ],
 
 [
@@ -3803,7 +4147,8 @@ var list = [
 "90",
 "1960",
 "Drama, Horror",
-"Georges Franju"
+"Georges Franju",
+"tt0053459",
 ],
 
 [
@@ -3814,7 +4159,8 @@ var list = [
 "89",
 "1960",
 "Drama, Romance",
-"Karel Reisz"
+"Karel Reisz",
+"tt0054269",
 ],
 
 [
@@ -3825,7 +4171,8 @@ var list = [
 "174",
 "1960",
 "Comedy, Drama",
-"Federico Fellini"
+"Federico Fellini",
+"tt0053779",
 ],
 
 [
@@ -3836,7 +4183,8 @@ var list = [
 "131",
 "1960",
 "Crime, Drama, Thriller",
-"Jacques Becker"
+"Jacques Becker",
+"tt0054407",
 ],
 
 [
@@ -3847,7 +4195,8 @@ var list = [
 "177",
 "1960",
 "Crime, Drama, Sport",
-"Luchino Visconti"
+"Luchino Visconti",
+"tt0054248",
 ],
 
 [
@@ -3858,7 +4207,8 @@ var list = [
 "144",
 "1960",
 "Drama, Mystery",
-"Michelangelo Antonioni"
+"Michelangelo Antonioni",
+"tt0053619",
 ],
 
 [
@@ -3869,7 +4219,8 @@ var list = [
 "90",
 "1960",
 "Crime, Drama",
-"Jean-Luc Godard"
+"Jean-Luc Godard",
+"tt0053472",
 ],
 
 [
@@ -3880,7 +4231,8 @@ var list = [
 "197",
 "1960",
 "Adventure, Biography, Drama, History, War",
-"Stanley Kubrick"
+"Stanley Kubrick",
+"tt0054331",
 ],
 
 [
@@ -3891,7 +4243,8 @@ var list = [
 "125",
 "1960",
 "Comedy, Drama, Romance",
-"Billy Wilder"
+"Billy Wilder",
+"tt0053604",
 ],
 
 [
@@ -3902,7 +4255,8 @@ var list = [
 "109",
 "1960",
 "Crime, Drama, Thriller",
-"Ki-young Kim"
+"Ki-young Kim",
+"tt0150980",
 ],
 
 [
@@ -3913,7 +4267,8 @@ var list = [
 "126",
 "1960",
 "Drama, Musical",
-"Ritwik Ghatak"
+"Ritwik Ghatak",
+"tt0054073",
 ],
 
 [
@@ -3924,7 +4279,8 @@ var list = [
 "109",
 "1960",
 "Horror, Mystery, Thriller",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0054215",
 ],
 
 [
@@ -3935,7 +4291,8 @@ var list = [
 "81",
 "1960",
 "Crime, Drama, Thriller",
-"François Truffaut"
+"François Truffaut",
+"tt0054389",
 ],
 
 [
@@ -3946,7 +4303,8 @@ var list = [
 "101",
 "1960",
 "Crime, Drama, Horror, Thriller",
-"Michael Powell"
+"Michael Powell",
+"tt0054167",
 ],
 
 [
@@ -3957,7 +4315,8 @@ var list = [
 "87",
 "1960",
 "Horror",
-"Mario Bava"
+"Mario Bava",
+"tt0054067",
 ],
 
 [
@@ -3968,7 +4327,8 @@ var list = [
 "124",
 "1961",
 "Drama, Romance",
-"Elia Kazan"
+"Elia Kazan",
+"tt0055471",
 ],
 
 [
@@ -3979,7 +4339,8 @@ var list = [
 "90",
 "1961",
 "Comedy, Drama",
-"Luis Buñuel"
+"Luis Buñuel",
+"tt0055601",
 ],
 
 [
@@ -3990,7 +4351,8 @@ var list = [
 "28",
 "1962",
 "Short, Drama, Romance, Sci-Fi",
-"Chris Marker"
+"Chris Marker",
+"tt0056119",
 ],
 
 [
@@ -4001,7 +4363,8 @@ var list = [
 "115",
 "1961",
 "Comedy, Drama, Romance",
-"Blake Edwards"
+"Blake Edwards",
+"tt0054698",
 ],
 
 [
@@ -4012,7 +4375,8 @@ var list = [
 "90",
 "1961",
 "Drama, Romance",
-"Jacques Demy"
+"Jacques Demy",
+"tt0055093",
 ],
 
 [
@@ -4023,7 +4387,8 @@ var list = [
 "72",
 "1961",
 "Drama",
-"Kent Mackenzie"
+"Kent Mackenzie",
+"tt0054861",
 ],
 
 [
@@ -4034,7 +4399,8 @@ var list = [
 "122",
 "1961",
 "Drama",
-"Michelangelo Antonioni"
+"Michelangelo Antonioni",
+"tt0054130",
 ],
 
 [
@@ -4045,7 +4411,8 @@ var list = [
 "153",
 "1961",
 "Crime, Drama, Musical, Romance",
-"Jerome Robbins, Robert Wise"
+"Jerome Robbins, Robert Wise",
+"tt0055614",
 ],
 
 [
@@ -4056,7 +4423,8 @@ var list = [
 "134",
 "1961",
 "Drama, Sport",
-"Robert Rossen"
+"Robert Rossen",
+"tt0054997",
 ],
 
 [
@@ -4067,7 +4435,8 @@ var list = [
 "95",
 "1961",
 "Comedy",
-"Jerry Lewis"
+"Jerry Lewis",
+"tt0055069",
 ],
 
 [
@@ -4078,7 +4447,8 @@ var list = [
 "89",
 "1961",
 "Drama",
-"Ingmar Bergman"
+"Ingmar Bergman",
+"tt0055499",
 ],
 
 [
@@ -4089,7 +4459,8 @@ var list = [
 "85",
 "1961",
 "Documentary",
-"Jean Rouch, Edgar Morin"
+"Jean Rouch, Edgar Morin",
+"tt0054745",
 ],
 
 [
@@ -4100,7 +4471,8 @@ var list = [
 "94",
 "1961",
 "Drama, Mystery",
-"Alain Resnais"
+"Alain Resnais",
+"tt0054632",
 ],
 
 [
@@ -4111,7 +4483,8 @@ var list = [
 "90",
 "1962",
 "Comedy, Drama, Music",
-"Agnès Varda"
+"Agnès Varda",
+"tt0055852",
 ],
 
 [
@@ -4122,7 +4495,8 @@ var list = [
 "30",
 "1962",
 "Short",
-"Stan Brakhage"
+"Stan Brakhage",
+"tt0058025",
 ],
 
 [
@@ -4133,7 +4507,8 @@ var list = [
 "80",
 "1962",
 "Drama",
-"Jean-Luc Godard"
+"Jean-Luc Godard",
+"tt0056663",
 ],
 
 [
@@ -4144,7 +4519,8 @@ var list = [
 "113",
 "1962",
 "Drama",
-"Yasujirô Ozu"
+"Yasujirô Ozu",
+"tt0056444",
 ],
 
 [
@@ -4155,7 +4531,8 @@ var list = [
 "153",
 "1962",
 "Crime, Drama, Romance",
-"Stanley Kubrick"
+"Stanley Kubrick",
+"tt0056193",
 ],
 
 [
@@ -4166,7 +4543,8 @@ var list = [
 "123",
 "1962",
 "Drama, Western",
-"John Ford"
+"John Ford",
+"tt0056217",
 ],
 
 [
@@ -4177,7 +4555,8 @@ var list = [
 "66",
 "1962",
 "Animation",
-"Harry Smith"
+"Harry Smith",
+"tt0056060",
 ],
 
 [
@@ -4188,7 +4567,8 @@ var list = [
 "216",
 "1962",
 "Adventure, Biography, Drama, History, War",
-"David Lean"
+"David Lean",
+"tt0056172",
 ],
 
 [
@@ -4199,7 +4579,8 @@ var list = [
 "129",
 "1962",
 "Crime, Drama",
-"Robert Mulligan"
+"Robert Mulligan",
+"tt0056592",
 ],
 
 [
@@ -4210,7 +4591,8 @@ var list = [
 "98",
 "1962",
 "Drama",
-"Anselmo Duarte"
+"Anselmo Duarte",
+"tt0056322",
 ],
 
 [
@@ -4221,7 +4603,8 @@ var list = [
 "126",
 "1962",
 "Drama, Romance",
-"Michelangelo Antonioni"
+"Michelangelo Antonioni",
+"tt0056736",
 ],
 
 [
@@ -4232,7 +4615,8 @@ var list = [
 "108",
 "1962",
 "Documentary, Horror",
-"Paolo Cavara, Franco Prosperi, Gualtiero Jacopetti"
+"Paolo Cavara, Franco Prosperi, Gualtiero Jacopetti",
+"tt0057318",
 ],
 
 [
@@ -4243,7 +4627,8 @@ var list = [
 "95",
 "1962",
 "Drama, Fantasy",
-"Luis Buñuel"
+"Luis Buñuel",
+"tt0056732",
 ],
 
 [
@@ -4254,7 +4639,8 @@ var list = [
 "105",
 "1962",
 "Drama, Romance",
-"François Truffaut"
+"François Truffaut",
+"tt0055032",
 ],
 
 [
@@ -4265,7 +4651,8 @@ var list = [
 "126",
 "1962",
 "Drama, Thriller",
-"John Frankenheimer"
+"John Frankenheimer",
+"tt0056218",
 ],
 
 [
@@ -4276,7 +4663,8 @@ var list = [
 "134",
 "1962",
 "Drama, Horror, Thriller",
-"Robert Aldrich"
+"Robert Aldrich",
+"tt0056687",
 ],
 
 [
@@ -4287,7 +4675,8 @@ var list = [
 "138",
 "1963",
 "Drama",
-"Federico Fellini"
+"Federico Fellini",
+"tt0056801",
 ],
 
 [
@@ -4298,7 +4687,8 @@ var list = [
 "119",
 "1963",
 "Drama, Horror, Mystery, Romance",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0056869",
 ],
 
 [
@@ -4309,7 +4699,8 @@ var list = [
 "62",
 "1963",
 "Drama, War",
-"Witold Lesiewicz, Andrzej Munk"
+"Witold Lesiewicz, Andrzej Munk",
+"tt0054159",
 ],
 
 [
@@ -4320,7 +4711,8 @@ var list = [
 "116",
 "1963",
 "Drama",
-"Joseph Losey"
+"Joseph Losey",
+"tt0057490",
 ],
 
 [
@@ -4331,7 +4723,8 @@ var list = [
 "45",
 "1963",
 "Comedy, Drama, Horror",
-"Jack Smith"
+"Jack Smith",
+"tt0054880",
 ],
 
 [
@@ -4342,7 +4735,8 @@ var list = [
 "20",
 "1963",
 "Documentary, Short",
-"Forugh Farrokhzad"
+"Forugh Farrokhzad",
+"tt0336693",
 ],
 
 [
@@ -4353,7 +4747,8 @@ var list = [
 "112",
 "1963",
 "Drama",
-"Martin Ritt"
+"Martin Ritt",
+"tt0057163",
 ],
 
 [
@@ -4364,7 +4759,8 @@ var list = [
 "186",
 "1963",
 "Drama, History",
-"Luchino Visconti"
+"Luchino Visconti",
+"tt0057091",
 ],
 
 [
@@ -4375,7 +4771,8 @@ var list = [
 "103",
 "1963",
 "Drama",
-"Nelson Pereira dos Santos"
+"Nelson Pereira dos Santos",
+"tt0057654",
 ],
 
 [
@@ -4386,7 +4783,8 @@ var list = [
 "101",
 "1963",
 "Drama, Mystery",
-"Samuel Fuller"
+"Samuel Fuller",
+"tt0057495",
 ],
 
 [
@@ -4397,7 +4795,8 @@ var list = [
 "103",
 "1963",
 "Drama, Romance",
-"Jean-Luc Godard"
+"Jean-Luc Godard",
+"tt0057345",
 ],
 
 [
@@ -4408,7 +4807,8 @@ var list = [
 "33",
 "1963",
 "Short",
-"Ken Jacobs"
+"Ken Jacobs",
+"tt0138329",
 ],
 
 [
@@ -4419,7 +4819,8 @@ var list = [
 "105",
 "1963",
 "Crime, Drama",
-"Shirley Clarke"
+"Shirley Clarke",
+"tt0056952",
 ],
 
 [
@@ -4430,7 +4831,8 @@ var list = [
 "107",
 "1963",
 "Comedy, Romance, Sci-Fi",
-"Jerry Lewis"
+"Jerry Lewis",
+"tt0057372",
 ],
 
 [
@@ -4441,7 +4843,8 @@ var list = [
 "172",
 "1963",
 "Adventure, Drama, History, Thriller, War",
-"John Sturges"
+"John Sturges",
+"tt0057115",
 ],
 
 [
@@ -4452,7 +4855,8 @@ var list = [
 "44",
 "1963",
 "Documentary, Short",
-"Jean-Daniel Pollet"
+"Jean-Daniel Pollet",
+"tt0197719",
 ],
 
 [
@@ -4463,7 +4867,8 @@ var list = [
 "115",
 "1963",
 "Drama",
-"Kon Ichikawa"
+"Kon Ichikawa",
+"tt0057710",
 ],
 
 [
@@ -4474,7 +4879,8 @@ var list = [
 "112",
 "1963",
 "Horror",
-"Robert Wise"
+"Robert Wise",
+"tt0057129",
 ],
 
 [
@@ -4485,7 +4891,8 @@ var list = [
 "110",
 "1964",
 "Action, Adventure, Thriller",
-"Guy Hamilton"
+"Guy Hamilton",
+"tt0058150",
 ],
 
 [
@@ -4496,7 +4903,8 @@ var list = [
 "170",
 "1964",
 "Drama, Family, Musical, Romance",
-"George Cukor"
+"George Cukor",
+"tt0058385",
 ],
 
 [
@@ -4507,7 +4915,8 @@ var list = [
 "117",
 "1964",
 "Drama",
-"Michelangelo Antonioni"
+"Michelangelo Antonioni",
+"tt0058003",
 ],
 
 [
@@ -4518,7 +4927,8 @@ var list = [
 "123",
 "1964",
 "Drama, Thriller",
-"Hiroshi Teshigahara"
+"Hiroshi Teshigahara",
+"tt0058625",
 ],
 
 [
@@ -4529,7 +4939,8 @@ var list = [
 "97",
 "1964",
 "Drama, Music, Romance",
-"Sergei Parajanov"
+"Sergei Parajanov",
+"tt0058642",
 ],
 
 [
@@ -4540,7 +4951,8 @@ var list = [
 "28",
 "1963",
 "Short, Music",
-"Kenneth Anger"
+"Kenneth Anger",
+"tt0058555",
 ],
 
 [
@@ -4551,7 +4963,8 @@ var list = [
 "130",
 "1964",
 "Crime, Drama, Mystery, Romance, Thriller",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0058329",
 ],
 
 [
@@ -4562,7 +4975,8 @@ var list = [
 "89",
 "1964",
 "Horror",
-"Roger Corman"
+"Roger Corman",
+"tt0058333",
 ],
 
 [
@@ -4573,7 +4987,8 @@ var list = [
 "115",
 "1964",
 "Drama, Romance",
-"Bernardo Bertolucci"
+"Bernardo Bertolucci",
+"tt0056371",
 ],
 
 [
@@ -4584,7 +4999,8 @@ var list = [
 "95",
 "1964",
 "Comedy",
-"Stanley Kubrick"
+"Stanley Kubrick",
+"tt0057012",
 ],
 
 [
@@ -4595,7 +5011,8 @@ var list = [
 "120",
 "1964",
 "Adventure, Crime, Drama, Western",
-"Glauber Rocha"
+"Glauber Rocha",
+"tt0058006",
 ],
 
 [
@@ -4606,7 +5023,8 @@ var list = [
 "87",
 "1964",
 "Comedy, Music, Musical",
-"Richard Lester"
+"Richard Lester",
+"tt0058182",
 ],
 
 [
@@ -4617,7 +5035,8 @@ var list = [
 "91",
 "1964",
 "Drama, Musical, Romance",
-"Jacques Demy"
+"Jacques Demy",
+"tt0058450",
 ],
 
 [
@@ -4628,7 +5047,8 @@ var list = [
 "116",
 "1964",
 "Drama, Romance",
-"Carl Theodor Dreyer"
+"Carl Theodor Dreyer",
+"tt0058138",
 ],
 
 [
@@ -4639,7 +5059,8 @@ var list = [
 "139",
 "1964",
 "Comedy, Family, Fantasy, Musical",
-"Robert Stevenson"
+"Robert Stevenson",
+"tt0058331",
 ],
 
 [
@@ -4650,7 +5071,8 @@ var list = [
 "103",
 "1964",
 "Drama, Horror",
-"Kaneto Shindô"
+"Kaneto Shindô",
+"tt0058430",
 ],
 
 [
@@ -4661,7 +5083,8 @@ var list = [
 "137",
 "1964",
 "Biography, Drama, History",
-"Pier Paolo Pasolini"
+"Pier Paolo Pasolini",
+"tt0058715",
 ],
 
 [
@@ -4672,7 +5095,8 @@ var list = [
 "128",
 "1965",
 "Drama, War",
-"Elmar Klos, Ján Kadár"
+"Elmar Klos, Ján Kadár",
+"tt0059527",
 ],
 
 [
@@ -4683,7 +5107,8 @@ var list = [
 "197",
 "1965",
 "Drama, Romance, War",
-"David Lean"
+"David Lean",
+"tt0059113",
 ],
 
 [
@@ -4694,7 +5119,8 @@ var list = [
 "48",
 "1965",
 "Drama, War",
-"Peter Watkins"
+"Peter Watkins",
+"tt0059894",
 ],
 
 [
@@ -4705,7 +5131,8 @@ var list = [
 "170",
 "1965",
 "Documentary, Sport",
-"Kon Ichikawa"
+"Kon Ichikawa",
+"tt0059817",
 ],
 
 [
@@ -4716,7 +5143,8 @@ var list = [
 "137",
 "1965",
 "Comedy, Drama, Fantasy",
-"Federico Fellini"
+"Federico Fellini",
+"tt0059229",
 ],
 
 [
@@ -4727,7 +5155,8 @@ var list = [
 "121",
 "1966",
 "Drama, War",
-"Gillo Pontecorvo"
+"Gillo Pontecorvo",
+"tt0058946",
 ],
 
 [
@@ -4738,7 +5167,8 @@ var list = [
 "172",
 "1965",
 "Biography, Drama, Family, Musical, Romance",
-"Robert Wise"
+"Robert Wise",
+"tt0059742",
 ],
 
 [
@@ -4749,7 +5179,8 @@ var list = [
 "94",
 "1966",
 "Drama",
-"André Delvaux"
+"André Delvaux",
+"tt0129222",
 ],
 
 [
@@ -4760,7 +5191,8 @@ var list = [
 "99",
 "1965",
 "Drama, Mystery, Sci-Fi, Thriller",
-"Jean-Luc Godard"
+"Jean-Luc Godard",
+"tt0058898",
 ],
 
 [
@@ -4771,7 +5203,8 @@ var list = [
 "119",
 "1965",
 "Comedy, Drama, History, War",
-"Orson Welles"
+"Orson Welles",
+"tt0059012",
 ],
 
 [
@@ -4782,7 +5215,8 @@ var list = [
 "83",
 "1965",
 "Action, Comedy",
-"Russ Meyer"
+"Russ Meyer",
+"tt0059170",
 ],
 
 [
@@ -4793,7 +5227,8 @@ var list = [
 "70",
 "1965",
 "Sci"-
-"04,Andy Warhol"
+"04,Andy Warhol",
+"tt0059880",
 ],
 
 [
@@ -4804,7 +5239,8 @@ var list = [
 "182",
 "1965",
 "Comedy, Drama, Fantasy",
-"Wojciech Has"
+"Wojciech Has",
+"tt0059643",
 ],
 
 [
@@ -4815,7 +5251,8 @@ var list = [
 "105",
 "1965",
 "Drama, Horror, Thriller",
-"Roman Polanski"
+"Roman Polanski",
+"tt0059646",
 ],
 
 [
@@ -4826,7 +5263,8 @@ var list = [
 "110",
 "1965",
 "Crime, Drama, Romance",
-"Jean-Luc Godard"
+"Jean-Luc Godard",
+"tt0059592",
 ],
 
 [
@@ -4837,7 +5275,8 @@ var list = [
 "143",
 "1965",
 "Drama",
-"Ritwik Ghatak"
+"Ritwik Ghatak",
+"tt0056537",
 ],
 
 [
@@ -4848,7 +5287,8 @@ var list = [
 "17",
 "1966",
 "Short, Comedy, Drama",
-"George Kuchar"
+"George Kuchar",
+"tt0060511",
 ],
 
 [
@@ -4859,7 +5299,8 @@ var list = [
 "131",
 "1966",
 "Drama",
-"Mike Nichols"
+"Mike Nichols",
+"tt0061184",
 ],
 
 [
@@ -4870,7 +5311,8 @@ var list = [
 "111",
 "1966",
 "Drama, Mystery, Thriller",
-"Michelangelo Antonioni"
+"Michelangelo Antonioni",
+"tt0060176",
 ],
 
 [
@@ -4881,7 +5323,8 @@ var list = [
 "74",
 "1966",
 "Comedy",
-"Vera Chytilová"
+"Vera Chytilová",
+"tt0060959",
 ],
 
 [
@@ -4892,7 +5335,8 @@ var list = [
 "91",
 "1966",
 "Action, Crime",
-"King Hu"
+"King Hu",
+"tt0059079",
 ],
 
 [
@@ -4903,7 +5347,8 @@ var list = [
 "106",
 "1966",
 "Sci-Fi, Thriller",
-"John Frankenheimer"
+"John Frankenheimer",
+"tt0060955",
 ],
 
 [
@@ -4914,7 +5359,8 @@ var list = [
 "161",
 "1966",
 "Western",
-"Sergio Leone"
+"Sergio Leone",
+"tt0060196",
 ],
 
 [
@@ -4925,7 +5371,8 @@ var list = [
 "85",
 "1966",
 "Drama, Thriller",
-"Ingmar Bergman"
+"Ingmar Bergman",
+"tt0060827",
 ],
 
 [
@@ -4936,7 +5383,8 @@ var list = [
 "95",
 "1966",
 "Drama",
-"Robert Bresson"
+"Robert Bresson",
+"tt0060138",
 ],
 
 [
@@ -4947,7 +5395,8 @@ var list = [
 "110",
 "1966",
 "Drama, Romance",
-"Jean-Luc Godard"
+"Jean-Luc Godard",
+"tt0060675",
 ],
 
 [
@@ -4958,7 +5407,8 @@ var list = [
 "13",
 "1967",
 "Short",
-"Bruce Conner"
+"Bruce Conner",
+"tt0130976",
 ],
 
 [
@@ -4969,7 +5419,8 @@ var list = [
 "87",
 "1967",
 "Comedy, Drama",
-"Jean-Luc Godard"
+"Jean-Luc Godard",
+"tt0060304",
 ],
 
 [
@@ -4980,7 +5431,8 @@ var list = [
 "100",
 "1967",
 "Drama",
-"Luis Buñuel"
+"Luis Buñuel",
+"tt0061395",
 ],
 
 [
@@ -4991,7 +5443,8 @@ var list = [
 "127",
 "1967",
 "Crime, Drama",
-"Stuart Rosenberg"
+"Stuart Rosenberg",
+"tt0061512",
 ],
 
 [
@@ -5002,7 +5455,8 @@ var list = [
 "115",
 "1967",
 "Comedy",
-"Jacques Tati"
+"Jacques Tati",
+"tt0062136",
 ],
 
 [
@@ -5013,7 +5467,8 @@ var list = [
 "90",
 "1967",
 "Drama, War",
-"Miklós Jancsó"
+"Miklós Jancsó",
+"tt0061537",
 ],
 
 [
@@ -5024,7 +5479,8 @@ var list = [
 "106",
 "1967",
 "Comedy, Drama, Romance",
-"Mike Nichols"
+"Mike Nichols",
+"tt0061722",
 ],
 
 [
@@ -5035,7 +5491,8 @@ var list = [
 "92",
 "1967",
 "Crime, Drama, Thriller",
-"John Boorman"
+"John Boorman",
+"tt0062138",
 ],
 
 [
@@ -5046,7 +5503,8 @@ var list = [
 "120",
 "1967",
 "Comedy, Drama, Musical, Romance",
-"Jacques Demy"
+"Jacques Demy",
+"tt0062873",
 ],
 
 [
@@ -5057,7 +5515,8 @@ var list = [
 "105",
 "1967",
 "Crime, Drama, Mystery, Thriller",
-"Jean-Pierre Melville"
+"Jean-Pierre Melville",
+"tt0062229",
 ],
 
 [
@@ -5068,7 +5527,8 @@ var list = [
 "45",
 "1967",
 "Drama",
-"Michael Snow"
+"Michael Snow",
+"tt0127354",
 ],
 
 [
@@ -5079,7 +5539,8 @@ var list = [
 "92",
 "1966",
 "Comedy, Drama, Romance, War",
-"Jirí Menzel"
+"Jirí Menzel",
+"tt0060802",
 ],
 
 [
@@ -5090,7 +5551,8 @@ var list = [
 "111",
 "1967",
 "Drama",
-"Glauber Rocha"
+"Glauber Rocha",
+"tt0062352",
 ],
 
 [
@@ -5101,7 +5563,8 @@ var list = [
 "110",
 "1967",
 "Crime, Drama, Mystery, Thriller",
-"Norman Jewison"
+"Norman Jewison",
+"tt0061811",
 ],
 
 [
@@ -5112,7 +5575,8 @@ var list = [
 "162",
 "1967",
 "Drama, History, Romance",
-"Frantisek Vlácil"
+"Frantisek Vlácil",
+"tt0063278",
 ],
 
 [
@@ -5123,7 +5587,8 @@ var list = [
 "73",
 "1967",
 "Comedy, Drama",
-"Milos Forman"
+"Milos Forman",
+"tt0061781",
 ],
 
 [
@@ -5134,7 +5599,8 @@ var list = [
 "78",
 "1967",
 "Animation, Adventure, Family, Musical",
-"Wolfgang Reitherman"
+"Wolfgang Reitherman",
+"tt0061852",
 ],
 
 [
@@ -5145,7 +5611,8 @@ var list = [
 "111",
 "1967",
 "Action, Biography, Crime, Drama",
-"Arthur Penn"
+"Arthur Penn",
+"tt0061418",
 ],
 
 [
@@ -5156,7 +5623,8 @@ var list = [
 "77",
 "1967",
 "Drama, Fantasy, Horror",
-"Konstantin Ershov, Georgiy Kropachyov"
+"Konstantin Ershov, Georgiy Kropachyov",
+"tt0062453",
 ],
 
 [
@@ -5167,7 +5635,8 @@ var list = [
 "104",
 "1969",
 "Drama",
-"Dariush Mehrjui"
+"Dariush Mehrjui",
+"tt0064356",
 ],
 
 [
@@ -5178,7 +5647,8 @@ var list = [
 "165",
 "1968",
 "Western",
-"Sergio Leone"
+"Sergio Leone",
+"tt0064116",
 ],
 
 [
@@ -5189,7 +5659,8 @@ var list = [
 "130",
 "1968",
 "Drama",
-"John Cassavetes"
+"John Cassavetes",
+"tt0062952",
 ],
 
 [
@@ -5200,7 +5671,8 @@ var list = [
 "112",
 "1968",
 "Adventure, Sci-Fi",
-"Franklin J. Schaffner"
+"Franklin J. Schaffner",
+"tt0063442",
 ],
 
 [
@@ -5211,7 +5683,8 @@ var list = [
 "137",
 "1968",
 "Drama, Horror",
-"Roman Polanski"
+"Roman Polanski",
+"tt0063522",
 ],
 
 [
@@ -5222,7 +5695,8 @@ var list = [
 "111",
 "1968",
 "Drama",
-"Lindsay Anderson"
+"Lindsay Anderson",
+"tt0063850",
 ],
 
 [
@@ -5233,7 +5707,8 @@ var list = [
 "74",
 "1967",
 "Comedy, Drama",
-"Jim McBride"
+"Jim McBride",
+"tt0062864",
 ],
 
 [
@@ -5244,7 +5719,8 @@ var list = [
 "97",
 "1968",
 "Drama",
-"Tomás Gutiérrez Alea"
+"Tomás Gutiérrez Alea",
+"tt0063291",
 ],
 
 [
@@ -5255,7 +5731,8 @@ var list = [
 "75",
 "1968",
 "Documentary",
-"Frederick Wiseman"
+"Frederick Wiseman",
+"tt0064429",
 ],
 
 [
@@ -5266,7 +5743,8 @@ var list = [
 "90",
 "1968",
 "Drama, Horror",
-"Ingmar Bergman"
+"Ingmar Bergman",
+"tt0063759",
 ],
 
 [
@@ -5277,7 +5755,8 @@ var list = [
 "149",
 "1968",
 "Adventure, Sci-Fi",
-"Stanley Kubrick"
+"Stanley Kubrick",
+"tt0062622",
 ],
 
 [
@@ -5288,7 +5767,8 @@ var list = [
 "96",
 "1968",
 "Horror",
-"George A. Romero"
+"George A. Romero",
+"tt0063350",
 ],
 
 [
@@ -5299,7 +5779,8 @@ var list = [
 "90",
 "1968",
 "Crime, Drama, Thriller",
-"Peter Bogdanovich"
+"Peter Bogdanovich",
+"tt0063671",
 ],
 
 [
@@ -5310,7 +5791,8 @@ var list = [
 "103",
 "1968",
 "Drama",
-"Ingmar Bergman"
+"Ingmar Bergman",
+"tt0063611",
 ],
 
 [
@@ -5321,7 +5803,8 @@ var list = [
 "88",
 "1967",
 "Comedy, Music",
-"Mel Brooks"
+"Mel Brooks",
+"tt0063462",
 ],
 
 [
@@ -5332,7 +5815,8 @@ var list = [
 "127",
 "1969",
 "Crime, Drama, History, Thriller",
-"Costa-Gavras"
+"Costa-Gavras",
+"tt0065234",
 ],
 
 [
@@ -5343,7 +5827,8 @@ var list = [
 "129",
 "1969",
 "Drama, Fantasy, History",
-"Federico Fellini"
+"Federico Fellini",
+"tt0064940",
 ],
 
 [
@@ -5354,7 +5839,8 @@ var list = [
 "205",
 "1966",
 "Biography, Drama, History",
-"Andrei Tarkovsky"
+"Andrei Tarkovsky",
+"tt0060107",
 ],
 
 [
@@ -5365,7 +5851,8 @@ var list = [
 "79",
 "1969",
 "Biography, Drama, History, Music",
-"Sergei Parajanov"
+"Sergei Parajanov",
+"tt0063555",
 ],
 
 [
@@ -5376,7 +5863,8 @@ var list = [
 "113",
 "1969",
 "Drama",
-"John Schlesinger"
+"John Schlesinger",
+"tt0064665",
 ],
 
 [
@@ -5387,7 +5875,8 @@ var list = [
 "110",
 "1969",
 "Biography, Crime, Drama, Western",
-"George Roy Hill"
+"George Roy Hill",
+"tt0064115",
 ],
 
 [
@@ -5398,7 +5887,8 @@ var list = [
 "200",
 "1971",
 "Action, Adventure, Drama, Thriller",
-"King Hu"
+"King Hu",
+"tt0064451",
 ],
 
 [
@@ -5409,7 +5899,8 @@ var list = [
 "95",
 "1969",
 "Adventure, Drama",
-"Dennis Hopper"
+"Dennis Hopper",
+"tt0064276",
 ],
 
 [
@@ -5420,7 +5911,8 @@ var list = [
 "111",
 "1969",
 "Drama, Family",
-"Ken Loach"
+"Ken Loach",
+"tt0064541",
 ],
 
 [
@@ -5431,7 +5923,8 @@ var list = [
 "160",
 "1968",
 "Drama",
-"Humberto Solás"
+"Humberto Solás",
+"tt0064609",
 ],
 
 [
@@ -5442,7 +5935,8 @@ var list = [
 "103",
 "1968",
 "Documentary, War",
-"Emile de Antonio"
+"Emile de Antonio",
+"tt0064482",
 ],
 
 [
@@ -5453,7 +5947,8 @@ var list = [
 "135",
 "1969",
 "Action, Adventure, Western",
-"Sam Peckinpah"
+"Sam Peckinpah",
+"tt0065214",
 ],
 
 [
@@ -5464,7 +5959,8 @@ var list = [
 "110",
 "1969",
 "Comedy, Drama, Romance",
-"Éric Rohmer"
+"Éric Rohmer",
+"tt0064612",
 ],
 
 [
@@ -5475,7 +5971,8 @@ var list = [
 "99",
 "1970",
 "Drama",
-"Luis Buñuel"
+"Luis Buñuel",
+"tt0066491",
 ],
 
 [
@@ -5486,7 +5983,8 @@ var list = [
 "113",
 "1970",
 "Drama",
-"Bernardo Bertolucci"
+"Bernardo Bertolucci",
+"tt0065571",
 ],
 
 [
@@ -5497,7 +5995,8 @@ var list = [
 "93",
 "1970",
 "Drama, Thriller",
-"Claude Chabrol"
+"Claude Chabrol",
+"tt0064106",
 ],
 
 [
@@ -5508,7 +6007,8 @@ var list = [
 "125",
 "1970",
 "Drama, Western",
-"Alejandro Jodorowsky"
+"Alejandro Jodorowsky",
+"tt0067866",
 ],
 
 [
@@ -5519,7 +6019,8 @@ var list = [
 "98",
 "1970",
 "Drama",
-"Bob Rafelson"
+"Bob Rafelson",
+"tt0065724",
 ],
 
 [
@@ -5530,7 +6031,8 @@ var list = [
 "92",
 "1970",
 "Drama, Romance",
-"Jerzy Skolimowski"
+"Jerzy Skolimowski",
+"tt0066122",
 ],
 
 [
@@ -5541,7 +6043,8 @@ var list = [
 "100",
 "1970",
 "Drama, Mystery",
-"Bernardo Bertolucci"
+"Bernardo Bertolucci",
+"tt0066413",
 ],
 
 [
@@ -5552,7 +6055,8 @@ var list = [
 "94",
 "1970",
 "Drama, Thriller",
-"Karel Kachyna"
+"Karel Kachyna",
+"tt0066498",
 ],
 
 [
@@ -5563,7 +6067,8 @@ var list = [
 "139",
 "1970",
 "Adventure, Comedy, Drama, Western",
-"Arthur Penn"
+"Arthur Penn",
+"tt0065988",
 ],
 
 [
@@ -5574,7 +6079,8 @@ var list = [
 "172",
 "1970",
 "Biography, Drama, War",
-"Franklin J. Schaffner"
+"Franklin J. Schaffner",
+"tt0066206",
 ],
 
 [
@@ -5585,7 +6091,8 @@ var list = [
 "96",
 "1970",
 "Horror, Mystery, Thriller",
-"Dario Argento"
+"Dario Argento",
+"tt0065143",
 ],
 
 [
@@ -5596,7 +6103,8 @@ var list = [
 "116",
 "1970",
 "Comedy, Drama, War",
-"Robert Altman"
+"Robert Altman",
+"tt0066026",
 ],
 
 [
@@ -5607,7 +6115,8 @@ var list = [
 "113",
 "1970",
 "Drama",
-"Michelangelo Antonioni"
+"Michelangelo Antonioni",
+"tt0066601",
 ],
 
 [
@@ -5618,7 +6127,8 @@ var list = [
 "105",
 "1970",
 "Crime, Drama",
-"Donald Cammell, Nicolas Roeg"
+"Donald Cammell, Nicolas Roeg",
+"tt0066214",
 ],
 
 [
@@ -5629,7 +6139,8 @@ var list = [
 "184",
 "1970",
 "Documentary, History, Music",
-"Michael Wadleigh"
+"Michael Wadleigh",
+"tt0066580",
 ],
 
 [
@@ -5640,7 +6151,8 @@ var list = [
 "91",
 "1970",
 "Documentary, Music, Thriller",
-"David Maysles, Charlotte Zwerin, Albert Maysles"
+"David Maysles, Charlotte Zwerin, Albert Maysles",
+"tt0065780",
 ],
 
 [
@@ -5651,7 +6163,8 @@ var list = [
 "94",
 "1970",
 "Drama, History, War",
-"Vittorio De Sica"
+"Vittorio De Sica",
+"tt0065777",
 ],
 
 [
@@ -5662,7 +6175,8 @@ var list = [
 "102",
 "1971",
 "Action, Crime, Thriller",
-"Don Siegel"
+"Don Siegel",
+"tt0066999",
 ],
 
 [
@@ -5673,7 +6187,8 @@ var list = [
 "136",
 "1971",
 "Crime, Drama, Sci-Fi",
-"Stanley Kubrick"
+"Stanley Kubrick",
+"tt0066921",
 ],
 
 [
@@ -5684,7 +6199,8 @@ var list = [
 "120",
 "1971",
 "Drama, Western",
-"Robert Altman"
+"Robert Altman",
+"tt0067411",
 ],
 
 [
@@ -5695,7 +6211,8 @@ var list = [
 "251",
 "1969",
 "Documentary, History, War",
-"Marcel Ophüls"
+"Marcel Ophüls",
+"tt0066904",
 ],
 
 [
@@ -5706,7 +6223,8 @@ var list = [
 "100",
 "1971",
 "Family, Fantasy, Musical",
-"Mel Stuart"
+"Mel Stuart",
+"tt0067992",
 ],
 
 [
@@ -5717,7 +6235,8 @@ var list = [
 "111",
 "1971",
 "Biography, Drama, History",
-"Ken Russell"
+"Ken Russell",
+"tt0066993",
 ],
 
 [
@@ -5728,7 +6247,8 @@ var list = [
 "90",
 "1971",
 "Drama, Western",
-"Peter Fonda"
+"Peter Fonda",
+"tt0067204",
 ],
 
 [
@@ -5739,7 +6259,8 @@ var list = [
 "84",
 "1971",
 "Comedy, Drama, Fantasy",
-"Dusan Makavejev"
+"Dusan Makavejev",
+"tt0067958",
 ],
 
 [
@@ -5750,7 +6271,8 @@ var list = [
 "100",
 "1971",
 "Adventure, Drama",
-"Nicolas Roeg"
+"Nicolas Roeg",
+"tt0067959",
 ],
 
 [
@@ -5761,7 +6283,8 @@ var list = [
 "114",
 "1971",
 "Crime, Mystery, Thriller",
-"Alan J. Pakula"
+"Alan J. Pakula",
+"tt0067309",
 ],
 
 [
@@ -5772,7 +6295,8 @@ var list = [
 "91",
 "1971",
 "Comedy, Drama, Romance",
-"Hal Ashby"
+"Hal Ashby",
+"tt0067185",
 ],
 
 [
@@ -5783,7 +6307,8 @@ var list = [
 "104",
 "1971",
 "Action, Crime, Drama, Thriller",
-"William Friedkin"
+"William Friedkin",
+"tt0067116",
 ],
 
 [
@@ -5794,7 +6319,8 @@ var list = [
 "87",
 "1972",
 "Drama, Musical, War",
-"Miklós Jancsó"
+"Miklós Jancsó",
+"tt0067467",
 ],
 
 [
@@ -5805,7 +6331,8 @@ var list = [
 "112",
 "1971",
 "Crime, Thriller",
-"Mike Hodges"
+"Mike Hodges",
+"tt0067128",
 ],
 
 [
@@ -5816,7 +6343,8 @@ var list = [
 "100",
 "1971",
 "Action, Crime, Thriller",
-"Gordon Parks"
+"Gordon Parks",
+"tt0067741",
 ],
 
 [
@@ -5827,7 +6355,8 @@ var list = [
 "97",
 "1971",
 "Crime, Drama, Thriller",
-"Melvin Van Peebles"
+"Melvin Van Peebles",
+"tt0067810",
 ],
 
 [
@@ -5838,7 +6367,8 @@ var list = [
 "118",
 "1971",
 "Drama",
-"Peter Bogdanovich"
+"Peter Bogdanovich",
+"tt0067328",
 ],
 
 [
@@ -5849,7 +6379,8 @@ var list = [
 "102",
 "1970",
 "Crime, Drama",
-"Barbara Loden"
+"Barbara Loden",
+"tt0067961",
 ],
 
 [
@@ -5860,7 +6391,8 @@ var list = [
 "118",
 "1971",
 "Comedy, Drama",
-"Louis Malle"
+"Louis Malle",
+"tt0067778",
 ],
 
 [
@@ -5871,7 +6403,8 @@ var list = [
 "113",
 "1971",
 "Crime, Drama, Thriller",
-"Sam Peckinpah"
+"Sam Peckinpah",
+"tt0067800",
 ],
 
 [
@@ -5882,7 +6415,8 @@ var list = [
 "102",
 "1971",
 "Drama",
-"Monte Hellman"
+"Monte Hellman",
+"tt0067893",
 ],
 
 [
@@ -5893,7 +6427,8 @@ var list = [
 "109",
 "1971",
 "Drama, Thriller",
-"Ted Kotcheff"
+"Ted Kotcheff",
+"tt0067541",
 ],
 
 [
@@ -5904,7 +6439,8 @@ var list = [
 "109",
 "1972",
 "Adventure, Drama, Thriller",
-"John Boorman"
+"John Boorman",
+"tt0068473",
 ],
 
 [
@@ -5915,7 +6451,8 @@ var list = [
 "95",
 "1972",
 "Adventure, Biography, Drama, History",
-"Werner Herzog"
+"Werner Herzog",
+"tt0068182",
 ],
 
 [
@@ -5926,7 +6463,8 @@ var list = [
 "124",
 "1972",
 "Drama, Musical",
-"Bob Fosse"
+"Bob Fosse",
+"tt0068327",
 ],
 
 [
@@ -5937,7 +6475,8 @@ var list = [
 "167",
 "1972",
 "Drama, Mystery, Sci-Fi",
-"Andrei Tarkovsky"
+"Andrei Tarkovsky",
+"tt0069293",
 ],
 
 [
@@ -5948,7 +6487,8 @@ var list = [
 "91",
 "1972",
 "Drama",
-"Ingmar Bergman"
+"Ingmar Bergman",
+"tt0069467",
 ],
 
 [
@@ -5959,7 +6499,8 @@ var list = [
 "102",
 "1972",
 "Comedy",
-"Luis Buñuel"
+"Luis Buñuel",
+"tt0068361",
 ],
 
 [
@@ -5970,7 +6511,8 @@ var list = [
 "175",
 "1972",
 "Crime, Drama",
-"Francis Ford Coppola"
+"Francis Ford Coppola",
+"tt0068646",
 ],
 
 [
@@ -5981,7 +6523,8 @@ var list = [
 "129",
 "1972",
 "Drama, Romance",
-"Bernardo Bertolucci"
+"Bernardo Bertolucci",
+"tt0070849",
 ],
 
 [
@@ -5992,7 +6535,8 @@ var list = [
 "124",
 "1972",
 "Drama, Romance",
-"Rainer Werner Fassbinder"
+"Rainer Werner Fassbinder",
+"tt0068278",
 ],
 
 [
@@ -6003,7 +6547,8 @@ var list = [
 "96",
 "1972",
 "Drama, Sport",
-"John Huston"
+"John Huston",
+"tt0068575",
 ],
 
 [
@@ -6014,7 +6559,8 @@ var list = [
 "106",
 "1972",
 "Comedy, Drama, Romance",
-"Elaine May"
+"Elaine May",
+"tt0068687",
 ],
 
 [
@@ -6025,7 +6571,8 @@ var list = [
 "116",
 "1972",
 "Thriller",
-"Alfred Hitchcock"
+"Alfred Hitchcock",
+"tt0068611",
 ],
 
 [
@@ -6036,7 +6583,8 @@ var list = [
 "93",
 "1972",
 "Comedy, Crime",
-"John Waters"
+"John Waters",
+"tt0069089",
 ],
 
 [
@@ -6047,7 +6595,8 @@ var list = [
 "138",
 "1972",
 "Mystery, Thriller",
-"Joseph L. Mankiewicz"
+"Joseph L. Mankiewicz",
+"tt0069281",
 ],
 
 [
@@ -6058,7 +6607,8 @@ var list = [
 "91",
 "1972",
 "Action, Crime, Drama",
-"Gordon Parks Jr."
+"Gordon Parks Jr.",
+"tt0069332",
 ],
 
 [
@@ -6069,7 +6619,8 @@ var list = [
 "129",
 "1973",
 "Comedy, Crime, Drama",
-"George Roy Hill"
+"George Roy Hill",
+"tt0070735",
 ],
 
 [
@@ -6080,7 +6631,8 @@ var list = [
 "217",
 "1973",
 "Drama, Romance",
-"Jean Eustache"
+"Jean Eustache",
+"tt0070359",
 ],
 
 [
@@ -6091,7 +6643,8 @@ var list = [
 "105",
 "1973",
 "Mystery, Western",
-"Clint Eastwood"
+"Clint Eastwood",
+"tt0068699",
 ],
 
 [
@@ -6102,7 +6655,8 @@ var list = [
 "94",
 "1973",
 "Crime, Drama",
-"Terrence Malick"
+"Terrence Malick",
+"tt0069762",
 ],
 
 [
@@ -6113,7 +6667,8 @@ var list = [
 "110",
 "1973",
 "Comedy, Drama",
-"George Lucas"
+"George Lucas",
+"tt0069704",
 ],
 
 [
@@ -6124,7 +6679,8 @@ var list = [
 "151",
 "1973",
 "Biography, Crime, Drama",
-"Franklin J. Schaffner"
+"Franklin J. Schaffner",
+"tt0070511",
 ],
 
 [
@@ -6135,7 +6691,8 @@ var list = [
 "112",
 "1973",
 "Comedy, Crime, Drama, Mystery, Thriller",
-"Robert Altman"
+"Robert Altman",
+"tt0070334",
 ],
 
 [
@@ -6146,7 +6703,8 @@ var list = [
 "88",
 "1973",
 "Horror, Mystery, Thriller",
-"Robin Hardy"
+"Robin Hardy",
+"tt0070917",
 ],
 
 [
@@ -6157,7 +6715,8 @@ var list = [
 "102",
 "1973",
 "Action, Crime, Drama, Thriller",
-"Robert Clouse"
+"Robert Clouse",
+"tt0070034",
 ],
 
 [
@@ -6168,7 +6727,8 @@ var list = [
 "130",
 "1973",
 "Biography, Crime, Drama, Thriller",
-"Sidney Lumet"
+"Sidney Lumet",
+"tt0070666",
 ],
 
 [
@@ -6179,7 +6739,8 @@ var list = [
 "110",
 "1973",
 "Drama, Horror, Thriller",
-"Nicolas Roeg"
+"Nicolas Roeg",
+"tt0069995",
 ],
 
 [
@@ -6190,7 +6751,8 @@ var list = [
 "116",
 "1973",
 "Comedy, Drama, Romance",
-"François Truffaut"
+"François Truffaut",
+"tt0070460",
 ],
 
 [
@@ -6201,7 +6763,8 @@ var list = [
 "112",
 "1973",
 "Crime, Drama, Thriller",
-"Martin Scorsese"
+"Martin Scorsese",
+"tt0070379",
 ],
 
 [
@@ -6212,7 +6775,8 @@ var list = [
 "89",
 "1973",
 "Comedy, Sci-Fi",
-"Woody Allen"
+"Woody Allen",
+"tt0070707",
 ],
 
 [
@@ -6223,7 +6787,8 @@ var list = [
 "122",
 "1973",
 "Horror",
-"William Friedkin"
+"William Friedkin",
+"tt0070047",
 ],
 
 [
@@ -6234,7 +6799,8 @@ var list = [
 "89",
 "1973",
 "Documentary",
-"Gary Graver, Oja Kodar, François Reichenbach, Orson Welles"
+"Gary Graver, Oja Kodar, François Reichenbach, Orson Welles",
+"tt0072962",
 ],
 
 [
@@ -6245,7 +6811,8 @@ var list = [
 "122",
 "1973",
 "Biography, Drama, Western",
-"Sam Peckinpah"
+"Sam Peckinpah",
+"tt0070518",
 ],
 
 [
@@ -6256,7 +6823,8 @@ var list = [
 "108",
 "1973",
 "Drama, Romance",
-"Paul Verhoeven"
+"Paul Verhoeven",
+"tt0070842",
 ],
 
 [
@@ -6267,7 +6835,8 @@ var list = [
 "98",
 "1973",
 "Drama, Fantasy",
-"Víctor Erice"
+"Víctor Erice",
+"tt0070040",
 ],
 
 [
@@ -6278,7 +6847,8 @@ var list = [
 "103",
 "1972",
 "Crime, Drama, Music",
-"Perry Henzell"
+"Perry Henzell",
+"tt0070155",
 ],
 
 [
@@ -6289,7 +6859,8 @@ var list = [
 "72",
 "1973",
 "Animation, Sci-Fi",
-"René Laloux"
+"René Laloux",
+"tt0070544",
 ],
 
 [
@@ -6300,7 +6871,8 @@ var list = [
 "123",
 "1973",
 "Comedy, Drama",
-"Federico Fellini"
+"Federico Fellini",
+"tt0071129",
 ],
 
 [
@@ -6311,7 +6883,8 @@ var list = [
 "165",
 "1974",
 "Action, Drama, Thriller",
-"John Guillermin"
+"John Guillermin",
+"tt0072308",
 ],
 
 [
@@ -6322,7 +6895,8 @@ var list = [
 "112",
 "1974",
 "Action, Crime, Drama, Thriller, Western",
-"Sam Peckinpah"
+"Sam Peckinpah",
+"tt0071249",
 ],
 
 [
@@ -6333,7 +6907,8 @@ var list = [
 "142",
 "1975",
 "Adventure, Biography, Drama",
-"Akira Kurosawa"
+"Akira Kurosawa",
+"tt0071411",
 ],
 
 [
@@ -6344,7 +6919,8 @@ var list = [
 "202",
 "1974",
 "Crime, Drama",
-"Francis Ford Coppola"
+"Francis Ford Coppola",
+"tt0071562",
 ],
 
 [
@@ -6355,7 +6931,8 @@ var list = [
 "113",
 "1974",
 "Drama, Mystery, Thriller",
-"Francis Ford Coppola"
+"Francis Ford Coppola",
+"tt0071360",
 ],
 
 [
@@ -6366,7 +6943,8 @@ var list = [
 "107",
 "1975",
 "Biography, Drama",
-"Andrei Tarkovsky"
+"Andrei Tarkovsky",
+"tt0072443",
 ],
 
 [
@@ -6377,7 +6955,8 @@ var list = [
 "130",
 "1974",
 "Drama, Mystery, Thriller",
-"Roman Polanski"
+"Roman Polanski",
+"tt0071315",
 ],
 
 [
@@ -6388,7 +6967,8 @@ var list = [
 "155",
 "1974",
 "Drama, Romance",
-"John Cassavetes"
+"John Cassavetes",
+"tt0072417",
 ],
 
 [
@@ -6399,7 +6979,8 @@ var list = [
 "106",
 "1974",
 "Comedy",
-"Mel Brooks"
+"Mel Brooks",
+"tt0072431",
 ],
 
 [
@@ -6410,7 +6991,8 @@ var list = [
 "83",
 "1974",
 "Horror",
-"Tobe Hooper"
+"Tobe Hooper",
+"tt0072271",
 ],
 
 [
@@ -6421,7 +7003,8 @@ var list = [
 "93",
 "1974",
 "Comedy, Western",
-"Mel Brooks"
+"Mel Brooks",
+"tt0071230",
 ],
 
 [
@@ -6432,7 +7015,8 @@ var list = [
 "193",
 "1974",
 "Comedy, Drama, Fantasy, Mystery",
-"Jacques Rivette"
+"Jacques Rivette",
+"tt0071381",
 ],
 
 [
@@ -6443,7 +7027,8 @@ var list = [
 "92",
 "1973",
 "Drama, Romance",
-"Rainer Werner Fassbinder"
+"Rainer Werner Fassbinder",
+"tt0071141",
 ],
 
 [
@@ -6454,7 +7039,8 @@ var list = [
 "185",
 "1975",
 "Adventure, Drama, History, War",
-"Stanley Kubrick"
+"Stanley Kubrick",
+"tt0072684",
 ],
 
 [
@@ -6465,7 +7051,8 @@ var list = [
 "100",
 "1975",
 "Comedy, Musical",
-"Jim Sharman"
+"Jim Sharman",
+"tt0073629",
 ],
 
 [
@@ -6476,7 +7063,8 @@ var list = [
 "201",
 "1975",
 "Drama",
-"Chantal Akerman"
+"Chantal Akerman",
+"tt0073198",
 ],
 
 [
@@ -6487,7 +7075,8 @@ var list = [
 "230",
 "1975",
 "Drama, History, Music, War",
-"Theodoros Angelopoulos"
+"Theodoros Angelopoulos",
+"tt0073800",
 ],
 
 [
@@ -6498,7 +7087,8 @@ var list = [
 "91",
 "1975",
 "Adventure, Comedy, Fantasy",
-"Terry Jones, Terry Gilliam"
+"Terry Jones, Terry Gilliam",
+"tt0071853",
 ],
 
 [
@@ -6509,7 +7099,8 @@ var list = [
 "174",
 "1975",
 "Action, Crime, Drama, Thriller",
-"Yash Chopra"
+"Yash Chopra",
+"tt0072860",
 ],
 
 [
@@ -6520,7 +7111,8 @@ var list = [
 "125",
 "1975",
 "Biography, Crime, Drama, Thriller",
-"Sidney Lumet"
+"Sidney Lumet",
+"tt0072890",
 ],
 
 [
@@ -6531,7 +7123,8 @@ var list = [
 "133",
 "1975",
 "Drama",
-"Milos Forman"
+"Milos Forman",
+"tt0073486",
 ],
 
 [
@@ -6542,7 +7135,8 @@ var list = [
 "125",
 "1975",
 "Drama, Mystery",
-"Lino Brocka"
+"Lino Brocka",
+"tt0073363",
 ],
 
 [
@@ -6553,7 +7147,8 @@ var list = [
 "123",
 "1975",
 "Drama, Romance",
-"Rainer Werner Fassbinder"
+"Rainer Werner Fassbinder",
+"tt0072976",
 ],
 
 [
@@ -6564,7 +7159,8 @@ var list = [
 "160",
 "1975",
 "Comedy, Drama, Music",
-"Robert Altman"
+"Robert Altman",
+"tt0073440",
 ],
 
 [
@@ -6575,7 +7171,8 @@ var list = [
 "117",
 "1975",
 "Drama, Horror, War",
-"Pier Paolo Pasolini"
+"Pier Paolo Pasolini",
+"tt0073650",
 ],
 
 [
@@ -6586,7 +7183,8 @@ var list = [
 "105",
 "1976",
 "Drama",
-"Carlos Saura"
+"Carlos Saura",
+"tt0074360",
 ],
 
 [
@@ -6597,7 +7195,8 @@ var list = [
 "115",
 "1975",
 "Drama, Mystery",
-"Peter Weir"
+"Peter Weir",
+"tt0073540",
 ],
 
 [
@@ -6608,7 +7207,8 @@ var list = [
 "120",
 "1975",
 "Drama, Fantasy, Romance",
-"Marguerite Duras"
+"Marguerite Duras",
+"tt0073166",
 ],
 
 [
@@ -6619,7 +7219,8 @@ var list = [
 "124",
 "1975",
 "Adventure, Drama, Thriller",
-"Steven Spielberg"
+"Steven Spielberg",
+"tt0073195",
 ],
 
 [
@@ -6630,7 +7231,8 @@ var list = [
 "139",
 "1976",
 "Sci-Fi, Drama",
-"Nicolas Roeg"
+"Nicolas Roeg",
+"tt0074851",
 ],
 
 [
@@ -6641,7 +7243,8 @@ var list = [
 "138",
 "1976",
 "Biography, Drama, History, Thriller",
-"Alan J. Pakula"
+"Alan J. Pakula",
+"tt0074119",
 ],
 
 [
@@ -6652,7 +7255,8 @@ var list = [
 "135",
 "1976",
 "Western",
-"Clint Eastwood"
+"Clint Eastwood",
+"tt0075029",
 ],
 
 [
@@ -6663,7 +7267,8 @@ var list = [
 "135",
 "1976",
 "Crime, Drama, Thriller",
-"John Cassavetes"
+"John Cassavetes",
+"tt0074749",
 ],
 
 [
@@ -6674,7 +7279,8 @@ var list = [
 "121",
 "1976",
 "Drama",
-"Sidney Lumet"
+"Sidney Lumet",
+"tt0074958",
 ],
 
 [
@@ -6685,7 +7291,8 @@ var list = [
 "98",
 "1976",
 "Horror",
-"Brian De Palma"
+"Brian De Palma",
+"tt0074285",
 ],
 
 [
@@ -6696,7 +7303,8 @@ var list = [
 "114",
 "1976",
 "Crime, Drama",
-"Martin Scorsese"
+"Martin Scorsese",
+"tt0075314",
 ],
 
 [
@@ -6707,7 +7315,8 @@ var list = [
 "120",
 "1976",
 "Drama, Sport",
-"John G. Avildsen"
+"John G. Avildsen",
+"tt0075148",
 ],
 
 [
@@ -6718,7 +7327,8 @@ var list = [
 "109",
 "1976",
 "Drama, Romance",
-"Nagisa Ôshima"
+"Nagisa Ôshima",
+"tt0074102",
 ],
 
 [
@@ -6729,7 +7339,8 @@ var list = [
 "111",
 "1977",
 "Drama, War",
-"Larisa Shepitko"
+"Larisa Shepitko",
+"tt0075404",
 ],
 
 [
@@ -6740,7 +7351,8 @@ var list = [
 "138",
 "1977",
 "Drama, Sci-Fi",
-"Steven Spielberg"
+"Steven Spielberg",
+"tt0075860",
 ],
 
 [
@@ -6751,7 +7363,8 @@ var list = [
 "106",
 "1977",
 "Drama, Fantasy, Mystery, Thriller",
-"Peter Weir"
+"Peter Weir",
+"tt0076299",
 ],
 
 [
@@ -6762,7 +7375,8 @@ var list = [
 "121",
 "1977",
 "Action, Adventure, Fantasy, Sci-Fi",
-"George Lucas"
+"George Lucas",
+"tt0076759",
 ],
 
 [
@@ -6773,7 +7387,8 @@ var list = [
 "115",
 "1977",
 "Comedy, Drama",
-"Werner Herzog"
+"Werner Herzog",
+"tt0075276",
 ],
 
 [
@@ -6784,7 +7399,8 @@ var list = [
 "120",
 "1977",
 "Drama",
-"Ousmane Sembene"
+"Ousmane Sembene",
+"tt0077309",
 ],
 
 [
@@ -6795,7 +7411,8 @@ var list = [
 "125",
 "1977",
 "Crime, Drama, Mystery, Thriller",
-"Wim Wenders"
+"Wim Wenders",
+"tt0075675",
 ],
 
 [
@@ -6806,7 +7423,8 @@ var list = [
 "93",
 "1977",
 "Comedy, Romance",
-"Woody Allen"
+"Woody Allen",
+"tt0075686",
 ],
 
 [
@@ -6817,7 +7435,8 @@ var list = [
 "98",
 "1977",
 "Horror",
-"Dario Argento"
+"Dario Argento",
+"tt0076786",
 ],
 
 [
@@ -6828,7 +7447,8 @@ var list = [
 "107",
 "1977",
 "Action, Drama, Thriller",
-"Roger Donaldson"
+"Roger Donaldson",
+"tt0076725",
 ],
 
 [
@@ -6839,7 +7459,8 @@ var list = [
 "90",
 "1977",
 "Drama",
-"Jon Jost"
+"Jon Jost",
+"tt0076293",
 ],
 
 [
@@ -6850,7 +7471,8 @@ var list = [
 "165",
 "1977",
 "Drama",
-"Andrzej Wajda"
+"Andrzej Wajda",
+"tt0075902",
 ],
 
 [
@@ -6861,7 +7483,8 @@ var list = [
 "118",
 "1977",
 "Drama, Music",
-"John Badham"
+"John Badham",
+"tt0076666",
 ],
 
 [
@@ -6872,7 +7495,8 @@ var list = [
 "80",
 "1978",
 "Drama",
-"Charles Burnett"
+"Charles Burnett",
+"tt0076263",
 ],
 
 [
@@ -6883,7 +7507,8 @@ var list = [
 "89",
 "1977",
 "Horror",
-"David Lynch"
+"David Lynch",
+"tt0074486",
 ],
 
 [
@@ -6894,7 +7519,8 @@ var list = [
 "155",
 "1977",
 "Drama, Romance, Thriller, War",
-"Paul Verhoeven"
+"Paul Verhoeven",
+"tt0076734",
 ],
 
 [
@@ -6905,7 +7531,8 @@ var list = [
 "90",
 "1977",
 "Horror, Thriller",
-"Wes Craven"
+"Wes Craven",
+"tt0077681",
 ],
 
 [
@@ -6916,7 +7543,8 @@ var list = [
 "94",
 "1978",
 "Drama, Romance",
-"Terrence Malick"
+"Terrence Malick",
+"tt0077405",
 ],
 
 [
@@ -6927,7 +7555,8 @@ var list = [
 "91",
 "1978",
 "Horror, Thriller",
-"John Carpenter"
+"John Carpenter",
+"tt0077651",
 ],
 
 [
@@ -6938,7 +7567,8 @@ var list = [
 "186",
 "1978",
 "Drama, History",
-"Ermanno Olmi"
+"Ermanno Olmi",
+"tt0077138",
 ],
 
 [
@@ -6949,7 +7579,8 @@ var list = [
 "120",
 "1978",
 "Biography, Crime, Drama, History",
-"Fred Schepisi"
+"Fred Schepisi",
+"tt0077318",
 ],
 
 [
@@ -6960,7 +7591,8 @@ var list = [
 "183",
 "1978",
 "Drama, War",
-"Michael Cimino"
+"Michael Cimino",
+"tt0077416",
 ],
 
 [
@@ -6971,7 +7603,8 @@ var list = [
 "127",
 "1978",
 "Horror, Thriller",
-"George A. Romero"
+"George A. Romero",
+"tt0077402",
 ],
 
 [
@@ -6982,7 +7615,8 @@ var list = [
 "86",
 "1978",
 "Comedy, Music",
-"Tommy Chong, Lou Adler"
+"Tommy Chong, Lou Adler",
+"tt0078446",
 ],
 
 [
@@ -6993,7 +7627,8 @@ var list = [
 "110",
 "1978",
 "Musical, Romance",
-"Randal Kleiser"
+"Randal Kleiser",
+"tt0077631",
 ],
 
 [
@@ -7004,7 +7639,8 @@ var list = [
 "115",
 "1978",
 "Action, Adventure, Drama",
-"Chia-Liang Liu"
+"Chia-Liang Liu",
+"tt0078243",
 ],
 
 [
@@ -7015,7 +7651,8 @@ var list = [
 "100",
 "1979",
 "Biography, Drama, Romance",
-"Gillian Armstrong"
+"Gillian Armstrong",
+"tt0079596",
 ],
 
 [
@@ -7026,7 +7663,8 @@ var list = [
 "120",
 "1978",
 "Drama",
-"Rainer Werner Fassbinder"
+"Rainer Werner Fassbinder",
+"tt0079095",
 ],
 
 [
@@ -7037,7 +7675,8 @@ var list = [
 "107",
 "1979",
 "Horror",
-"Werner Herzog"
+"Werner Herzog",
+"tt0079641",
 ],
 
 [
@@ -7048,7 +7687,8 @@ var list = [
 "162",
 "1979",
 "Drama, Sci-Fi",
-"Andrei Tarkovsky"
+"Andrei Tarkovsky",
+"tt0079944",
 ],
 
 [
@@ -7059,7 +7699,8 @@ var list = [
 "94",
 "1979",
 "Comedy",
-"Terry Jones"
+"Terry Jones",
+"tt0079470",
 ],
 
 [
@@ -7070,7 +7711,8 @@ var list = [
 "99",
 "1979",
 "Comedy",
-"Albert Brooks"
+"Albert Brooks",
+"tt0079781",
 ],
 
 [
@@ -7081,7 +7723,8 @@ var list = [
 "101",
 "1979",
 "Comedy, Drama, Romance, Sport",
-"Peter Yates"
+"Peter Yates",
+"tt0078902",
 ],
 
 [
@@ -7092,7 +7735,8 @@ var list = [
 "117",
 "1979",
 "Horror, Sci-Fi",
-"Ridley Scott"
+"Ridley Scott",
+"tt0078748",
 ],
 
 [
@@ -7103,7 +7747,8 @@ var list = [
 "130",
 "1979",
 "Comedy, Drama",
-"Hal Ashby"
+"Hal Ashby",
+"tt0078841",
 ],
 
 [
@@ -7114,7 +7759,8 @@ var list = [
 "96",
 "1979",
 "Comedy, Drama, Romance",
-"Woody Allen"
+"Woody Allen",
+"tt0079522",
 ],
 
 [
@@ -7125,7 +7771,8 @@ var list = [
 "147",
 "1979",
 "Drama, War",
-"Francis Ford Coppola"
+"Francis Ford Coppola",
+"tt0078788",
 ],
 
 [
@@ -7136,7 +7783,8 @@ var list = [
 "123",
 "1979",
 "Drama, Music, Musical",
-"Bob Fosse"
+"Bob Fosse",
+"tt0078754",
 ],
 
 [
@@ -7147,7 +7795,8 @@ var list = [
 "95",
 "1979",
 "Adventure, Comedy, Family, Musical",
-"James Frawley"
+"James Frawley",
+"tt0079588",
 ],
 
 [
@@ -7158,7 +7807,8 @@ var list = [
 "150",
 "1979",
 "Drama",
-"Francesco Rosi"
+"Francesco Rosi",
+"tt0079010",
 ],
 
 [
@@ -7169,7 +7819,8 @@ var list = [
 "88",
 "1979",
 "Action, Adventure, Sci-Fi, Thriller",
-"George Miller"
+"George Miller",
+"tt0079501",
 ],
 
 [
@@ -7180,7 +7831,8 @@ var list = [
 "142",
 "1979",
 "Drama, War",
-"Volker Schlöndorff"
+"Volker Schlöndorff",
+"tt0078875",
 ],
 
 [
@@ -7191,7 +7843,8 @@ var list = [
 "94",
 "1979",
 "Comedy",
-"Carl Reiner"
+"Carl Reiner",
+"tt0079367",
 ],
 
 [
@@ -7202,7 +7855,8 @@ var list = [
 "105",
 "1979",
 "Drama",
-"Robert Benton"
+"Robert Benton",
+"tt0079417",
 ],
 
 [
@@ -7213,7 +7867,8 @@ var list = [
 "124",
 "1980",
 "Drama",
-"Robert Redford"
+"Robert Redford",
+"tt0081283",
 ],
 
 [
@@ -7224,7 +7879,8 @@ var list = [
 "124",
 "1980",
 "Action, Adventure, Fantasy, Sci-Fi",
-"Irvin Kershner"
+"Irvin Kershner",
+"tt0080684",
 ],
 
 [
@@ -7235,7 +7891,8 @@ var list = [
 "104",
 "1980",
 "Crime, Drama, Romance",
-"Louis Malle"
+"Louis Malle",
+"tt0080388",
 ],
 
 [
@@ -7246,7 +7903,8 @@ var list = [
 "131",
 "1980",
 "Drama, Romance, War",
-"François Truffaut"
+"François Truffaut",
+"tt0080610",
 ],
 
 [
@@ -7257,7 +7915,8 @@ var list = [
 "146",
 "1980",
 "Drama, Horror",
-"Stanley Kubrick"
+"Stanley Kubrick",
+"tt0081505",
 ],
 
 [
@@ -7268,7 +7927,8 @@ var list = [
 "124",
 "1980",
 "Biography, Drama",
-"David Lynch"
+"David Lynch",
+"tt0080678",
 ],
 
 [
@@ -7279,7 +7939,8 @@ var list = [
 "113",
 "1980",
 "Drama, War",
-"Samuel Fuller"
+"Samuel Fuller",
+"tt0080437",
 ],
 
 [
@@ -7290,7 +7951,8 @@ var list = [
 "110",
 "1980",
 "Drama, Romance",
-"Maurice Pialat"
+"Maurice Pialat",
+"tt0081076",
 ],
 
 [
@@ -7301,7 +7963,8 @@ var list = [
 "129",
 "1980",
 "Biography, Drama, Sport",
-"Martin Scorsese"
+"Martin Scorsese",
+"tt0081398",
 ],
 
 [
@@ -7312,7 +7975,8 @@ var list = [
 "88",
 "1980",
 "Comedy",
-"Jim Abrahams, Jerry Zucker, David Zucker"
+"Jim Abrahams, Jerry Zucker, David Zucker",
+"tt0080339",
 ],
 
 [
@@ -7323,7 +7987,8 @@ var list = [
 "97",
 "1981",
 "Comedy, Horror",
-"John Landis"
+"John Landis",
+"tt0082010",
 ],
 
 [
@@ -7334,7 +7999,8 @@ var list = [
 "117",
 "1981",
 "Thriller",
-"Jean-Jacques Beineix"
+"Jean-Jacques Beineix",
+"tt0082269",
 ],
 
 [
@@ -7345,7 +8011,8 @@ var list = [
 "115",
 "1981",
 "Action, Adventure",
-"Steven Spielberg"
+"Steven Spielberg",
+"tt0082971",
 ],
 
 [
@@ -7356,7 +8023,8 @@ var list = [
 "149",
 "1981",
 "Adventure, Drama, Thriller, War",
-"Wolfgang Petersen"
+"Wolfgang Petersen",
+"tt0082096",
 ],
 
 [
@@ -7367,7 +8035,8 @@ var list = [
 "110",
 "1981",
 "Adventure, Drama, History, War",
-"Peter Weir"
+"Peter Weir",
+"tt0082432",
 ],
 
 [
@@ -7378,7 +8047,8 @@ var list = [
 "125",
 "1981",
 "Biography, Drama, Sport",
-"Hugh Hudson"
+"Hugh Hudson",
+"tt0082158",
 ],
 
 [
@@ -7389,7 +8059,8 @@ var list = [
 "113",
 "1981",
 "Crime, Drama, Romance, Thriller",
-"Lawrence Kasdan"
+"Lawrence Kasdan",
+"tt0082089",
 ],
 
 [
@@ -7400,7 +8071,8 @@ var list = [
 "156",
 "1981",
 "Drama, History",
-"Andrzej Wajda"
+"Andrzej Wajda",
+"tt0082222",
 ],
 
 [
@@ -7411,7 +8083,8 @@ var list = [
 "195",
 "1981",
 "Biography, Drama, History, Romance",
-"Warren Beatty"
+"Warren Beatty",
+"tt0082979",
 ],
 
 [
@@ -7422,7 +8095,8 @@ var list = [
 "115",
 "1982",
 "Family, Sci-Fi",
-"Steven Spielberg"
+"Steven Spielberg",
+"tt0083866",
 ],
 
 [
@@ -7433,7 +8107,8 @@ var list = [
 "85",
 "1981",
 "Horror",
-"Sam Raimi"
+"Sam Raimi",
+"tt0083907",
 ],
 
 [
@@ -7444,7 +8119,8 @@ var list = [
 "90",
 "1982",
 "Comedy, Drama",
-"Amy Heckerling"
+"Amy Heckerling",
+"tt0083929",
 ],
 
 [
@@ -7455,7 +8131,8 @@ var list = [
 "100",
 "1982",
 "Documentary",
-"Danièle Huillet, Jean-Marie Straub"
+"Danièle Huillet, Jean-Marie Straub",
+"tt0083230",
 ],
 
 [
@@ -7466,7 +8143,8 @@ var list = [
 "114",
 "1982",
 "Horror, Thriller",
-"Tobe Hooper"
+"Tobe Hooper",
+"tt0084516",
 ],
 
 [
@@ -7477,7 +8155,8 @@ var list = [
 "114",
 "1982",
 "Drama",
-"Serif Gören, Yilmaz Güney"
+"Serif Gören, Yilmaz Güney",
+"tt0084934",
 ],
 
 [
@@ -7488,7 +8167,8 @@ var list = [
 "117",
 "1982",
 "Sci-Fi, Thriller",
-"Ridley Scott"
+"Ridley Scott",
+"tt0083658",
 ],
 
 [
@@ -7499,7 +8179,8 @@ var list = [
 "110",
 "1982",
 "Comedy, Drama",
-"Barry Levinson"
+"Barry Levinson",
+"tt0083833",
 ],
 
 [
@@ -7510,7 +8191,8 @@ var list = [
 "116",
 "1982",
 "Comedy, Drama, Romance",
-"Sydney Pollack"
+"Sydney Pollack",
+"tt0084805",
 ],
 
 [
@@ -7521,7 +8203,8 @@ var list = [
 "158",
 "1982",
 "Adventure, Drama",
-"Werner Herzog"
+"Werner Herzog",
+"tt0083946",
 ],
 
 [
@@ -7532,7 +8215,8 @@ var list = [
 "191",
 "1982",
 "Biography, Drama, History",
-"Richard Attenborough"
+"Richard Attenborough",
+"tt0083987",
 ],
 
 [
@@ -7543,7 +8227,8 @@ var list = [
 "109",
 "1982",
 "Horror, Mystery, Sci-Fi",
-"John Carpenter"
+"John Carpenter",
+"tt0084787",
 ],
 
 [
@@ -7554,7 +8239,8 @@ var list = [
 "188",
 "1982",
 "Drama",
-"Ingmar Bergman"
+"Ingmar Bergman",
+"tt0083922",
 ],
 
 [
@@ -7565,7 +8251,8 @@ var list = [
 "107",
 "1982",
 "Drama, Romance, War",
-"Vittorio Taviani, Paolo Taviani"
+"Vittorio Taviani, Paolo Taviani",
+"tt0084422",
 ],
 
 [
@@ -7576,7 +8263,8 @@ var list = [
 "92",
 "1982",
 "Drama",
-"Marleen Gorris"
+"Marleen Gorris",
+"tt0086369",
 ],
 
 [
@@ -7587,7 +8275,8 @@ var list = [
 "108",
 "1982",
 "Comedy, Drama, History, Mystery",
-"Peter Greenaway"
+"Peter Greenaway",
+"tt0083851",
 ],
 
 [
@@ -7598,7 +8287,8 @@ var list = [
 "94",
 "1983",
 "Comedy, Family",
-"Bob Clark"
+"Bob Clark",
+"tt0085334",
 ],
 
 [
@@ -7609,7 +8299,8 @@ var list = [
 "85",
 "1983",
 "Crime, Drama",
-"Robert Bresson"
+"Robert Bresson",
+"tt0085180",
 ],
 
 [
@@ -7620,7 +8311,8 @@ var list = [
 "193",
 "1983",
 "Adventure, Biography, Drama, History",
-"Philip Kaufman"
+"Philip Kaufman",
+"tt0086197",
 ],
 
 [
@@ -7631,7 +8323,8 @@ var list = [
 "105",
 "1983",
 "Comedy, Drama",
-"Lawrence Kasdan"
+"Lawrence Kasdan",
+"tt0085244",
 ],
 
 [
@@ -7642,7 +8335,8 @@ var list = [
 "104",
 "1983",
 "Documentary, Drama",
-"Chris Marker"
+"Chris Marker",
+"tt0084628",
 ],
 
 [
@@ -7653,7 +8347,8 @@ var list = [
 "131",
 "1983",
 "Action, Adventure, Fantasy, Sci-Fi",
-"Richard Marquand"
+"Richard Marquand",
+"tt0086190",
 ],
 
 [
@@ -7664,7 +8359,8 @@ var list = [
 "130",
 "1983",
 "Drama",
-"Shôhei Imamura"
+"Shôhei Imamura",
+"tt0084390",
 ],
 
 [
@@ -7675,7 +8371,8 @@ var list = [
 "132",
 "1983",
 "Comedy, Drama",
-"James L. Brooks"
+"James L. Brooks",
+"tt0086425",
 ],
 
 [
@@ -7686,7 +8383,8 @@ var list = [
 "141",
 "1983",
 "Drama",
-"Gregory Nava"
+"Gregory Nava",
+"tt0085482",
 ],
 
 [
@@ -7697,7 +8395,8 @@ var list = [
 "102",
 "1983",
 "Drama, Mystery, Thriller",
-"Paul Verhoeven"
+"Paul Verhoeven",
+"tt0086543",
 ],
 
 [
@@ -7708,7 +8407,8 @@ var list = [
 "87",
 "1983",
 "Horror, Sci-Fi, Thriller",
-"David Cronenberg"
+"David Cronenberg",
+"tt0086541",
 ],
 
 [
@@ -7719,7 +8419,8 @@ var list = [
 "86",
 "1982",
 "Documentary, Music",
-"Godfrey Reggio"
+"Godfrey Reggio",
+"tt0085809",
 ],
 
 [
@@ -7730,7 +8431,8 @@ var list = [
 "170",
 "1983",
 "Crime, Drama",
-"Brian De Palma"
+"Brian De Palma",
+"tt0086250",
 ],
 
 [
@@ -7741,7 +8443,8 @@ var list = [
 "109",
 "1982",
 "Comedy, Crime, Drama, Thriller",
-"Martin Scorsese"
+"Martin Scorsese",
+"tt0085794",
 ],
 
 [
@@ -7752,7 +8455,8 @@ var list = [
 "111",
 "1983",
 "Comedy, Drama",
-"Bill Forsyth"
+"Bill Forsyth",
+"tt0085859",
 ],
 
 [
@@ -7763,7 +8467,8 @@ var list = [
 "229",
 "1984",
 "Crime, Drama",
-"Sergio Leone"
+"Sergio Leone",
+"tt0087843",
 ],
 
 [
@@ -7774,7 +8479,8 @@ var list = [
 "107",
 "1984",
 "Action, Sci-Fi",
-"James Cameron"
+"James Cameron",
+"tt0088247",
 ],
 
 [
@@ -7785,7 +8491,8 @@ var list = [
 "138",
 "1984",
 "Drama, Sport",
-"Barry Levinson"
+"Barry Levinson",
+"tt0087781",
 ],
 
 [
@@ -7796,7 +8503,8 @@ var list = [
 "105",
 "1984",
 "Action, Comedy, Fantasy",
-"Ivan Reitman"
+"Ivan Reitman",
+"tt0087332",
 ],
 
 [
@@ -7807,7 +8515,8 @@ var list = [
 "145",
 "1984",
 "Drama",
-"Wim Wenders"
+"Wim Wenders",
+"tt0087884",
 ],
 
 [
@@ -7818,7 +8527,8 @@ var list = [
 "91",
 "1984",
 "Horror",
-"Wes Craven"
+"Wes Craven",
+"tt0087800",
 ],
 
 [
@@ -7829,7 +8539,8 @@ var list = [
 "82",
 "1984",
 "Comedy, Music",
-"Rob Reiner"
+"Rob Reiner",
+"tt0088258",
 ],
 
 [
@@ -7840,7 +8551,8 @@ var list = [
 "164",
 "1984",
 "Adventure, Drama, History",
-"David Lean"
+"David Lean",
+"tt0087892",
 ],
 
 [
@@ -7851,7 +8563,8 @@ var list = [
 "105",
 "1984",
 "Action, Comedy, Crime",
-"Martin Brest"
+"Martin Brest",
+"tt0086960",
 ],
 
 [
@@ -7862,7 +8575,8 @@ var list = [
 "141",
 "1984",
 "Biography, Drama, History, War",
-"Roland Joffé"
+"Roland Joffé",
+"tt0087553",
 ],
 
 [
@@ -7873,7 +8587,8 @@ var list = [
 "89",
 "1984",
 "Comedy, Drama",
-"Jim Jarmusch"
+"Jim Jarmusch",
+"tt0088184",
 ],
 
 [
@@ -7884,7 +8599,8 @@ var list = [
 "160",
 "1984",
 "Biography, Drama, History, Music",
-"Milos Forman"
+"Milos Forman",
+"tt0086879",
 ],
 
 [
@@ -7895,7 +8611,8 @@ var list = [
 "130",
 "1985",
 "Comedy, Crime, Drama, Romance",
-"John Huston"
+"John Huston",
+"tt0089841",
 ],
 
 [
@@ -7906,7 +8623,8 @@ var list = [
 "138",
 "1985",
 "Biography, Drama",
-"Hsiao-Hsien Hou"
+"Hsiao-Hsien Hou",
+"tt0090185",
 ],
 
 [
@@ -7917,7 +8635,8 @@ var list = [
 "97",
 "1985",
 "Comedy, Drama",
-"John Hughes"
+"John Hughes",
+"tt0088847",
 ],
 
 [
@@ -7928,7 +8647,8 @@ var list = [
 "142",
 "1985",
 "Drama, War",
-"Elem Klimov"
+"Elem Klimov",
+"tt0091251",
 ],
 
 [
@@ -7939,7 +8659,8 @@ var list = [
 "120",
 "1985",
 "Biography, Drama",
-"Paul Schrader"
+"Paul Schrader",
+"tt0089603",
 ],
 
 [
@@ -7950,7 +8671,8 @@ var list = [
 "161",
 "1985",
 "Biography, Drama, Romance",
-"Sydney Pollack"
+"Sydney Pollack",
+"tt0089755",
 ],
 
 [
@@ -7961,7 +8683,8 @@ var list = [
 "162",
 "1985",
 "Action, Drama",
-"Akira Kurosawa"
+"Akira Kurosawa",
+"tt0089881",
 ],
 
 [
@@ -7972,7 +8695,8 @@ var list = [
 "116",
 "1985",
 "Adventure, Comedy, Sci-Fi",
-"Robert Zemeckis"
+"Robert Zemeckis",
+"tt0088763",
 ],
 
 [
@@ -7983,7 +8707,8 @@ var list = [
 "132",
 "1985",
 "Drama, Sci-Fi",
-"Terry Gilliam"
+"Terry Gilliam",
+"tt0088846",
 ],
 
 [
@@ -7994,7 +8719,8 @@ var list = [
 "120",
 "1985",
 "Drama",
-"Hector Babenco"
+"Hector Babenco",
+"tt0089424",
 ],
 
 [
@@ -8005,7 +8731,8 @@ var list = [
 "91",
 "1985",
 "Drama, Mystery, Sci-Fi",
-"Geoff Murphy"
+"Geoff Murphy",
+"tt0089869",
 ],
 
 [
@@ -8016,7 +8743,8 @@ var list = [
 "82",
 "1985",
 "Comedy, Fantasy, Romance",
-"Woody Allen"
+"Woody Allen",
+"tt0089853",
 ],
 
 [
@@ -8027,7 +8755,8 @@ var list = [
 "105",
 "1985",
 "Drama, Romance",
-"Agnès Varda"
+"Agnès Varda",
+"tt0089960",
 ],
 
 [
@@ -8038,7 +8767,8 @@ var list = [
 "566",
 "1985",
 "Documentary, History, War",
-"Claude Lanzmann"
+"Claude Lanzmann",
+"tt0090015",
 ],
 
 [
@@ -8049,7 +8779,8 @@ var list = [
 "154",
 "1985",
 "Drama",
-"Steven Spielberg"
+"Steven Spielberg",
+"tt0088939",
 ],
 
 [
@@ -8060,7 +8791,8 @@ var list = [
 "117",
 "1985",
 "Drama, Romance",
-"James Ivory"
+"James Ivory",
+"tt0091867",
 ],
 
 [
@@ -8071,7 +8803,8 @@ var list = [
 "120",
 "1986",
 "Crime, Horror, Mystery, Thriller",
-"Michael Mann"
+"Michael Mann",
+"tt0091474",
 ],
 
 [
@@ -8082,7 +8815,8 @@ var list = [
 "120",
 "1986",
 "Drama, Mystery, Thriller",
-"David Lynch"
+"David Lynch",
+"tt0090756",
 ],
 
 [
@@ -8093,7 +8827,8 @@ var list = [
 "107",
 "1986",
 "Comedy, Drama",
-"Woody Allen"
+"Woody Allen",
+"tt0091167",
 ],
 
 [
@@ -8104,7 +8839,8 @@ var list = [
 "84",
 "1986",
 "Comedy, Romance",
-"Spike Lee"
+"Spike Lee",
+"tt0091939",
 ],
 
 [
@@ -8115,7 +8851,8 @@ var list = [
 "119",
 "1986",
 "Drama, Romance",
-"Randa Haines"
+"Randa Haines",
+"tt0090830",
 ],
 
 [
@@ -8126,7 +8863,8 @@ var list = [
 "93",
 "1986",
 "Biography, Drama, History, Romance",
-"Derek Jarman"
+"Derek Jarman",
+"tt0090798",
 ],
 
 [
@@ -8137,7 +8875,8 @@ var list = [
 "122",
 "1986",
 "Drama, History, Thriller, War",
-"Oliver Stone"
+"Oliver Stone",
+"tt0091886",
 ],
 
 [
@@ -8148,7 +8887,8 @@ var list = [
 "120",
 "1986",
 "Drama, War",
-"Oliver Stone"
+"Oliver Stone",
+"tt0091763",
 ],
 
 [
@@ -8159,7 +8899,8 @@ var list = [
 "107",
 "1986",
 "Comedy, Crime, Drama",
-"Jim Jarmusch"
+"Jim Jarmusch",
+"tt0090967",
 ],
 
 [
@@ -8170,7 +8911,8 @@ var list = [
 "101",
 "1986",
 "Comedy, Drama",
-"Denys Arcand"
+"Denys Arcand",
+"tt0090985",
 ],
 
 [
@@ -8181,7 +8923,8 @@ var list = [
 "104",
 "1986",
 "Comedy, Action",
-"Hark Tsui"
+"Hark Tsui",
+"tt0090952",
 ],
 
 [
@@ -8192,7 +8935,8 @@ var list = [
 "137",
 "1986",
 "Action, Adventure, Sci-Fi, Thriller",
-"James Cameron"
+"James Cameron",
+"tt0090605",
 ],
 
 [
@@ -8203,7 +8947,8 @@ var list = [
 "103",
 "1986",
 "Comedy",
-"John Hughes"
+"John Hughes",
+"tt0091042",
 ],
 
 [
@@ -8214,7 +8959,8 @@ var list = [
 "96",
 "1986",
 "Drama, Horror, Sci-Fi",
-"David Cronenberg"
+"David Cronenberg",
+"tt0091064",
 ],
 
 [
@@ -8225,7 +8971,8 @@ var list = [
 "110",
 "1986",
 "Action, Drama",
-"Tony Scott"
+"Tony Scott",
+"tt0092099",
 ],
 
 [
@@ -8236,7 +8983,8 @@ var list = [
 "157",
 "1985",
 "Documentary, Biography, Comedy, Romance",
-"Ross McElwee"
+"Ross McElwee",
+"tt0091943",
 ],
 
 [
@@ -8247,7 +8995,8 @@ var list = [
 "89",
 "1986",
 "Adventure, Drama",
-"Rob Reiner"
+"Rob Reiner",
+"tt0092005",
 ],
 
 [
@@ -8258,7 +9007,8 @@ var list = [
 "114",
 "1985",
 "Comedy",
-"Jûzô Itami"
+"Jûzô Itami",
+"tt0092048",
 ],
 
 [
@@ -8269,7 +9019,8 @@ var list = [
 "88",
 "1986",
 "Drama",
-"Zhuangzhuang Tian, Peicheng Pan"
+"Zhuangzhuang Tian, Peicheng Pan",
+"tt0090907",
 ],
 
 [
@@ -8280,7 +9031,8 @@ var list = [
 "104",
 "1987",
 "Drama, War",
-"Louis Malle"
+"Louis Malle",
+"tt0092593",
 ],
 
 [
@@ -8291,7 +9043,8 @@ var list = [
 "94",
 "1987",
 "Comedy, Crime",
-"Ethan Coen, Joel Coen"
+"Ethan Coen, Joel Coen",
+"tt0093822",
 ],
 
 [
@@ -8302,7 +9055,8 @@ var list = [
 "105",
 "1987",
 "Drama, Fantasy",
-"Souleymane Cissé"
+"Souleymane Cissé",
+"tt0094349",
 ],
 
 [
@@ -8313,7 +9067,8 @@ var list = [
 "101",
 "1987",
 "Action, Comedy, Crime",
-"Jackie Chan"
+"Jackie Chan",
+"tt0092501",
 ],
 
 [
@@ -8324,7 +9079,8 @@ var list = [
 "128",
 "1987",
 "Drama, Fantasy, Romance",
-"Wim Wenders"
+"Wim Wenders",
+"tt0093191",
 ],
 
 [
@@ -8335,7 +9091,8 @@ var list = [
 "107",
 "1987",
 "Comedy, Drama",
-"Bruce Robinson"
+"Bruce Robinson",
+"tt0094336",
 ],
 
 [
@@ -8346,7 +9103,8 @@ var list = [
 "98",
 "1987",
 "Adventure, Family, Fantasy, Romance",
-"Rob Reiner"
+"Rob Reiner",
+"tt0093779",
 ],
 
 [
@@ -8357,7 +9115,8 @@ var list = [
 "98",
 "1987",
 "Action, Comedy, Fantasy, Horror, Romance",
-"Siu-Tung Ching"
+"Siu-Tung Ching",
+"tt0093978",
 ],
 
 [
@@ -8368,7 +9127,8 @@ var list = [
 "116",
 "1987",
 "Drama, War",
-"Stanley Kubrick"
+"Stanley Kubrick",
+"tt0093058",
 ],
 
 [
@@ -8379,7 +9139,8 @@ var list = [
 "133",
 "1987",
 "Comedy, Drama, Romance",
-"James L. Brooks"
+"James L. Brooks",
+"tt0092699",
 ],
 
 [
@@ -8390,7 +9151,8 @@ var list = [
 "103",
 "1987",
 "Drama",
-"Gabriel Axel"
+"Gabriel Axel",
+"tt0092603",
 ],
 
 [
@@ -8401,7 +9163,8 @@ var list = [
 "121",
 "1987",
 "Biography, Comedy, Drama, War",
-"Barry Levinson"
+"Barry Levinson",
+"tt0093105",
 ],
 
 [
@@ -8412,7 +9175,8 @@ var list = [
 "102",
 "1987",
 "Comedy, Drama, Romance",
-"Norman Jewison"
+"Norman Jewison",
+"tt0093565",
 ],
 
 [
@@ -8423,7 +9187,8 @@ var list = [
 "126",
 "1987",
 "Crime, Drama",
-"Oliver Stone"
+"Oliver Stone",
+"tt0094291",
 ],
 
 [
@@ -8434,7 +9199,8 @@ var list = [
 "119",
 "1987",
 "Crime, Drama, Thriller",
-"Brian De Palma"
+"Brian De Palma",
+"tt0094226",
 ],
 
 [
@@ -8445,7 +9211,8 @@ var list = [
 "91",
 "1987",
 "Drama, History, Romance, War",
-"Yimou Zhang"
+"Yimou Zhang",
+"tt0093206",
 ],
 
 [
@@ -8456,7 +9223,8 @@ var list = [
 "119",
 "1987",
 "Drama, Thriller",
-"Adrian Lyne"
+"Adrian Lyne",
+"tt0093010",
 ],
 
 [
@@ -8467,7 +9235,8 @@ var list = [
 "83",
 "1987",
 "Drama",
-"John Huston"
+"John Huston",
+"tt0092843",
 ],
 
 [
@@ -8478,7 +9247,8 @@ var list = [
 "108",
 "1988",
 "Comedy, Romance, Sport",
-"Ron Shelton"
+"Ron Shelton",
+"tt0094812",
 ],
 
 [
@@ -8489,7 +9259,8 @@ var list = [
 "267",
 "1988",
 "Documentary, Biography, History, War",
-"Marcel Ophüls"
+"Marcel Ophüls",
+"tt0095341",
 ],
 
 [
@@ -8500,7 +9271,8 @@ var list = [
 "88",
 "1988",
 "Comedy, Drama",
-"Pedro Almodóvar"
+"Pedro Almodóvar",
+"tt0095675",
 ],
 
 [
@@ -8511,7 +9283,8 @@ var list = [
 "107",
 "1988",
 "Mystery, Thriller",
-"George Sluizer"
+"George Sluizer",
+"tt0096163",
 ],
 
 [
@@ -8522,7 +9295,8 @@ var list = [
 "86",
 "1988",
 "Animation, Adventure, Fantasy, Horror, Thriller",
-"Jan Svankmajer"
+"Jan Svankmajer",
+"tt0095715",
 ],
 
 [
@@ -8533,7 +9307,8 @@ var list = [
 "72",
 "1988",
 "Comedy, Crime, Romance",
-"Aki Kaurismäki"
+"Aki Kaurismäki",
+"tt0094675",
 ],
 
 [
@@ -8544,7 +9319,8 @@ var list = [
 "101",
 "1988",
 "Documentary, Crime, Drama, Mystery",
-"Errol Morris"
+"Errol Morris",
+"tt0096257",
 ],
 
 [
@@ -8555,7 +9331,8 @@ var list = [
 "124",
 "1988",
 "Animation, Drama, Sci-Fi, Thriller",
-"Katsuhiro Ôtomo"
+"Katsuhiro Ôtomo",
+"tt0094625",
 ],
 
 [
@@ -8566,7 +9343,8 @@ var list = [
 "108",
 "1988",
 "Comedy, Crime",
-"Charles Crichton, John Cleese"
+"Charles Crichton, John Cleese",
+"tt0095159",
 ],
 
 [
@@ -8577,7 +9355,8 @@ var list = [
 "80",
 "1988",
 "Documentary",
-"Joris Ivens"
+"Joris Ivens",
+"tt0096337",
 ],
 
 [
@@ -8588,7 +9367,8 @@ var list = [
 "85",
 "1988",
 "Comedy, Crime",
-"David Zucker"
+"David Zucker",
+"tt0095705",
 ],
 
 [
@@ -8599,7 +9379,8 @@ var list = [
 "155",
 "1988",
 "Drama",
-"Giuseppe Tornatore"
+"Giuseppe Tornatore",
+"tt0095765",
 ],
 
 [
@@ -8610,7 +9391,8 @@ var list = [
 "89",
 "1988",
 "Animation, Drama, War",
-"Isao Takahata"
+"Isao Takahata",
+"tt0095327",
 ],
 
 [
@@ -8621,7 +9403,8 @@ var list = [
 "104",
 "1988",
 "Comedy, Drama, Fantasy, Romance",
-"Penny Marshall"
+"Penny Marshall",
+"tt0094737",
 ],
 
 [
@@ -8632,7 +9415,8 @@ var list = [
 "104",
 "1988",
 "Animation, Adventure, Comedy, Crime, Family, Fantasy, Mystery",
-"Robert Zemeckis"
+"Robert Zemeckis",
+"tt0096438",
 ],
 
 [
@@ -8643,7 +9427,8 @@ var list = [
 "572",
 "1989",
 "Drama",
-""
+"",
+"tt0092337",
 ],
 
 [
@@ -8654,7 +9439,8 @@ var list = [
 "133",
 "1988",
 "Drama",
-"Barry Levinson"
+"Barry Levinson",
+"tt0095953",
 ],
 
 [
@@ -8665,7 +9451,8 @@ var list = [
 "132",
 "1988",
 "Action, Thriller",
-"John McTiernan"
+"John McTiernan",
+"tt0095016",
 ],
 
 [
@@ -8676,7 +9463,8 @@ var list = [
 "119",
 "1988",
 "Drama, Romance",
-"Stephen Frears"
+"Stephen Frears",
+"tt0094947",
 ],
 
 [
@@ -8687,7 +9475,8 @@ var list = [
 "116",
 "1988",
 "Drama, Horror, Thriller",
-"David Cronenberg"
+"David Cronenberg",
+"tt0094964",
 ],
 
 [
@@ -8698,7 +9487,8 @@ var list = [
 "102",
 "1987",
 "Action, Crime, Sci-Fi, Thriller",
-"Paul Verhoeven"
+"Paul Verhoeven",
+"tt0093870",
 ],
 
 [
@@ -8709,7 +9499,8 @@ var list = [
 "84",
 "1988",
 "Drama, Music",
-"Terence Davies"
+"Terence Davies",
+"tt0095037",
 ],
 
 [
@@ -8720,7 +9511,8 @@ var list = [
 "108",
 "1988",
 "Drama, Romance",
-"Claude Chabrol"
+"Claude Chabrol",
+"tt0096336",
 ],
 
 [
@@ -8731,7 +9523,8 @@ var list = [
 "95",
 "1989",
 "Comedy, Drama, Romance",
-"Rob Reiner"
+"Rob Reiner",
+"tt0098635",
 ],
 
 [
@@ -8742,7 +9535,8 @@ var list = [
 "104",
 "1989",
 "Comedy, Drama",
-"Woody Allen"
+"Woody Allen",
+"tt0097123",
 ],
 
 [
@@ -8753,7 +9547,8 @@ var list = [
 "126",
 "1989",
 "Action, Adventure",
-"Tim Burton"
+"Tim Burton",
+"tt0096895",
 ],
 
 [
@@ -8764,7 +9559,8 @@ var list = [
 "107",
 "1989",
 "Drama, Family, Fantasy, Sport",
-"Phil Alden Robinson"
+"Phil Alden Robinson",
+"tt0097351",
 ],
 
 [
@@ -8775,7 +9571,8 @@ var list = [
 "122",
 "1989",
 "Biography, Drama, History, War",
-"Edward Zwick"
+"Edward Zwick",
+"tt0097441",
 ],
 
 [
@@ -8786,7 +9583,8 @@ var list = [
 "124",
 "1989",
 "Crime, Drama",
-"Peter Greenaway"
+"Peter Greenaway",
+"tt0097108",
 ],
 
 [
@@ -8797,7 +9595,8 @@ var list = [
 "103",
 "1989",
 "Biography, Drama",
-"Jim Sheridan"
+"Jim Sheridan",
+"tt0097937",
 ],
 
 [
@@ -8808,7 +9607,8 @@ var list = [
 "111",
 "1989",
 "Action, Crime, Drama, Thriller",
-"John Woo"
+"John Woo",
+"tt0097202",
 ],
 
 [
@@ -8819,7 +9619,8 @@ var list = [
 "101",
 "1989",
 "Crime, Drama",
-"Gus Van Sant"
+"Gus Van Sant",
+"tt0097240",
 ],
 
 [
@@ -8830,7 +9631,8 @@ var list = [
 "153",
 "1989",
 "Drama",
-"Kira Muratova"
+"Kira Muratova",
+"tt0096841",
 ],
 
 [
@@ -8841,7 +9643,8 @@ var list = [
 "120",
 "1989",
 "Comedy, Drama",
-"Spike Lee"
+"Spike Lee",
+"tt0097216",
 ],
 
 [
@@ -8852,7 +9655,8 @@ var list = [
 "90",
 "1989",
 "Comedy, Drama, Romance",
-"Hal Hartley"
+"Hal Hartley",
+"tt0100842",
 ],
 
 [
@@ -8863,7 +9667,8 @@ var list = [
 "91",
 "1989",
 "Documentary",
-"Michael Moore"
+"Michael Moore",
+"tt0098213",
 ],
 
 [
@@ -8874,7 +9679,8 @@ var list = [
 "100",
 "1989",
 "Drama",
-"Steven Soderbergh"
+"Steven Soderbergh",
+"tt0098724",
 ],
 
 [
@@ -8885,7 +9691,8 @@ var list = [
 "157",
 "1989",
 "Drama",
-"Hsiao-Hsien Hou"
+"Hsiao-Hsien Hou",
+"tt0096908",
 ],
 
 [
@@ -8896,7 +9703,8 @@ var list = [
 "107",
 "1990",
 "Comedy, Drama",
-"Hal Hartley"
+"Hal Hartley",
+"tt0103130",
 ],
 
 [
@@ -8907,7 +9715,8 @@ var list = [
 "90",
 "1990",
 "Drama",
-"Claire Denis"
+"Claire Denis",
+"tt0100536",
 ],
 
 [
@@ -8918,7 +9727,8 @@ var list = [
 "146",
 "1990",
 "Biography, Crime, Drama",
-"Martin Scorsese"
+"Martin Scorsese",
+"tt0099685",
 ],
 
 [
@@ -8929,7 +9739,8 @@ var list = [
 "98",
 "1990",
 "Biography, Crime, Drama",
-"Abbas Kiarostami"
+"Abbas Kiarostami",
+"tt0100234",
 ],
 
 [
@@ -8940,7 +9751,8 @@ var list = [
 "103",
 "1990",
 "Crime, Thriller",
-"Abel Ferrara"
+"Abel Ferrara",
+"tt0099939",
 ],
 
 [
@@ -8951,7 +9763,8 @@ var list = [
 "119",
 "1990",
 "Comedy, Romance",
-"Garry Marshall"
+"Garry Marshall",
+"tt0100405",
 ],
 
 [
@@ -8962,7 +9775,8 @@ var list = [
 "181",
 "1990",
 "Adventure, Drama, Western",
-"Kevin Costner"
+"Kevin Costner",
+"tt0099348",
 ],
 
 [
@@ -8973,7 +9787,8 @@ var list = [
 "83",
 "1986",
 "Biography, Crime, Drama, Horror, Thriller",
-"John McNaughton"
+"John McNaughton",
+"tt0099763",
 ],
 
 [
@@ -8984,7 +9799,8 @@ var list = [
 "90",
 "1990",
 "Comedy, Drama, Romance, War",
-"Guy Maddin"
+"Guy Maddin",
+"tt0099053",
 ],
 
 [
@@ -8995,7 +9811,8 @@ var list = [
 "113",
 "1990",
 "Action, Sci-Fi, Thriller",
-"Paul Verhoeven"
+"Paul Verhoeven",
+"tt0100802",
 ],
 
 [
@@ -9006,7 +9823,8 @@ var list = [
 "105",
 "1990",
 "Drama, Fantasy, Romance",
-"Tim Burton"
+"Tim Burton",
+"tt0099487",
 ],
 
 [
@@ -9017,7 +9835,8 @@ var list = [
 "112",
 "1990",
 "Drama, History, War",
-"Agnieszka Holland"
+"Agnieszka Holland",
+"tt0099776",
 ],
 
 [
@@ -9028,7 +9847,8 @@ var list = [
 "112",
 "1991",
 "Crime, Drama",
-"John Singleton"
+"John Singleton",
+"tt0101507",
 ],
 
 [
@@ -9039,7 +9859,8 @@ var list = [
 "238",
 "1991",
 "Drama",
-"Jacques Rivette"
+"Jacques Rivette",
+"tt0101428",
 ],
 
 [
@@ -9050,7 +9871,8 @@ var list = [
 "100",
 "1991",
 "Drama, Mystery",
-"Michael Tolkin"
+"Michael Tolkin",
+"tt0102757",
 ],
 
 [
@@ -9061,7 +9883,8 @@ var list = [
 "237",
 "1991",
 "Crime, Drama, Romance",
-"Edward Yang"
+"Edward Yang",
+"tt0101985",
 ],
 
 [
@@ -9072,7 +9895,8 @@ var list = [
 "189",
 "1991",
 "Drama, History, Thriller",
-"Oliver Stone"
+"Oliver Stone",
+"tt0102138",
 ],
 
 [
@@ -9083,7 +9907,8 @@ var list = [
 "97",
 "1990",
 "Comedy, Drama",
-"Richard Linklater"
+"Richard Linklater",
+"tt0102943",
 ],
 
 [
@@ -9094,7 +9919,8 @@ var list = [
 "134",
 "1991",
 "Action, Adventure, Biography, Drama, History",
-"Hark Tsui"
+"Hark Tsui",
+"tt0103285",
 ],
 
 [
@@ -9105,7 +9931,8 @@ var list = [
 "130",
 "1991",
 "Adventure, Crime, Drama",
-"Ridley Scott"
+"Ridley Scott",
+"tt0103074",
 ],
 
 [
@@ -9116,7 +9943,8 @@ var list = [
 "104",
 "1991",
 "Drama",
-"Gus Van Sant"
+"Gus Van Sant",
+"tt0102494",
 ],
 
 [
@@ -9127,7 +9955,8 @@ var list = [
 "118",
 "1991",
 "Crime, Drama, Thriller",
-"Jonathan Demme"
+"Jonathan Demme",
+"tt0102926",
 ],
 
 [
@@ -9138,7 +9967,8 @@ var list = [
 "137",
 "1991",
 "Action, Sci-Fi",
-"James Cameron"
+"James Cameron",
+"tt0103064",
 ],
 
 [
@@ -9149,7 +9979,8 @@ var list = [
 "99",
 "1991",
 "Comedy, Crime",
-"Marc Caro, Jean-Pierre Jeunet"
+"Marc Caro, Jean-Pierre Jeunet",
+"tt0101700",
 ],
 
 [
@@ -9160,7 +9991,8 @@ var list = [
 "98",
 "1991",
 "Drama, Fantasy, Music, Mystery, Romance",
-"Krzysztof Kieslowski"
+"Krzysztof Kieslowski",
+"tt0101765",
 ],
 
 [
@@ -9171,7 +10003,8 @@ var list = [
 "55",
 "1989",
 "Documentary",
-"Marlon Riggs"
+"Marlon Riggs",
+"tt0103099",
 ],
 
 [
@@ -9182,7 +10015,8 @@ var list = [
 "125",
 "1991",
 "Drama, History, Romance",
-"Yimou Zhang"
+"Yimou Zhang",
+"tt0101640",
 ],
 
 [
@@ -9193,7 +10027,8 @@ var list = [
 "96",
 "1991",
 "Documentary",
-"George Hickenlooper, Eleanor Coppola, Fax Bahr"
+"George Hickenlooper, Eleanor Coppola, Fax Bahr",
+"tt0102015",
 ],
 
 [
@@ -9204,7 +10039,8 @@ var list = [
 "94",
 "1992",
 "Crime, Drama",
-"Geoffrey Wright"
+"Geoffrey Wright",
+"tt0105275",
 ],
 
 [
@@ -9215,7 +10051,8 @@ var list = [
 "94",
 "1992",
 "Comedy, Drama, Music, Romance",
-"Baz Luhrmann"
+"Baz Luhrmann",
+"tt0105488",
 ],
 
 [
@@ -9226,7 +10063,8 @@ var list = [
 "124",
 "1992",
 "Comedy, Crime, Drama, Thriller",
-"Robert Altman"
+"Robert Altman",
+"tt0105151",
 ],
 
 [
@@ -9237,7 +10075,8 @@ var list = [
 "99",
 "1992",
 "Crime, Drama, Thriller",
-"Quentin Tarantino"
+"Quentin Tarantino",
+"tt0105236",
 ],
 
 [
@@ -9248,7 +10087,8 @@ var list = [
 "100",
 "1992",
 "Crime, Drama, Mystery",
-"James Foley"
+"James Foley",
+"tt0104348",
 ],
 
 [
@@ -9259,7 +10099,8 @@ var list = [
 "114",
 "1992",
 "Drama",
-"Éric Rohmer"
+"Éric Rohmer",
+"tt0104008",
 ],
 
 [
@@ -9270,7 +10111,8 @@ var list = [
 "130",
 "1992",
 "Drama, Western",
-"Clint Eastwood"
+"Clint Eastwood",
+"tt0105695",
 ],
 
 [
@@ -9281,7 +10123,8 @@ var list = [
 "126",
 "1991",
 "Biography, Drama, Romance",
-"Stanley Kwan"
+"Stanley Kwan",
+"tt0102816",
 ],
 
 [
@@ -9292,7 +10135,8 @@ var list = [
 "95",
 "1992",
 "Comedy, Crime, Drama, Horror",
-"Rémy Belvaux, André Bonzel, Benoît Poelvoorde"
+"Rémy Belvaux, André Bonzel, Benoît Poelvoorde",
+"tt0103905",
 ],
 
 [
@@ -9303,7 +10147,8 @@ var list = [
 "140",
 "1993",
 "Drama",
-"Zhuangzhuang Tian"
+"Zhuangzhuang Tian",
+"tt0107358",
 ],
 
 [
@@ -9314,7 +10159,8 @@ var list = [
 "125",
 "1993",
 "Drama",
-"Jonathan Demme"
+"Jonathan Demme",
+"tt0107818",
 ],
 
 [
@@ -9325,7 +10171,8 @@ var list = [
 "142",
 "1993",
 "Biography, Drama, War",
-"Hsiao-Hsien Hou"
+"Hsiao-Hsien Hou",
+"tt0107157",
 ],
 
 [
@@ -9336,7 +10183,8 @@ var list = [
 "188",
 "1993",
 "Comedy, Drama",
-"Robert Altman"
+"Robert Altman",
+"tt0108122",
 ],
 
 [
@@ -9347,7 +10195,8 @@ var list = [
 "195",
 "1993",
 "Biography, Drama, History",
-"Steven Spielberg"
+"Steven Spielberg",
+"tt0108052",
 ],
 
 [
@@ -9358,7 +10207,8 @@ var list = [
 "98",
 "1993",
 "Drama, Music, Mystery, Romance",
-"Krzysztof Kieslowski"
+"Krzysztof Kieslowski",
+"tt0108394",
 ],
 
 [
@@ -9369,7 +10219,8 @@ var list = [
 "171",
 "1993",
 "Drama, Music, Romance",
-"Kaige Chen"
+"Kaige Chen",
+"tt0106332",
 ],
 
 [
@@ -9380,7 +10231,8 @@ var list = [
 "101",
 "1993",
 "Comedy, Fantasy, Romance",
-"Harold Ramis"
+"Harold Ramis",
+"tt0107048",
 ],
 
 [
@@ -9391,7 +10243,8 @@ var list = [
 "121",
 "1993",
 "Drama, Music, Romance",
-"Jane Campion"
+"Jane Campion",
+"tt0107822",
 ],
 
 [
@@ -9402,7 +10255,8 @@ var list = [
 "106",
 "1993",
 "Comedy, Drama, Romance",
-"Ang Lee"
+"Ang Lee",
+"tt0107156",
 ],
 
 [
@@ -9413,7 +10267,8 @@ var list = [
 "98",
 "1993",
 "Biography, Drama, Music",
-"François Girard"
+"François Girard",
+"tt0108328",
 ],
 
 [
@@ -9424,7 +10279,8 @@ var list = [
 "127",
 "1993",
 "Adventure, Sci-Fi, Thriller",
-"Steven Spielberg"
+"Steven Spielberg",
+"tt0107290",
 ],
 
 [
@@ -9435,7 +10291,8 @@ var list = [
 "88",
 "1994",
 "Animation, Adventure, Drama, Family, Musical",
-"Rob Minkoff, Roger Allers"
+"Rob Minkoff, Roger Allers",
+"tt0110357",
 ],
 
 [
@@ -9446,7 +10303,8 @@ var list = [
 "110",
 "1994",
 "Crime, Drama, Romance, Thriller",
-"John Dahl"
+"John Dahl",
+"tt0110308",
 ],
 
 [
@@ -9457,7 +10315,8 @@ var list = [
 "110",
 "1994",
 "Drama",
-"André Téchiné"
+"André Téchiné",
+"tt0111019",
 ],
 
 [
@@ -9468,7 +10327,8 @@ var list = [
 "119",
 "1994",
 "Documentary, Biography, Comedy",
-"Terry Zwigoff"
+"Terry Zwigoff",
+"tt0109508",
 ],
 
 [
@@ -9479,7 +10339,8 @@ var list = [
 "99",
 "1994",
 "Biography, Crime, Drama, Thriller",
-"Peter Jackson"
+"Peter Jackson",
+"tt0110005",
 ],
 
 [
@@ -9490,7 +10351,8 @@ var list = [
 "154",
 "1994",
 "Crime, Drama",
-"Quentin Tarantino"
+"Quentin Tarantino",
+"tt0110912",
 ],
 
 [
@@ -9501,7 +10363,8 @@ var list = [
 "99",
 "1994",
 "Drama, Mystery, Romance",
-"Krzysztof Kieslowski"
+"Krzysztof Kieslowski",
+"tt0111495",
 ],
 
 [
@@ -9512,7 +10375,8 @@ var list = [
 "118",
 "1994",
 "Crime, Drama",
-"Oliver Stone"
+"Oliver Stone",
+"tt0110632",
 ],
 
 [
@@ -9523,7 +10387,8 @@ var list = [
 "106",
 "1994",
 "Comedy, Drama",
-"P.J. Hogan"
+"P.J. Hogan",
+"tt0110598",
 ],
 
 [
@@ -9534,7 +10399,8 @@ var list = [
 "104",
 "1994",
 "Comedy, Music",
-"Stephan Elliott"
+"Stephan Elliott",
+"tt0109045",
 ],
 
 [
@@ -9545,7 +10411,8 @@ var list = [
 "170",
 "1994",
 "Documentary, Drama, Sport",
-"Steve James"
+"Steve James",
+"tt0110057",
 ],
 
 [
@@ -9556,7 +10423,8 @@ var list = [
 "450",
 "1994",
 "Drama",
-"Béla Tarr"
+"Béla Tarr",
+"tt0111341",
 ],
 
 [
@@ -9567,7 +10435,8 @@ var list = [
 "92",
 "1994",
 "Comedy",
-"Kevin Smith"
+"Kevin Smith",
+"tt0109445",
 ],
 
 [
@@ -9578,7 +10447,8 @@ var list = [
 "117",
 "1994",
 "Comedy, Drama, Romance",
-"Mike Newell"
+"Mike Newell",
+"tt0109831",
 ],
 
 [
@@ -9589,7 +10459,8 @@ var list = [
 "142",
 "1994",
 "Drama, Romance",
-"Robert Zemeckis"
+"Robert Zemeckis",
+"tt0109830",
 ],
 
 [
@@ -9600,7 +10471,8 @@ var list = [
 "103",
 "1994",
 "Drama",
-"Abbas Kiarostami"
+"Abbas Kiarostami",
+"tt0111845",
 ],
 
 [
@@ -9611,7 +10483,8 @@ var list = [
 "142",
 "1994",
 "Drama",
-"Frank Darabont"
+"Frank Darabont",
+"tt0111161",
 ],
 
 [
@@ -9622,7 +10495,8 @@ var list = [
 "100",
 "1993",
 "Biography, Comedy, Drama",
-"Nanni Moretti"
+"Nanni Moretti",
+"tt0109382",
 ],
 
 [
@@ -9633,7 +10507,8 @@ var list = [
 "102",
 "1994",
 "Comedy, Crime, Drama, Mystery, Romance",
-"Kar-Wai Wong"
+"Kar-Wai Wong",
+"tt0109424",
 ],
 
 [
@@ -9644,7 +10519,8 @@ var list = [
 "561",
 "1994",
 "Comedy, Drama, Fantasy, Horror, Mystery",
-""
+"",
+"tt0108906",
 ],
 
 [
@@ -9655,7 +10531,8 @@ var list = [
 "178",
 "1995",
 "Biography, Drama, History, War",
-"Mel Gibson"
+"Mel Gibson",
+"tt0112573",
 ],
 
 [
@@ -9666,7 +10543,8 @@ var list = [
 "82",
 "1995",
 "Documentary",
-"James Benning"
+"James Benning",
+"tt0131356",
 ],
 
 [
@@ -9677,7 +10555,8 @@ var list = [
 "91",
 "1995",
 "Comedy, Drama, Family",
-"Chris Noonan"
+"Chris Noonan",
+"tt0112431",
 ],
 
 [
@@ -9688,7 +10567,8 @@ var list = [
 "127",
 "1995",
 "Crime, Drama, Mystery, Thriller",
-"David Fincher"
+"David Fincher",
+"tt0114369",
 ],
 
 [
@@ -9699,7 +10579,8 @@ var list = [
 "112",
 "1995",
 "Comedy, Drama",
-"Wayne Wang"
+"Wayne Wang",
+"tt0114478",
 ],
 
 [
@@ -9710,7 +10591,8 @@ var list = [
 "85",
 "1995",
 "Drama, Family",
-"Jafar Panahi"
+"Jafar Panahi",
+"tt0112445",
 ],
 
 [
@@ -9721,7 +10603,8 @@ var list = [
 "170",
 "1995",
 "Comedy, Drama, War",
-"Emir Kusturica"
+"Emir Kusturica",
+"tt0114787",
 ],
 
 [
@@ -9732,7 +10615,8 @@ var list = [
 "189",
 "1995",
 "Drama, Romance",
-"Aditya Chopra"
+"Aditya Chopra",
+"tt0112870",
 ],
 
 [
@@ -9743,7 +10627,8 @@ var list = [
 "123",
 "1995",
 "Crime, Drama",
-"Anh Hung Tran"
+"Anh Hung Tran",
+"tt0112767",
 ],
 
 [
@@ -9754,7 +10639,8 @@ var list = [
 "97",
 "1995",
 "Comedy, Romance",
-"Amy Heckerling"
+"Amy Heckerling",
+"tt0112697",
 ],
 
 [
@@ -9765,7 +10651,8 @@ var list = [
 "119",
 "1995",
 "Drama",
-"Todd Haynes"
+"Todd Haynes",
+"tt0114323",
 ],
 
 [
@@ -9776,7 +10663,8 @@ var list = [
 "170",
 "1995",
 "Crime, Drama, Thriller",
-"Michael Mann"
+"Michael Mann",
+"tt0113277",
 ],
 
 [
@@ -9787,7 +10675,8 @@ var list = [
 "81",
 "1995",
 "Animation, Adventure, Comedy, Family, Fantasy",
-"John Lasseter"
+"John Lasseter",
+"tt0114709",
 ],
 
 [
@@ -9798,7 +10687,8 @@ var list = [
 "121",
 "1995",
 "Drama, Fantasy, Western",
-"Jim Jarmusch"
+"Jim Jarmusch",
+"tt0112817",
 ],
 
 [
@@ -9809,7 +10699,8 @@ var list = [
 "106",
 "1995",
 "Crime, Mystery, Thriller",
-"Bryan Singer"
+"Bryan Singer",
+"tt0114814",
 ],
 
 [
@@ -9820,7 +10711,8 @@ var list = [
 "118",
 "1995",
 "Drama",
-"Hans Petter Moland"
+"Hans Petter Moland",
+"tt0113557",
 ],
 
 [
@@ -9831,7 +10723,8 @@ var list = [
 "93",
 "1996",
 "Drama",
-"Danny Boyle"
+"Danny Boyle",
+"tt0117951",
 ],
 
 [
@@ -9842,7 +10735,8 @@ var list = [
 "98",
 "1996",
 "Crime, Drama, Thriller",
-"Ethan Coen, Joel Coen"
+"Ethan Coen, Joel Coen",
+"tt0116282",
 ],
 
 [
@@ -9853,7 +10747,8 @@ var list = [
 "75",
 "1996",
 "Drama, Mystery, Romance",
-"Mohsen Makhmalbaf"
+"Mohsen Makhmalbaf",
+"tt0116384",
 ],
 
 [
@@ -9864,7 +10759,8 @@ var list = [
 "123",
 "1996",
 "Comedy, Crime",
-"Raoul Ruiz"
+"Raoul Ruiz",
+"tt0117968",
 ],
 
 [
@@ -9875,7 +10771,8 @@ var list = [
 "105",
 "1996",
 "Biography, Drama, Music, Romance",
-"Scott Hicks"
+"Scott Hicks",
+"tt0117631",
 ],
 
 [
@@ -9886,7 +10783,8 @@ var list = [
 "111",
 "1996",
 "Horror, Mystery",
-"Wes Craven"
+"Wes Craven",
+"tt0117571",
 ],
 
 [
@@ -9897,7 +10795,8 @@ var list = [
 "136",
 "1996",
 "Drama",
-"Mike Leigh"
+"Mike Leigh",
+"tt0117589",
 ],
 
 [
@@ -9908,7 +10807,8 @@ var list = [
 "162",
 "1996",
 "Drama, Romance, War",
-"Anthony Minghella"
+"Anthony Minghella",
+"tt0116209",
 ],
 
 [
@@ -9919,7 +10819,8 @@ var list = [
 "135",
 "1996",
 "Drama, Mystery",
-"John Sayles"
+"John Sayles",
+"tt0116905",
 ],
 
 [
@@ -9930,7 +10831,8 @@ var list = [
 "159",
 "1996",
 "Drama",
-"Lars von Trier"
+"Lars von Trier",
+"tt0115751",
 ],
 
 [
@@ -9941,7 +10843,8 @@ var list = [
 "145",
 "1996",
 "Action, Adventure, Sci-Fi",
-"Roland Emmerich"
+"Roland Emmerich",
+"tt0116629",
 ],
 
 [
@@ -9952,7 +10855,8 @@ var list = [
 "112",
 "1997",
 "Drama",
-"Ang Lee"
+"Ang Lee",
+"tt0119349",
 ],
 
 [
@@ -9963,7 +10867,8 @@ var list = [
 "103",
 "1997",
 "Crime, Drama, Romance, Thriller",
-"Takeshi Kitano"
+"Takeshi Kitano",
+"tt0119250",
 ],
 
 [
@@ -9974,7 +10879,8 @@ var list = [
 "155",
 "1997",
 "Drama",
-"Paul Thomas Anderson"
+"Paul Thomas Anderson",
+"tt0118749",
 ],
 
 [
@@ -9985,7 +10891,8 @@ var list = [
 "138",
 "1997",
 "Crime, Drama, Mystery, Thriller",
-"Curtis Hanson"
+"Curtis Hanson",
+"tt0119488",
 ],
 
 [
@@ -9996,7 +10903,8 @@ var list = [
 "108",
 "1997",
 "Crime, Drama, Horror, Thriller",
-"Michael Haneke"
+"Michael Haneke",
+"tt0119167",
 ],
 
 [
@@ -10007,7 +10915,8 @@ var list = [
 "117",
 "1997",
 "Drama, Mystery, Thriller",
-"Alejandro Amenábar"
+"Alejandro Amenábar",
+"tt0125659",
 ],
 
 [
@@ -10018,7 +10927,8 @@ var list = [
 "112",
 "1997",
 "Drama",
-"Atom Egoyan"
+"Atom Egoyan",
+"tt0120255",
 ],
 
 [
@@ -10029,7 +10939,8 @@ var list = [
 "194",
 "1997",
 "Drama, Romance",
-"James Cameron"
+"James Cameron",
+"tt0120338",
 ],
 
 [
@@ -10040,7 +10951,8 @@ var list = [
 "95",
 "1997",
 "Drama",
-"Abbas Kiarostami"
+"Abbas Kiarostami",
+"tt0120265",
 ],
 
 [
@@ -10051,7 +10963,8 @@ var list = [
 "169",
 "1998",
 "Drama, War",
-"Steven Spielberg"
+"Steven Spielberg",
+"tt0120815",
 ],
 
 [
@@ -10062,7 +10975,8 @@ var list = [
 "81",
 "1998",
 "Crime, Drama, Thriller",
-"Tom Tykwer"
+"Tom Tykwer",
+"tt0130827",
 ],
 
 [
@@ -10073,7 +10987,8 @@ var list = [
 "93",
 "1998",
 "Comedy, Drama",
-"Wes Anderson"
+"Wes Anderson",
+"tt0128445",
 ],
 
 [
@@ -10084,7 +10999,8 @@ var list = [
 "105",
 "1998",
 "Drama",
-"Thomas Vinterberg"
+"Thomas Vinterberg",
+"tt0154420",
 ],
 
 [
@@ -10095,7 +11011,8 @@ var list = [
 "110",
 "1998",
 "Comedy, Crime, Drama, Romance",
-"Vincent Gallo"
+"Vincent Gallo",
+"tt0118789",
 ],
 
 [
@@ -10106,7 +11023,8 @@ var list = [
 "96",
 "1998",
 "Horror, Mystery",
-"Hideo Nakata"
+"Hideo Nakata",
+"tt0178868",
 ],
 
 [
@@ -10117,7 +11035,8 @@ var list = [
 "134",
 "1998",
 "Comedy, Drama",
-"Todd Solondz"
+"Todd Solondz",
+"tt0147612",
 ],
 
 [
@@ -10128,7 +11047,8 @@ var list = [
 "170",
 "1998",
 "Drama, War",
-"Terrence Malick"
+"Terrence Malick",
+"tt0120863",
 ],
 
 [
@@ -10139,7 +11059,8 @@ var list = [
 "81",
 "1999",
 "Horror, Mystery",
-"Eduardo Sánchez, Daniel Myrick"
+"Eduardo Sánchez, Daniel Myrick",
+"tt0185937",
 ],
 
 [
@@ -10150,7 +11071,8 @@ var list = [
 "113",
 "1999",
 "Comedy, Drama, Fantasy",
-"Spike Jonze"
+"Spike Jonze",
+"tt0120601",
 ],
 
 [
@@ -10161,7 +11083,8 @@ var list = [
 "107",
 "1999",
 "Drama, Mystery, Thriller",
-"M. Night Shyamalan"
+"M. Night Shyamalan",
+"tt0167404",
 ],
 
 [
@@ -10172,7 +11095,8 @@ var list = [
 "114",
 "1999",
 "Action, Adventure, Comedy, Drama, War",
-"David O. Russell"
+"David O. Russell",
+"tt0120188",
 ],
 
 [
@@ -10183,7 +11107,8 @@ var list = [
 "188",
 "1999",
 "Drama",
-"Paul Thomas Anderson"
+"Paul Thomas Anderson",
+"tt0175880",
 ],
 
 [
@@ -10194,7 +11119,8 @@ var list = [
 "139",
 "1999",
 "Drama",
-"David Fincher"
+"David Fincher",
+"tt0137523",
 ],
 
 [
@@ -10205,7 +11131,8 @@ var list = [
 "115",
 "1999",
 "Drama, Horror, Mystery",
-"Takashi Miike"
+"Takashi Miike",
+"tt0235198",
 ],
 
 [
@@ -10216,7 +11143,8 @@ var list = [
 "122",
 "1999",
 "Drama",
-"Sam Mendes"
+"Sam Mendes",
+"tt0169547",
 ],
 
 [
@@ -10227,7 +11155,8 @@ var list = [
 "92",
 "1999",
 "Drama, War",
-"Claire Denis"
+"Claire Denis",
+"tt0209933",
 ],
 
 [
@@ -10238,7 +11167,8 @@ var list = [
 "101",
 "1999",
 "Drama",
-"Pedro Almodóvar"
+"Pedro Almodóvar",
+"tt0185125",
 ],
 
 [
@@ -10249,7 +11179,8 @@ var list = [
 "136",
 "1999",
 "Action, Sci-Fi",
-"Lilly Wachowski, Lana Wachowski"
+"Lilly Wachowski, Lana Wachowski",
+"tt0133093",
 ],
 
 [
@@ -10260,7 +11191,8 @@ var list = [
 "82",
 "2000",
 "Documentary",
-"Agnès Varda"
+"Agnès Varda",
+"tt0247380",
 ],
 
 [
@@ -10271,7 +11203,8 @@ var list = [
 "98",
 "2000",
 "Drama, Romance",
-"Kar-Wai Wong"
+"Kar-Wai Wong",
+"tt0118694",
 ],
 
 [
@@ -10282,7 +11215,8 @@ var list = [
 "155",
 "2000",
 "Action, Adventure, Drama",
-"Ridley Scott"
+"Ridley Scott",
+"tt0172495",
 ],
 
 [
@@ -10293,7 +11227,8 @@ var list = [
 "117",
 "2000",
 "Drama, War",
-"Amos Gitai"
+"Amos Gitai",
+"tt0218379",
 ],
 
 [
@@ -10304,7 +11239,8 @@ var list = [
 "173",
 "2000",
 "Drama, Romance",
-"Edward Yang"
+"Edward Yang",
+"tt0244316",
 ],
 
 [
@@ -10315,7 +11251,8 @@ var list = [
 "102",
 "2000",
 "Drama",
-"Darren Aronofsky"
+"Darren Aronofsky",
+"tt0180093",
 ],
 
 [
@@ -10326,7 +11263,8 @@ var list = [
 "154",
 "2000",
 "Drama, Thriller",
-"Alejandro G. Iñárritu"
+"Alejandro G. Iñárritu",
+"tt0245712",
 ],
 
 [
@@ -10337,7 +11275,8 @@ var list = [
 "113",
 "2000",
 "Mystery, Thriller",
-"Christopher Nolan"
+"Christopher Nolan",
+"tt0209144",
 ],
 
 [
@@ -10348,7 +11287,8 @@ var list = [
 "120",
 "2000",
 "Action, Adventure, Fantasy, Romance",
-"Ang Lee"
+"Ang Lee",
+"tt0190332",
 ],
 
 [
@@ -10359,7 +11299,8 @@ var list = [
 "178",
 "2001",
 "Adventure, Drama, Fantasy",
-"Peter Jackson"
+"Peter Jackson",
+"tt0120737",
 ],
 
 [
@@ -10370,7 +11311,8 @@ var list = [
 "125",
 "2001",
 "Animation, Adventure, Family, Fantasy, Mystery",
-"Kirk Wise, Hayao Miyazaki"
+"Kirk Wise, Hayao Miyazaki",
+"tt0245429",
 ],
 
 [
@@ -10381,7 +11323,8 @@ var list = [
 "99",
 "2002",
 "Drama, Fantasy, History, Mystery",
-"Aleksandr Sokurov"
+"Aleksandr Sokurov",
+"tt0318034",
 ],
 
 [
@@ -10392,7 +11335,8 @@ var list = [
 "167",
 "2002",
 "Crime, Drama",
-"Martin Scorsese"
+"Martin Scorsese",
+"tt0217505",
 ],
 
 [
@@ -10403,7 +11347,8 @@ var list = [
 "120",
 "2002",
 "Documentary, Crime, Drama",
-"Michael Moore"
+"Michael Moore",
+"tt0310793",
 ],
 
 [
@@ -10414,7 +11359,8 @@ var list = [
 "130",
 "2002",
 "Crime, Drama",
-"Kátia Lund, Fernando Meirelles"
+"Kátia Lund, Fernando Meirelles",
+"tt0317248",
 ],
 
 [
@@ -10425,7 +11371,8 @@ var list = [
 "112",
 "2002",
 "Drama, Mystery, Romance",
-"Pedro Almodóvar"
+"Pedro Almodóvar",
+"tt0287467",
 ],
 
 [
@@ -10436,7 +11383,8 @@ var list = [
 "81",
 "2003",
 "Crime, Drama, Thriller",
-"Gus Van Sant"
+"Gus Van Sant",
+"tt0363589",
 ],
 
 [
@@ -10447,7 +11395,8 @@ var list = [
 "93",
 "2003",
 "Documentary, Crime",
-"Joan Churchill, Nick Broomfield"
+"Joan Churchill, Nick Broomfield",
+"tt0364930",
 ],
 
 [
@@ -10458,7 +11407,8 @@ var list = [
 "120",
 "2003",
 "Action, Drama, Mystery, Thriller",
-"Chan-wook Park"
+"Chan-wook Park",
+"tt0364569",
 ],
 
 [
@@ -10469,7 +11419,8 @@ var list = [
 "121",
 "2003",
 "Comedy, Drama, Romance",
-"Wolfgang Becker"
+"Wolfgang Becker",
+"tt0301357",
 ],
 
 [
@@ -10480,7 +11431,8 @@ var list = [
 "83",
 "2003",
 "Drama",
-"Siddiq Barmak"
+"Siddiq Barmak",
+"tt0368913",
 ],
 
 [
@@ -10491,7 +11443,8 @@ var list = [
 "121",
 "2004",
 "Drama, Romance",
-"Fatih Akin"
+"Fatih Akin",
+"tt0347048",
 ],
 
 [
@@ -10502,7 +11455,8 @@ var list = [
 "124",
 "2004",
 "Drama",
-"Ousmane Sembene"
+"Ousmane Sembene",
+"tt0416991",
 ],
 
 [
@@ -10513,7 +11467,8 @@ var list = [
 "156",
 "2004",
 "Biography, Drama, History, War",
-"Oliver Hirschbiegel"
+"Oliver Hirschbiegel",
+"tt0363163",
 ],
 
 [
@@ -10524,7 +11479,8 @@ var list = [
 "134",
 "2005",
 "Drama, Romance",
-"Ang Lee"
+"Ang Lee",
+"tt0388795",
 ],
 
 [
@@ -10535,7 +11491,8 @@ var list = [
 "118",
 "2006",
 "Drama, Fantasy, War",
-"Guillermo del Toro"
+"Guillermo del Toro",
+"tt0457430",
 ],
 
 [
@@ -10546,7 +11503,8 @@ var list = [
 "137",
 "2006",
 "Drama, Thriller",
-"Florian Henckel von Donnersmarck"
+"Florian Henckel von Donnersmarck",
+"tt0405094",
 ],
 
 [
@@ -10557,7 +11515,8 @@ var list = [
 "86",
 "2007",
 "Horror, Mystery, Thriller",
-"Oren Peli"
+"Oren Peli",
+"tt1179904",
 ],
 
 [
@@ -10568,7 +11527,8 @@ var list = [
 "158",
 "2007",
 "Drama",
-"Paul Thomas Anderson"
+"Paul Thomas Anderson",
+"tt0469494",
 ],
 
 [
@@ -10579,7 +11539,8 @@ var list = [
 "131",
 "2008",
 "Drama, Thriller, War",
-"Kathryn Bigelow"
+"Kathryn Bigelow",
+"tt0887912",
 ],
 
 [
@@ -10590,7 +11551,8 @@ var list = [
 "152",
 "2008",
 "Action, Crime, Drama, Thriller",
-"Christopher Nolan"
+"Christopher Nolan",
+"tt0468569",
 ],
 
 [
@@ -10601,7 +11563,8 @@ var list = [
 "114",
 "2008",
 "Drama, Horror, Romance",
-"Tomas Alfredson"
+"Tomas Alfredson",
+"tt1139797",
 ],
 
 [
@@ -10612,7 +11575,8 @@ var list = [
 "80",
 "2008",
 "Documentary, Biography, Drama, Music",
-"Sacha Gervasi"
+"Sacha Gervasi",
+"tt1157605",
 ],
 
 [
@@ -10623,7 +11587,8 @@ var list = [
 "112",
 "2009",
 "Action, Sci-Fi, Thriller",
-"Neill Blomkamp"
+"Neill Blomkamp",
+"tt1136608",
 ],
 
 [
@@ -10634,7 +11599,8 @@ var list = [
 "162",
 "2009",
 "Action, Adventure, Fantasy, Sci-Fi",
-"James Cameron"
+"James Cameron",
+"tt0499549",
 ],
 
 [
@@ -10645,7 +11611,8 @@ var list = [
 "90",
 "2010",
 "Documentary",
-"Patricio Guzmán"
+"Patricio Guzmán",
+"tt1556190",
 ],
 
 [
@@ -10656,7 +11623,8 @@ var list = [
 "148",
 "2010",
 "Action, Adventure, Sci-Fi, Thriller",
-"Christopher Nolan"
+"Christopher Nolan",
+"tt1375666",
 ],
 
 [
@@ -10667,7 +11635,8 @@ var list = [
 "120",
 "2010",
 "Biography, Drama",
-"David Fincher"
+"David Fincher",
+"tt1285016",
 ],
 
 [
@@ -10678,7 +11647,8 @@ var list = [
 "100",
 "2011",
 "Comedy, Drama, Romance",
-"Michel Hazanavicius"
+"Michel Hazanavicius",
+"tt1655442",
 ],
 
 [
@@ -10689,7 +11659,8 @@ var list = [
 "95",
 "2011",
 "Horror",
-"Drew Goddard"
+"Drew Goddard",
+"tt1259521",
 ],
 
 [
@@ -10700,7 +11671,8 @@ var list = [
 "98",
 "2012",
 "Comedy, Drama",
-"Haifaa Al-Mansour"
+"Haifaa Al-Mansour",
+"tt2258858",
 ],
 
 [
@@ -10711,7 +11683,8 @@ var list = [
 "91",
 "2013",
 "Drama, Sci-Fi, Thriller",
-"Alfonso Cuarón"
+"Alfonso Cuarón",
+"tt1454468",
 ],
 
 [
@@ -10722,7 +11695,8 @@ var list = [
 "180",
 "2013",
 "Drama, Romance",
-"Abdellatif Kechiche"
+"Abdellatif Kechiche",
+"tt2278871",
 ],
 
 [
@@ -10733,7 +11707,8 @@ var list = [
 "141",
 "2013",
 "Drama",
-"Paolo Sorrentino"
+"Paolo Sorrentino",
+"tt2358891",
 ],
 
 [
@@ -10744,7 +11719,8 @@ var list = [
 "134",
 "2013",
 "Biography, Drama, History",
-"Steve McQueen"
+"Steve McQueen",
+"tt2024544",
 ],
 
 [
@@ -10755,7 +11731,8 @@ var list = [
 "165",
 "2014",
 "Drama",
-"Richard Linklater"
+"Richard Linklater",
+"tt1065073",
 ],
 
 [
@@ -10766,7 +11743,8 @@ var list = [
 "119",
 "2014",
 "Comedy, Drama",
-"Alejandro G. Iñárritu"
+"Alejandro G. Iñárritu",
+"tt2562232",
 ],
 
 [
@@ -10777,7 +11755,8 @@ var list = [
 "99",
 "2014",
 "Adventure, Comedy, Crime, Drama",
-"Wes Anderson"
+"Wes Anderson",
+"tt2278388",
 ],
 
 [
@@ -10788,7 +11767,8 @@ var list = [
 "136",
 "2015",
 "Action, Adventure, Fantasy, Sci-Fi",
-"J.J. Abrams"
+"J.J. Abrams",
+"tt2488496",
 ],
 
 [
@@ -10799,7 +11779,8 @@ var list = [
 "107",
 "2015",
 "Drama, War",
-"László Nemes"
+"László Nemes",
+"tt3808342",
 ],
 
 [
@@ -10810,7 +11791,8 @@ var list = [
 "129",
 "2015",
 "Crime, Drama",
-"Tom McCarthy"
+"Tom McCarthy",
+"tt1895587",
 ],
 
 [
@@ -10821,7 +11803,8 @@ var list = [
 "88",
 "2015",
 "Comedy, Crime, Drama",
-"Sean Baker"
+"Sean Baker",
+"tt3824458",
 ],
 
 [
@@ -10832,7 +11815,8 @@ var list = [
 "120",
 "2015",
 "Action, Adventure, Sci-Fi, Thriller",
-"George Miller"
+"George Miller",
+"tt1392190",
 ],
 
 [
@@ -10843,7 +11827,8 @@ var list = [
 "138",
 "2015",
 "Crime, Drama, Romance, Thriller",
-"Sebastian Schipper"
+"Sebastian Schipper",
+"tt4226388",
 ],
 
 [
@@ -10854,7 +11839,8 @@ var list = [
 "145",
 "2016",
 "Drama, Romance, Thriller",
-"Chan-wook Park"
+"Chan-wook Park",
+"tt4016934",
 ],
 
 [
@@ -10865,7 +11851,8 @@ var list = [
 "128",
 "2016",
 "Comedy, Drama, Music, Musical, Romance",
-"Damien Chazelle"
+"Damien Chazelle",
+"tt3783958",
 ],
 
 [
@@ -10876,7 +11863,8 @@ var list = [
 "120",
 "2016",
 "Documentary, History",
-"Bill Morrison"
+"Bill Morrison",
+"tt5215486",
 ],
 
 [
@@ -10887,7 +11875,8 @@ var list = [
 "162",
 "2016",
 "Comedy, Drama",
-"Maren Ade"
+"Maren Ade",
+"tt4048272",
 ],
 
 [
@@ -10898,7 +11887,8 @@ var list = [
 "84",
 "2016",
 "Drama, Horror, Thriller, War",
-"Babak Anvari"
+"Babak Anvari",
+"tt4273292",
 ],
 
 [
@@ -10909,7 +11899,8 @@ var list = [
 "100",
 "2016",
 "Documentary, Crime, History",
-"Ava DuVernay"
+"Ava DuVernay",
+"tt5895028",
 ],
 
 [
@@ -10920,7 +11911,8 @@ var list = [
 "89",
 "2016",
 "Drama, Romance",
-"William Oldroyd"
+"William Oldroyd",
+"tt4291600",
 ],
 
 [
@@ -10931,7 +11923,8 @@ var list = [
 "111",
 "2016",
 "Drama",
-"Barry Jenkins"
+"Barry Jenkins",
+"tt4975722",
 ],
 
 [
@@ -10942,7 +11935,8 @@ var list = [
 "94",
 "2017",
 "Comedy, Drama",
-"Greta Gerwig"
+"Greta Gerwig",
+"tt4925292",
 ],
 
 [
@@ -10953,7 +11947,8 @@ var list = [
 "123",
 "2017",
 "Adventure, Drama, Fantasy, Romance, Thriller",
-"Guillermo del Toro"
+"Guillermo del Toro",
+"tt5580390",
 ],
 
 [
@@ -10964,7 +11959,8 @@ var list = [
 "115",
 "2017",
 "Crime, Drama",
-"Martin McDonagh"
+"Martin McDonagh",
+"tt5027774",
 ],
 
 [
@@ -10975,7 +11971,8 @@ var list = [
 "132",
 "2017",
 "Drama, Romance",
-"Luca Guadagnino"
+"Luca Guadagnino",
+"tt5726616",
 ],
 
 [
@@ -10986,7 +11983,8 @@ var list = [
 "121",
 "2017",
 "Drama, Horror, Mystery",
-"Darren Aronofsky"
+"Darren Aronofsky",
+"tt5109784",
 ],
 
 [
@@ -10997,7 +11995,8 @@ var list = [
 "164",
 "2017",
 "Drama, Mystery, Sci-Fi, Thriller",
-"Denis Villeneuve"
+"Denis Villeneuve",
+"tt1856101",
 ],
 
 [
@@ -11008,7 +12007,8 @@ var list = [
 "104",
 "2017",
 "Horror, Mystery, Thriller",
-"Jordan Peele"
+"Jordan Peele",
+"tt5052448",
 ],
 
 [
@@ -11019,6 +12019,7 @@ var list = [
 "134",
 "2018",
 "Action, Adventure, Sci-Fi",
-"Ryan Coogler"
+"Ryan Coogler",
+"tt1825683",
 ],
 ]
