@@ -52,12 +52,18 @@ function generate(){
 
 function changePopup(list, item, trgt){
 	document.getElementById("popup").style.display = "block";
-	if (trgt<4) {
+	if (trgt==0) {
+		document.getElementById("popup").className = "lenslist";
+	} else if (trgt<4){
 		document.getElementById("popup").className = "ahlist"+trgt;
 	} else {
 		document.getElementById("popup").className = "lassie"+(trgt-3);
 	}
-	document.getElementById("popup").innerHTML = "<img src='"+list[item][4]+"'><br><b><a target='_blank' style='color:black' href='"+list[item][2]+"'>"+list[item][1]+"</a></b><br><i>("+list[item][5]+" pers.)</i><br>"+list[item][3];
+	if (list != recepten) {
+		document.getElementById("popup").innerHTML = "<img src='"+list[item][4]+"'><br><b><a target='_blank' style='color:black' href='"+list[item][2]+"'>"+list[item][1]+"</a></b><br><i>("+list[item][5]+" pers.)</i><br>"+list[item][3];
+	} else {
+		document.getElementById("popup").innerHTML = "<img src='https://www.lekkerensimpel.com/wp-content/uploads/2016/10/LEKKER-EN-SIMPEL-COVER-2-1.jpg'><br><b>" + list[item][0].slice(7, -6) + "</b><br>" + list[item][2].replace(/, /g, "<br>");
+	}
 }
 function killPopup(){
 	document.getElementById("popup").style.display = "none";
@@ -117,8 +123,9 @@ function createLists(){
 			if (( title.toLowerCase().includes(searchQuery) || ingred.toLowerCase().includes(searchQuery) )
 				&& !( title.toLowerCase().includes(filterQuery) || ingred.toLowerCase().includes(filterQuery) )) {
 				var newRec = document.createElement("span");
-				newRec.innerHTML = title + "<br>";
-				newRec.title = ingred;
+				newRec.innerHTML = "<span onmouseover=\"changePopup(recepten,"+i+",0)\" onfocus=\"changePopup(recepten,"+i+",'1')\" target='_blank' href='"+recepten[i][2]+"'>"+title + "</span><br>";
+				// newRec.innerHTML = title + "<br>";
+				// newRec.title = ingred;
 				newList.appendChild(newRec);
 			}
 		}
@@ -155,12 +162,6 @@ function createLists(){
 		} else {
 			sqFound = false;
 		}
-		// if ( (title.toLowerCase().includes(searchQuery[0]) || ingred.toLowerCase().includes(searchQuery[0])) && 
-		// 	 (title.toLowerCase().includes(searchQuery[1]) || ingred.toLowerCase().includes(searchQuery[1])) ){
-		// 	sqFound = true;
-		// } else {
-		// 	sqFound = false;
-		// }
 		var fqFound = true;
 		if ( title.toLowerCase().includes(filterQuery) || ingred.toLowerCase().includes(filterQuery) ){
 			fqFound = true;
@@ -170,12 +171,8 @@ function createLists(){
 		if (print) {
 			// PRINT !!!!!!!!
 			if ( sqFound && !fqFound) {
-				var pic = document.createElement("div");
-				pic.innerHTML = "<img src='"+ahatjes[i][4]+"'>";
 				var newRec = document.createElement("span");
 				newRec.innerHTML = "<a onmouseover=\"changePopup(ahatjes,"+i+",1)\" onfocus=\"changePopup(ahatjes,"+i+",'1')\" target='_blank' href='"+ahatjes[i][2]+"'>"+title + "</a><br>";
-				// newRec.title = ingred;
-				// newRec.title = pic + ingred;
 				newList.appendChild(newRec);
 			}
 		}
@@ -209,12 +206,8 @@ function createLists(){
 			// PRINT !!!!!!!!
 			if (( title.toLowerCase().includes(searchQuery) || ingred.toLowerCase().includes(searchQuery) )
 				&& !( title.toLowerCase().includes(filterQuery) || ingred.toLowerCase().includes(filterQuery) )) {
-				var pic = document.createElement("div");
-				pic.innerHTML = "<img src='"+vegahtjes[i][4]+"'>";
 				var newRec = document.createElement("span");
 				newRec.innerHTML = "<a onmouseover=\"changePopup(vegahtjes,"+i+",2)\" onfocus=\"changePopup(vegahtjes,"+i+",'2')\" target='_blank' href='"+vegahtjes[i][2]+"'>"+title + "</a><br>";
-				// newRec.title = ingred;
-				// newRec.title = pic + ingred;
 				newList.appendChild(newRec);
 			}
 		}
@@ -248,12 +241,8 @@ function createLists(){
 			// PRINT !!!!!!!!
 			if (( title.toLowerCase().includes(searchQuery) || ingred.toLowerCase().includes(searchQuery) )
 				&& !( title.toLowerCase().includes(filterQuery) || ingred.toLowerCase().includes(filterQuery) )) {
-				var pic = document.createElement("div");
-				pic.innerHTML = "<img src='"+vegaMisschienVegan[i][4]+"'>";
 				var newRec = document.createElement("span");
 				newRec.innerHTML = "<a onmouseover=\"changePopup(vegaMisschienVegan,"+i+",3)\" onfocus=\"changePopup(vegaMisschienVegan,"+i+",'3')\" target='_blank' href='"+vegaMisschienVegan[i][2]+"'>"+title + "</a><br>";
-				// newRec.title = ingred;
-				// newRec.title = pic + ingred;
 				newList.appendChild(newRec);
 			}
 		}
@@ -287,12 +276,8 @@ function createLists(){
 			// PRINT !!!!!!!!
 			if (( title.toLowerCase().includes(searchQuery) || ingred.toLowerCase().includes(searchQuery) )
 				&& !( title.toLowerCase().includes(filterQuery) || ingred.toLowerCase().includes(filterQuery) )) {
-				var pic = document.createElement("div");
-				pic.innerHTML = "<img src='"+lasVegan[i][4]+"'>";
 				var newRec = document.createElement("span");
 				newRec.innerHTML = "<a onmouseover=\"changePopup(lasVegan,"+i+",4)\" onfocus=\"changePopup(lasVegan,"+i+",'4')\" target='_blank' href='"+lasVegan[i][2]+"'>"+title + "</a><br>";
-				// newRec.title = ingred;
-				// newRec.title = pic + ingred;
 				newList.appendChild(newRec);
 			}
 		}
@@ -326,12 +311,8 @@ function createLists(){
 			// PRINT !!!!!!!!
 			if (( title.toLowerCase().includes(searchQuery) || ingred.toLowerCase().includes(searchQuery) )
 				&& !( title.toLowerCase().includes(filterQuery) || ingred.toLowerCase().includes(filterQuery) )) {
-				var pic = document.createElement("div");
-				pic.innerHTML = "<img src='"+lasVega[i][4]+"'>";
 				var newRec = document.createElement("span");
 				newRec.innerHTML = "<a onmouseover=\"changePopup(lasVega,"+i+",5)\" onfocus=\"changePopup(lasVega,"+i+",'5')\" target='_blank' href='"+lasVega[i][2]+"'>"+title + "</a><br>";
-				// newRec.title = ingred;
-				// newRec.title = pic + ingred;
 				newList.appendChild(newRec);
 			}
 		}
