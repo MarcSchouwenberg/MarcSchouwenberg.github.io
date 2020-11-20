@@ -1,0 +1,121 @@
+	html {
+		min-height: 100%;
+	}
+	body {
+		min-height: 100%;
+		font-family:Tahoma;
+		background-image: linear-gradient(to bottom right, lightblue 30%, white);
+	}
+
+        div {
+        	/*display: block;*/
+        }
+        #popup {
+        	position: fixed;
+        	right: 10px;
+        	width: 450px;
+        	/*left: 10px;*/
+        	border: 1px solid black;
+        	border-radius: 20px;
+        	padding: 10px;
+        	background-color: lightgrey;
+        	z-index: 99;
+        }
+        #popup img {
+        	width: 450px;
+        	/*height: 300px;*/
+        }
+        p {
+        	/*display: inline-block;*/
+        	margin: 10px;
+        }
+        a {
+        	text-decoration: none;
+        }
+        td {
+        	padding: 5px;
+        }
+        td:hover {
+        	background-color: yellow;
+        }
+        button {
+        	transition-duration: 0.5s;
+        	background-color: lightyellow;
+        }
+        input {
+        	/*visibility: hidden;*/
+        	display: none;
+        }
+        input + span {
+        	background-color: lightgreen;
+        	padding: 5px;
+        	border: 2px solid green;
+        	border-radius: 20px;
+        	margin: 5px;
+			cursor: pointer;
+        }
+        input:checked + span {
+        	background-color: green;
+        	color: white;
+        }
+        .list {
+        	margin-bottom: 5px;
+        	margin-left: 10px;
+        }
+        .visible {
+        	display: inline;
+        	width: 300px;
+        	font-size: 15px;
+        	font-family: Verdana;
+        	border-radius: 5px;
+        	height: 27px;
+			outline: none;
+        }
+        .btn {
+        	top: 10px;
+        	padding: 5px;
+        }
+        .btn2 {
+        	color: white;
+        	background-image: linear-gradient(to bottom right, red 30%, white);
+        }
+
+
+button {
+	background-image: linear-gradient(to bottom right, lightgreen 30%, white);
+	font-family: Verdana;
+	font-size: 15px;
+	padding: 10px;
+	margin: 2px;
+	margin-bottom: 10px;
+	border: 2px solid green;
+	border-radius: 5px;
+	color: black;
+	cursor: pointer;
+	transition-duration: 0.2s;
+	outline: none;
+}
+
+button:hover {
+	background-image: linear-gradient(to bottom right, green 30%, white);
+	color: white;
+}
+
+button:active {
+	background-image: linear-gradient(to top left, green 30%, white);
+	color: white;
+}
+
+.vega {
+	background-image: linear-gradient(to bottom right, turquoise 30%, white);
+}
+
+.vega:hover {
+	background-image: linear-gradient(to bottom right, lightseagreen 30%, white);
+	color: black;
+}
+
+.vega:active {
+	background-image: linear-gradient(to top left, lightseagreen 30%, white);
+	color: black;
+}
