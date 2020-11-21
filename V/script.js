@@ -117,14 +117,14 @@ function createLists(){
 			}
 			for (var zzz = 0; zzz < maandkanjers.length; zzz++) {
 				// minstens één van de seizoenskanjers?
-				if ( ingred.includes(maandkanjers[zzz]) ) {
+				if ( title.includes(maandkanjers[zzz]) || ingred.includes(maandkanjers[zzz]) ) {
 					print=true;
 					break;
 				}
 			}
 			for (var zzz = 0; zzz < forbidden.length; zzz++) {
 				// één van de verboden groentes?
-				if ( ingred.includes(forbidden[zzz]) ) {
+				if ( title.includes(forbidden[zzz]) || ingred.includes(forbidden[zzz]) ) {
 					print=false;
 					break;
 				}
@@ -143,15 +143,9 @@ function createLists(){
 			}
 		}
 		document.querySelectorAll(".container")[x].replaceChild(newList, document.getElementById(ids[x]));
+		// AANTAL RECEPTEN
+		document.querySelector("#num"+(x+1)).innerHTML = document.getElementById(ids[x]).childNodes.length;
 	}
-
-	// AANTAL RECEPTEN
-	document.querySelector("#num1").innerHTML = document.getElementById("lenslist").childNodes.length;
-	document.querySelector("#num2").innerHTML = document.getElementById("ahlist1").childNodes.length;
-	document.querySelector("#num3").innerHTML = document.getElementById("ahlist2").childNodes.length;
-	document.querySelector("#num4").innerHTML = document.getElementById("ahlist3").childNodes.length;
-	document.querySelector("#num5").innerHTML = document.getElementById("lassie1").childNodes.length;
-	document.querySelector("#num6").innerHTML = document.getElementById("lassie2").childNodes.length;
 }
 
 var d = new Date();
