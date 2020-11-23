@@ -42,7 +42,7 @@ var list = [
 [ /////////////////
 "5",
 "Miles Davis",
-"Kind of blue ",
+"Kind of blue",
 "1959",
 "The 1950s"
 ],
@@ -119,7 +119,7 @@ var list = [
 [ /////////////////
 "16",
 "Thelonious Monk",
-"Brilliant corners ",
+"Brilliant corners",
 "1956",
 "The 1950s"
 ],
@@ -222,7 +222,7 @@ var list = [
 [ /////////////////
 "4",
 "Band",
-"The Band ",
+"The Band",
 "1969",
 "The 1960s"
 ],
@@ -264,7 +264,7 @@ var list = [
 [ /////////////////
 "10",
 "Beatles",
-"Rubber soul ",
+"Rubber soul",
 "1965",
 "The 1960s"
 ],
@@ -369,7 +369,7 @@ var list = [
 [ /////////////////
 "25",
 "Buffalo springfield",
-"Buffalo springfield again ",
+"Buffalo springfield again",
 "1967",
 "The 1960s"
 ],
@@ -782,7 +782,7 @@ var list = [
 [ /////////////////
 "84",
 "Jerry Lee Lewis",
-"Live at the Star club Hamburg ",
+"Live at the Star club Hamburg",
 "1965",
 "The 1960s"
 ],
@@ -1048,7 +1048,7 @@ var list = [
 [ /////////////////
 "122",
 "Small faces",
-"Ogden's nut gone flake ",
+"Ogden's nut gone flake",
 "1967",
 "The 1960s"
 ],
@@ -1209,7 +1209,7 @@ var list = [
 [ /////////////////
 "145",
 "Neil Young",
-"Everybody knows this is nowhere ",
+"Everybody knows this is nowhere",
 "1969",
 "The 1960s"
 ],
@@ -1788,7 +1788,7 @@ var list = [
 [ /////////////////
 "74",
 "Eagles",
-"Hotel California ",
+"Hotel California",
 "1976",
 "The 1970s"
 ],
@@ -2110,7 +2110,7 @@ var list = [
 [ /////////////////
 "120",
 "Jethro tull",
-"Aqualung ",
+"Aqualung",
 "1971",
 "The 1970s"
 ],
@@ -2166,7 +2166,7 @@ var list = [
 [ /////////////////
 "128",
 "Carole King",
-"Tapestry ",
+"Tapestry",
 "1971",
 "The 1970s"
 ],
@@ -2229,7 +2229,7 @@ var list = [
 [ /////////////////
 "137",
 "Led zeppelin",
-"Physical graffiti ",
+"Physical graffiti",
 "1975",
 "The 1970s"
 ],
@@ -2299,7 +2299,7 @@ var list = [
 [ /////////////////
 "147",
 "John Martyn",
-"Solid air ",
+"Solid air",
 "1973",
 "The 1970s"
 ],
@@ -3020,7 +3020,7 @@ var list = [
 [ /////////////////
 "250",
 "Richard &amp; Linda Thompson",
-"I want to see the birght lights tonight ",
+"I want to see the birght lights tonight",
 "1973",
 "The 1970s"
 ],
@@ -3139,7 +3139,7 @@ var list = [
 [ /////////////////
 "267",
 "Robert Wyatt",
-"Rock bottom ",
+"Rock bottom",
 "1974",
 "The 1970s"
 ],
@@ -3209,7 +3209,7 @@ var list = [
 [ /////////////////
 "277",
 "ZZ top",
-"Tres hombres ",
+"Tres hombres",
 "1973",
 "The 1970s"
 ],
@@ -3263,7 +3263,7 @@ var list = [
 [ /////////////////
 "4",
 "Adam and the Ants",
-"Kings of the wild frontier ",
+"Kings of the wild frontier",
 "1980",
 "The 1980s"
 ],
@@ -3389,7 +3389,7 @@ var list = [
 [ /////////////////
 "22",
 "Bon Jovi",
-"Slippery when wet ",
+"Slippery when wet",
 "1986",
 "The 1980s"
 ],
@@ -3557,7 +3557,7 @@ var list = [
 [ /////////////////
 "46",
 "Def leppard",
-"Hysteria ",
+"Hysteria",
 "1987",
 "The 1980s"
 ],
@@ -3759,7 +3759,7 @@ var list = [
 ],
 [ /////////////////
 "75",
-"Go-go's ",
+"Go-go's",
 "Beauty &amp; the beat",
 "1981",
 "The 1980s"
@@ -3921,7 +3921,7 @@ var list = [
 [ /////////////////
 "98",
 "Judas priest",
-"British steel ",
+"British steel",
 "1980",
 "The 1980s"
 ],
@@ -4257,7 +4257,7 @@ var list = [
 [ /////////////////
 "146",
 "Public enemy",
-"It takes a nation of millions to hold us back ",
+"It takes a nation of millions to hold us back",
 "1988",
 "The 1980s"
 ],
@@ -5291,7 +5291,7 @@ var list = [
 [ /////////////////
 "80",
 "Green day",
-"Dookie ",
+"Dookie",
 "1994",
 "The 1990s"
 ],
@@ -5683,7 +5683,7 @@ var list = [
 [ /////////////////
 "136",
 "Nirvana",
-"Nevermind ",
+"Nevermind",
 "1991",
 "The 1990s"
 ],
@@ -5935,7 +5935,7 @@ var list = [
 [ /////////////////
 "172",
 "Rage against the machine",
-"Rage against the machine ",
+"Rage against the machine",
 "1992",
 "The 1990s"
 ],
@@ -5984,7 +5984,7 @@ var list = [
 [ /////////////////
 "179",
 "Saint Etienne",
-"Foxbase alpha ",
+"Foxbase alpha",
 "1992",
 "The 1990s"
 ],
@@ -6152,7 +6152,7 @@ var list = [
 [ /////////////////
 "203",
 "Spiritualized",
-"Ladies and gentlemen we are floating in space ",
+"Ladies and gentlemen we are floating in space",
 "1997",
 "The 1990s"
 ],
@@ -6215,7 +6215,7 @@ var list = [
 [ /////////////////
 "212",
 "Supergrass",
-"I should coco ",
+"I should coco",
 "1995",
 "The 1990s"
 ],
@@ -6843,7 +6843,7 @@ var list = [
 [ /////////////////
 "59",
 "Linkin park",
-"Hybrid theory ",
+"Hybrid theory",
 "2001",
 "The 2000s"
 ],
