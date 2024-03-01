@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Four 6</title>
+	<style type="text/css">
+		body, html {
+			font-family: Verdana;
+			font-size: 1.5vh;
+		}
+		.pl {
+			margin: auto;
+			display: block;
+			background: cadetblue;
+			color: white;
+			border: 1px solid black;
+			border-radius: 20vw;
+			padding: 1vw;
+			height: 7vh;
+			width: 40vw;
+		}
+		#clock {
+			position: fixed;
+			bottom: 0;
+		}
+		#line {
+			height: 100%;
+			position: fixed;
+			top: 0;
+			left: 50vw;
+			border-left: 1px solid grey;
+			opacity: 0.5;
+		}
+		#target {
+			position: fixed;
+			top: 0;
+			left: 50vw;
+		}
+	</style>
+	<script src="regions.js"></script>
+	<script type="text/javascript">
+		window.onload = () => {
+		}
+
+		function start(targetArray){
+			document.getElementById("clock").style.display = "block";
+			document.getElementById("line").style.display = "block";
+			document.getElementById("buttons").style.display = "none";
+			document.getElementById("strt").focus();
+			var arr = targetArray;
+			var quan = 5;
+			document.getElementById("target").style.width = quan*30*5 + "vw";
+			var arrLength = arr.length;
+			var colors = [
+				"green",
+				"green",
+				"lightgreen",
+				"lightgreen",
+				];
+			console.log(arrLength);
+			for (var i = 0; i < arr.length; i++) {
+				var x = "";
+				var caption = "";
+				var newStartDiv = document.createElement("div");
+				var newFinishDiv = document.createElement("div");
+				var timeA = quan * (Math.floor(arr[i][1])*60 + (arr[i][1]%1)*100);
+				var timeB = quan * (Math.floor(arr[i][2])*60 + (arr[i][2]%1)*100);
+				var timeC = quan * (Math.floor(arr[i][3])*60 + (arr[i][3]%1)*100);
+				var timeD = quan * (Math.floor(arr[i][4])*60 + (arr[i][4]%1)*100);
+				console.log(i + ": " + timeA);
+
+				newStartDiv.style.position = "absolute";
+				newStartDiv.style.left = timeA * (1/12) + "vw";
+				newStartDiv.style.top = ((i%4*2) * 150 * (1/12)) + "vh";
+				newStartDiv.style.width = (timeB-timeA) * (1/12) + "vw";
+				newStartDiv.style.border = "1px solid black";
+				newStartDiv.style.height = (10)+"vh";
+				newStartDiv.style.color = "white";
+				newStartDiv.style.background = colors[i%2];
+				caption = x + "Start " + arr[i][0];
+				newStartDiv.innerText = caption;
+				newStartDiv.title = caption;
+				document.getElementById("target").appendChild(newStartDiv);
+
+				newFinishDiv.style.position = "absolute";
+				newFinishDiv.style.left = timeC * (1/12) + "vw";
+				newFinishDiv.style.top = ((((i%4*2)+1) * 150)-45) * (1/12) + "vh";
+				newFinishDiv.style.width = (timeD-timeC) * (1/12) + "vw";
+				newFinishDiv.style.border = "1px solid black";
+				newFinishDiv.style.height = (10)+"vh";
+				newFinishDiv.style.color = "black";
+				newFinishDiv.style.background = colors[i%2 + 2];
+				caption = x + "Finish " + arr[i][0];
+				newFinishDiv.innerText = caption;
+				newFinishDiv.title = caption;
+				document.getElementById("target").appendChild(newFinishDiv);
+			}
+		}
+
+		let hour = 0;
+		let minute = 0;
+		let second = 0;
+		let count = 0;
+		var tmr;
+		var left = 50;
+		var durationInSeconds = 1800;
+
+		function stopWatch(){
+			document.getElementById('strt').style.display = "none";
+			document.getElementById('pse').style.display = "inline-block";
+			document.getElementById('pse').focus();
+		    if (count <= durationInSeconds) { 
+		        count++;
+		        tmr = setTimeout(stopWatch, 1000); 
+		        if (count == 1) { return; }
+				left -= 750.1/durationInSeconds;
+				document.getElementById('target').style.left = left + "vw";
+
+		        second++;
+		  
+		        if (second == 60) { 
+		            minute++; 
+		            second = 0; 
+		        } 
+		  
+		        if (minute == 60) { 
+		            hour++; 
+		            minute = 0; 
+		            second = 0; 
+		        } 
+		  
+		        let hrString = hour; 
+		        let minString = minute; 
+		        let secString = second; 
+		        let countString = count; 
+		  
+		        if (hour < 10) { 
+		            hrString = "0" + hrString; 
+		        } 
+		  
+		        if (minute < 10) { 
+		            minString = "0" + minString; 
+		        } 
+		  
+		        if (second < 10) { 
+		            secString = "0" + secString; 
+		        } 
+		  
+		        if (count < 10) { 
+		            countString = "0" + countString; 
+		        } 
+		  
+		        document.getElementById('klk').innerHTML = hrString+":"+minString+":"+secString
+
+		    }
+		    else{
+		    	pause();
+		    	document.getElementById('strt').disabled = true;
+		    }
+		}
+
+		function pause(){
+			clearTimeout(tmr);
+			document.getElementById('pse').style.display = "none";
+			document.getElementById('strt').style.display = "inline-block";
+			document.getElementById('strt').focus();
+		}
+	</script>
+
+</head>
+<body>
+	<div id="buttons" style="margin-top: 20vh;">
+		<button id="p1" class="pl" onclick="start(arr1)" autofocus>START PLAYER 1</button><br><br>
+		<button id="p2" class="pl" onclick="start(arr2)">START PLAYER 2</button><br><br>
+		<button id="p3" class="pl" onclick="start(arr3)">START PLAYER 3</button><br><br>
+		<button id="p4" class="pl" onclick="start(arr4)">START PLAYER 4</button><br><br>
+	</div>
+
+	<div id="target"></div>
+	
+	<div id="clock" style="display: none;">
+		<button id="strt" onclick="stopWatch()">START</button>
+		<button id="pse" onclick="pause()" style="display: none;">PAUSE</button>
+		<span id="klk" >00:00:00</span>
+	</div>
+
+	<div id="line" style="display: none;"></div>
+</body>
+</html>
