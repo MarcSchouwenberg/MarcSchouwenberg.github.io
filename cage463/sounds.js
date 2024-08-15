@@ -8,9 +8,9 @@ var sounds1 = [
 "a# - ebow", // bes
 "f'", // f'
 "a' - steen", // a'
-"Cis - slide", // cis''
+"cis'' - slide", // cis''
 "e''", // e''
-"G#", // as''
+"g#''", // as''
 "c''' - steen", // c'''
 ];
 var sounds2 = [
