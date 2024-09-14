@@ -15,12 +15,12 @@ var sounds1 = [
 ];
 var sounds2 = [
 "Marc",
-"E2 - gitaar, laagste noot",
+"E2 - piano (ipv git)",
 "A♭2 - synth",
-"C3 - gitaar",
+"C3 - piano (ipv git)",
 "E♭3 - synth",
-"G3 - gitaar",
-"B3 - synth",
+"G3 - quena, laagste noot (ipv git)",
+"B3 - quena, 2e noot (ipv synth)",
 "D4 - glsp, laagste D", // ipv gitaar
 "F♯4 - glsp, laagste F♯", // ipv synth
 "B♭4 - tw1, laagste noot",
